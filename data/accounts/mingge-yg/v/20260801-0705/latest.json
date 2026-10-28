@@ -1,0 +1,84 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "这条莲塘的vip通道，你走过吗？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车",
+  "time": "2026年08月01日 07:05"
+ },
+ "declared": 4,
+ "isEmpty": false,
+ "total": 4,
+ "topLevel": 3,
+ "replies": 1,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "Michael",
+   "isAuthor": false,
+   "time": "2026/08/10 22:45",
+   "content": "好多少钱",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 1,
+   "level": 1,
+   "parentIndex": null,
+   "author": "Mok",
+   "isAuthor": false,
+   "time": "2026/08/03 22:19",
+   "content": "明哥",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/08/04 09:58"
+  },
+  {
+   "index": 2,
+   "level": 2,
+   "parentIndex": 1,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/08/04 09:58",
+   "content": "[合十] [合十]",
+   "likes": null
+  },
+  {
+   "index": 3,
+   "level": 1,
+   "parentIndex": null,
+   "author": "Mok",
+   "isAuthor": false,
+   "time": "2026/08/03 22:19",
+   "content": "H I",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  }
+ ],
+ "summary": {
+  "declared": 4,
+  "total": 4,
+  "level1": 3,
+  "level2": 1,
+  "ownComments": 0,
+  "authorRepliedThreads": 1,
+  "awaitingThreads": 2,
+  "authorReplies": 1,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   0,
+   3
+  ]
+ }
+}

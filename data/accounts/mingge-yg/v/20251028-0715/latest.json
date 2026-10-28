@@ -1,0 +1,190 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "14万8，就可以拿下这两男人的大玩具丰田FJ！ #两地牌#香港#香港生活#香港二手车#粤港车#香港买车",
+  "time": "2025年10月28日 07:15"
+ },
+ "declared": 13,
+ "isEmpty": false,
+ "total": 13,
+ "topLevel": 7,
+ "replies": 6,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "輝哥david",
+   "isAuthor": false,
+   "time": "2025/11/16 12:45",
+   "content": "老細，介紹D柴油車啊",
+   "likes": null,
+   "replyCount": 2,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2025/11/17 09:51"
+  },
+  {
+   "index": 1,
+   "level": 2,
+   "parentIndex": 0,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2025/11/17 09:51",
+   "content": "下次一定 [呲牙]",
+   "likes": null
+  },
+  {
+   "index": 2,
+   "level": 2,
+   "parentIndex": 0,
+   "author": "輝哥david",
+   "isAuthor": false,
+   "time": "2025/11/17 11:51",
+   "content": "回复明哥揾粤港车: 唔該 [合十]",
+   "likes": null
+  },
+  {
+   "index": 3,
+   "level": 1,
+   "parentIndex": null,
+   "author": "光头强黄阿玛",
+   "isAuthor": false,
+   "time": "2025/10/31 15:00",
+   "content": "过不了户？？",
+   "likes": null,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2025/10/31 21:46"
+  },
+  {
+   "index": 4,
+   "level": 2,
+   "parentIndex": 3,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2025/10/31 21:46",
+   "content": "可以过户",
+   "likes": null
+  },
+  {
+   "index": 5,
+   "level": 1,
+   "parentIndex": null,
+   "author": "芳香典藏慢步和你慢慢变老",
+   "isAuthor": false,
+   "time": "2025/10/31 13:53",
+   "content": "你好，你们店在哪里？",
+   "likes": null,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2025/10/31 14:32"
+  },
+  {
+   "index": 6,
+   "level": 2,
+   "parentIndex": 5,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2025/10/31 14:32",
+   "content": "主页问下客 服啦",
+   "likes": null
+  },
+  {
+   "index": 7,
+   "level": 1,
+   "parentIndex": null,
+   "author": "david",
+   "isAuthor": false,
+   "time": "2025/10/28 23:29",
+   "content": "还在不？什么年份？",
+   "likes": null,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2025/10/29 09:13"
+  },
+  {
+   "index": 8,
+   "level": 2,
+   "parentIndex": 7,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2025/10/29 09:13",
+   "content": "还在的，进我主 页，揾客 服啦 [呲牙]",
+   "likes": null
+  },
+  {
+   "index": 9,
+   "level": 1,
+   "parentIndex": null,
+   "author": "達",
+   "isAuthor": false,
+   "time": "2025/10/28 23:21",
+   "content": "給個定位來",
+   "likes": null,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2025/10/29 09:13"
+  },
+  {
+   "index": 10,
+   "level": 2,
+   "parentIndex": 9,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2025/10/29 09:13",
+   "content": "进主 页，揾 客 服啦",
+   "likes": null
+  },
+  {
+   "index": 11,
+   "level": 1,
+   "parentIndex": null,
+   "author": "達",
+   "isAuthor": false,
+   "time": "2025/10/28 23:20",
+   "content": "幾年",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 12,
+   "level": 1,
+   "parentIndex": null,
+   "author": "野草",
+   "isAuthor": false,
+   "time": "2025/10/28 08:53",
+   "content": "發個定位来，",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  }
+ ],
+ "summary": {
+  "declared": 13,
+  "total": 13,
+  "level1": 7,
+  "level2": 6,
+  "ownComments": 0,
+  "authorRepliedThreads": 5,
+  "awaitingThreads": 2,
+  "authorReplies": 5,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   11,
+   12
+  ]
+ }
+}

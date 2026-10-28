@@ -1,0 +1,137 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "莲塘口岸，香港车主们你们为什么要停车在这里？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行",
+  "time": "2026年08月13日 07:05"
+ },
+ "declared": 8,
+ "isEmpty": false,
+ "total": 8,
+ "topLevel": 6,
+ "replies": 2,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/08/16 10:29",
+   "content": "各位老細+明哥 MG14144",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 1,
+   "level": 1,
+   "parentIndex": null,
+   "author": "sam",
+   "isAuthor": false,
+   "time": "2026/08/19 22:40",
+   "content": "期牌幾多少錢",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/08/20 14:39"
+  },
+  {
+   "index": 2,
+   "level": 2,
+   "parentIndex": 1,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/08/20 14:39",
+   "content": "PM 請查收 [合十]",
+   "likes": null
+  },
+  {
+   "index": 3,
+   "level": 1,
+   "parentIndex": null,
+   "author": "幸福滿滿",
+   "isAuthor": false,
+   "time": "2026/08/15 15:10",
+   "content": "[强] [强] [强] [玫瑰] [玫瑰] [玫瑰]",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 4,
+   "level": 1,
+   "parentIndex": null,
+   "author": "Michael",
+   "isAuthor": false,
+   "time": "2026/08/15 11:28",
+   "content": "多少钱",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/08/15 12:01"
+  },
+  {
+   "index": 5,
+   "level": 2,
+   "parentIndex": 4,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/08/15 12:01",
+   "content": "PM 查收",
+   "likes": null
+  },
+  {
+   "index": 6,
+   "level": 1,
+   "parentIndex": null,
+   "author": "A1 TONY SENNA",
+   "isAuthor": false,
+   "time": "2026/08/14 16:36",
+   "content": "又好似好有道理 [Shy]",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 7,
+   "level": 1,
+   "parentIndex": null,
+   "author": "富龍物流有限公司🚛🚛（坚仔）",
+   "isAuthor": false,
+   "time": "2026/08/13 10:36",
+   "content": "[图片]",
+   "likes": 1,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  }
+ ],
+ "summary": {
+  "declared": 8,
+  "total": 8,
+  "level1": 6,
+  "level2": 2,
+  "ownComments": 1,
+  "authorRepliedThreads": 2,
+  "awaitingThreads": 3,
+  "authorReplies": 2,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   3,
+   6,
+   7
+  ]
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "在香港，卖车/买车都可以找明哥，不赚差价，帮你找到心仪的车！ 粤港两地牌二手车、香港二手车、港澳车二手车、两地车牌、两地牌二手车出售、港澳车 三地牌一年的费用、粤港两地牌申请条件、两地牌办理费用、港澳车牌、香港二手车 明哥中港两地牌、明哥两地牌HK，粤Z两地牌申请条件、香港二手车、香港新车、明哥两地牌 #两地牌#港澳车牌#香港#香港车牌#港车北上#两地牌申请条件#粤Z两地牌#三地牌申请条件#中港两地牌#香港二手车#香港买车#香港生活",
+  "time": "2025年10月20日 11:04"
+ },
+ "declared": 3,
+ "isEmpty": false,
+ "total": 3,
+ "topLevel": 2,
+ "replies": 1,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "萍萍025",
+   "isAuthor": false,
+   "time": "2025/10/25 01:15",
+   "content": "[微笑]",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 1,
+   "level": 1,
+   "parentIndex": null,
+   "author": "湯輝",
+   "isAuthor": false,
+   "time": "2025/10/20 15:45",
+   "content": "林寶？幾多錢？",
+   "likes": null,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2025/10/23 10:36"
+  },
+  {
+   "index": 2,
+   "level": 2,
+   "parentIndex": 1,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2025/10/23 10:36",
+   "content": "主页，揾客服，找我咯",
+   "likes": null
+  }
+ ],
+ "summary": {
+  "declared": 3,
+  "total": 3,
+  "level1": 2,
+  "level2": 1,
+  "ownComments": 0,
+  "authorRepliedThreads": 1,
+  "awaitingThreads": 1,
+  "authorReplies": 1,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   0
+  ]
+ }
+}

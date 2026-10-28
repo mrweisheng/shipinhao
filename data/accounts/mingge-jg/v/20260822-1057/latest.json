@@ -1,0 +1,117 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "香港港岛区的朋友们来皇后山找明哥买中港车呀！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行",
+  "time": "2026年08月22日 10:57"
+ },
+ "declared": 7,
+ "isEmpty": false,
+ "total": 7,
+ "topLevel": 4,
+ "replies": 3,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "明哥揀粤港车",
+   "isAuthor": true,
+   "time": "2026/08/23 10:11",
+   "content": "搵明哥+： mg14144",
+   "likes": 1,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 1,
+   "level": 1,
+   "parentIndex": null,
+   "author": "COOK辉哥",
+   "isAuthor": false,
+   "time": "2026/08/22 22:12",
+   "content": "以前有些住港島的人，幾十年没过海，未去過九龍。 [呲牙]",
+   "likes": 2,
+   "replyCount": 2,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/08/23 10:12"
+  },
+  {
+   "index": 2,
+   "level": 2,
+   "parentIndex": 1,
+   "author": "明哥揀粤港车",
+   "isAuthor": true,
+   "time": "2026/08/23 10:12",
+   "content": "那周末放假去哪？",
+   "likes": null
+  },
+  {
+   "index": 3,
+   "level": 2,
+   "parentIndex": 1,
+   "author": "COOK辉哥",
+   "isAuthor": false,
+   "time": "2026/08/23 20:04",
+   "content": "回复明哥揀粤港车: 都是在港岛，或者东南亚。 [呲牙]",
+   "likes": 1
+  },
+  {
+   "index": 4,
+   "level": 1,
+   "parentIndex": null,
+   "author": "K .Chan",
+   "isAuthor": false,
+   "time": "2026/08/22 19:00",
+   "content": "港島既吾信你囉",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/08/23 10:12"
+  },
+  {
+   "index": 5,
+   "level": 2,
+   "parentIndex": 4,
+   "author": "明哥揀粤港车",
+   "isAuthor": true,
+   "time": "2026/08/23 10:12",
+   "content": "点解？",
+   "likes": null
+  },
+  {
+   "index": 6,
+   "level": 1,
+   "parentIndex": null,
+   "author": "COOK辉哥",
+   "isAuthor": false,
+   "time": "2026/08/22 22:11",
+   "content": "港島太远，没人识你，住港岛的人有2种人，一种富人，一种平民，2种人都不會去揾你。 [捂脸]",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  }
+ ],
+ "summary": {
+  "declared": 7,
+  "total": 7,
+  "level1": 4,
+  "level2": 3,
+  "ownComments": 1,
+  "authorRepliedThreads": 2,
+  "awaitingThreads": 1,
+  "authorReplies": 2,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   6
+  ]
+ }
+}

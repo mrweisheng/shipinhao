@@ -1,0 +1,41 @@
+{
+  "finishedAt": "2026-10-25T10:00:35.393Z",
+  "mode": "send",
+  "planFile": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\maintain-1025\\plan-nth1.json",
+  "video": {
+    "title": "兄弟，香港的机会，不会一直在等你！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月21日 07:00"
+  },
+  "before": {
+    "declared": 86,
+    "plannedReplies": 1,
+    "executed": 1
+  },
+  "summary": {
+    "ok": 1,
+    "failed": 0,
+    "rejected": 0,
+    "policy": 0
+  },
+  "after": {
+    "declared": 87,
+    "awaitingThreads": 12,
+    "complete": true,
+    "file": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\reply\\verify-2026-10-25T10-00-24-476Z.json"
+  },
+  "results": [
+    {
+      "index": 3,
+      "name": "深圳智云时代",
+      "content": "有深圳国高企业，有二地车牌，需要买一部香港二地车，如何安排",
+      "asked": "客户有深圳国高企业和两地牌，想买一台香港两地车，问怎么安排",
+      "action": "reply",
+      "text": "有兩地牌，買車都啱傾；私訊我 📩",
+      "answerOk": true,
+      "category": "car_plate",
+      "reason": "明确业务咨询：已有两地牌 + 想买香港两地车；肯定承接 + 引私信，不承诺细节",
+      "caseId": "c051",
+      "result": "sent"
+    }
+  ]
+}

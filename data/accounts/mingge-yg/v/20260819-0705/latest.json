@@ -1,0 +1,69 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "看车 #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行",
+  "time": "2026年08月19日 07:05"
+ },
+ "declared": 3,
+ "isEmpty": false,
+ "total": 3,
+ "topLevel": 2,
+ "replies": 1,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "瀦仔0123",
+   "isAuthor": false,
+   "time": "2026/09/01 12:20",
+   "content": "2014年奧迪A3-1.4T收幾多",
+   "likes": 1,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 1,
+   "level": 1,
+   "parentIndex": null,
+   "author": "成哥",
+   "isAuthor": false,
+   "time": "2026/08/30 12:27",
+   "content": "做1個深圳灣牌要幾多錢？",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/08/31 15:43"
+  },
+  {
+   "index": 2,
+   "level": 2,
+   "parentIndex": 1,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/08/31 15:43",
+   "content": "查收謝謝 [合十]",
+   "likes": null
+  }
+ ],
+ "summary": {
+  "declared": 3,
+  "total": 3,
+  "level1": 2,
+  "level2": 1,
+  "ownComments": 0,
+  "authorRepliedThreads": 1,
+  "awaitingThreads": 1,
+  "authorReplies": 1,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   0
+  ]
+ }
+}

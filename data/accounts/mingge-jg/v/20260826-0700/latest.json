@@ -1,0 +1,117 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "明哥今天，在香港车场这次全部给你们推荐埃尔法！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行",
+  "time": "2026年08月26日 07:00"
+ },
+ "declared": 7,
+ "isEmpty": false,
+ "total": 7,
+ "topLevel": 4,
+ "replies": 3,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "清純",
+   "isAuthor": false,
+   "time": "2026/09/13 11:52",
+   "content": "混能",
+   "likes": 1,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 1,
+   "level": 1,
+   "parentIndex": null,
+   "author": "阿程6497",
+   "isAuthor": false,
+   "time": "2026/09/13 17:54",
+   "content": "有冇黑a 2手",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/09/14 09:32"
+  },
+  {
+   "index": 2,
+   "level": 2,
+   "parentIndex": 1,
+   "author": "明哥揀粤港车",
+   "isAuthor": true,
+   "time": "2026/09/14 09:32",
+   "content": "各類型都有，點.頭像👤搵明哥",
+   "likes": null
+  },
+  {
+   "index": 3,
+   "level": 1,
+   "parentIndex": null,
+   "author": "自強不息",
+   "isAuthor": false,
+   "time": "2026/08/30 10:07",
+   "content": "怎麼聯繫你呢",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/10/27 15:56"
+  },
+  {
+   "index": 4,
+   "level": 2,
+   "parentIndex": 3,
+   "author": "明哥揀粤港车",
+   "isAuthor": true,
+   "time": "2026/10/27 15:56",
+   "content": "簡介有資料，PM 我 📩",
+   "likes": null
+  },
+  {
+   "index": 5,
+   "level": 1,
+   "parentIndex": null,
+   "author": "自強不息",
+   "isAuthor": false,
+   "time": "2026/08/30 08:25",
+   "content": "你好，你收不收二手車呢",
+   "likes": 2,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/08/30 08:37"
+  },
+  {
+   "index": 6,
+   "level": 2,
+   "parentIndex": 5,
+   "author": "明哥揀粤港车",
+   "isAuthor": true,
+   "time": "2026/08/30 08:37",
+   "content": "請查收PM [合十]",
+   "likes": null
+  }
+ ],
+ "summary": {
+  "declared": 7,
+  "total": 7,
+  "level1": 4,
+  "level2": 3,
+  "ownComments": 0,
+  "authorRepliedThreads": 3,
+  "awaitingThreads": 1,
+  "authorReplies": 3,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   0
+  ]
+ }
+}

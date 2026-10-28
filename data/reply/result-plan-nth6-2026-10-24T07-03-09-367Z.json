@@ -1,0 +1,41 @@
+{
+  "finishedAt": "2026-10-24T07:03:30.466Z",
+  "mode": "send",
+  "planFile": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\reply\\plan-nth6.json",
+  "video": {
+    "title": "今天帮香港fans全款拿下这台奔驰GLE！！ #两地牌#港澳车牌#香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月13日 07:05"
+  },
+  "before": {
+    "declared": 21,
+    "plannedReplies": 1,
+    "executed": 1
+  },
+  "summary": {
+    "ok": 0,
+    "failed": 1,
+    "policy": 0
+  },
+  "after": {
+    "declared": 21,
+    "awaitingThreads": 1,
+    "complete": true,
+    "file": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\reply\\verify-2026-10-24T07-03-09-367Z.json"
+  },
+  "results": [
+    {
+      "index": 18,
+      "name": "花木蘭",
+      "time": "2026/10/13 07:16",
+      "likes": 1,
+      "content": "啱听 /:strong",
+      "kw": "啱听",
+      "action": "reply",
+      "text": "多謝認同 🙏",
+      "category": "praise",
+      "reason": "「啱聽」= 认同视频观点，无业务信号；21 条属文字有效互动，回 L0，不带引导",
+      "result": "failed",
+      "detail": "⑤ 三信号： {\"declared\":21,\"textareas\":1,\"found\":true,\"replies\":[],\"hit\":false}\n记录：C:\\Users\\Administrator\\Desktop\\视频号\\data\\reply\\sent-2026-10-24T07-03-09-367Z-018.json\n✗ 三信号未齐：可能是被吞或未生效，需重载复核后再决定"
+    }
+  ]
+}

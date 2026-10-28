@@ -1,0 +1,40 @@
+{"id":"c001","comment":"司分期付款嗎？","reply":"可以分期，詳情私訊傾 📩","intent":"car_payment","business":"car","label":"good","note":"先正面回答可以分期，不报数字"}
+{"id":"c002","comment":"司分期付款嗎？","reply":"全款嚟嘅；點頭像👤私訊我 📩","intent":"car_payment","business":"car","label":"bad","note":"答非所问：客户问能不能分期，回复只说全款"}
+{"id":"c003","comment":"可以分期嗎？首期要幾多？","reply":"可以分期，首期私訊傾 📩","intent":"car_payment","business":"car","label":"good","note":"回答可以，首期不报价"}
+{"id":"c004","comment":"月供大概幾多？","reply":"月供要睇方案，私訊幫你計 📩","intent":"car_payment","business":"car","label":"good","note":"不报数字，给计算口径"}
+{"id":"c005","comment":"是全款還是首期？","reply":"可以全款，都可以分期 😄","intent":"car_payment","business":"car","label":"good","note":"两种都可以，不再一律回全款"}
+{"id":"c006","comment":"有沒有白色的？","reply":"有，白色可以傾 🙏","intent":"car_stock","business":"car","label":"good","note":"统一有，不承诺具体颜色现车"}
+{"id":"c007","comment":"這台車還在嗎？","reply":"有，喺度 😄","intent":"car_stock","business":"car","label":"good","note":"问在不在统一有"}
+{"id":"c008","comment":"有沒有現車？","reply":"有，過嚟睇，朝九晚九 👍","intent":"car_stock","business":"car","label":"good","note":"有 + 营业时间"}
+{"id":"c009","comment":"有沒有事故？里數多少？","reply":"可以驗車、可以試車；私訊約時間 📩","intent":"car_condition","business":"car","label":"good","note":"不承诺无事故/实表，只可验车"}
+{"id":"c010","comment":"車況怎麼樣？","reply":"可以驗車，約個時間 😄","intent":"car_condition","business":"car","label":"good","note":"车况只可验"}
+{"id":"c011","comment":"幾年車？幾手？","reply":"可以驗車，報告最準 📩","intent":"car_condition","business":"car","label":"good","note":"年份/手数不口头断言"}
+{"id":"c012","comment":"地址在哪裡？","reply":"皇后山，導航搜「明哥中港牌」😄","intent":"car_view","business":"car","label":"good","note":"地址正常回，不私讯"}
+{"id":"c013","comment":"幾點開門？今天可以看車嗎？","reply":"朝九晚九，過嚟睇 😄","intent":"car_view","business":"car","label":"good","note":"营业时间正常回"}
+{"id":"c014","comment":"可以試車嗎？","reply":"可以試車，約個時間 😄","intent":"car_view","business":"car","label":"good","note":"可试车"}
+{"id":"c015","comment":"包牌嗎？包稅嗎？包保險嗎？","reply":"包咩細節，私訊傾 📩","intent":"car_package","business":"car","label":"good","note":"不说明细，引私讯"}
+{"id":"c016","comment":"這個價錢包唔包牌稅？","reply":"包牌稅險嘅嘢，私訊傾 🙏","intent":"car_package","business":"car","label":"good","note":"不说明细"}
+{"id":"c017","comment":"現在什麼價？","reply":"12萬8，明碼實價 😄","intent":"car_price","business":"car","label":"good","note":"已标价报固定价"}
+{"id":"c018","comment":"太貴了，可以便宜點嗎？","reply":"唔減，實價 😄","intent":"car_bargain","business":"car","label":"good","note":"明确不还价，不含糊"}
+{"id":"c019","comment":"有優惠嗎？","reply":"明碼實價，冇優惠 🙏","intent":"car_bargain","business":"car","label":"good","note":"明确回答没有"}
+{"id":"c020","comment":"可以上中港牌嗎？","reply":"中港牌可以傾 😄","intent":"plate","business":"plate","label":"good","note":"可以倾，不承诺一定办到"}
+{"id":"c021","comment":"蓮塘口岸兩地牌多少錢？","reply":"睇邊個口岸，私訊我傾 📩","intent":"plate_price","business":"plate","label":"good","note":"不编价，直接承接引私域"}
+{"id":"c022","comment":"兩地牌要辦多久？","reply":"時間要睇個案，私訊幫你確認 📩","intent":"plate","business":"plate","label":"good","note":"不承诺时长"}
+{"id":"c023","comment":"初中文化可以申請嗎？","reply":"初中學歷都啱傾；點頭像👤睇簡介，私訊我 📩","intent":"imm_condition","business":"immigration","label":"good","note":"不设门槛，只回肯定"}
+{"id":"c024","comment":"本科學歷怎麼申請？","reply":"本科都啱傾；點頭像👤睇簡介，私訊我 📩","intent":"imm_condition","business":"immigration","label":"good","note":"高意向，不教流程"}
+{"id":"c025","comment":"75年能辦嗎？","reply":"都啱傾，放心 😄","intent":"imm_age","business":"immigration","label":"good","note":"不设年龄门槛"}
+{"id":"c026","comment":"高才優才一定能批嗎？","reply":"唔設門檻，可以傾；批核睇個案 😄","intent":"imm_condition","business":"immigration","label":"good","note":"不承诺批核"}
+{"id":"c027","comment":"過去香港做工可以嗎？","reply":"過去做工都啱傾 😄","intent":"imm_work","business":"immigration","label":"good","note":"可以倾，不教途径"}
+{"id":"c028","comment":"有工介紹嗎？","reply":"呢方面私訊了解 😄","intent":"job","business":"job","label":"good","note":"无招聘信息，模糊承接"}
+{"id":"c029","comment":"我幫你掃地可以嗎？","reply":"哈哈，有心啦，私訊傾下 📩","intent":"job","business":"job","label":"good","note":"不答应不拒绝"}
+{"id":"c030","comment":"支持明哥，加油！","reply":"多謝支持 🙏","intent":"praise","business":"any","label":"good","note":"纯捧场"}
+{"id":"c031","comment":"講得好，受教了","reply":"多謝認同，共勉 🙏","intent":"praise","business":"any","label":"good","note":"认同/受教"}
+{"id":"c032","comment":"怎麼聯繫你？","reply":"可以，主頁有資料 😄","intent":"contact","business":"any","label":"good","note":"求联系，弱引导"}
+{"id":"c033","comment":"找你是真假的？","reply":"真嘅；點頭像👤私訊我 📩","intent":"contact","business":"any","label":"good","note":"给确定性 + 引导"}
+{"id":"c034","comment":"之前私訊你都沒回","reply":"唔好意思，訊息太多漏咗 🙏","intent":"contact_complaint","business":"any","label":"good","note":"先致歉，不辩解"}
+{"id":"c035","comment":"香港人等死","reply":"（不回）","intent":"neg","business":"any","label":"good","note":"唱衰/攻击，跳过不回复"}
+{"id":"c036","comment":"買得起，養唔起","reply":"（不回）","intent":"neg","business":"any","label":"good","note":"嘲讽，跳过不回复"}
+{"id":"c037","comment":"[强][强][强]","reply":"（不回）","intent":"emoji","business":"any","label":"good","note":"大视频纯表情跳过"}
+{"id":"c038","comment":"香港人加油","reply":"多謝支持，一齊努力 💪","intent":"praise","business":"any","label":"good","note":"安全捧场"}
+{"id":"c039","comment":"幾時可以睇車？","reply":"朝九晚九，過嚟睇 😄","intent":"car_view","business":"car","label":"good","note":"营业时间"}
+{"id":"c040","comment":"這台車有沒有保養記錄？","reply":"可以驗車，記錄私訊傾 📩","intent":"car_condition","business":"car","label":"good","note":"不口头保证，验车为准"}

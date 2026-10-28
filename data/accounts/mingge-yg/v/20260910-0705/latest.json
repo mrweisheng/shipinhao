@@ -1,0 +1,53 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "12万8就能拿下当年香港顶级大佬们的座驾-宾利 #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行",
+  "time": "2026年09月10日 07:05"
+ },
+ "declared": 2,
+ "isEmpty": false,
+ "total": 2,
+ "topLevel": 1,
+ "replies": 1,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "晴空万里",
+   "isAuthor": false,
+   "time": "2026/09/10 21:02",
+   "content": "可以在大陆开吗？",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/09/11 09:27"
+  },
+  {
+   "index": 1,
+   "level": 2,
+   "parentIndex": 0,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/09/11 09:27",
+   "content": "去大陸額外要兩地牌",
+   "likes": null
+  }
+ ],
+ "summary": {
+  "declared": 2,
+  "total": 2,
+  "level1": 1,
+  "level2": 1,
+  "ownComments": 0,
+  "authorRepliedThreads": 1,
+  "awaitingThreads": 0,
+  "authorReplies": 1,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": []
+ }
+}

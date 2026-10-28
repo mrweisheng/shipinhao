@@ -1,0 +1,137 @@
+{
+  "finishedAt": "2026-10-24T08:15:32.672Z",
+  "mode": "send",
+  "planFile": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\maintain\\plan-nth2.json",
+  "video": {
+    "title": "汕尾老乡们，谦虚低调才是你应该要走的路！！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月18日 07:00"
+  },
+  "before": {
+    "declared": 331,
+    "plannedReplies": 10,
+    "executed": 10
+  },
+  "summary": {
+    "ok": 10,
+    "failed": 0,
+    "policy": 0
+  },
+  "after": {
+    "declared": 341,
+    "awaitingThreads": 21,
+    "complete": true,
+    "file": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\reply\\verify-2026-10-24T08-13-16-713Z.json"
+  },
+  "results": [
+    {
+      "index": 25,
+      "name": "欧秀琴",
+      "content": "大实话 [强] [强] [强] [强] [强] [强]",
+      "kw": "大实话",
+      "action": "reply",
+      "text": "多謝認同 🙏",
+      "category": "praise",
+      "reason": "认同视频观点，带文字互动",
+      "result": "sent"
+    },
+    {
+      "index": 28,
+      "name": "雯姐姐",
+      "content": "老乡 [强] [强] [强]",
+      "kw": "老乡",
+      "action": "reply",
+      "text": "膠己人，多謝 😄",
+      "category": "greet",
+      "reason": "对方自称老乡，用老乡话术",
+      "result": "sent"
+    },
+    {
+      "index": 30,
+      "name": "用户0405867965",
+      "content": "你文化水平很高，值得你高调 [强]",
+      "kw": "文化水平",
+      "action": "reply",
+      "text": "哈哈，過獎啦 😄",
+      "category": "praise",
+      "reason": "夸文化水平，捧场",
+      "result": "sent"
+    },
+    {
+      "index": 32,
+      "name": "创世纪2400",
+      "content": "這話不是我說的嗎？ [捂脸] [捂脸] [捂脸]",
+      "kw": "這話不是我說的",
+      "action": "reply",
+      "text": "哈哈，英雄所見略同 😄",
+      "category": "banter",
+      "reason": "玩梗式认同，轻松接住",
+      "result": "sent"
+    },
+    {
+      "index": 34,
+      "name": "蔡礼溪",
+      "content": "太棒了 /:strong",
+      "kw": "太棒了",
+      "action": "reply",
+      "text": "多謝讚賞 🙏",
+      "category": "praise",
+      "reason": "正面捧场",
+      "result": "sent"
+    },
+    {
+      "index": 36,
+      "name": "阳彬",
+      "content": "兄你说这话准阿",
+      "kw": "说这话准",
+      "action": "reply",
+      "text": "多謝認同，共勉 🙏",
+      "category": "praise",
+      "reason": "认同视频观点",
+      "result": "sent"
+    },
+    {
+      "index": 38,
+      "name": "雅宣",
+      "content": "正确！ [微笑] [微笑]",
+      "kw": "正确",
+      "action": "reply",
+      "text": "多謝支持 😄",
+      "category": "praise",
+      "reason": "认同，短捧场",
+      "result": "sent"
+    },
+    {
+      "index": 39,
+      "name": "小小七悦",
+      "content": "我也非常感恩，能涮到你 [抱拳]",
+      "kw": "能涮到你",
+      "action": "reply",
+      "text": "有緣相見，多謝 🙏",
+      "category": "praise",
+      "reason": "表达感恩/喜欢视频",
+      "result": "sent"
+    },
+    {
+      "index": 40,
+      "name": "厚德载福",
+      "content": "智慧。",
+      "kw": "智慧",
+      "action": "reply",
+      "text": "多謝，共勉之 🙏",
+      "category": "praise",
+      "reason": "一字称赞，短回",
+      "result": "sent"
+    },
+    {
+      "index": 41,
+      "name": "有余*亿品酒业",
+      "content": "感谢明哥经典分享 [抱拳] [抱拳] [抱拳]",
+      "kw": "经典分享",
+      "action": "reply",
+      "text": "多謝支持，感恩 🙏",
+      "category": "praise",
+      "reason": "感谢分享",
+      "result": "sent"
+    }
+  ]
+}

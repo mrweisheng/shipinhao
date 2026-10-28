@@ -1,0 +1,359 @@
+{
+  "when": "2026-10-24T05:12:48.824Z",
+  "seed": 424242,
+  "totalVideos": 169,
+  "results": [
+    {
+      "round": 1,
+      "mode": "url",
+      "from": "https://channels.weixin.qq.com/platform/statistic/finderNewLifeStatisticPost",
+      "route": {
+        "parent": "数据中心",
+        "child": "图文数据",
+        "url": "https://channels.weixin.qq.com/platform/statistic/finderNewLifeStatisticPost"
+      },
+      "nth": 1,
+      "ms": 3369,
+      "code": 0,
+      "summary": {
+        "declared": 23,
+        "total": 23,
+        "level1": 12,
+        "level2": 11,
+        "authorRepliedThreads": 10,
+        "awaitingThreads": 2,
+        "authorReplies": 10,
+        "complete": true,
+        "awaitingIndices": [
+          0,
+          1
+        ]
+      },
+      "checks": [
+        {
+          "name": "退出码 0",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "点开的正是第 N 条",
+          "ok": true,
+          "detail": "期望 1，实际 1"
+        },
+        {
+          "name": "详情区头部已核对",
+          "ok": true,
+          "detail": "2026/10/21 07:05"
+        },
+        {
+          "name": "输出含 summary",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "声明数 = 实抓数",
+          "ok": true,
+          "detail": "声明 23 / 实抓 23"
+        },
+        {
+          "name": "一级 + 回复 = 总数",
+          "ok": true,
+          "detail": "12+11 vs 23"
+        },
+        {
+          "name": "已回 + 未回 = 一级",
+          "ok": true,
+          "detail": "10+2 vs 12"
+        },
+        {
+          "name": "完整性标记",
+          "ok": true,
+          "detail": "true"
+        },
+        {
+          "name": "评论数与页面声明一致",
+          "ok": true,
+          "detail": "页面 23 / JSON 23"
+        },
+        {
+          "name": "视频时间与头部一致",
+          "ok": true,
+          "detail": "2026/10/21 07:05 vs 2026年10月21日 07:05"
+        }
+      ],
+      "ok": true
+    },
+    {
+      "round": 2,
+      "mode": "click",
+      "from": "https://channels.weixin.qq.com/platform/commodity/window",
+      "route": {
+        "parent": "带货中心",
+        "child": "商品管理",
+        "url": "https://channels.weixin.qq.com/platform/commodity/window"
+      },
+      "nth": 10,
+      "ms": 3268,
+      "code": 0,
+      "summary": {
+        "declared": 29,
+        "total": 29,
+        "level1": 15,
+        "level2": 14,
+        "authorRepliedThreads": 13,
+        "awaitingThreads": 2,
+        "authorReplies": 13,
+        "complete": true,
+        "awaitingIndices": [
+          0,
+          22
+        ]
+      },
+      "checks": [
+        {
+          "name": "退出码 0",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "点开的正是第 N 条",
+          "ok": true,
+          "detail": "期望 10，实际 10"
+        },
+        {
+          "name": "详情区头部已核对",
+          "ok": true,
+          "detail": "2026/10/03 07:05"
+        },
+        {
+          "name": "输出含 summary",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "声明数 = 实抓数",
+          "ok": true,
+          "detail": "声明 29 / 实抓 29"
+        },
+        {
+          "name": "一级 + 回复 = 总数",
+          "ok": true,
+          "detail": "15+14 vs 29"
+        },
+        {
+          "name": "已回 + 未回 = 一级",
+          "ok": true,
+          "detail": "13+2 vs 15"
+        },
+        {
+          "name": "完整性标记",
+          "ok": true,
+          "detail": "true"
+        },
+        {
+          "name": "评论数与页面声明一致",
+          "ok": true,
+          "detail": "页面 29 / JSON 29"
+        },
+        {
+          "name": "视频时间与头部一致",
+          "ok": true,
+          "detail": "2026/10/03 07:05 vs 2026年10月03日 07:05"
+        }
+      ],
+      "ok": true
+    },
+    {
+      "round": 3,
+      "mode": "url",
+      "from": "https://channels.weixin.qq.com/platform/userProfileManager",
+      "route": {
+        "parent": "内容管理",
+        "child": "主页",
+        "url": "https://channels.weixin.qq.com/platform/userProfileManager"
+      },
+      "nth": 120,
+      "ms": 10627,
+      "code": 0,
+      "summary": {
+        "declared": 4,
+        "total": 4,
+        "level1": 2,
+        "level2": 2,
+        "authorRepliedThreads": 2,
+        "awaitingThreads": 0,
+        "authorReplies": 2,
+        "complete": true,
+        "awaitingIndices": []
+      },
+      "checks": [
+        {
+          "name": "退出码 0",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "点开的正是第 N 条",
+          "ok": true,
+          "detail": "期望 120，实际 120"
+        },
+        {
+          "name": "详情区头部已核对",
+          "ok": true,
+          "detail": "2026/03/05 18:05"
+        },
+        {
+          "name": "输出含 summary",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "声明数 = 实抓数",
+          "ok": true,
+          "detail": "声明 4 / 实抓 4"
+        },
+        {
+          "name": "一级 + 回复 = 总数",
+          "ok": true,
+          "detail": "2+2 vs 4"
+        },
+        {
+          "name": "已回 + 未回 = 一级",
+          "ok": true,
+          "detail": "2+0 vs 2"
+        },
+        {
+          "name": "完整性标记",
+          "ok": true,
+          "detail": "true"
+        },
+        {
+          "name": "评论数与页面声明一致",
+          "ok": true,
+          "detail": "页面 4 / JSON 4"
+        },
+        {
+          "name": "视频时间与头部一致",
+          "ok": true,
+          "detail": "2026/03/05 18:05 vs 2026年03月05日 18:05"
+        }
+      ],
+      "ok": true
+    },
+    {
+      "round": 4,
+      "mode": "click",
+      "from": "https://channels.weixin.qq.com/platform/live/reserve",
+      "route": {
+        "parent": "直播",
+        "child": "直播预告",
+        "url": "https://channels.weixin.qq.com/platform/live/reserve"
+      },
+      "nth": 169,
+      "ms": 18429,
+      "code": 0,
+      "summary": {
+        "declared": 69,
+        "total": 69,
+        "level1": 48,
+        "level2": 21,
+        "authorRepliedThreads": 11,
+        "awaitingThreads": 37,
+        "authorReplies": 11,
+        "complete": true,
+        "awaitingIndices": [
+          11,
+          14,
+          21,
+          22,
+          23,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          57,
+          58,
+          68
+        ]
+      },
+      "checks": [
+        {
+          "name": "退出码 0",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "点开的正是第 N 条",
+          "ok": true,
+          "detail": "期望 169，实际 169"
+        },
+        {
+          "name": "详情区头部已核对",
+          "ok": true,
+          "detail": "2025/09/06 10:45"
+        },
+        {
+          "name": "输出含 summary",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "声明数 = 实抓数",
+          "ok": true,
+          "detail": "声明 69 / 实抓 69"
+        },
+        {
+          "name": "一级 + 回复 = 总数",
+          "ok": true,
+          "detail": "48+21 vs 69"
+        },
+        {
+          "name": "已回 + 未回 = 一级",
+          "ok": true,
+          "detail": "11+37 vs 48"
+        },
+        {
+          "name": "完整性标记",
+          "ok": true,
+          "detail": "true"
+        },
+        {
+          "name": "评论数与页面声明一致",
+          "ok": true,
+          "detail": "页面 69 / JSON 69"
+        },
+        {
+          "name": "视频时间与头部一致",
+          "ok": true,
+          "detail": "2025/09/06 10:45 vs 2025年09月06日 10:45"
+        }
+      ],
+      "ok": true
+    }
+  ]
+}

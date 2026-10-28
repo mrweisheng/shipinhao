@@ -1,0 +1,162 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "香港朋友们，为什么不拥有一台中港车，可以轻松通关呢？ #中港两地牌#香港二手车#香港买车#香港生活#香港",
+  "time": "2026年03月14日 18:10"
+ },
+ "declared": 10,
+ "isEmpty": false,
+ "total": 10,
+ "topLevel": 7,
+ "replies": 3,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "孫",
+   "isAuthor": false,
+   "time": "2026/03/15 16:24",
+   "content": "你又換咗女朋友呀？",
+   "likes": 1,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 1,
+   "level": 1,
+   "parentIndex": null,
+   "author": "James wu",
+   "isAuthor": false,
+   "time": "2026/03/15 15:36",
+   "content": "Co co去左邊？",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 2,
+   "level": 1,
+   "parentIndex": null,
+   "author": "龙仔饰品搬运工",
+   "isAuthor": false,
+   "time": "2026/03/14 21:58",
+   "content": "买中港牌一定揾明兄",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/03/15 10:05"
+  },
+  {
+   "index": 3,
+   "level": 2,
+   "parentIndex": 2,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/03/15 10:05",
+   "content": "[爱心]",
+   "likes": null
+  },
+  {
+   "index": 4,
+   "level": 1,
+   "parentIndex": null,
+   "author": "黃思齊520",
+   "isAuthor": false,
+   "time": "2026/03/14 21:32",
+   "content": "點聯係",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/03/15 10:05"
+  },
+  {
+   "index": 5,
+   "level": 2,
+   "parentIndex": 4,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/03/15 10:05",
+   "content": "請查收",
+   "likes": null
+  },
+  {
+   "index": 6,
+   "level": 1,
+   "parentIndex": null,
+   "author": "实干创未来2462",
+   "isAuthor": false,
+   "time": "2026/03/14 20:26",
+   "content": "大陆身份，有香港驾照，能开中港通过关吗？",
+   "likes": 2,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/03/15 10:05"
+  },
+  {
+   "index": 7,
+   "level": 2,
+   "parentIndex": 6,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/03/15 10:05",
+   "content": "加司機位即可",
+   "likes": null
+  },
+  {
+   "index": 8,
+   "level": 1,
+   "parentIndex": null,
+   "author": "風吹雨打知生活年少無知談理想",
+   "isAuthor": false,
+   "time": "2026/03/14 19:55",
+   "content": "/:strong /:strong /:strong",
+   "likes": 1,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 9,
+   "level": 1,
+   "parentIndex": null,
+   "author": "方富榮",
+   "isAuthor": false,
+   "time": "2026/03/14 18:48",
+   "content": "[掩面] 依家都包郵到香港啦",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  }
+ ],
+ "summary": {
+  "declared": 10,
+  "total": 10,
+  "level1": 7,
+  "level2": 3,
+  "ownComments": 0,
+  "authorRepliedThreads": 3,
+  "awaitingThreads": 4,
+  "authorReplies": 3,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   0,
+   1,
+   8,
+   9
+  ]
+ }
+}

@@ -1,0 +1,195 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "这才是香港七人车天花板雷克萨斯LM500h！ #两地牌#香港#香港生活#香港二手车#粤港车#香港买车",
+  "time": "2025年11月04日 12:31"
+ },
+ "declared": 14,
+ "isEmpty": false,
+ "total": 14,
+ "topLevel": 6,
+ "replies": 8,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "@一M",
+   "isAuthor": false,
+   "time": "2026/04/13 11:40",
+   "content": "隆金 /:strong",
+   "likes": 1,
+   "replyCount": 2,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/04/13 15:10"
+  },
+  {
+   "index": 1,
+   "level": 2,
+   "parentIndex": 0,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/04/13 15:10",
+   "content": "感謝 [合十]",
+   "likes": 1
+  },
+  {
+   "index": 2,
+   "level": 2,
+   "parentIndex": 0,
+   "author": "@一M",
+   "isAuthor": false,
+   "time": "2026/04/14 19:50",
+   "content": "回复明哥揾粤港车: 生意兴隆，越来越好，胶地人",
+   "likes": 1
+  },
+  {
+   "index": 3,
+   "level": 1,
+   "parentIndex": null,
+   "author": "香蕉树雄仔",
+   "isAuthor": false,
+   "time": "2026/03/31 10:01",
+   "content": "[强] [强] [强] [图片]",
+   "likes": 2,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/03/31 14:13"
+  },
+  {
+   "index": 4,
+   "level": 2,
+   "parentIndex": 3,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/03/31 14:13",
+   "content": "[捂脸]",
+   "likes": null
+  },
+  {
+   "index": 5,
+   "level": 1,
+   "parentIndex": null,
+   "author": "Leslie",
+   "isAuthor": false,
+   "time": "2026/03/09 10:12",
+   "content": "咩口岸？",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 6,
+   "level": 1,
+   "parentIndex": null,
+   "author": "劉Alex",
+   "isAuthor": false,
+   "time": "2026/03/04 21:17",
+   "content": "128万港币？包中港牌？",
+   "likes": 1,
+   "replyCount": 2,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/03/05 09:33"
+  },
+  {
+   "index": 7,
+   "level": 2,
+   "parentIndex": 6,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/03/05 09:33",
+   "content": "是的",
+   "likes": null
+  },
+  {
+   "index": 8,
+   "level": 2,
+   "parentIndex": 6,
+   "author": "劉Alex",
+   "isAuthor": false,
+   "time": "2026/03/05 17:54",
+   "content": "回复明哥揾粤港车: 只要部车会系几钱？",
+   "likes": null
+  },
+  {
+   "index": 9,
+   "level": 1,
+   "parentIndex": null,
+   "author": "陈临九霄",
+   "isAuthor": false,
+   "time": "2025/11/10 09:58",
+   "content": "这个车有现货吗？还是需要订呢？",
+   "likes": null,
+   "replyCount": 2,
+   "authorReplied": true,
+   "authorReplyCount": 2,
+   "lastAuthorReplyAt": "2025/11/10 10:37"
+  },
+  {
+   "index": 10,
+   "level": 2,
+   "parentIndex": 9,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2025/11/11 09:19",
+   "content": "现车不用等，揾明哥啦",
+   "likes": null
+  },
+  {
+   "index": 11,
+   "level": 2,
+   "parentIndex": 9,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2025/11/10 10:37",
+   "content": "有现 货哈，主 页找 我",
+   "likes": null
+  },
+  {
+   "index": 12,
+   "level": 1,
+   "parentIndex": null,
+   "author": "凌峰",
+   "isAuthor": false,
+   "time": "2025/11/04 12:36",
+   "content": "这真希天花板？ [Doge]",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2025/11/04 12:48"
+  },
+  {
+   "index": 13,
+   "level": 2,
+   "parentIndex": 12,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2025/11/04 12:48",
+   "content": "系呀",
+   "likes": null
+  }
+ ],
+ "summary": {
+  "declared": 14,
+  "total": 14,
+  "level1": 6,
+  "level2": 8,
+  "ownComments": 0,
+  "authorRepliedThreads": 5,
+  "awaitingThreads": 1,
+  "authorReplies": 6,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   5
+  ]
+ }
+}

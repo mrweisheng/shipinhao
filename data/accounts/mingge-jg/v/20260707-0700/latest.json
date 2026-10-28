@@ -1,0 +1,60 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "全香港最高价收丰田埃尔法20系！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车",
+  "time": "2026年07月07日 07:00"
+ },
+ "declared": 2,
+ "isEmpty": false,
+ "total": 2,
+ "topLevel": 2,
+ "replies": 0,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "旭日东升[强]",
+   "isAuthor": false,
+   "time": "2026/07/07 19:36",
+   "content": "高价收的卖出自然就贵啦 [呲牙]",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 1,
+   "level": 1,
+   "parentIndex": null,
+   "author": "Mansom",
+   "isAuthor": false,
+   "time": "2026/07/21 10:09",
+   "content": "請問20系13年混能埃爾法收幾多錢",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  }
+ ],
+ "summary": {
+  "declared": 2,
+  "total": 2,
+  "level1": 2,
+  "level2": 0,
+  "ownComments": 0,
+  "authorRepliedThreads": 0,
+  "awaitingThreads": 2,
+  "authorReplies": 0,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   0,
+   1
+  ]
+ }
+}

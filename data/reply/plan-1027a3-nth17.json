@@ -1,0 +1,61 @@
+{
+  "createdAt": "2026-10-27T07:51:49.253Z",
+  "nth": null,
+  "video": {
+    "title": "明哥今天，在香港车场这次全部给你们推荐埃尔法！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行",
+    "time": "2026年08月26日 07:00"
+  },
+  "titleContext": {
+    "business": "car",
+    "ports": [],
+    "models": [
+      "埃尔法"
+    ],
+    "price": null
+  },
+  "declared": 6,
+  "source": "D:\\视频号\\data\\maintain-1027-acct3\\nth17.json",
+  "rules": {
+    "facts": "业务事实.md（唯一事实来源：价格/付款/车况/地址/移民/求职）",
+    "judgment": ".opencode/skills/channels-comment-ops/SKILL.md（回不回、红线、动作分类）",
+    "cases": "data/cases/（主参考：先判意图 → 检索 2 好 1 坏 → 仿写）",
+    "style": "模板池.md（仅 GUIDE-* 引导尾巴与兜底候选，按语义改写，不要关键词对号入座）"
+  },
+  "counts": {
+    "topLevel": 4,
+    "authorReplied": 2,
+    "authorOwn": 0,
+    "pending": 2
+  },
+  "items": [
+    {
+      "index": 0,
+      "name": "清純",
+      "time": "2026/09/13 11:52",
+      "likes": 1,
+      "content": "混能",
+      "kw": "混能",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "观点/情绪/表情/负面调侃，无业务意向，按策略跳过"
+    },
+    {
+      "index": 3,
+      "name": "自強不息",
+      "time": "2026/08/30 10:07",
+      "likes": 1,
+      "content": "怎麼聯繫你呢",
+      "kw": "怎麼聯繫你呢",
+      "asked": "问怎么联系你",
+      "action": "reply",
+      "text": "簡介有資料，PM 我 📩",
+      "answerOk": true,
+      "category": "contact",
+      "reason": "求联系 → 简介路径 + PM，换变体避免与 nth11 重复"
+    }
+  ],
+  "videoType": "业务类"
+}

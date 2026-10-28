@@ -1,0 +1,39 @@
+{
+  "finishedAt": "2026-10-25T01:47:51.875Z",
+  "mode": "send",
+  "planFile": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\account-new\\plan-nth8.json",
+  "video": {
+    "title": "胶己人，这一次你想清楚了吗？香港到底有什么好？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月10日 07:05"
+  },
+  "before": {
+    "declared": 19,
+    "plannedReplies": 1,
+    "executed": 1
+  },
+  "summary": {
+    "ok": 1,
+    "failed": 0,
+    "rejected": 0,
+    "policy": 0
+  },
+  "after": {
+    "declared": 20,
+    "awaitingThreads": 2,
+    "complete": true,
+    "file": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\reply\\verify-2026-10-25T01-47-42-648Z.json"
+  },
+  "results": [
+    {
+      "index": 0,
+      "name": "罗布乐思河北唐县动画",
+      "content": "讲潮汕话？",
+      "kw": "讲潮汕话",
+      "action": "reply",
+      "text": "係呀，家鄉話 😄",
+      "category": "greet",
+      "reason": "小视频（19 条）里的正常提问，轻回一句",
+      "result": "sent"
+    }
+  ]
+}

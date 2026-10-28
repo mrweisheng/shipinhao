@@ -1,0 +1,215 @@
+{
+  "createdAt": "2026-10-25T02:52:21.307Z",
+  "map": [
+    {
+      "id": "e01",
+      "A": "X",
+      "baseline": "有，白色可以傾 🙏",
+      "caseReply": "白色有得傾；點頭像👤私訊我 📩",
+      "action": "reply"
+    },
+    {
+      "id": "e02",
+      "A": "Y",
+      "baseline": "包咩細節，私訊傾 📩",
+      "caseReply": "包咩細節，私訊傾 📩",
+      "action": "reply"
+    },
+    {
+      "id": "e03",
+      "A": "X",
+      "baseline": "3萬8，明碼實價 😄",
+      "caseReply": "係3萬8；皇后山，導航搜明哥中港牌 😄",
+      "action": "reply"
+    },
+    {
+      "id": "e04",
+      "A": "Y",
+      "baseline": "可以，主頁有資料 😄",
+      "caseReply": "可以；點頭像👤私訊我 📩",
+      "action": "reply"
+    },
+    {
+      "id": "e05",
+      "A": "X",
+      "baseline": "有，喺度 😄",
+      "caseReply": "仲喺，未賣；過嚟睇 😄",
+      "action": "reply"
+    },
+    {
+      "id": "e06",
+      "A": "Y",
+      "baseline": "可以全款，都可以分期 😄",
+      "caseReply": "可以全款，都可以分期；費用私訊傾 📩",
+      "action": "reply"
+    },
+    {
+      "id": "e07",
+      "A": "X",
+      "baseline": "皇后山，導航搜「明哥中港牌」😄",
+      "caseReply": "皇后山，導航搜「明哥中港牌」😄",
+      "action": "reply"
+    },
+    {
+      "id": "e08",
+      "A": "Y",
+      "baseline": "皇后山，導航搜「明哥中港牌」😄",
+      "caseReply": "喺皇后山，導航「明哥中港牌」😄",
+      "action": "reply"
+    },
+    {
+      "id": "e09",
+      "A": "X",
+      "baseline": "（不回）",
+      "caseReply": "幫你確認下，私訊傾 📩",
+      "action": "reply"
+    },
+    {
+      "id": "e10",
+      "A": "X",
+      "baseline": "兩地牌價錢，有得傾 😄",
+      "caseReply": "要睇車型同資格，私訊幫你確認 📩",
+      "action": "reply"
+    },
+    {
+      "id": "e11",
+      "A": "Y",
+      "baseline": "有，白色可以傾 🙏",
+      "caseReply": "有，白色可以傾 🙏",
+      "action": "reply"
+    },
+    {
+      "id": "e12",
+      "A": "X",
+      "baseline": "價錢公道，有得傾 😄",
+      "caseReply": "呢款幫你確認，私訊傾 📩",
+      "action": "reply"
+    },
+    {
+      "id": "e13",
+      "A": "Y",
+      "baseline": "可以分期，詳情私訊傾 📩",
+      "caseReply": "可以分期，詳情私訊傾 📩",
+      "action": "reply"
+    },
+    {
+      "id": "e14",
+      "A": "X",
+      "baseline": "可以驗車，約個時間 😄",
+      "caseReply": "可以驗車，里數睇報告；私訊傾 📩",
+      "action": "reply"
+    },
+    {
+      "id": "e15",
+      "A": "Y",
+      "baseline": "（不回）",
+      "caseReply": "過戶嘅嘢要確認，私訊傾 📩",
+      "action": "reply"
+    },
+    {
+      "id": "e16",
+      "A": "X",
+      "baseline": "唔設門檻，可以傾 😄",
+      "caseReply": "係，可以傾；唔設門檻 😄",
+      "action": "reply"
+    },
+    {
+      "id": "e17",
+      "A": "Y",
+      "baseline": "移民都啱傾 😄",
+      "caseReply": "途徑可以傾；費用私訊了解 📩",
+      "action": "reply"
+    },
+    {
+      "id": "e18",
+      "A": "X",
+      "baseline": "過去做工都啱傾 😄",
+      "caseReply": "過去做工都啱傾 😄",
+      "action": "reply"
+    },
+    {
+      "id": "e19",
+      "A": "Y",
+      "baseline": "都啱傾，放心 😄",
+      "caseReply": "都啱傾，放心 😄",
+      "action": "reply"
+    },
+    {
+      "id": "e20",
+      "A": "Y",
+      "baseline": "初中學歷都啱傾 🙏",
+      "caseReply": "初中學歷都啱傾；點頭像👤私訊我 📩",
+      "action": "reply"
+    },
+    {
+      "id": "e21",
+      "A": "X",
+      "baseline": "唔設門檻，可以傾 😄",
+      "caseReply": "唔設門檻，可以傾 😄",
+      "action": "reply"
+    },
+    {
+      "id": "e22",
+      "A": "Y",
+      "baseline": "兩地牌價錢，有得傾 😄",
+      "caseReply": "蓮塘牌可以傾；費用私訊確認 📩",
+      "action": "reply"
+    },
+    {
+      "id": "e23",
+      "A": "X",
+      "baseline": "賣車都啱傾 😄",
+      "caseReply": "換車可以傾；舊車點處理，私訊講 📩",
+      "action": "reply"
+    },
+    {
+      "id": "e24",
+      "A": "Y",
+      "baseline": "係，就喺皇后山 😄",
+      "caseReply": "係，就喺皇后山；過嚟睇 😄",
+      "action": "reply"
+    },
+    {
+      "id": "e25",
+      "A": "X",
+      "baseline": "可以，主頁有資料 😄",
+      "caseReply": "點頭像👤私訊我，慢慢傾 📩",
+      "action": "reply"
+    },
+    {
+      "id": "e26",
+      "A": "Y",
+      "baseline": "多謝讚賞 🙏",
+      "caseReply": "哈哈，普通嘢，著得舒服 😄",
+      "action": "reply"
+    },
+    {
+      "id": "e27",
+      "A": "X",
+      "baseline": "多謝讚賞，共勉 🙏",
+      "caseReply": "多謝認同，一齊努力 🙏",
+      "action": "reply"
+    },
+    {
+      "id": "e28",
+      "A": "Y",
+      "baseline": "多謝支持 🙏",
+      "caseReply": "（不回）",
+      "action": "skip"
+    },
+    {
+      "id": "e29",
+      "A": "X",
+      "baseline": "哈哈，承你貴言 🙏",
+      "caseReply": "哈哈，承你貴言 🙏",
+      "action": "reply"
+    },
+    {
+      "id": "e30",
+      "A": "X",
+      "baseline": "多謝支持 🙏",
+      "caseReply": "多謝支持；買車點頭像私訊 📩",
+      "action": "reply"
+    }
+  ]
+}

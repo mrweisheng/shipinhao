@@ -1,0 +1,144 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "老板们，这台16萬8的埃尔法，值得拥有！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车",
+  "time": "2026年06月10日 07:05"
+ },
+ "declared": 10,
+ "isEmpty": false,
+ "total": 10,
+ "topLevel": 3,
+ "replies": 7,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "五湖四海5296",
+   "isAuthor": false,
+   "time": "2026/06/10 12:39",
+   "content": "加上两地牌一共几钱？明哥 [强]",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 1,
+   "level": 1,
+   "parentIndex": null,
+   "author": "小伍哥",
+   "isAuthor": false,
+   "time": "2026/06/10 09:49",
+   "content": "我也有一台 [666] [666] [666] [图片]",
+   "likes": 1,
+   "replyCount": 5,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/06/10 09:52"
+  },
+  {
+   "index": 2,
+   "level": 2,
+   "parentIndex": 1,
+   "author": "文記",
+   "isAuthor": false,
+   "time": "2026/06/10 19:10",
+   "content": "小五哥你台車在那裡？幾年車？",
+   "likes": null
+  },
+  {
+   "index": 3,
+   "level": 2,
+   "parentIndex": 1,
+   "author": "小伍哥",
+   "isAuthor": false,
+   "time": "2026/06/10 21:22",
+   "content": "回复文記: 2016年座，7.2万公里，2026.2月在香港注册，车目前在珠海了，上了一个大桥指标。 /::D /::D /::D",
+   "likes": null
+  },
+  {
+   "index": 4,
+   "level": 2,
+   "parentIndex": 1,
+   "author": "Johnson",
+   "isAuthor": false,
+   "time": "2026/06/27 21:29",
+   "content": "回复小伍哥: 单车卖多少钱 [旺柴]",
+   "likes": null
+  },
+  {
+   "index": 5,
+   "level": 2,
+   "parentIndex": 1,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/06/10 09:52",
+   "content": "[强]",
+   "likes": null
+  },
+  {
+   "index": 6,
+   "level": 2,
+   "parentIndex": 1,
+   "author": "文明重启178",
+   "isAuthor": false,
+   "time": "2026/06/11 18:17",
+   "content": "回复明哥揾粤港车: 这车现在这么贬值啊",
+   "likes": null
+  },
+  {
+   "index": 7,
+   "level": 1,
+   "parentIndex": null,
+   "author": "良",
+   "isAuthor": false,
+   "time": "2026/06/10 08:34",
+   "content": "16年差唔多退休囉，架车仲要16万几，我朋友嗰个架12年都劏咗喇",
+   "likes": 1,
+   "replyCount": 2,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 8,
+   "level": 2,
+   "parentIndex": 7,
+   "author": "文記",
+   "isAuthor": false,
+   "time": "2026/06/10 19:11",
+   "content": "貴明哥 [掩面] [掩面] [掩面]",
+   "likes": null
+  },
+  {
+   "index": 9,
+   "level": 2,
+   "parentIndex": 7,
+   "author": "小伍哥",
+   "isAuthor": false,
+   "time": "2026/06/10 09:49",
+   "content": "你朋友真有钱 /::D /::D /::D /::D",
+   "likes": 1
+  }
+ ],
+ "summary": {
+  "declared": 10,
+  "total": 10,
+  "level1": 3,
+  "level2": 7,
+  "ownComments": 0,
+  "authorRepliedThreads": 1,
+  "awaitingThreads": 2,
+  "authorReplies": 1,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   0,
+   7
+  ]
+ }
+}

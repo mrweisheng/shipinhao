@@ -1,0 +1,99 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "男人门都爱的丰田越野车FJ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车",
+  "time": "2026年07月14日 07:05"
+ },
+ "declared": 5,
+ "isEmpty": false,
+ "total": 5,
+ "topLevel": 4,
+ "replies": 1,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "豪達",
+   "isAuthor": false,
+   "time": "2026/09/19 13:01",
+   "content": "奥迪点卖",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 1,
+   "level": 1,
+   "parentIndex": null,
+   "author": "Mac844",
+   "isAuthor": false,
+   "time": "2026/08/21 07:05",
+   "content": "两地牌吗？",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 2,
+   "level": 1,
+   "parentIndex": null,
+   "author": "以和為貴6323",
+   "isAuthor": false,
+   "time": "2026/08/06 05:16",
+   "content": "明哥賣車好似天后誕投貢品，記得每架車加條長紅，一條長紅貴哥架車 /::D",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/08/06 10:36"
+  },
+  {
+   "index": 3,
+   "level": 2,
+   "parentIndex": 2,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/08/06 10:36",
+   "content": "[呲牙] [呲牙] [呲牙] [呲牙]",
+   "likes": null
+  },
+  {
+   "index": 4,
+   "level": 1,
+   "parentIndex": null,
+   "author": "酒当歌",
+   "isAuthor": false,
+   "time": "2026/07/16 20:03",
+   "content": "有没代步车，二，三万左右，小排量 [呲牙]",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  }
+ ],
+ "summary": {
+  "declared": 5,
+  "total": 5,
+  "level1": 4,
+  "level2": 1,
+  "ownComments": 0,
+  "authorRepliedThreads": 1,
+  "awaitingThreads": 3,
+  "authorReplies": 1,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   0,
+   1,
+   4
+  ]
+ }
+}

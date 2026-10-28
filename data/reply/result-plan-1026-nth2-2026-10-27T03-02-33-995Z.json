@@ -1,0 +1,55 @@
+{
+  "finishedAt": "2026-10-27T03:02:53.539Z",
+  "mode": "send",
+  "planFile": "D:\\视频号\\data\\reply\\plan-1026-nth2.json",
+  "video": {
+    "title": "汕尾老乡们，谦虚低调才是你应该要走的路！！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月18日 07:00"
+  },
+  "before": {
+    "declared": 358,
+    "plannedReplies": 2,
+    "executed": 2
+  },
+  "summary": {
+    "ok": 2,
+    "failed": 0,
+    "rejected": 0,
+    "policy": 0
+  },
+  "after": null,
+  "results": [
+    {
+      "index": 24,
+      "name": "八逹通󾓭全新二手集装箱批发厂家",
+      "time": "2026/10/26 20:34",
+      "likes": null,
+      "content": "很有道理，值得学习深藏不漏的知识 [强] [强] [强] 让更多的人知道做人应该低调、谦虚！",
+      "kw": "值得学习深藏",
+      "asked": "客户认同视频讲的低调谦虚、深藏不露，说要让更多人知道",
+      "action": "reply",
+      "text": "多謝你嘅認同，一齊努力 🙏",
+      "answerOk": true,
+      "category": "praise",
+      "reason": "带文字的有效捧场，纯回应不带引导",
+      "caseId": "c058",
+      "result": "sent"
+    },
+    {
+      "index": 25,
+      "name": "黑马银饰名牌手表系列",
+      "time": "2026/10/26 19:11",
+      "likes": null,
+      "content": "“在无人问津的时候默默努力，然后再万众瞩目的地方闪亮登场”",
+      "kw": "然后再万众瞩",
+      "asked": "客户引用金句：无人问津时默默努力，再在万众瞩目处登场",
+      "action": "reply",
+      "text": "講得好，默默努力最實際 💪",
+      "answerOk": true,
+      "category": "praise",
+      "reason": "带文字的有效捧场，回引对方意思，不带引导",
+      "caseId": "c059",
+      "result": "sent"
+    }
+  ]
+}

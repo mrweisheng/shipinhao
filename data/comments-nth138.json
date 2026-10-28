@@ -1,0 +1,110 @@
+{
+  "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+  "video": {
+    "title": "西装暴徒，来自霓虹国的超跑雷克萨斯LS400！ #两地牌#香港#香港生活#香港二手车#粤港车#香港买车",
+    "time": "2025年11月03日 07:15"
+  },
+  "declared": 6,
+  "isEmpty": false,
+  "total": 6,
+  "topLevel": 5,
+  "replies": 1,
+  "comments": [
+    {
+      "index": 0,
+      "level": 1,
+      "parentIndex": null,
+      "author": "庭哥港车",
+      "isAuthor": false,
+      "time": "2026/01/25 11:59",
+      "content": "LC [呲牙]",
+      "likes": 1,
+      "replyCount": 0,
+      "authorReplied": false,
+      "authorReplyCount": 0,
+      "lastAuthorReplyAt": null
+    },
+    {
+      "index": 1,
+      "level": 1,
+      "parentIndex": null,
+      "author": "JasonLiu劉頡",
+      "isAuthor": false,
+      "time": "2026/01/11 04:02",
+      "content": "1万 /:hug",
+      "likes": null,
+      "replyCount": 0,
+      "authorReplied": false,
+      "authorReplyCount": 0,
+      "lastAuthorReplyAt": null
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "parentIndex": null,
+      "author": "Ino 高",
+      "isAuthor": false,
+      "time": "2025/11/10 22:12",
+      "content": "凌志",
+      "likes": 1,
+      "replyCount": 0,
+      "authorReplied": false,
+      "authorReplyCount": 0,
+      "lastAuthorReplyAt": null
+    },
+    {
+      "index": 3,
+      "level": 1,
+      "parentIndex": null,
+      "author": "没专心丶小胖pjh",
+      "isAuthor": false,
+      "time": "2025/11/06 11:48",
+      "content": "回一下私信",
+      "likes": null,
+      "replyCount": 1,
+      "authorReplied": true,
+      "authorReplyCount": 1,
+      "lastAuthorReplyAt": "2025/11/06 14:28"
+    },
+    {
+      "index": 4,
+      "level": 2,
+      "parentIndex": 3,
+      "author": "明哥揾粤港车",
+      "isAuthor": true,
+      "time": "2025/11/06 14:28",
+      "content": "好滴 [呲牙]",
+      "likes": null
+    },
+    {
+      "index": 5,
+      "level": 1,
+      "parentIndex": null,
+      "author": "Lamshekon",
+      "isAuthor": false,
+      "time": "2025/11/03 20:28",
+      "content": "23000",
+      "likes": null,
+      "replyCount": 0,
+      "authorReplied": false,
+      "authorReplyCount": 0,
+      "lastAuthorReplyAt": null
+    }
+  ],
+  "summary": {
+    "declared": 6,
+    "total": 6,
+    "level1": 5,
+    "level2": 1,
+    "authorRepliedThreads": 1,
+    "awaitingThreads": 4,
+    "authorReplies": 1,
+    "complete": true,
+    "awaitingIndices": [
+      0,
+      1,
+      2,
+      5
+    ]
+  }
+}

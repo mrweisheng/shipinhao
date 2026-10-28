@@ -1,0 +1,77 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "香港真男人一定得揸这台凌志LX570！ #中港两地牌#香港二手车#香港买车#香港生活#香港",
+  "time": "2026年03月05日 18:05"
+ },
+ "declared": 4,
+ "isEmpty": false,
+ "total": 4,
+ "topLevel": 2,
+ "replies": 2,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "超平凡的人",
+   "isAuthor": false,
+   "time": "2026/03/06 13:44",
+   "content": "哪年的车？",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/03/06 20:25"
+  },
+  {
+   "index": 1,
+   "level": 2,
+   "parentIndex": 0,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/03/06 20:25",
+   "content": "pm我咯",
+   "likes": null
+  },
+  {
+   "index": 2,
+   "level": 1,
+   "parentIndex": null,
+   "author": "PHILIP.LI",
+   "isAuthor": false,
+   "time": "2026/03/06 10:42",
+   "content": "無左cool姐，就是差左的野咁 [掩面] [掩面] [掩面]",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/03/06 20:25"
+  },
+  {
+   "index": 3,
+   "level": 2,
+   "parentIndex": 2,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/03/06 20:25",
+   "content": "在咯。",
+   "likes": null
+  }
+ ],
+ "summary": {
+  "declared": 4,
+  "total": 4,
+  "level1": 2,
+  "level2": 2,
+  "ownComments": 0,
+  "authorRepliedThreads": 2,
+  "awaitingThreads": 0,
+  "authorReplies": 2,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": []
+ }
+}

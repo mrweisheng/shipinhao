@@ -1,0 +1,142 @@
+{
+  "name": "阳彬",
+  "kw": "说这话准",
+  "text": "多謝認同，共勉 🙏",
+  "dry": false,
+  "steps": [],
+  "before": {
+    "video": {
+      "title": "汕尾老乡们，谦虚低调才是你应该要走的路！！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "time": "2026年10月18日 07:00"
+    },
+    "declared": 336,
+    "rendered": 336,
+    "textareas": 0
+  },
+  "locate": {
+    "found": 1,
+    "x": 1269,
+    "y": 492,
+    "item": {
+      "name": "阳彬",
+      "time": "2026/10/23 18:45",
+      "text": "兄你说这话准阿"
+    },
+    "replies": [],
+    "authorReplied": false
+  },
+  "panel0": {
+    "textareas": 1,
+    "placeholder": "回复 阳彬：",
+    "value": "",
+    "ta": {
+      "x": 1018,
+      "y": 579
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap disabled primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap disabled primary",
+      "enabled": false,
+      "x": 783,
+      "y": 629,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "panel1": {
+    "textareas": 1,
+    "placeholder": "回复 阳彬：",
+    "value": "多謝認同，共勉 🙏",
+    "ta": {
+      "x": 1018,
+      "y": 579
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 783,
+      "y": 629,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "sendClick": {
+    "textareas": 1,
+    "placeholder": "回复 阳彬：",
+    "value": "多謝認同，共勉 🙏",
+    "ta": {
+      "x": 1018,
+      "y": 474
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 783,
+      "y": 523,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "verify": {
+    "declared": 337,
+    "textareas": 0,
+    "found": true,
+    "replies": [
+      {
+        "name": "明哥揀粤港车",
+        "text": "多謝認同，共勉"
+      }
+    ],
+    "hit": true
+  },
+  "result": {
+    "countUp": true,
+    "threadHit": true,
+    "taZero": true,
+    "declared": 337
+  },
+  "like": {
+    "ok": true
+  }
+}

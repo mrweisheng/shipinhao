@@ -1,0 +1,114 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "16萬8的埃尔法，还犹豫什么？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车",
+  "time": "2026年06月18日 07:05"
+ },
+ "declared": 6,
+ "isEmpty": false,
+ "total": 6,
+ "topLevel": 5,
+ "replies": 1,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "頂高高",
+   "isAuthor": false,
+   "time": "2026/07/10 16:41",
+   "content": "可以上會嗎 /:strong",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/07/11 21:08"
+  },
+  {
+   "index": 1,
+   "level": 2,
+   "parentIndex": 0,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/07/11 21:08",
+   "content": "可以的",
+   "likes": null
+  },
+  {
+   "index": 2,
+   "level": 1,
+   "parentIndex": null,
+   "author": "牙仔",
+   "isAuthor": false,
+   "time": "2026/07/04 01:10",
+   "content": "已經冇人要的車",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 3,
+   "level": 1,
+   "parentIndex": null,
+   "author": "李贵中港澳皇30",
+   "isAuthor": false,
+   "time": "2026/06/23 11:26",
+   "content": "几年的",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 4,
+   "level": 1,
+   "parentIndex": null,
+   "author": "文記",
+   "isAuthor": false,
+   "time": "2026/06/18 09:22",
+   "content": "？22年 [呲牙] [呲牙] [呲牙]",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 5,
+   "level": 1,
+   "parentIndex": null,
+   "author": "瑞珠盈庭",
+   "isAuthor": false,
+   "time": "2026/06/18 08:46",
+   "content": "[动画表情]",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  }
+ ],
+ "summary": {
+  "declared": 6,
+  "total": 6,
+  "level1": 5,
+  "level2": 1,
+  "ownComments": 0,
+  "authorRepliedThreads": 1,
+  "awaitingThreads": 4,
+  "authorReplies": 1,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   2,
+   3,
+   4,
+   5
+  ]
+ }
+}

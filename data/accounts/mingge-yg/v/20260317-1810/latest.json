@@ -1,0 +1,105 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "香港人怎么换内地驾照呢？ #中港两地牌#香港二手车#香港买车#香港生活#香港",
+  "time": "2026年03月17日 18:10"
+ },
+ "declared": 5,
+ "isEmpty": false,
+ "total": 5,
+ "topLevel": 5,
+ "replies": 0,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "Lo5199",
+   "isAuthor": false,
+   "time": "2026/03/19 19:11",
+   "content": "内地証過期十幾年'能取嗎？",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 1,
+   "level": 1,
+   "parentIndex": null,
+   "author": "流星雨93750",
+   "isAuthor": false,
+   "time": "2026/03/19 18:45",
+   "content": "有冇2️⃣萬元的代步車",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 2,
+   "level": 1,
+   "parentIndex": null,
+   "author": "火爆哥",
+   "isAuthor": false,
+   "time": "2026/03/18 13:02",
+   "content": "可以幫我辦理嗎？要幾錢？",
+   "likes": 1,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 3,
+   "level": 1,
+   "parentIndex": null,
+   "author": "R0SES love sunshine",
+   "isAuthor": false,
+   "time": "2026/03/18 11:50",
+   "content": "Ok boss",
+   "likes": 1,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 4,
+   "level": 1,
+   "parentIndex": null,
+   "author": "家豪",
+   "isAuthor": false,
+   "time": "2026/03/17 22:00",
+   "content": "拎過一次，過期，別吹水",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  }
+ ],
+ "summary": {
+  "declared": 5,
+  "total": 5,
+  "level1": 5,
+  "level2": 0,
+  "ownComments": 0,
+  "authorRepliedThreads": 0,
+  "awaitingThreads": 5,
+  "authorReplies": 0,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ]
+ }
+}

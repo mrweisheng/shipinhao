@@ -1,0 +1,166 @@
+{
+  "name": "曹小玲",
+  "kw": "讲得對",
+  "text": "多謝你認同，共勉 😄",
+  "dry": false,
+  "steps": [],
+  "before": {
+    "video": {
+      "title": "以前这是香港的骄傲，新的时刻，香港会更好！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "time": "2026年10月27日 09:50"
+    },
+    "declared": 30,
+    "rendered": 30,
+    "textareas": 0
+  },
+  "locate": {
+    "found": 1,
+    "x": 1446,
+    "y": 484,
+    "item": {
+      "name": "曹小玲",
+      "time": "2026/10/28 06:37",
+      "text": "讲得對"
+    },
+    "replies": [],
+    "authorReplied": false
+  },
+  "panel0": {
+    "textareas": 1,
+    "placeholder": "回复 曹小玲：",
+    "value": "",
+    "ta": {
+      "x": 1195,
+      "y": 572
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap disabled primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap disabled primary",
+      "enabled": false,
+      "x": 960,
+      "y": 621,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "panel1": {
+    "textareas": 1,
+    "placeholder": "回复 曹小玲：",
+    "value": "多謝你認同，共勉 😄",
+    "ta": {
+      "x": 1195,
+      "y": 572
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 621,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "sendClick": {
+    "textareas": 1,
+    "placeholder": "回复 曹小玲：",
+    "value": "多謝你認同，共勉 😄",
+    "ta": {
+      "x": 1195,
+      "y": 514
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 563,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "verify": {
+    "declared": 31,
+    "textareas": 0,
+    "found": true,
+    "replies": [
+      {
+        "name": "明哥揾粤港车",
+        "text": "多謝你認同，共勉"
+      }
+    ],
+    "hit": true
+  },
+  "trace": {
+    "requests": [
+      {
+        "requestId": "80620.142266",
+        "url": "https://channels.weixin.qq.com/micro/interaction/cgi-bin/mmfinderassistant-bin/comment/create_comment?_aid=a92662d8-2b79-413e-87ed-244b48318e0a&_rid=6ae156b2-25f83ded&_pageUrl=https:%2F%2Fchannels.weixin.qq.com%2Fmicro%2Finteraction%2Fcomment",
+        "method": "POST",
+        "postData": "{\"replyCommentId\":\"15041953880359115732\",\"content\":\"多謝你認同，共勉 😄\",\"clientId\":\"ce1247e7-44f6-4d88-bed7-12c4a739b986\",\"rootCommentId\":\"15041953880359115732\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15041953880359115732\",\"commentNickname\":\"曹小玲\",\"commentContent\":\"讲得對/:strong/:strong/:strong[666][666][666][Worship][Worship][Worship]/:heart/:heart\",\"commentHeadurl\":\"https://mmhead.hk.wechat.com/mmhead/ver_1/iasZdXJ29AxQ3DBKcoUMKMRQbhqlyE2UrgPkru70KDLpeYRTiaolniansOfTHoKibE2hbMYg0AtGVhYbpRUibq5n2k63U2GkjAojcY6L2m7pNEyKic1384V9A7YJHacSsrSFXb/132\",\"commentCreatetime\":\"1793140635\",\"commentLikeCount\":0,\"lastBuff\":\"\",\"downContinueFlag\":0,\"visibleFlag\":0,\"readFlag\":true,\"displayFlag\":0,\"username\":\"\",\"blacklistFlag\":0,\"likeFlag\":0},\"exportId\":\"export/UzFfBgAAxOqmYGleNDu7k8zT4DCaZ1_kNLZZIgNQ3QkoGyGoSQ\",\"timestamp\":\"1793152690598\",\"_log_finder_uin\":\"\",\"_log_finder_id\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\",\"rawKeyBuff\":\"\",\"pluginSessionId\":null,\"scene\":7,\"reqScene\":7}",
+        "ts": "2026-10-28T01:58:10.605Z",
+        "status": 201,
+        "mimeType": "application/json",
+        "body": "{\"errCode\":0,\"errMsg\":\"request successful\",\"data\":{\"commentId\":\"15042055028563118796\",\"clientId\":\"ce1247e7-44f6-4d88-bed7-12c4a739b986\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15042055028563118796\",\"commentContent\":\"多謝你認同，共勉 😄\",\"commentCreatetime\":\"1793152693\",\"commentLikeCount\":0,\"replyCommentId\":\"15041953880359115732\",\"replyContent\":\"讲得對/:strong/:strong/:strong[666][666][666][Worship][Worship][Worship]/:heart/:heart\",\"visibleFlag\":1,\"displayFlag\":2,\"username\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\"},\"baseResp\":{\"errcode\":0,\"errmsg\":\"\"}}}",
+        "error": null,
+        "errCode": 0,
+        "errMsg": "request successful",
+        "topErrCode": 0,
+        "topErrMsg": "request successful",
+        "baseResp": {
+          "errcode": 0,
+          "errmsg": ""
+        }
+      }
+    ],
+    "toasts": []
+  },
+  "result": {
+    "countUp": true,
+    "threadHit": true,
+    "taZero": true,
+    "declared": 31
+  },
+  "like": {
+    "ok": true
+  }
+}

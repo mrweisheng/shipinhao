@@ -1,0 +1,51 @@
+{
+  "finishedAt": "2026-10-24T07:56:02.842Z",
+  "mode": "send",
+  "planFile": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\reply\\plan-new-nth4.json",
+  "video": {
+    "title": "阿兄呀，你听我的，这个项目一定赚，结果阿兄倒下了！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月16日 07:00"
+  },
+  "before": {
+    "declared": 78,
+    "plannedReplies": 2,
+    "executed": 2
+  },
+  "summary": {
+    "ok": 2,
+    "failed": 0,
+    "policy": 0
+  },
+  "after": {
+    "declared": 80,
+    "awaitingThreads": 25,
+    "complete": true,
+    "file": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\reply\\verify-2026-10-24T07-55-28-471Z.json"
+  },
+  "results": [
+    {
+      "index": 29,
+      "name": "建華先生",
+      "time": "2026/10/17 04:19",
+      "content": "隆金 /:strong /:strong",
+      "kw": "隆金",
+      "action": "reply",
+      "text": "哈哈，你仲隆金 😄",
+      "category": "praise",
+      "reason": "「隆金」是海丰话「厉害」，属于捧场；回捧对方，不带引导",
+      "result": "sent"
+    },
+    {
+      "index": 46,
+      "name": "陈镇波",
+      "time": "2026/10/16 17:01",
+      "content": "真实",
+      "kw": "真实",
+      "action": "reply",
+      "text": "真事嚟嘅，多謝認同 🙏",
+      "category": "praise",
+      "reason": "认同视频内容，有效文字互动；纯回应，不带引导",
+      "result": "sent"
+    }
+  ]
+}

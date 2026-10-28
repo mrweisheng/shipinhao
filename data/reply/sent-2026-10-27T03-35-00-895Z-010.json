@@ -1,0 +1,166 @@
+{
+  "name": "文記",
+  "kw": "明哥幾年車呀",
+  "text": "幾年車私訊我，睇報告 😄",
+  "dry": false,
+  "steps": [],
+  "before": {
+    "video": {
+      "title": "在香港，这个奔驰，你喜不喜欢？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行",
+      "time": "2026年08月26日 07:05"
+    },
+    "declared": 30,
+    "rendered": 30,
+    "textareas": 0
+  },
+  "locate": {
+    "found": 1,
+    "x": 1446,
+    "y": 589,
+    "item": {
+      "name": "文記",
+      "time": "2026/08/26 17:39",
+      "text": "明哥幾年車呀"
+    },
+    "replies": [],
+    "authorReplied": false
+  },
+  "panel0": {
+    "textareas": 1,
+    "placeholder": "回复 文記：",
+    "value": "",
+    "ta": {
+      "x": 1195,
+      "y": 677
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap disabled primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap disabled primary",
+      "enabled": false,
+      "x": 960,
+      "y": 726,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "panel1": {
+    "textareas": 1,
+    "placeholder": "回复 文記：",
+    "value": "幾年車私訊我，睇報告 😄",
+    "ta": {
+      "x": 1195,
+      "y": 677
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 726,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "sendClick": {
+    "textareas": 1,
+    "placeholder": "回复 文記：",
+    "value": "幾年車私訊我，睇報告 😄",
+    "ta": {
+      "x": 1195,
+      "y": 571
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 620,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "verify": {
+    "declared": 31,
+    "textareas": 0,
+    "found": true,
+    "replies": [
+      {
+        "name": "明哥揾粤港车",
+        "text": "幾年車私訊我，睇報告"
+      }
+    ],
+    "hit": true
+  },
+  "trace": {
+    "requests": [
+      {
+        "requestId": "80620.54395",
+        "url": "https://channels.weixin.qq.com/micro/interaction/cgi-bin/mmfinderassistant-bin/comment/create_comment?_aid=a92662d8-2b79-413e-87ed-244b48318e0a&_rid=6ae01c1f-c81303af&_pageUrl=https:%2F%2Fchannels.weixin.qq.com%2Fmicro%2Finteraction%2Fcomment",
+        "method": "POST",
+        "postData": "{\"replyCommentId\":\"14996626171661717955\",\"content\":\"幾年車私訊我，睇報告 😄\",\"clientId\":\"0081554a-a42b-4c6c-9c56-c27d5d13c232\",\"rootCommentId\":\"14996626171661717955\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"14996626171661717955\",\"commentNickname\":\"文記\",\"commentContent\":\"明哥幾年車呀\",\"commentHeadurl\":\"https://mmhead.hk.wechat.com/mmhead/ver_1/8ibRnEDCAJz8wXicslqh12B5nbKmhfjN9RIl1g1SWXu6oODia9RP2kZJ3icaic0OOBW5BwBibqUicOzLvWwfw8IGUwM5S5BrxjqevZiaGvibDMNJGlZQ/132\",\"commentCreatetime\":\"1787737151\",\"commentLikeCount\":0,\"lastBuff\":\"\",\"downContinueFlag\":0,\"visibleFlag\":0,\"readFlag\":true,\"displayFlag\":0,\"username\":\"\",\"blacklistFlag\":0,\"likeFlag\":0},\"exportId\":\"export/UzFfBgAAxK-nXEx5Wz_rk8zT4DCafj4zyPpCu7_QU3hkilz6OQ\",\"timestamp\":\"1793072159569\",\"_log_finder_uin\":\"\",\"_log_finder_id\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\",\"rawKeyBuff\":\"\",\"pluginSessionId\":null,\"scene\":7,\"reqScene\":7}",
+        "ts": "2026-10-27T03:35:59.578Z",
+        "status": 201,
+        "mimeType": "application/json",
+        "body": "{\"errCode\":0,\"errMsg\":\"request successful\",\"data\":{\"commentId\":\"15041379467432692457\",\"clientId\":\"0081554a-a42b-4c6c-9c56-c27d5d13c232\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15041379467432692457\",\"commentContent\":\"幾年車私訊我，睇報告 😄\",\"commentCreatetime\":\"1793072160\",\"commentLikeCount\":0,\"replyCommentId\":\"14996626171661717955\",\"replyContent\":\"明哥幾年車呀\",\"visibleFlag\":1,\"displayFlag\":2,\"username\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\"},\"baseResp\":{\"errcode\":0,\"errmsg\":\"\"}}}",
+        "error": null,
+        "errCode": 0,
+        "errMsg": "request successful",
+        "topErrCode": 0,
+        "topErrMsg": "request successful",
+        "baseResp": {
+          "errcode": 0,
+          "errmsg": ""
+        }
+      }
+    ],
+    "toasts": []
+  },
+  "result": {
+    "countUp": true,
+    "threadHit": true,
+    "taZero": true,
+    "declared": 31
+  },
+  "like": {
+    "ok": true
+  }
+}

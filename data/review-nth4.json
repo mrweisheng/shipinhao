@@ -1,0 +1,190 @@
+{
+  "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+  "video": {
+    "title": "香港人，还记得你人生买的第一台车吗？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月16日 07:05"
+  },
+  "declared": 13,
+  "isEmpty": false,
+  "total": 13,
+  "topLevel": 7,
+  "replies": 6,
+  "comments": [
+    {
+      "index": 0,
+      "level": 1,
+      "parentIndex": null,
+      "author": "丹",
+      "isAuthor": false,
+      "time": "2026/10/18 12:24",
+      "content": "明哥衣品 [强] [强] 视频内搭是什么品牌",
+      "likes": 1,
+      "replyCount": 1,
+      "authorReplied": true,
+      "authorReplyCount": 1,
+      "lastAuthorReplyAt": "2026/10/22 12:06"
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "parentIndex": 0,
+      "author": "明哥揾粤港车",
+      "isAuthor": true,
+      "time": "2026/10/22 12:06",
+      "content": "哈哈，隨手搭啫；多謝留意 😄",
+      "likes": null
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "parentIndex": null,
+      "author": "Michael",
+      "isAuthor": false,
+      "time": "2026/10/17 22:30",
+      "content": "正確",
+      "likes": 1,
+      "replyCount": 1,
+      "authorReplied": true,
+      "authorReplyCount": 1,
+      "lastAuthorReplyAt": "2026/10/22 12:06"
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "parentIndex": 2,
+      "author": "明哥揾粤港车",
+      "isAuthor": true,
+      "time": "2026/10/22 12:06",
+      "content": "多謝 🙏",
+      "likes": null
+    },
+    {
+      "index": 4,
+      "level": 1,
+      "parentIndex": null,
+      "author": "常平碧云天103",
+      "isAuthor": false,
+      "time": "2026/10/16 23:08",
+      "content": "人都系甘＇未有时渴望有有时觉得没那么宝贵 [Worship]",
+      "likes": null,
+      "replyCount": 0,
+      "authorReplied": false,
+      "authorReplyCount": 0,
+      "lastAuthorReplyAt": null
+    },
+    {
+      "index": 5,
+      "level": 1,
+      "parentIndex": null,
+      "author": "，",
+      "isAuthor": false,
+      "time": "2026/10/16 14:59",
+      "content": "/:strong /:strong /:strong /:strong /:strong /:strong",
+      "likes": 1,
+      "replyCount": 1,
+      "authorReplied": true,
+      "authorReplyCount": 1,
+      "lastAuthorReplyAt": "2026/10/22 12:06"
+    },
+    {
+      "index": 6,
+      "level": 2,
+      "parentIndex": 5,
+      "author": "明哥揾粤港车",
+      "isAuthor": true,
+      "time": "2026/10/22 12:06",
+      "content": "🙏",
+      "likes": null
+    },
+    {
+      "index": 7,
+      "level": 1,
+      "parentIndex": null,
+      "author": "歐仔(昌)",
+      "isAuthor": false,
+      "time": "2026/10/16 07:55",
+      "content": "底牌全告訴大眾？？？？ 要什麼直說 [合十] [合十] [合十]",
+      "likes": 1,
+      "replyCount": 1,
+      "authorReplied": false,
+      "authorReplyCount": 0,
+      "lastAuthorReplyAt": null
+    },
+    {
+      "index": 8,
+      "level": 2,
+      "parentIndex": 7,
+      "author": "明哥粤港车",
+      "isAuthor": false,
+      "time": "2026/10/16 08:29",
+      "content": "冇底牌，明牌",
+      "likes": null
+    },
+    {
+      "index": 9,
+      "level": 1,
+      "parentIndex": null,
+      "author": "晴朗小飛[鱼]",
+      "isAuthor": false,
+      "time": "2026/10/18 22:07",
+      "content": "吹水M",
+      "likes": null,
+      "replyCount": 0,
+      "authorReplied": false,
+      "authorReplyCount": 0,
+      "lastAuthorReplyAt": null
+    },
+    {
+      "index": 10,
+      "level": 1,
+      "parentIndex": null,
+      "author": "琼",
+      "isAuthor": false,
+      "time": "2026/10/16 22:00",
+      "content": "明哥，怎么找你？",
+      "likes": 1,
+      "replyCount": 2,
+      "authorReplied": true,
+      "authorReplyCount": 1,
+      "lastAuthorReplyAt": "2026/10/17 08:37"
+    },
+    {
+      "index": 11,
+      "level": 2,
+      "parentIndex": 10,
+      "author": "明哥揾粤港车",
+      "isAuthor": true,
+      "time": "2026/10/17 08:37",
+      "content": "早晨，點.我頭像👤搵明哥 [合十]",
+      "likes": null
+    },
+    {
+      "index": 12,
+      "level": 2,
+      "parentIndex": 10,
+      "author": "琼",
+      "isAuthor": false,
+      "time": "2026/10/17 11:17",
+      "content": "回复明哥揾粤港车: 明哥，我是你的老乡，我好想去香港那边打工哦，怎么去啊？你能帮忙吗？",
+      "likes": null
+    }
+  ],
+  "summary": {
+    "declared": 13,
+    "total": 13,
+    "level1": 7,
+    "level2": 6,
+    "authorRepliedThreads": 4,
+    "awaitingThreads": 3,
+    "authorReplies": 4,
+    "complete": true,
+    "gap": 0,
+    "leftExpand": 0,
+    "unreachable": false,
+    "awaitingIndices": [
+      4,
+      7,
+      9
+    ]
+  }
+}

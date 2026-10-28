@@ -1,0 +1,133 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "买车送车模，送油卡的都有，但你见过送提纸的吗？ #两地牌#中港两地牌#两地牌申请条件#香港",
+  "time": "2025年10月11日 07:15"
+ },
+ "declared": 8,
+ "isEmpty": false,
+ "total": 8,
+ "topLevel": 5,
+ "replies": 3,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "瀦仔0123",
+   "isAuthor": false,
+   "time": "2026/09/17 11:40",
+   "content": "明哥，2014奧迪A3～1.4T收幾錢 [失敬失敬]",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/09/18 12:42"
+  },
+  {
+   "index": 1,
+   "level": 2,
+   "parentIndex": 0,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/09/18 12:42",
+   "content": "點點頭像👤搵明哥",
+   "likes": null
+  },
+  {
+   "index": 2,
+   "level": 1,
+   "parentIndex": null,
+   "author": "众德隆汽车音响",
+   "isAuthor": false,
+   "time": "2026/09/14 10:38",
+   "content": "这车况好",
+   "likes": 2,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 3,
+   "level": 1,
+   "parentIndex": null,
+   "author": "陳耀",
+   "isAuthor": false,
+   "time": "2025/10/18 18:19",
+   "content": "你想買幾多",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 4,
+   "level": 1,
+   "parentIndex": null,
+   "author": "maofa008",
+   "isAuthor": false,
+   "time": "2025/10/16 21:39",
+   "content": "幾錢",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 5,
+   "level": 1,
+   "parentIndex": null,
+   "author": "JENNY",
+   "isAuthor": false,
+   "time": "2025/10/11 12:45",
+   "content": "銘哥，我想睇睇呢個Audi有興趣",
+   "likes": 1,
+   "replyCount": 2,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2025/10/13 14:08"
+  },
+  {
+   "index": 6,
+   "level": 2,
+   "parentIndex": 5,
+   "author": "明哥㨂粵港车Abby",
+   "isAuthor": false,
+   "time": "2025/10/16 10:43",
+   "content": "可以",
+   "likes": null
+  },
+  {
+   "index": 7,
+   "level": 2,
+   "parentIndex": 5,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2025/10/13 14:08",
+   "content": "可以呀，随时来，在粉岭这边。 点头像，主页，揾客服。 找我咯。",
+   "likes": null
+  }
+ ],
+ "summary": {
+  "declared": 8,
+  "total": 8,
+  "level1": 5,
+  "level2": 3,
+  "ownComments": 0,
+  "authorRepliedThreads": 2,
+  "awaitingThreads": 3,
+  "authorReplies": 2,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   2,
+   3,
+   4
+  ]
+ }
+}

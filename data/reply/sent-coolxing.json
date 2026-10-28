@@ -1,0 +1,98 @@
+{
+  "name": "cool星",
+  "kw": "多2萬蚊",
+  "text": "哈哈，多謝捧場；頭像🔍搵明哥傾下 😄",
+  "dry": false,
+  "steps": [],
+  "before": {
+    "video": {
+      "title": "在香港，3万8的埃尔法，才是你的最佳 家庭帮手！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "time": "2026年10月21日 07:05"
+    },
+    "declared": 24,
+    "rendered": 24,
+    "textareas": 0
+  },
+  "locate": {
+    "found": 1,
+    "x": 1269,
+    "y": 427,
+    "item": {
+      "name": "cool星",
+      "time": "2026/10/23 19:17",
+      "text": "多2萬蚊。我即刻攞走"
+    },
+    "replies": [],
+    "authorReplied": false
+  },
+  "panel0": {
+    "textareas": 1,
+    "placeholder": "回复 cool星：",
+    "value": "",
+    "ta": {
+      "x": 1018,
+      "y": 514
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap disabled primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap disabled primary",
+      "enabled": false,
+      "x": 783,
+      "y": 564
+    }
+  },
+  "panel1": {
+    "textareas": 1,
+    "placeholder": "回复 cool星：",
+    "value": "哈哈，多謝捧場；頭像🔍搵明哥傾下 😄",
+    "ta": {
+      "x": 1018,
+      "y": 514
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 783,
+      "y": 564
+    }
+  },
+  "verify": {
+    "declared": 25,
+    "textareas": 0,
+    "found": true,
+    "replies": [
+      {
+        "name": "明哥揾粤港车",
+        "text": "哈哈，多謝捧場；頭像🔍搵明哥傾下"
+      }
+    ],
+    "hit": true
+  },
+  "result": {
+    "countUp": true,
+    "threadHit": true,
+    "taZero": true,
+    "declared": 25
+  }
+}

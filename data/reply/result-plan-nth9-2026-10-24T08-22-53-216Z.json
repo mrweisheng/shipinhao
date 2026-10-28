@@ -1,0 +1,82 @@
+{
+  "finishedAt": "2026-10-24T08:24:22.568Z",
+  "mode": "send",
+  "planFile": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\maintain\\plan-nth9.json",
+  "video": {
+    "title": "选择大于努力，你在什么样的地区，决定了你人生的上限！ #两地牌#港澳车牌#香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月03日 07:00"
+  },
+  "before": {
+    "declared": 355,
+    "plannedReplies": 5,
+    "executed": 5
+  },
+  "summary": {
+    "ok": 5,
+    "failed": 0,
+    "policy": 0
+  },
+  "after": {
+    "declared": 360,
+    "awaitingThreads": 193,
+    "complete": true,
+    "file": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\reply\\verify-2026-10-24T08-22-53-216Z.json"
+  },
+  "results": [
+    {
+      "index": 129,
+      "name": "雄",
+      "content": "命里有时终须有，我去香港的话，我的祖公清明无人去拜 [Facepalm] 我父已故香港61年去的，我女儿生的，双非生的，在香港读书！有什么门路 /::D /::D /::D ？兄弟",
+      "kw": "有什么门路",
+      "action": "reply",
+      "text": "有門路嘅；點頭像👤睇簡介，私訊我 📩",
+      "category": "imm",
+      "reason": "明确问「有什么门路」，高意向；肯定式 + 引导，不教流程",
+      "result": "sent"
+    },
+    {
+      "index": 181,
+      "name": "林xx",
+      "content": "炊条好门路阿，李朵地嗲？",
+      "kw": "好门路",
+      "action": "reply",
+      "text": "想知門路就私訊，頭像有我 📩",
+      "category": "imm",
+      "reason": "方言问门路，按高意向处理；不承诺具体结果",
+      "result": "sent"
+    },
+    {
+      "index": 209,
+      "name": "ABC.WBZ",
+      "content": "那我一定要走出这个大山 /::D",
+      "kw": "走出这个大山",
+      "action": "reply",
+      "text": "加油，行動最實際 💪",
+      "category": "praise",
+      "reason": "正向表态，鼓励互动；不带引导",
+      "result": "sent"
+    },
+    {
+      "index": 230,
+      "name": "Fryebvb",
+      "content": "听来听去就是要过去香港，问题费用太大呢 [Facepalm]",
+      "kw": "费用太大",
+      "action": "reply",
+      "text": "費用嘅嘢；點頭像👤私訊我 📩",
+      "category": "imm",
+      "reason": "有过去香港的意向，卡在费用；不报价、只引导",
+      "result": "sent"
+    },
+    {
+      "index": 309,
+      "name": "泳熊",
+      "content": "故事好听 [强] [强] [强]",
+      "kw": "故事好听",
+      "action": "reply",
+      "text": "多謝支持 🙏",
+      "category": "praise",
+      "reason": "安全捧场",
+      "result": "sent"
+    }
+  ]
+}

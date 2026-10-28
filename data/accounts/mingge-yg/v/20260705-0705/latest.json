@@ -1,0 +1,151 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "全香港最高价收车啦！！ #两地牌#港澳车牌#香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车",
+  "time": "2026年07月05日 07:05"
+ },
+ "declared": 10,
+ "isEmpty": false,
+ "total": 10,
+ "topLevel": 5,
+ "replies": 5,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "明",
+   "isAuthor": false,
+   "time": "2026/08/03 15:47",
+   "content": "2.4。中登有嗎",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/08/04 09:59"
+  },
+  {
+   "index": 1,
+   "level": 2,
+   "parentIndex": 0,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/08/04 09:59",
+   "content": "有的，睇車導航：明哥中港牌",
+   "likes": null
+  },
+  {
+   "index": 2,
+   "level": 1,
+   "parentIndex": null,
+   "author": "Chen cy[月亮]",
+   "isAuthor": false,
+   "time": "2026/07/06 12:10",
+   "content": "[动画表情]",
+   "likes": 1,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 3,
+   "level": 1,
+   "parentIndex": null,
+   "author": "何求",
+   "isAuthor": false,
+   "time": "2026/07/06 09:10",
+   "content": "[强] [强] [强]",
+   "likes": 1,
+   "replyCount": 2,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/07/06 10:29"
+  },
+  {
+   "index": 4,
+   "level": 2,
+   "parentIndex": 3,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/07/06 10:29",
+   "content": "[呲牙]",
+   "likes": null
+  },
+  {
+   "index": 5,
+   "level": 2,
+   "parentIndex": 3,
+   "author": "何求",
+   "isAuthor": false,
+   "time": "2026/07/06 11:59",
+   "content": "回复明哥揾粤港车: [握手] [握手] [握手]",
+   "likes": 1
+  },
+  {
+   "index": 6,
+   "level": 1,
+   "parentIndex": null,
+   "author": "牙仔",
+   "isAuthor": false,
+   "time": "2026/07/05 22:46",
+   "content": "棍頭最鐘意",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/07/06 10:29"
+  },
+  {
+   "index": 7,
+   "level": 2,
+   "parentIndex": 6,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/07/06 10:29",
+   "content": "[呲牙]",
+   "likes": null
+  },
+  {
+   "index": 8,
+   "level": 1,
+   "parentIndex": null,
+   "author": "落叶归根",
+   "isAuthor": false,
+   "time": "2026/08/24 22:03",
+   "content": "就呢架我想买来代步几钱？",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/08/25 09:47"
+  },
+  {
+   "index": 9,
+   "level": 2,
+   "parentIndex": 8,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/08/25 09:47",
+   "content": "請查收PM [合十]",
+   "likes": null
+  }
+ ],
+ "summary": {
+  "declared": 10,
+  "total": 10,
+  "level1": 5,
+  "level2": 5,
+  "ownComments": 0,
+  "authorRepliedThreads": 4,
+  "awaitingThreads": 1,
+  "authorReplies": 4,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   2
+  ]
+ }
+}

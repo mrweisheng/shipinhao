@@ -1,0 +1,123 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "再一次向大家推荐这台埃尔法30系顶配！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行",
+  "time": "2026年08月19日 07:00"
+ },
+ "declared": 7,
+ "isEmpty": false,
+ "total": 7,
+ "topLevel": 5,
+ "replies": 2,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "吉祥",
+   "isAuthor": false,
+   "time": "2026/10/01 18:39",
+   "content": "[强] [强] [强] 🌹🌹🌹",
+   "likes": 1,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 1,
+   "level": 1,
+   "parentIndex": null,
+   "author": "成哥",
+   "isAuthor": false,
+   "time": "2026/08/31 13:19",
+   "content": "2.5油電混合車22年或二三年內米色外白色几多钱",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/09/01 09:41"
+  },
+  {
+   "index": 2,
+   "level": 2,
+   "parentIndex": 1,
+   "author": "明哥揀粤港车",
+   "isAuthor": true,
+   "time": "2026/09/01 09:41",
+   "content": "查收 [合十]",
+   "likes": null
+  },
+  {
+   "index": 3,
+   "level": 1,
+   "parentIndex": null,
+   "author": "文記",
+   "isAuthor": false,
+   "time": "2026/08/19 12:55",
+   "content": "貴 [掩面] [掩面]",
+   "likes": 1,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 4,
+   "level": 1,
+   "parentIndex": null,
+   "author": "扎亩百搭",
+   "isAuthor": false,
+   "time": "2026/08/19 09:49",
+   "content": "[动画表情]",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 5,
+   "level": 1,
+   "parentIndex": null,
+   "author": "春天",
+   "isAuthor": false,
+   "time": "2026/08/21 11:20",
+   "content": "幾多米",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/08/21 14:57"
+  },
+  {
+   "index": 6,
+   "level": 2,
+   "parentIndex": 5,
+   "author": "明哥揀粤港车",
+   "isAuthor": true,
+   "time": "2026/08/21 14:57",
+   "content": "查收 [合十]",
+   "likes": null
+  }
+ ],
+ "summary": {
+  "declared": 7,
+  "total": 7,
+  "level1": 5,
+  "level2": 2,
+  "ownComments": 0,
+  "authorRepliedThreads": 2,
+  "awaitingThreads": 3,
+  "authorReplies": 2,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   0,
+   3,
+   4
+  ]
+ }
+}

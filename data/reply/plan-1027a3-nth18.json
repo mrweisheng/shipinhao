@@ -1,0 +1,61 @@
+{
+  "createdAt": "2026-10-27T07:51:49.338Z",
+  "nth": null,
+  "video": {
+    "title": "香港首批特斯拉 X，现在依然状态良好！ #粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行",
+    "time": "2026年08月23日 07:00"
+  },
+  "titleContext": {
+    "business": "unknown",
+    "ports": [],
+    "models": [
+      "特斯拉"
+    ],
+    "price": null
+  },
+  "declared": 6,
+  "source": "D:\\视频号\\data\\maintain-1027-acct3\\nth18.json",
+  "rules": {
+    "facts": "业务事实.md（唯一事实来源：价格/付款/车况/地址/移民/求职）",
+    "judgment": ".opencode/skills/channels-comment-ops/SKILL.md（回不回、红线、动作分类）",
+    "cases": "data/cases/（主参考：先判意图 → 检索 2 好 1 坏 → 仿写）",
+    "style": "模板池.md（仅 GUIDE-* 引导尾巴与兜底候选，按语义改写，不要关键词对号入座）"
+  },
+  "counts": {
+    "topLevel": 4,
+    "authorReplied": 2,
+    "authorOwn": 0,
+    "pending": 2
+  },
+  "items": [
+    {
+      "index": 0,
+      "name": "[emoji]🥢",
+      "time": "2026/09/30 20:23",
+      "likes": null,
+      "content": "連中港牌？係咪免費充電",
+      "kw": "係咪免費充電",
+      "asked": "问这台车连不连中港牌，是不是免费充电",
+      "action": "reply",
+      "text": "中港牌同充電，PM 我講 📩",
+      "answerOk": true,
+      "category": "car_package",
+      "reason": "两个问题都接住；是否含牌属事实未列明细节，不编，引导 PM"
+    },
+    {
+      "index": 1,
+      "name": "逆水行舟",
+      "time": "2026/09/10 01:00",
+      "likes": null,
+      "content": "唔係啫，你又唔好掟出嚟啦",
+      "kw": "你又唔好掟出",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "观点/情绪/表情/负面调侃，无业务意向，按策略跳过"
+    }
+  ],
+  "videoType": "业务类"
+}

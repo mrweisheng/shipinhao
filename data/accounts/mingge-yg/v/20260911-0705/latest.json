@@ -1,0 +1,173 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "究竟是电车还是油车的未来？香港人你会怎么选？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行",
+  "time": "2026年09月11日 07:05"
+ },
+ "declared": 11,
+ "isEmpty": false,
+ "total": 11,
+ "topLevel": 7,
+ "replies": 4,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "$999",
+   "isAuthor": false,
+   "time": "2026/09/15 16:26",
+   "content": "电车等红绿灯起步很慢的",
+   "likes": 1,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 1,
+   "level": 1,
+   "parentIndex": null,
+   "author": "0759奋斗者",
+   "isAuthor": false,
+   "time": "2026/09/14 20:04",
+   "content": "粤西口味 [呲牙]",
+   "likes": 1,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 2,
+   "level": 1,
+   "parentIndex": null,
+   "author": "星星",
+   "isAuthor": false,
+   "time": "2026/09/14 11:13",
+   "content": "6000 CC真係唔係邊個都開得起＇ [Facepalm] [Facepalm] [Facepalm] [Facepalm]",
+   "likes": 1,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 3,
+   "level": 1,
+   "parentIndex": null,
+   "author": "王光辉",
+   "isAuthor": false,
+   "time": "2026/09/11 22:45",
+   "content": "哪一年车？",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/09/12 09:59"
+  },
+  {
+   "index": 4,
+   "level": 2,
+   "parentIndex": 3,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/09/12 09:59",
+   "content": "點.頭像👤搵明哥拿明細",
+   "likes": null
+  },
+  {
+   "index": 5,
+   "level": 1,
+   "parentIndex": null,
+   "author": "ᝰꫛꫀ",
+   "isAuthor": false,
+   "time": "2026/09/11 20:04",
+   "content": "6000cc!",
+   "likes": 1,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 6,
+   "level": 1,
+   "parentIndex": null,
+   "author": "那句话我收不回",
+   "isAuthor": false,
+   "time": "2026/09/11 19:22",
+   "content": "多少？",
+   "likes": 2,
+   "replyCount": 3,
+   "authorReplied": true,
+   "authorReplyCount": 2,
+   "lastAuthorReplyAt": "2026/09/12 12:35"
+  },
+  {
+   "index": 7,
+   "level": 2,
+   "parentIndex": 6,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/09/12 09:59",
+   "content": "十個出頭",
+   "likes": 1
+  },
+  {
+   "index": 8,
+   "level": 2,
+   "parentIndex": 6,
+   "author": "那句话我收不回",
+   "isAuthor": false,
+   "time": "2026/09/12 11:12",
+   "content": "回复明哥揾粤港车: 可不可以貸款的",
+   "likes": 1
+  },
+  {
+   "index": 9,
+   "level": 2,
+   "parentIndex": 6,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/09/12 12:35",
+   "content": "回复那句话我收不回: 可以",
+   "likes": 1
+  },
+  {
+   "index": 10,
+   "level": 1,
+   "parentIndex": null,
+   "author": "十一文燦",
+   "isAuthor": false,
+   "time": "2026/09/11 10:03",
+   "content": "认同明哥讲既，我都唔敢开电车",
+   "likes": 2,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  }
+ ],
+ "summary": {
+  "declared": 11,
+  "total": 11,
+  "level1": 7,
+  "level2": 4,
+  "ownComments": 0,
+  "authorRepliedThreads": 2,
+  "awaitingThreads": 5,
+  "authorReplies": 3,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   0,
+   1,
+   2,
+   5,
+   10
+  ]
+ }
+}

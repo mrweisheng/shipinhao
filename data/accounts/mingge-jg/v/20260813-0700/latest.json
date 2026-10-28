@@ -1,0 +1,171 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "香港人呀，这台二手车凌志，必须要来看呀！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行",
+  "time": "2026年08月13日 07:00"
+ },
+ "declared": 11,
+ "isEmpty": false,
+ "total": 11,
+ "topLevel": 7,
+ "replies": 4,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "黄海文9992",
+   "isAuthor": false,
+   "time": "2026/10/21 14:53",
+   "content": "这是雷克萨斯吧？",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/10/21 15:26"
+  },
+  {
+   "index": 1,
+   "level": 2,
+   "parentIndex": 0,
+   "author": "明哥揀粤港车",
+   "isAuthor": true,
+   "time": "2026/10/21 15:26",
+   "content": "是的",
+   "likes": null
+  },
+  {
+   "index": 2,
+   "level": 1,
+   "parentIndex": null,
+   "author": "黄均",
+   "isAuthor": false,
+   "time": "2026/08/14 16:27",
+   "content": "9万我要",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 3,
+   "level": 1,
+   "parentIndex": null,
+   "author": "Carr Sir",
+   "isAuthor": false,
+   "time": "2026/08/13 15:26",
+   "content": "什麼型號",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 4,
+   "level": 1,
+   "parentIndex": null,
+   "author": "寕",
+   "isAuthor": false,
+   "time": "2026/08/13 11:07",
+   "content": "可以出去上架嗎？",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/08/13 16:55"
+  },
+  {
+   "index": 5,
+   "level": 2,
+   "parentIndex": 4,
+   "author": "明哥揀粤港车",
+   "isAuthor": true,
+   "time": "2026/08/13 16:55",
+   "content": "可以的",
+   "likes": null
+  },
+  {
+   "index": 6,
+   "level": 1,
+   "parentIndex": null,
+   "author": "盈捷物流陈司机",
+   "isAuthor": false,
+   "time": "2026/08/13 09:48",
+   "content": "留给你自己开吧 [呲牙]",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 7,
+   "level": 1,
+   "parentIndex": null,
+   "author": "文記",
+   "isAuthor": false,
+   "time": "2026/08/13 09:37",
+   "content": "我去看一看 [合十] [合十] [合十]",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/08/13 10:36"
+  },
+  {
+   "index": 8,
+   "level": 2,
+   "parentIndex": 7,
+   "author": "明哥揀粤港车",
+   "isAuthor": true,
+   "time": "2026/08/13 10:36",
+   "content": "OK，導航：明哥中港牌",
+   "likes": null
+  },
+  {
+   "index": 9,
+   "level": 1,
+   "parentIndex": null,
+   "author": "涅槃重生金子",
+   "isAuthor": false,
+   "time": "2026/08/13 15:12",
+   "content": "给我送过来。",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/08/13 16:54"
+  },
+  {
+   "index": 10,
+   "level": 2,
+   "parentIndex": 9,
+   "author": "明哥揀粤港车",
+   "isAuthor": true,
+   "time": "2026/08/13 16:54",
+   "content": "安排 [合十]",
+   "likes": null
+  }
+ ],
+ "summary": {
+  "declared": 11,
+  "total": 11,
+  "level1": 7,
+  "level2": 4,
+  "ownComments": 0,
+  "authorRepliedThreads": 4,
+  "awaitingThreads": 3,
+  "authorReplies": 4,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   2,
+   3,
+   6
+  ]
+ }
+}

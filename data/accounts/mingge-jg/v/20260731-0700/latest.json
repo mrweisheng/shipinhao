@@ -1,0 +1,45 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "你为什么喜欢这台埃尔法？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车",
+  "time": "2026年07月31日 07:00"
+ },
+ "declared": 1,
+ "isEmpty": false,
+ "total": 1,
+ "topLevel": 1,
+ "replies": 0,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "敢扶老人",
+   "isAuthor": false,
+   "time": "2026/07/31 09:14",
+   "content": "时代已不同[图片]",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  }
+ ],
+ "summary": {
+  "declared": 1,
+  "total": 1,
+  "level1": 1,
+  "level2": 0,
+  "ownComments": 0,
+  "authorRepliedThreads": 0,
+  "awaitingThreads": 1,
+  "authorReplies": 0,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   0
+  ]
+ }
+}

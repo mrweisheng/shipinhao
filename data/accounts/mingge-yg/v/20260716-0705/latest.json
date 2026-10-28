@@ -1,0 +1,139 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "这台埃尔法，谁不买，就亏大了！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车",
+  "time": "2026年07月16日 07:05"
+ },
+ "declared": 8,
+ "isEmpty": false,
+ "total": 8,
+ "topLevel": 6,
+ "replies": 2,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "提提我（聪）",
+   "isAuthor": false,
+   "time": "2026/08/05 16:11",
+   "content": "出不了广东。好麻烦。",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 1,
+   "level": 1,
+   "parentIndex": null,
+   "author": "梁国雄7596",
+   "isAuthor": false,
+   "time": "2026/07/17 14:27",
+   "content": "15说17",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 2,
+   "level": 1,
+   "parentIndex": null,
+   "author": "刘先生",
+   "isAuthor": false,
+   "time": "2026/07/16 17:02",
+   "content": "30係",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 3,
+   "level": 1,
+   "parentIndex": null,
+   "author": "李贵中港澳皇30",
+   "isAuthor": false,
+   "time": "2026/07/16 12:46",
+   "content": "13万可以吗？",
+   "likes": 1,
+   "replyCount": 2,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/07/16 14:31"
+  },
+  {
+   "index": 4,
+   "level": 2,
+   "parentIndex": 3,
+   "author": "人生如意LS",
+   "isAuthor": false,
+   "time": "2026/07/21 01:58",
+   "content": "20系可以 [Facepalm] [Facepalm] [Facepalm]",
+   "likes": null
+  },
+  {
+   "index": 5,
+   "level": 2,
+   "parentIndex": 3,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/07/16 14:31",
+   "content": "[捂脸] [捂脸] [捂脸]",
+   "likes": null
+  },
+  {
+   "index": 6,
+   "level": 1,
+   "parentIndex": null,
+   "author": "@YONG[emoji]",
+   "isAuthor": false,
+   "time": "2026/08/11 12:48",
+   "content": "带牌吗",
+   "likes": 1,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 7,
+   "level": 1,
+   "parentIndex": null,
+   "author": "[emoji]Joshua",
+   "isAuthor": false,
+   "time": "2026/07/16 18:50",
+   "content": "點解你買隻咁鬼貴嘅？",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  }
+ ],
+ "summary": {
+  "declared": 8,
+  "total": 8,
+  "level1": 6,
+  "level2": 2,
+  "ownComments": 0,
+  "authorRepliedThreads": 1,
+  "awaitingThreads": 5,
+  "authorReplies": 1,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   0,
+   1,
+   2,
+   6,
+   7
+  ]
+ }
+}

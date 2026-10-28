@@ -1,0 +1,117 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "香港首批特斯拉 X，现在依然状态良好！ #粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行",
+  "time": "2026年08月23日 07:00"
+ },
+ "declared": 7,
+ "isEmpty": false,
+ "total": 7,
+ "topLevel": 4,
+ "replies": 3,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "[emoji]🥢",
+   "isAuthor": false,
+   "time": "2026/09/30 20:23",
+   "content": "連中港牌？係咪免費充電",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/10/27 15:56"
+  },
+  {
+   "index": 1,
+   "level": 2,
+   "parentIndex": 0,
+   "author": "明哥揀粤港车",
+   "isAuthor": true,
+   "time": "2026/10/27 15:56",
+   "content": "中港牌同充電，PM 我講 📩",
+   "likes": null
+  },
+  {
+   "index": 2,
+   "level": 1,
+   "parentIndex": null,
+   "author": "逆水行舟",
+   "isAuthor": false,
+   "time": "2026/09/10 01:00",
+   "content": "唔係啫，你又唔好掟出嚟啦",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 3,
+   "level": 1,
+   "parentIndex": null,
+   "author": "逆水行舟",
+   "isAuthor": false,
+   "time": "2026/09/10 01:00",
+   "content": "係唔係連埋香港車牌？",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/09/10 09:28"
+  },
+  {
+   "index": 4,
+   "level": 2,
+   "parentIndex": 3,
+   "author": "明哥揀粤港车",
+   "isAuthor": true,
+   "time": "2026/09/10 09:28",
+   "content": "[合十] 係啊",
+   "likes": null
+  },
+  {
+   "index": 5,
+   "level": 1,
+   "parentIndex": null,
+   "author": "COOK辉哥",
+   "isAuthor": false,
+   "time": "2026/08/23 18:08",
+   "content": "电車嗎。 [呲牙]",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/08/24 09:46"
+  },
+  {
+   "index": 6,
+   "level": 2,
+   "parentIndex": 5,
+   "author": "明哥揀粤港车",
+   "isAuthor": true,
+   "time": "2026/08/24 09:46",
+   "content": "[強]",
+   "likes": null
+  }
+ ],
+ "summary": {
+  "declared": 7,
+  "total": 7,
+  "level1": 4,
+  "level2": 3,
+  "ownComments": 0,
+  "authorRepliedThreads": 3,
+  "awaitingThreads": 1,
+  "authorReplies": 3,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   2
+  ]
+ }
+}

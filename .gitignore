@@ -1,0 +1,16 @@
+# 浏览器运行时数据（Chrome profile：Cookie / 会话 / 缓存 / 插件）——不提交
+profile/
+
+# 浏览器验证截图——不提交
+shots/
+
+# Node 依赖
+node_modules/
+
+# 日志
+*.log
+
+# 浏览器探测与自测中间产物（CDP 探测输出、09-selftest 输出、清扫目录）
+data/probe/
+data/selftest/
+data/_sweep/

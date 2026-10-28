@@ -1,0 +1,166 @@
+{
+  "name": "曾门",
+  "kw": "我要",
+  "text": "想睇就約個時間 😄",
+  "dry": false,
+  "steps": [],
+  "before": {
+    "video": {
+      "title": "香港这台3万8的埃尔法，一定要拿下！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行",
+      "time": "2026年09月27日 07:00"
+    },
+    "declared": 53,
+    "rendered": 53,
+    "textareas": 0
+  },
+  "locate": {
+    "found": 1,
+    "x": 1446,
+    "y": 589,
+    "item": {
+      "name": "曾门",
+      "time": "2026/10/18 22:32",
+      "text": "我要"
+    },
+    "replies": [],
+    "authorReplied": false
+  },
+  "panel0": {
+    "textareas": 1,
+    "placeholder": "回复 曾门：",
+    "value": "",
+    "ta": {
+      "x": 1195,
+      "y": 676
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap disabled primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap disabled primary",
+      "enabled": false,
+      "x": 960,
+      "y": 726,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "panel1": {
+    "textareas": 1,
+    "placeholder": "回复 曾门：",
+    "value": "想睇就約個時間 😄",
+    "ta": {
+      "x": 1195,
+      "y": 676
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 726,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "sendClick": {
+    "textareas": 1,
+    "placeholder": "回复 曾门：",
+    "value": "想睇就約個時間 😄",
+    "ta": {
+      "x": 1195,
+      "y": 570
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 620,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "verify": {
+    "declared": 54,
+    "textareas": 0,
+    "found": true,
+    "replies": [
+      {
+        "name": "明哥揀粤港车",
+        "text": "想睇就約個時間"
+      }
+    ],
+    "hit": true
+  },
+  "trace": {
+    "requests": [
+      {
+        "requestId": "80620.86871",
+        "url": "https://channels.weixin.qq.com/micro/interaction/cgi-bin/mmfinderassistant-bin/comment/create_comment?_aid=a92662d8-2b79-413e-87ed-244b48318e0a&_rid=6ae0587a-478707f9&_pageUrl=https:%2F%2Fchannels.weixin.qq.com%2Fmicro%2Finteraction%2Fcomment",
+        "method": "POST",
+        "postData": "{\"replyCommentId\":\"15035186975394569726\",\"content\":\"想睇就約個時間 😄\",\"clientId\":\"62e016bd-7420-4a2f-be5d-b37734b8ab61\",\"rootCommentId\":\"15035186975394569726\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15035186975394569726\",\"commentNickname\":\"曾门\",\"commentContent\":\"我要\",\"commentHeadurl\":\"https://wx.qlogo.cn/finderhead/et9q9FvjBBrA1P3oGPpfzfsO38x4dY6DxVK2AtdBSObRibHccfxI1Jw/0\",\"commentCreatetime\":\"1792333957\",\"commentLikeCount\":0,\"lastBuff\":\"\",\"downContinueFlag\":0,\"visibleFlag\":0,\"readFlag\":true,\"displayFlag\":8,\"username\":\"v2_060000231003b20faec8cae18a19c1d1cd01ee3cb077d3a526eaed31cb024345b4590c77ea6f@finder\",\"blacklistFlag\":0,\"likeFlag\":0},\"exportId\":\"export/UzFfBgAAxJyhPGFaSiTSk8zT4DCaPpz1simI0PinqtPYk8VsOg\",\"timestamp\":\"1793087610209\",\"_log_finder_uin\":\"\",\"_log_finder_id\":\"v2_060000231003b20faec8c6e68e1ac6d2cc0ce43db077c80c7ad975ea80702c9b7231ef3e0fd2@finder\",\"rawKeyBuff\":\"\",\"pluginSessionId\":null,\"scene\":7,\"reqScene\":7}",
+        "ts": "2026-10-27T07:53:30.211Z",
+        "status": 201,
+        "mimeType": "application/json",
+        "body": "{\"errCode\":0,\"errMsg\":\"request successful\",\"data\":{\"commentId\":\"15041509076708034890\",\"clientId\":\"62e016bd-7420-4a2f-be5d-b37734b8ab61\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15041509076708034890\",\"commentContent\":\"想睇就約個時間 😄\",\"commentCreatetime\":\"1793087610\",\"commentLikeCount\":0,\"replyCommentId\":\"15035186975394569726\",\"replyContent\":\"我要\",\"visibleFlag\":1,\"displayFlag\":2,\"username\":\"v2_060000231003b20faec8c6e68e1ac6d2cc0ce43db077c80c7ad975ea80702c9b7231ef3e0fd2@finder\"},\"baseResp\":{\"errcode\":0,\"errmsg\":\"\"}}}",
+        "error": null,
+        "errCode": 0,
+        "errMsg": "request successful",
+        "topErrCode": 0,
+        "topErrMsg": "request successful",
+        "baseResp": {
+          "errcode": 0,
+          "errmsg": ""
+        }
+      }
+    ],
+    "toasts": []
+  },
+  "result": {
+    "countUp": true,
+    "threadHit": true,
+    "taZero": true,
+    "declared": 54
+  },
+  "like": {
+    "ok": true
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "name": "@@@",
+  "kw": "怎么联系",
+  "text": "點頭像👤有簡介，PM 我 📩",
+  "dry": false,
+  "steps": [],
+  "before": {
+    "video": {
+      "title": "香港这台3万8的埃尔法，一定要拿下！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行",
+      "time": "2026年09月27日 07:00"
+    },
+    "declared": 57,
+    "rendered": 57,
+    "textareas": 0
+  },
+  "locate": {
+    "found": 1,
+    "x": 1446,
+    "y": 589,
+    "item": {
+      "name": "@@@",
+      "time": "2026/09/27 12:01",
+      "text": "怎么联系"
+    },
+    "replies": [],
+    "authorReplied": false
+  },
+  "panel0": {
+    "textareas": 1,
+    "placeholder": "回复 @@@：",
+    "value": "",
+    "ta": {
+      "x": 1195,
+      "y": 677
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap disabled primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap disabled primary",
+      "enabled": false,
+      "x": 960,
+      "y": 726,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "panel1": {
+    "textareas": 1,
+    "placeholder": "回复 @@@：",
+    "value": "點頭像👤有簡介，PM 我 📩",
+    "ta": {
+      "x": 1195,
+      "y": 677
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 726,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "sendClick": {
+    "textareas": 1,
+    "placeholder": "回复 @@@：",
+    "value": "點頭像👤有簡介，PM 我 📩",
+    "ta": {
+      "x": 1195,
+      "y": 571
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 620,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "verify": {
+    "declared": 58,
+    "textareas": 0,
+    "found": true,
+    "replies": [
+      {
+        "name": "明哥揀粤港车",
+        "text": "點頭像👤有簡介，PM 我 📩"
+      }
+    ],
+    "hit": true
+  },
+  "trace": {
+    "requests": [
+      {
+        "requestId": "80620.88016",
+        "url": "https://channels.weixin.qq.com/micro/interaction/cgi-bin/mmfinderassistant-bin/comment/create_comment?_aid=a92662d8-2b79-413e-87ed-244b48318e0a&_rid=6ae058c3-1ec8ba66&_pageUrl=https:%2F%2Fchannels.weixin.qq.com%2Fmicro%2Finteraction%2Fcomment",
+        "method": "POST",
+        "postData": "{\"replyCommentId\":\"15019649199061211922\",\"content\":\"點頭像👤有簡介，PM 我 📩\",\"clientId\":\"15a0db4a-49db-4f33-8db6-c8bd0a6884d6\",\"rootCommentId\":\"15019649199061211922\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15019649199061211922\",\"commentNickname\":\"@@@\",\"commentContent\":\"怎么联系\",\"commentHeadurl\":\"https://wx.qlogo.cn/mmhead/ver_1/l4K5asZBIA605DB3v1z9DCagMrY1hUPEQvibWW65zV7t4dLyzpA7bqL8hKk4uGwDAxSkY4avIoBVdJZJcREK6aBgXEuEc2TSibv4hyTicT2fyYOzsu7icqaGwnQicLGVKb9aP/132\",\"commentCreatetime\":\"1790481710\",\"commentLikeCount\":0,\"lastBuff\":\"\",\"downContinueFlag\":0,\"visibleFlag\":0,\"readFlag\":true,\"displayFlag\":0,\"username\":\"\",\"blacklistFlag\":0,\"likeFlag\":0},\"exportId\":\"export/UzFfBgAAxJyhPGFaSiTSk8zT4DCaPpz1simI0PinqtPYk8VsOg\",\"timestamp\":\"1793087683622\",\"_log_finder_uin\":\"\",\"_log_finder_id\":\"v2_060000231003b20faec8c6e68e1ac6d2cc0ce43db077c80c7ad975ea80702c9b7231ef3e0fd2@finder\",\"rawKeyBuff\":\"\",\"pluginSessionId\":null,\"scene\":7,\"reqScene\":7}",
+        "ts": "2026-10-27T07:54:43.625Z",
+        "status": 201,
+        "mimeType": "application/json",
+        "body": "{\"errCode\":0,\"errMsg\":\"request successful\",\"data\":{\"commentId\":\"15041509694776936805\",\"clientId\":\"15a0db4a-49db-4f33-8db6-c8bd0a6884d6\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15041509694776936805\",\"commentContent\":\"點頭像👤有簡介，PM 我 📩\",\"commentCreatetime\":\"1793087684\",\"commentLikeCount\":0,\"replyCommentId\":\"15019649199061211922\",\"replyContent\":\"怎么联系\",\"visibleFlag\":1,\"displayFlag\":2,\"username\":\"v2_060000231003b20faec8c6e68e1ac6d2cc0ce43db077c80c7ad975ea80702c9b7231ef3e0fd2@finder\"},\"baseResp\":{\"errcode\":0,\"errmsg\":\"\"}}}",
+        "error": null,
+        "errCode": 0,
+        "errMsg": "request successful",
+        "topErrCode": 0,
+        "topErrMsg": "request successful",
+        "baseResp": {
+          "errcode": 0,
+          "errmsg": ""
+        }
+      }
+    ],
+    "toasts": []
+  },
+  "result": {
+    "countUp": true,
+    "threadHit": true,
+    "taZero": true,
+    "declared": 58
+  },
+  "like": {
+    "ok": true
+  }
+}

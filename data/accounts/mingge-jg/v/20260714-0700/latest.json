@@ -1,0 +1,69 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "收车啦，拿下大霸王！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车",
+  "time": "2026年07月14日 07:00"
+ },
+ "declared": 3,
+ "isEmpty": false,
+ "total": 3,
+ "topLevel": 2,
+ "replies": 1,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "黃信富",
+   "isAuthor": false,
+   "time": "2026/07/15 00:16",
+   "content": "2019停產了",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 1,
+   "level": 1,
+   "parentIndex": null,
+   "author": "尼仔亞潘poon",
+   "isAuthor": false,
+   "time": "2026/07/14 10:34",
+   "content": "Pm",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/07/14 16:38"
+  },
+  {
+   "index": 2,
+   "level": 2,
+   "parentIndex": 1,
+   "author": "明哥揀粤港车",
+   "isAuthor": true,
+   "time": "2026/07/14 16:38",
+   "content": "請查收",
+   "likes": null
+  }
+ ],
+ "summary": {
+  "declared": 3,
+  "total": 3,
+  "level1": 2,
+  "level2": 1,
+  "ownComments": 0,
+  "authorRepliedThreads": 1,
+  "awaitingThreads": 1,
+  "authorReplies": 1,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   0
+  ]
+ }
+}

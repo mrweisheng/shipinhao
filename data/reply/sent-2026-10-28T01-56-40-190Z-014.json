@@ -1,0 +1,166 @@
+{
+  "name": "LAW1330",
+  "kw": "加油",
+  "text": "多謝鼓勵，收到 💪",
+  "dry": false,
+  "steps": [],
+  "before": {
+    "video": {
+      "title": "以前这是香港的骄傲，新的时刻，香港会更好！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "time": "2026年10月27日 09:50"
+    },
+    "declared": 27,
+    "rendered": 27,
+    "textareas": 0
+  },
+  "locate": {
+    "found": 1,
+    "x": 1446,
+    "y": 589,
+    "item": {
+      "name": "LAW1330",
+      "time": "2026/10/27 18:18",
+      "text": "加油.明哥."
+    },
+    "replies": [],
+    "authorReplied": false
+  },
+  "panel0": {
+    "textareas": 1,
+    "placeholder": "回复 LAW1330：",
+    "value": "",
+    "ta": {
+      "x": 1195,
+      "y": 677
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap disabled primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap disabled primary",
+      "enabled": false,
+      "x": 960,
+      "y": 726,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "panel1": {
+    "textareas": 1,
+    "placeholder": "回复 LAW1330：",
+    "value": "多謝鼓勵，收到 💪",
+    "ta": {
+      "x": 1195,
+      "y": 677
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 726,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "sendClick": {
+    "textareas": 1,
+    "placeholder": "回复 LAW1330：",
+    "value": "多謝鼓勵，收到 💪",
+    "ta": {
+      "x": 1195,
+      "y": 571
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 620,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "verify": {
+    "declared": 28,
+    "textareas": 0,
+    "found": true,
+    "replies": [
+      {
+        "name": "明哥揾粤港车",
+        "text": "多謝鼓勵，收到 💪"
+      }
+    ],
+    "hit": true
+  },
+  "trace": {
+    "requests": [
+      {
+        "requestId": "80620.141578",
+        "url": "https://channels.weixin.qq.com/micro/interaction/cgi-bin/mmfinderassistant-bin/comment/create_comment?_aid=a92662d8-2b79-413e-87ed-244b48318e0a&_rid=6ae1566f-eec7fe0b&_pageUrl=https:%2F%2Fchannels.weixin.qq.com%2Fmicro%2Finteraction%2Fcomment",
+        "method": "POST",
+        "postData": "{\"replyCommentId\":\"15041582052186591696\",\"content\":\"多謝鼓勵，收到 💪\",\"clientId\":\"5749aac5-5a18-4201-b43c-deee62a0408a\",\"rootCommentId\":\"15041582052186591696\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15041582052186591696\",\"commentNickname\":\"LAW1330\",\"commentContent\":\"加油.明哥.[强]\",\"commentHeadurl\":\"https://wx.qlogo.cn/finderhead/iboWGMOX41a8by7j4nbztFcsntrd9FXOOtRBmWcnmzoaicY17ibfe494QwrhZt6fSmIoxJZyT2tPos/0\",\"commentCreatetime\":\"1793096310\",\"commentLikeCount\":0,\"lastBuff\":\"\",\"downContinueFlag\":0,\"visibleFlag\":0,\"readFlag\":true,\"displayFlag\":8,\"username\":\"v2_060000231003b20faec8c7e1891bc5d7cc03ef35b0778a83ca92f47e8fa852dc7d48ce5e69bf@finder\",\"blacklistFlag\":0,\"likeFlag\":0},\"exportId\":\"export/UzFfBgAAxOqmYGleNDu7k8zT4DCaZ1_kNLZZIgNQ3QkoGyGoSQ\",\"timestamp\":\"1793152623466\",\"_log_finder_uin\":\"\",\"_log_finder_id\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\",\"rawKeyBuff\":\"\",\"pluginSessionId\":null,\"scene\":7,\"reqScene\":7}",
+        "ts": "2026-10-28T01:57:03.473Z",
+        "status": 201,
+        "mimeType": "application/json",
+        "body": "{\"errCode\":0,\"errMsg\":\"request successful\",\"data\":{\"commentId\":\"15042054447964555973\",\"clientId\":\"5749aac5-5a18-4201-b43c-deee62a0408a\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15042054447964555973\",\"commentContent\":\"多謝鼓勵，收到 💪\",\"commentCreatetime\":\"1793152624\",\"commentLikeCount\":0,\"replyCommentId\":\"15041582052186591696\",\"replyContent\":\"加油.明哥.[强]\",\"visibleFlag\":1,\"displayFlag\":2,\"username\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\"},\"baseResp\":{\"errcode\":0,\"errmsg\":\"\"}}}",
+        "error": null,
+        "errCode": 0,
+        "errMsg": "request successful",
+        "topErrCode": 0,
+        "topErrMsg": "request successful",
+        "baseResp": {
+          "errcode": 0,
+          "errmsg": ""
+        }
+      }
+    ],
+    "toasts": []
+  },
+  "result": {
+    "countUp": true,
+    "threadHit": true,
+    "taZero": true,
+    "declared": 28
+  },
+  "like": {
+    "ok": true
+  }
+}

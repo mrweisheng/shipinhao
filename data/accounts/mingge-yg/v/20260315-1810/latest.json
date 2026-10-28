@@ -1,0 +1,129 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "在香港，怎么找到明哥车行！ #中港两地牌#香港二手车#香港买车#香港生活#香港",
+  "time": "2026年03月15日 18:10"
+ },
+ "declared": 7,
+ "isEmpty": false,
+ "total": 7,
+ "topLevel": 6,
+ "replies": 1,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "何偉傑",
+   "isAuthor": false,
+   "time": "2026/09/10 16:52",
+   "content": "明哥，請問有沒有連牌的充電車",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/09/11 09:27"
+  },
+  {
+   "index": 1,
+   "level": 2,
+   "parentIndex": 0,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/09/11 09:27",
+   "content": "請查收PM [合十]",
+   "likes": null
+  },
+  {
+   "index": 2,
+   "level": 1,
+   "parentIndex": null,
+   "author": "幸福滿滿",
+   "isAuthor": false,
+   "time": "2026/08/15 15:09",
+   "content": "[强] [强] [强] [玫瑰] [玫瑰] [玫瑰]",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 3,
+   "level": 1,
+   "parentIndex": null,
+   "author": "貓仙人8756",
+   "isAuthor": false,
+   "time": "2026/06/03 20:36",
+   "content": "每日出入必經，離遠已見明哥靚仔樣 [呲牙]",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 4,
+   "level": 1,
+   "parentIndex": null,
+   "author": "玲玲Kitty[emoji][emoji]",
+   "isAuthor": false,
+   "time": "2026/03/27 20:15",
+   "content": "明哥，我想过来看车去你那里怎么过去？",
+   "likes": 1,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 5,
+   "level": 1,
+   "parentIndex": null,
+   "author": "三哥永利328",
+   "isAuthor": false,
+   "time": "2026/03/21 04:59",
+   "content": "我去了 [呲牙] [強]",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 6,
+   "level": 1,
+   "parentIndex": null,
+   "author": "佛山秀才",
+   "isAuthor": false,
+   "time": "2026/03/18 00:32",
+   "content": "就冲呢张3d地图，明哥就抵赞 [強] [強] [強]",
+   "likes": 1,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  }
+ ],
+ "summary": {
+  "declared": 7,
+  "total": 7,
+  "level1": 6,
+  "level2": 1,
+  "ownComments": 0,
+  "authorRepliedThreads": 1,
+  "awaitingThreads": 5,
+  "authorReplies": 1,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   2,
+   3,
+   4,
+   5,
+   6
+  ]
+ }
+}

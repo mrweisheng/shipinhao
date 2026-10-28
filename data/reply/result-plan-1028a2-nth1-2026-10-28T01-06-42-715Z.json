@@ -1,0 +1,55 @@
+{
+  "finishedAt": "2026-10-28T01:06:57.379Z",
+  "mode": "send",
+  "planFile": "D:\\视频号\\data\\reply\\plan-1028a2-nth1.json",
+  "video": {
+    "title": "全香港最靓的一台30系，来找明哥拿下！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月28日 07:05"
+  },
+  "before": {
+    "declared": 2,
+    "plannedReplies": 2,
+    "executed": 2
+  },
+  "summary": {
+    "ok": 1,
+    "failed": 1,
+    "rejected": 0,
+    "policy": 0
+  },
+  "after": null,
+  "results": [
+    {
+      "index": 0,
+      "name": "请叫我林先生（小号）超凡脱俗",
+      "time": "2026/10/28 07:25",
+      "likes": 1,
+      "content": "生意兴隆 [發] [發] [發]",
+      "kw": "生意兴隆",
+      "asked": "客户祝生意兴隆",
+      "action": "reply",
+      "text": "多謝，祝你生意興隆 🙏",
+      "answerOk": true,
+      "category": "praise",
+      "reason": "新视频仅 2 条评论（≤20 全回）；祝福类回礼",
+      "caseId": "c104",
+      "result": "sent"
+    },
+    {
+      "index": 1,
+      "name": "请叫我林先生（小号）超凡脱俗",
+      "time": "2026/10/28 07:24",
+      "likes": 1,
+      "content": "[强] [强] [强]",
+      "kw": "[强][强]",
+      "asked": "客户发了一排大拇指表情",
+      "action": "reply",
+      "text": "多謝支持 💪",
+      "answerOk": true,
+      "category": "praise",
+      "reason": "≤20 条全回；纯表情也给一句回应，不带引导",
+      "result": "failed",
+      "detail": "① 当前视频：全香港最靓的一台30系，来找明哥拿下！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾｜2026年10月28日 07:05｜共 3 条\n[失败] 目标未唯一命中（命中 0 条）"
+    }
+  ]
+}

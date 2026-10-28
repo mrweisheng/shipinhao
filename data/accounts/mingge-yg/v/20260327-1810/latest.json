@@ -1,0 +1,75 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "马年一定要揸上保时捷，车标带🐎 #中港两地牌#香港二手车#香港买车#香港生活#香港#明哥中港牌",
+  "time": "2026年03月27日 18:10"
+ },
+ "declared": 3,
+ "isEmpty": false,
+ "total": 3,
+ "topLevel": 3,
+ "replies": 0,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "風吹雨打知生活年少無知談理想",
+   "isAuthor": false,
+   "time": "2026/04/06 18:01",
+   "content": "[強] [強] [強]",
+   "likes": 1,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 1,
+   "level": 1,
+   "parentIndex": null,
+   "author": "T1Na8523",
+   "isAuthor": false,
+   "time": "2026/04/02 15:08",
+   "content": "香港波子係唔係波哥仔抄过车那个保时捷就是抄车",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 2,
+   "level": 1,
+   "parentIndex": null,
+   "author": "张Da頭",
+   "isAuthor": false,
+   "time": "2026/03/27 22:14",
+   "content": "明哥劲吖 [强]",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  }
+ ],
+ "summary": {
+  "declared": 3,
+  "total": 3,
+  "level1": 3,
+  "level2": 0,
+  "ownComments": 0,
+  "authorRepliedThreads": 0,
+  "awaitingThreads": 3,
+  "authorReplies": 0,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   0,
+   1,
+   2
+  ]
+ }
+}

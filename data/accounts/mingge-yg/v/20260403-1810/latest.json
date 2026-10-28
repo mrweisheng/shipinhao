@@ -1,0 +1,53 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "保时捷，卡宴，来找明哥拿下！！ #中港两地牌#香港二手车#香港买车#香港生活#香港#明哥中港牌",
+  "time": "2026年04月03日 18:10"
+ },
+ "declared": 2,
+ "isEmpty": false,
+ "total": 2,
+ "topLevel": 1,
+ "replies": 1,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "輝哥david",
+   "isAuthor": false,
+   "time": "2026/04/03 18:34",
+   "content": "岩岩去睇過",
+   "likes": null,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/04/04 11:35"
+  },
+  {
+   "index": 1,
+   "level": 2,
+   "parentIndex": 0,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/04/04 11:35",
+   "content": "導航：明哥中港牌",
+   "likes": null
+  }
+ ],
+ "summary": {
+  "declared": 2,
+  "total": 2,
+  "level1": 1,
+  "level2": 1,
+  "ownComments": 0,
+  "authorRepliedThreads": 1,
+  "awaitingThreads": 0,
+  "authorReplies": 1,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": []
+ }
+}

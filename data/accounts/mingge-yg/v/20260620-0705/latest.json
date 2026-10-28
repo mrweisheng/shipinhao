@@ -1,0 +1,132 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "恭喜香港客人，喜提新车！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车",
+  "time": "2026年06月20日 07:05"
+ },
+ "declared": 8,
+ "isEmpty": false,
+ "total": 8,
+ "topLevel": 5,
+ "replies": 3,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "Eddie Lee",
+   "isAuthor": false,
+   "time": "2026/07/13 22:45",
+   "content": "順順利利，無乜野整 [Facepalm]",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 1,
+   "level": 1,
+   "parentIndex": null,
+   "author": "滨BO",
+   "isAuthor": false,
+   "time": "2026/07/10 02:02",
+   "content": "有香港身份证可以直接上牌吗？",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/07/10 14:11"
+  },
+  {
+   "index": 2,
+   "level": 2,
+   "parentIndex": 1,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/07/10 14:11",
+   "content": "可以",
+   "likes": null
+  },
+  {
+   "index": 3,
+   "level": 1,
+   "parentIndex": null,
+   "author": "时来运转",
+   "isAuthor": false,
+   "time": "2026/07/02 01:43",
+   "content": "08年车主喜提08年威尔法 [Facepalm]",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 4,
+   "level": 1,
+   "parentIndex": null,
+   "author": "陽（30V）",
+   "isAuthor": false,
+   "time": "2026/06/21 21:57",
+   "content": "20系搞到咁隆重 [掩面]",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/06/24 09:36"
+  },
+  {
+   "index": 5,
+   "level": 2,
+   "parentIndex": 4,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/06/24 09:36",
+   "content": "客戶是上帝 [呲牙]",
+   "likes": null
+  },
+  {
+   "index": 6,
+   "level": 1,
+   "parentIndex": null,
+   "author": "瑞珠盈庭",
+   "isAuthor": false,
+   "time": "2026/06/20 10:08",
+   "content": "安排一集 /::D /::D",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/06/24 11:07"
+  },
+  {
+   "index": 7,
+   "level": 2,
+   "parentIndex": 6,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/06/24 11:07",
+   "content": "來來來，安排",
+   "likes": null
+  }
+ ],
+ "summary": {
+  "declared": 8,
+  "total": 8,
+  "level1": 5,
+  "level2": 3,
+  "ownComments": 0,
+  "authorRepliedThreads": 3,
+  "awaitingThreads": 2,
+  "authorReplies": 3,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   0,
+   3
+  ]
+ }
+}

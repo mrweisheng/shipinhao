@@ -1,0 +1,39 @@
+{
+  "finishedAt": "2026-10-27T07:56:18.697Z",
+  "mode": "send",
+  "planFile": "D:\\视频号\\data\\reply\\plan-1027a3-nth16.json",
+  "video": {
+    "title": "今天这一杯敬父母，也敬自己！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行",
+    "time": "2026年09月02日 07:00"
+  },
+  "before": {
+    "declared": 113,
+    "plannedReplies": 1,
+    "executed": 1
+  },
+  "summary": {
+    "ok": 1,
+    "failed": 0,
+    "rejected": 0,
+    "policy": 0
+  },
+  "after": null,
+  "results": [
+    {
+      "index": 29,
+      "name": "劉付東海",
+      "time": "2026/09/05 14:27",
+      "likes": null,
+      "content": "明哥，請人嗎？",
+      "kw": "請人嗎",
+      "asked": "问明哥请不请人",
+      "action": "reply",
+      "text": "有心嘅，私訊傾下 🙏",
+      "answerOk": true,
+      "category": "job",
+      "reason": "求职；无招聘信息，模糊承接",
+      "caseId": "c099",
+      "result": "sent"
+    }
+  ]
+}

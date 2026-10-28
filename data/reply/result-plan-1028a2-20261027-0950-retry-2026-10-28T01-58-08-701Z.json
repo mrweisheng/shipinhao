@@ -1,0 +1,39 @@
+{
+  "finishedAt": "2026-10-28T01:58:18.070Z",
+  "mode": "send",
+  "planFile": "D:\\视频号\\data\\reply\\plan-1028a2-20261027-0950-retry.json",
+  "video": {
+    "title": "以前这是香港的骄傲，新的时刻，香港会更好！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月27日 09:50"
+  },
+  "before": {
+    "declared": 30,
+    "plannedReplies": 1,
+    "executed": 1
+  },
+  "summary": {
+    "ok": 1,
+    "failed": 0,
+    "rejected": 0,
+    "policy": 0
+  },
+  "after": null,
+  "results": [
+    {
+      "index": 0,
+      "name": "曹小玲",
+      "time": "2026/10/28 06:37",
+      "likes": null,
+      "content": "讲得對 /:strong /:strong /:strong [666] [666] [666] [Worship] [Worship] [Worship] /:heart /:heart",
+      "kw": "讲得對",
+      "asked": "客户认同视频讲得对",
+      "action": "reply",
+      "text": "多謝你認同，共勉 😄",
+      "answerOk": true,
+      "category": "praise",
+      "reason": "文字捧场（观点类规则 A）→ 回；纯回应不带引导",
+      "caseId": "c117",
+      "result": "sent"
+    }
+  ]
+}

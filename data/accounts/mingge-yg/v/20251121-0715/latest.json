@@ -1,0 +1,90 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "今天明哥带大家看看我们香港场地的七人车！ #两地牌#香港#香港生活#香港二手车#粤港车#香港买车",
+  "time": "2025年11月21日 07:15"
+ },
+ "declared": 4,
+ "isEmpty": false,
+ "total": 4,
+ "topLevel": 4,
+ "replies": 0,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "Amy0088826可盈",
+   "isAuthor": false,
+   "time": "2026/02/19 11:07",
+   "content": "新年快樂，明哥，名車多多 /:strong /:strong /:strong /:strong /:strong /:strong",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 1,
+   "level": 1,
+   "parentIndex": null,
+   "author": "wingon",
+   "isAuthor": false,
+   "time": "2026/01/30 16:30",
+   "content": "你好， 私聊。謝謝",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 2,
+   "level": 1,
+   "parentIndex": null,
+   "author": "CatherineYeung",
+   "isAuthor": false,
+   "time": "2026/01/09 17:53",
+   "content": "地址",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 3,
+   "level": 1,
+   "parentIndex": null,
+   "author": "香港炫燁",
+   "isAuthor": false,
+   "time": "2026/01/05 17:47",
+   "content": "[愉快] [强]",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  }
+ ],
+ "summary": {
+  "declared": 4,
+  "total": 4,
+  "level1": 4,
+  "level2": 0,
+  "ownComments": 0,
+  "authorRepliedThreads": 0,
+  "awaitingThreads": 4,
+  "authorReplies": 0,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   0,
+   1,
+   2,
+   3
+  ]
+ }
+}

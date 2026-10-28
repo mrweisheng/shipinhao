@@ -1,0 +1,59 @@
+{
+  "createdAt": "2026-10-27T03:26:29.260Z",
+  "nth": null,
+  "video": {
+    "title": "香港人，还记得你人生买的第一台车吗？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月16日 07:05"
+  },
+  "titleContext": {
+    "business": "car",
+    "ports": [],
+    "models": [],
+    "price": null
+  },
+  "declared": 13,
+  "source": "D:\\视频号\\data\\maintain-1027-acct2\\nth5.json",
+  "rules": {
+    "facts": "业务事实.md（唯一事实来源：价格/付款/车况/地址/移民/求职）",
+    "judgment": ".opencode/skills/channels-comment-ops/SKILL.md（回不回、红线、动作分类）",
+    "cases": "data/cases/（主参考：先判意图 → 检索 2 好 1 坏 → 仿写）",
+    "style": "模板池.md（仅 GUIDE-* 引导尾巴与兜底候选，按语义改写，不要关键词对号入座）"
+  },
+  "counts": {
+    "topLevel": 7,
+    "authorReplied": 5,
+    "authorOwn": 0,
+    "pending": 2
+  },
+  "items": [
+    {
+      "index": 4,
+      "name": "常平碧云天103",
+      "time": "2026/10/16 23:08",
+      "likes": null,
+      "content": "人都系甘＇未有时渴望有有时觉得没那么宝贵 [Worship]",
+      "kw": "未有时渴望有",
+      "asked": "客户感慨：没有的时候渴望，有了又觉得没那么宝贵",
+      "action": "reply",
+      "text": "係呀，珍惜擁有 😄",
+      "answerOk": true,
+      "category": "praise",
+      "reason": "13 条评论（≤20 全回）；中性人生感慨，轻回一句，不带引导"
+    },
+    {
+      "index": 9,
+      "name": "晴朗小飛[鱼]",
+      "time": "2026/10/18 22:07",
+      "likes": null,
+      "content": "吹水M",
+      "kw": "吹水M",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "内容讨论 / 情绪表达 / 纯表情 / 负面调侃，不构成业务咨询，按策略跳过"
+    }
+  ],
+  "videoType": "生活类"
+}

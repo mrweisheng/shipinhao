@@ -1,0 +1,108 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "今天带车行同事去香港敬老院做点有意义的事情！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行",
+  "time": "2026年09月25日 07:00"
+ },
+ "declared": 6,
+ "isEmpty": false,
+ "total": 6,
+ "topLevel": 4,
+ "replies": 2,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "Andy",
+   "isAuthor": false,
+   "time": "2026/09/27 21:06",
+   "content": "支持你明哥 [強]",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/09/28 10:08"
+  },
+  {
+   "index": 1,
+   "level": 2,
+   "parentIndex": 0,
+   "author": "明哥揀粤港车",
+   "isAuthor": true,
+   "time": "2026/09/28 10:08",
+   "content": "多謝 [合十]",
+   "likes": null
+  },
+  {
+   "index": 2,
+   "level": 1,
+   "parentIndex": null,
+   "author": "人間清醒",
+   "isAuthor": false,
+   "time": "2026/09/26 01:45",
+   "content": "[呲牙] [呲牙] [呲牙] [強] [強] [強]",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/09/26 12:32"
+  },
+  {
+   "index": 3,
+   "level": 2,
+   "parentIndex": 2,
+   "author": "明哥揀粤港车",
+   "isAuthor": true,
+   "time": "2026/09/26 12:32",
+   "content": "[合十]",
+   "likes": null
+  },
+  {
+   "index": 4,
+   "level": 1,
+   "parentIndex": null,
+   "author": "陳明",
+   "isAuthor": false,
+   "time": "2026/09/25 15:11",
+   "content": "[強] [強] [強] [強] [強] [強] [強] [微笑]",
+   "likes": 1,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 5,
+   "level": 1,
+   "parentIndex": null,
+   "author": "英英",
+   "isAuthor": false,
+   "time": "2026/09/25 13:45",
+   "content": "[强] [强] [强] [强] [强] [强]",
+   "likes": 1,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  }
+ ],
+ "summary": {
+  "declared": 6,
+  "total": 6,
+  "level1": 4,
+  "level2": 2,
+  "ownComments": 0,
+  "authorRepliedThreads": 2,
+  "awaitingThreads": 2,
+  "authorReplies": 2,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   4,
+   5
+  ]
+ }
+}

@@ -1,0 +1,38 @@
+{
+  "finishedAt": "2026-10-24T08:20:14.158Z",
+  "mode": "send",
+  "planFile": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\maintain\\plan-nth5.json",
+  "video": {
+    "title": "兄弟别老想，你要先去干，行动起来，才是改命的机会！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月14日 07:00"
+  },
+  "before": {
+    "declared": 67,
+    "plannedReplies": 1,
+    "executed": 1
+  },
+  "summary": {
+    "ok": 1,
+    "failed": 0,
+    "policy": 0
+  },
+  "after": {
+    "declared": 68,
+    "awaitingThreads": 13,
+    "complete": true,
+    "file": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\reply\\verify-2026-10-24T08-20-04-125Z.json"
+  },
+  "results": [
+    {
+      "index": 14,
+      "name": "陈雲13719560218",
+      "content": "移民",
+      "kw": "移民",
+      "action": "reply",
+      "text": "移民都啱傾；點頭像👤睇簡介，私訊我 📩",
+      "category": "imm",
+      "reason": "单词「移民」= 明确业务意向；肯定式 + 引导，不教流程",
+      "result": "sent"
+    }
+  ]
+}

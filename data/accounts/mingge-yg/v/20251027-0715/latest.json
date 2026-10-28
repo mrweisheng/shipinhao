@@ -1,0 +1,147 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "268万在香港只能买一台黄色的的士？ #两地牌#香港#香港生活#香港二手车#粤港车#香港买车",
+  "time": "2025年10月27日 07:15"
+ },
+ "declared": 9,
+ "isEmpty": false,
+ "total": 9,
+ "topLevel": 6,
+ "replies": 3,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "红尘不染性如空",
+   "isAuthor": false,
+   "time": "2026/01/01 18:45",
+   "content": "268包牌吗？",
+   "likes": 1,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 1,
+   "level": 1,
+   "parentIndex": null,
+   "author": "能孩仔牛牛",
+   "isAuthor": false,
+   "time": "2025/11/17 12:48",
+   "content": "咩野年份噶？",
+   "likes": null,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2025/11/17 18:10"
+  },
+  {
+   "index": 2,
+   "level": 2,
+   "parentIndex": 1,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2025/11/17 18:10",
+   "content": "主頁找我啦",
+   "likes": null
+  },
+  {
+   "index": 3,
+   "level": 1,
+   "parentIndex": null,
+   "author": "叶",
+   "isAuthor": false,
+   "time": "2025/11/16 10:06",
+   "content": "哈哈哈哈哈哈",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 4,
+   "level": 1,
+   "parentIndex": null,
+   "author": "MRCHAN4118",
+   "isAuthor": false,
+   "time": "2025/10/28 00:18",
+   "content": "明哥，首期幾多，月供幾多，等我死心",
+   "likes": null,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2025/10/28 14:42"
+  },
+  {
+   "index": 5,
+   "level": 2,
+   "parentIndex": 4,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2025/10/28 14:42",
+   "content": "进我主 页，揾客 服啦 [呲牙]",
+   "likes": null
+  },
+  {
+   "index": 6,
+   "level": 1,
+   "parentIndex": null,
+   "author": "@曹公子@",
+   "isAuthor": false,
+   "time": "2025/10/27 16:34",
+   "content": "[色] [色] [色]",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 7,
+   "level": 1,
+   "parentIndex": null,
+   "author": "Sammy6836",
+   "isAuthor": false,
+   "time": "2025/10/27 09:40",
+   "content": "一腳由吾見10元，燒銀紙啊 [掩面]",
+   "likes": null,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2025/10/27 19:20"
+  },
+  {
+   "index": 8,
+   "level": 2,
+   "parentIndex": 7,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2025/10/27 19:20",
+   "content": "哈哈，那时的。",
+   "likes": null
+  }
+ ],
+ "summary": {
+  "declared": 9,
+  "total": 9,
+  "level1": 6,
+  "level2": 3,
+  "ownComments": 0,
+  "authorRepliedThreads": 3,
+  "awaitingThreads": 3,
+  "authorReplies": 3,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   0,
+   3,
+   6
+  ]
+ }
+}

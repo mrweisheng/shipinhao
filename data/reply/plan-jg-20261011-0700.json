@@ -1,0 +1,89 @@
+{
+  "createdAt": "2026-10-28T02:39:35.467Z",
+  "nth": null,
+  "video": {
+    "title": "香港你买车，一定要看一下这部20系的埃尔法，3万8拿下！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月11日 07:00"
+  },
+  "titleContext": {
+    "business": "car",
+    "ports": [],
+    "models": [
+      "埃尔法"
+    ],
+    "price": "3萬8"
+  },
+  "declared": 50,
+  "source": "D:\\视频号\\data\\accounts\\mingge-jg\\v\\20261011-0700\\latest.json",
+  "rules": {
+    "facts": "业务事实.md（唯一事实来源：价格/付款/车况/地址/移民/求职）",
+    "judgment": ".opencode/skills/channels-comment-ops/SKILL.md（回不回、红线、动作分类）",
+    "cases": "data/cases/（主参考：先判意图 → 检索 2 好 1 坏 → 仿写）",
+    "style": "模板池.md（仅 GUIDE-* 引导尾巴与兜底候选，按语义改写，不要关键词对号入座）"
+  },
+  "counts": {
+    "topLevel": 24,
+    "authorReplied": 19,
+    "authorOwn": 1,
+    "pending": 4
+  },
+  "items": [
+    {
+      "index": 1,
+      "name": "鹏",
+      "time": "2026/10/24 10:38",
+      "likes": null,
+      "content": "开来",
+      "kw": "开来",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "观点表达 / 争论 / 中性陈述，非业务也非捧场"
+    },
+    {
+      "index": 8,
+      "name": "W",
+      "time": "2026/10/17 16:35",
+      "likes": 1,
+      "content": "计制造年份的别蒙人回收才20000不到",
+      "kw": "计制造年份的",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "观点表达 / 争论 / 中性陈述，非业务也非捧场"
+    },
+    {
+      "index": 38,
+      "name": "KC",
+      "time": "2026/10/11 14:00",
+      "likes": 1,
+      "content": "[强]",
+      "kw": "[强]",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "纯表情 / 符号"
+    },
+    {
+      "index": 39,
+      "name": "COOK辉哥",
+      "time": "2026/10/11 11:44",
+      "likes": null,
+      "content": "燒油都幾大。 [捂脸]",
+      "kw": "燒油都幾大",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "观点表达 / 争论 / 中性陈述，非业务也非捧场"
+    }
+  ],
+  "videoType": "观点类"
+}

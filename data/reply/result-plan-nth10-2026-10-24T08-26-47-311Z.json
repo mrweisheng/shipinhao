@@ -1,0 +1,83 @@
+{
+  "finishedAt": "2026-10-24T08:28:47.687Z",
+  "mode": "send",
+  "planFile": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\maintain\\plan-nth10.json",
+  "video": {
+    "title": "在汕尾，阿姐，我要这，我要那，是常情，这次兄弟，你要站起来！ #两地牌#港澳车牌#香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月01日 07:00"
+  },
+  "before": {
+    "declared": 742,
+    "plannedReplies": 5,
+    "executed": 5
+  },
+  "summary": {
+    "ok": 4,
+    "failed": 0,
+    "policy": 1
+  },
+  "after": {
+    "declared": 746,
+    "awaitingThreads": 293,
+    "complete": true,
+    "file": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\reply\\verify-2026-10-24T08-26-47-311Z.json"
+  },
+  "results": [
+    {
+      "index": 86,
+      "name": "cm丹",
+      "content": "自己的人生靠自己就对了！",
+      "kw": "靠自己就对了",
+      "action": "reply",
+      "text": "講得啱，靠自己最實際 💪",
+      "category": "praise",
+      "reason": "认同视频观点，安全互动",
+      "result": "sent"
+    },
+    {
+      "index": 192,
+      "name": "特种绣花",
+      "content": "准支持你讲话",
+      "kw": "支持你讲话",
+      "action": "reply",
+      "text": "多謝你嘅支持 🙏",
+      "category": "praise",
+      "reason": "正面支持",
+      "result": "sent"
+    },
+    {
+      "index": 221,
+      "name": "惜福",
+      "content": "讲的对 [强] 选择比努力重要 [强] 长穷难够 [捂脸] 每個人是要対自己的人生负責任不可将自己问题推到他人身上令他人苦脑 [捂脸]",
+      "kw": "选择比努力重要",
+      "action": "reply",
+      "text": "多謝認同 🙏",
+      "category": "praise",
+      "reason": "认同视频观点，带文字互动",
+      "result": "sent"
+    },
+    {
+      "index": 426,
+      "name": "新奇士",
+      "content": "找你是真假的",
+      "kw": "找你是真假的",
+      "action": "reply",
+      "text": "真嘅；點頭像👤私訊我 📩",
+      "category": "contact",
+      "reason": "问联系真假，属求联系；给确定性 + 引导",
+      "result": "sent"
+    },
+    {
+      "index": 619,
+      "name": "one-two--",
+      "content": "来去，来去申请，我是本科学历，做尼申请",
+      "kw": "本科学历",
+      "action": "reply",
+      "text": "本科都啱傾；點頭像👤睇簡介，私訊我 📩",
+      "category": "imm_education",
+      "reason": "本科学历 + 问怎么申请，高意向；不教流程、不承诺",
+      "result": "policy-skip",
+      "detail": "记录：C:\\Users\\Administrator\\Desktop\\视频号\\data\\reply\\sent-2026-10-24T08-26-47-311Z-619.json\n✗ 计数未 +1 且面板已关：疑似 423 锁定 / 被拒，按规则不再重试"
+    }
+  ]
+}

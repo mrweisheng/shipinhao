@@ -1,0 +1,166 @@
+{
+  "name": "请叫我林先生（小号）超凡脱俗",
+  "kw": "生意兴隆",
+  "text": "多謝，祝你生意興隆 🙏",
+  "dry": false,
+  "steps": [],
+  "before": {
+    "video": {
+      "title": "全香港最靓的一台30系，来找明哥拿下！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "time": "2026年10月28日 07:05"
+    },
+    "declared": 2,
+    "rendered": 2,
+    "textareas": 0
+  },
+  "locate": {
+    "found": 1,
+    "x": 1457,
+    "y": 484,
+    "item": {
+      "name": "请叫我林先生（小号）超凡脱俗",
+      "time": "2026/10/28 07:25",
+      "text": "生意兴隆"
+    },
+    "replies": [],
+    "authorReplied": false
+  },
+  "panel0": {
+    "textareas": 1,
+    "placeholder": "回复 请叫我林先生（小号）超凡脱俗：",
+    "value": "",
+    "ta": {
+      "x": 1199,
+      "y": 572
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap disabled primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap disabled primary",
+      "enabled": false,
+      "x": 960,
+      "y": 621,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "panel1": {
+    "textareas": 1,
+    "placeholder": "回复 请叫我林先生（小号）超凡脱俗：",
+    "value": "多謝，祝你生意興隆 🙏",
+    "ta": {
+      "x": 1199,
+      "y": 572
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 621,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "sendClick": {
+    "textareas": 1,
+    "placeholder": "回复 请叫我林先生（小号）超凡脱俗：",
+    "value": "多謝，祝你生意興隆 🙏",
+    "ta": {
+      "x": 1199,
+      "y": 514
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 563,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "verify": {
+    "declared": 3,
+    "textareas": 0,
+    "found": true,
+    "replies": [
+      {
+        "name": "明哥揾粤港车",
+        "text": "多謝，祝你生意興隆"
+      }
+    ],
+    "hit": true
+  },
+  "trace": {
+    "requests": [
+      {
+        "requestId": "80620.102026",
+        "url": "https://channels.weixin.qq.com/micro/interaction/cgi-bin/mmfinderassistant-bin/comment/create_comment?_aid=a92662d8-2b79-413e-87ed-244b48318e0a&_rid=6ae14aa4-38c7c482&_pageUrl=https:%2F%2Fchannels.weixin.qq.com%2Fmicro%2Finteraction%2Fcomment",
+        "method": "POST",
+        "postData": "{\"replyCommentId\":\"15041977996964273616\",\"content\":\"多謝，祝你生意興隆 🙏\",\"clientId\":\"e253a2b1-60be-482a-942a-4e7f7ae2edae\",\"rootCommentId\":\"15041977996964273616\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15041977996964273616\",\"commentNickname\":\"请叫我林先生（小号）超凡脱俗\",\"commentContent\":\"生意兴隆[發][發][發]\",\"commentHeadurl\":\"https://wx.qlogo.cn/mmhead/ver_1/TIYuaTuHzibicxHA7bGyD9KDe6Qnovl42HEqsDFMJ10hpFibAPxyBXiaL4fVlLpSHJmwEXQic4KtJXyFD6o24KSzKzkf0NjDhkCmQwrfOoLkibr6jsB1Gwp9ZrPibVvRmNeOQZrYf9yC7u8ibYBrwGqqpFgC1Q/132\",\"commentCreatetime\":\"1793143510\",\"commentLikeCount\":1,\"lastBuff\":\"\",\"downContinueFlag\":0,\"visibleFlag\":0,\"readFlag\":true,\"displayFlag\":0,\"username\":\"\",\"blacklistFlag\":0,\"likeFlag\":0},\"exportId\":\"export/UzFfBgAAxJqmPDMQLim6k8zT4DCa66WkPXFPie-3A1iXFEVV_g\",\"timestamp\":\"1793149604546\",\"_log_finder_uin\":\"\",\"_log_finder_id\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\",\"rawKeyBuff\":\"\",\"pluginSessionId\":null,\"scene\":7,\"reqScene\":7}",
+        "ts": "2026-10-28T01:06:44.550Z",
+        "status": 201,
+        "mimeType": "application/json",
+        "body": "{\"errCode\":0,\"errMsg\":\"request successful\",\"data\":{\"commentId\":\"15042029122625800907\",\"clientId\":\"e253a2b1-60be-482a-942a-4e7f7ae2edae\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15042029122625800907\",\"commentContent\":\"多謝，祝你生意興隆 🙏\",\"commentCreatetime\":\"1793149605\",\"commentLikeCount\":0,\"replyCommentId\":\"15041977996964273616\",\"replyContent\":\"生意兴隆[發][發][發]\",\"visibleFlag\":1,\"displayFlag\":2,\"username\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\"},\"baseResp\":{\"errcode\":0,\"errmsg\":\"\"}}}",
+        "error": null,
+        "errCode": 0,
+        "errMsg": "request successful",
+        "topErrCode": 0,
+        "topErrMsg": "request successful",
+        "baseResp": {
+          "errcode": 0,
+          "errmsg": ""
+        }
+      }
+    ],
+    "toasts": []
+  },
+  "result": {
+    "countUp": true,
+    "threadHit": true,
+    "taZero": true,
+    "declared": 3
+  },
+  "like": {
+    "ok": true
+  }
+}

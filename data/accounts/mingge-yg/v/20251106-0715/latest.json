@@ -1,0 +1,118 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "马上过年了，揸部宾利返乡下，够不够面！ #两地牌#香港#香港生活#香港二手车#粤港车#香港买车",
+  "time": "2025年11月06日 07:15"
+ },
+ "declared": 7,
+ "isEmpty": false,
+ "total": 7,
+ "topLevel": 4,
+ "replies": 3,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "合家平安",
+   "isAuthor": false,
+   "time": "2025/11/06 18:31",
+   "content": "地車甘能貴怎買吖大老",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 1,
+   "level": 1,
+   "parentIndex": null,
+   "author": "海疆卫士",
+   "isAuthor": false,
+   "time": "2025/11/06 12:23",
+   "content": "30个秒",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 2,
+   "level": 1,
+   "parentIndex": null,
+   "author": "-",
+   "isAuthor": false,
+   "time": "2025/11/06 12:14",
+   "content": "美金还是英镑",
+   "likes": null,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2025/11/06 14:27"
+  },
+  {
+   "index": 3,
+   "level": 2,
+   "parentIndex": 2,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2025/11/06 14:27",
+   "content": "rmb哈",
+   "likes": null
+  },
+  {
+   "index": 4,
+   "level": 1,
+   "parentIndex": null,
+   "author": "叁内灰扬",
+   "isAuthor": false,
+   "time": "2025/11/06 12:04",
+   "content": "388888是租车费嘛 [Facepalm]",
+   "likes": null,
+   "replyCount": 2,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2025/11/06 14:28"
+  },
+  {
+   "index": 5,
+   "level": 2,
+   "parentIndex": 4,
+   "author": "啊--斌",
+   "isAuthor": false,
+   "time": "2025/11/06 12:13",
+   "content": "首付",
+   "likes": null
+  },
+  {
+   "index": 6,
+   "level": 2,
+   "parentIndex": 4,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2025/11/06 14:28",
+   "content": "回复啊--斌: 全部的 [呲牙] [呲牙] 直接带走",
+   "likes": null
+  }
+ ],
+ "summary": {
+  "declared": 7,
+  "total": 7,
+  "level1": 4,
+  "level2": 3,
+  "ownComments": 0,
+  "authorRepliedThreads": 2,
+  "awaitingThreads": 2,
+  "authorReplies": 2,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   0,
+   1
+  ]
+ }
+}

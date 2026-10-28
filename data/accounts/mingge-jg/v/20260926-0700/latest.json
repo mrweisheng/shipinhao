@@ -1,0 +1,108 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "香港75岁老人还在坚持做义工，今天听听他的故事！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行",
+  "time": "2026年09月26日 07:00"
+ },
+ "declared": 6,
+ "isEmpty": false,
+ "total": 6,
+ "topLevel": 4,
+ "replies": 2,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "阿細",
+   "isAuthor": false,
+   "time": "2026/09/26 08:04",
+   "content": "明哥正能量加油",
+   "likes": 3,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/09/26 12:32"
+  },
+  {
+   "index": 1,
+   "level": 2,
+   "parentIndex": 0,
+   "author": "明哥揀粤港车",
+   "isAuthor": true,
+   "time": "2026/09/26 12:32",
+   "content": "加油 [合十]",
+   "likes": 1
+  },
+  {
+   "index": 2,
+   "level": 1,
+   "parentIndex": null,
+   "author": "品清平记牛腩",
+   "isAuthor": false,
+   "time": "2026/09/27 16:24",
+   "content": "我明哥生意兴隆",
+   "likes": 2,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/09/28 10:08"
+  },
+  {
+   "index": 3,
+   "level": 2,
+   "parentIndex": 2,
+   "author": "明哥揀粤港车",
+   "isAuthor": true,
+   "time": "2026/09/28 10:08",
+   "content": "多謝 [合十]",
+   "likes": 2
+  },
+  {
+   "index": 4,
+   "level": 1,
+   "parentIndex": null,
+   "author": "quinta",
+   "isAuthor": false,
+   "time": "2026/09/26 23:01",
+   "content": "睇到呢啲覺得呢啲人好煩。自己搞自己。",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 5,
+   "level": 1,
+   "parentIndex": null,
+   "author": "陳明",
+   "isAuthor": false,
+   "time": "2026/09/26 11:51",
+   "content": "[強] [強] [強] [強] [強]",
+   "likes": 1,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  }
+ ],
+ "summary": {
+  "declared": 6,
+  "total": 6,
+  "level1": 4,
+  "level2": 2,
+  "ownComments": 0,
+  "authorRepliedThreads": 2,
+  "awaitingThreads": 2,
+  "authorReplies": 2,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   4,
+   5
+  ]
+ }
+}

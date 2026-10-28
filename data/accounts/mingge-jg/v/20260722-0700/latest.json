@@ -1,0 +1,162 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "兄弟，不要被定义，不要被困住！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车",
+  "time": "2026年07月22日 07:00"
+ },
+ "declared": 10,
+ "isEmpty": false,
+ "total": 10,
+ "topLevel": 7,
+ "replies": 3,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "乘风破浪之拾荒者",
+   "isAuthor": false,
+   "time": "2026/08/18 18:57",
+   "content": "哪个口岸",
+   "likes": 1,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 1,
+   "level": 1,
+   "parentIndex": null,
+   "author": "P彭生lan",
+   "isAuthor": false,
+   "time": "2026/08/09 13:38",
+   "content": "幾錢？",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/08/10 10:55"
+  },
+  {
+   "index": 2,
+   "level": 2,
+   "parentIndex": 1,
+   "author": "明哥揀粤港车",
+   "isAuthor": true,
+   "time": "2026/08/10 10:55",
+   "content": "查收 [合十]",
+   "likes": null
+  },
+  {
+   "index": 3,
+   "level": 1,
+   "parentIndex": null,
+   "author": "Karwai",
+   "isAuthor": false,
+   "time": "2026/08/06 22:55",
+   "content": "咩關口？咩年份？幾多公里？",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/08/07 09:38"
+  },
+  {
+   "index": 4,
+   "level": 2,
+   "parentIndex": 3,
+   "author": "明哥揀粤港车",
+   "isAuthor": true,
+   "time": "2026/08/07 09:38",
+   "content": "PM 查收 [合十]",
+   "likes": null
+  },
+  {
+   "index": 5,
+   "level": 1,
+   "parentIndex": null,
+   "author": "Danny",
+   "isAuthor": false,
+   "time": "2026/08/05 21:57",
+   "content": "乜年份乜關",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 6,
+   "level": 1,
+   "parentIndex": null,
+   "author": "梁国雄",
+   "isAuthor": false,
+   "time": "2026/08/03 23:05",
+   "content": "[强] [强]",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/08/04 09:42"
+  },
+  {
+   "index": 7,
+   "level": 2,
+   "parentIndex": 6,
+   "author": "明哥揀粤港车",
+   "isAuthor": true,
+   "time": "2026/08/04 09:42",
+   "content": "[合十] [合十] [合十]",
+   "likes": null
+  },
+  {
+   "index": 8,
+   "level": 1,
+   "parentIndex": null,
+   "author": "Ronald",
+   "isAuthor": false,
+   "time": "2026/07/26 17:08",
+   "content": "請問是那一個關口的牌",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 9,
+   "level": 1,
+   "parentIndex": null,
+   "author": "mok",
+   "isAuthor": false,
+   "time": "2026/07/24 16:37",
+   "content": "边個關口？",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  }
+ ],
+ "summary": {
+  "declared": 10,
+  "total": 10,
+  "level1": 7,
+  "level2": 3,
+  "ownComments": 0,
+  "authorRepliedThreads": 3,
+  "awaitingThreads": 4,
+  "authorReplies": 3,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   0,
+   5,
+   8,
+   9
+  ]
+ }
+}

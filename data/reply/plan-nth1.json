@@ -1,0 +1,58 @@
+{
+  "createdAt": "2026-10-28T08:15:33.181Z",
+  "nth": 1,
+  "video": {
+    "title": "全香港最靓的一台30系，来找明哥拿下！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月28日 07:05"
+  },
+  "titleContext": {
+    "business": "unknown",
+    "ports": [],
+    "models": [],
+    "price": null
+  },
+  "declared": 5,
+  "source": "D:\\视频号\\data\\reply\\read-nth1-1793175326214.json",
+  "rules": {
+    "facts": "业务事实.md（唯一事实来源：价格/付款/车况/地址/移民/求职）",
+    "judgment": ".opencode/skills/channels-comment-ops/SKILL.md（回不回、红线、动作分类）",
+    "cases": "data/cases/（主参考：先判意图 → 检索 2 好 1 坏 → 仿写）",
+    "style": "模板池.md（仅 GUIDE-* 引导尾巴与兜底候选，按语义改写，不要关键词对号入座）"
+  },
+  "counts": {
+    "topLevel": 3,
+    "authorReplied": 1,
+    "authorOwn": 0,
+    "pending": 2
+  },
+  "items": [
+    {
+      "index": 0,
+      "name": "elvis3796",
+      "time": "2026/10/28 10:46",
+      "likes": null,
+      "content": "幾錢？",
+      "kw": "幾錢",
+      "asked": "客戶問這台30系賣幾錢",
+      "action": "reply",
+      "text": "價錢公道有得傾；點頭像👤睇簡介 📩",
+      "answerOk": true,
+      "category": "car_price",
+      "reason": "问价且标题未标价：不编数字，报「價錢公道有得傾」+ 一条头像简介引导"
+    },
+    {
+      "index": 4,
+      "name": "请叫我林先生（小号）超凡脱俗",
+      "time": "2026/10/28 07:24",
+      "likes": 1,
+      "content": "[强] [强] [强]",
+      "kw": "[强][强]",
+      "asked": "客戶發純表情捧場",
+      "action": "skip",
+      "text": "",
+      "answerOk": true,
+      "category": "emoji",
+      "reason": "纯表情，无文字意图，策略跳过"
+    }
+  ]
+}

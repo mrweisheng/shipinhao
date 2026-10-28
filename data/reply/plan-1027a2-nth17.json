@@ -1,0 +1,47 @@
+{
+  "createdAt": "2026-10-27T03:31:45.675Z",
+  "nth": null,
+  "video": {
+    "title": "你的环境地位决定你的价值，宾利GT！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行",
+    "time": "2026年09月21日 07:00"
+  },
+  "titleContext": {
+    "business": "car",
+    "ports": [],
+    "models": [
+      "宾利"
+    ],
+    "price": null
+  },
+  "declared": 1,
+  "source": "D:\\视频号\\data\\maintain-1027-acct2\\nth17.json",
+  "rules": {
+    "facts": "业务事实.md（唯一事实来源：价格/付款/车况/地址/移民/求职）",
+    "judgment": ".opencode/skills/channels-comment-ops/SKILL.md（回不回、红线、动作分类）",
+    "cases": "data/cases/（主参考：先判意图 → 检索 2 好 1 坏 → 仿写）",
+    "style": "模板池.md（仅 GUIDE-* 引导尾巴与兜底候选，按语义改写，不要关键词对号入座）"
+  },
+  "counts": {
+    "topLevel": 1,
+    "authorReplied": 0,
+    "authorOwn": 0,
+    "pending": 1
+  },
+  "items": [
+    {
+      "index": 0,
+      "name": "万江水产有限公司",
+      "time": "2026/09/21 19:11",
+      "likes": 1,
+      "content": "这个多少钱明哥",
+      "kw": "这个多少钱明",
+      "asked": "客户问这台宾利GT多少钱",
+      "action": "reply",
+      "text": "呢款價錢，私訊我傾 📩",
+      "answerOk": true,
+      "category": "car_price",
+      "reason": "明确问价；标题未标价，按事实不编数字，引私域"
+    }
+  ],
+  "videoType": "业务类"
+}

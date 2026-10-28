@@ -1,0 +1,87 @@
+{
+  "finishedAt": "2026-10-28T02:34:36.772Z",
+  "mode": "send",
+  "planFile": "D:\\视频号\\data\\reply\\plan-jg-20261017.json",
+  "video": {
+    "title": "香港人会有自己的骄傲和优越感，是因为有资本！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月17日 07:00"
+  },
+  "before": {
+    "declared": 450,
+    "plannedReplies": 4,
+    "executed": 4
+  },
+  "summary": {
+    "ok": 4,
+    "failed": 0,
+    "rejected": 0,
+    "policy": 0
+  },
+  "after": null,
+  "results": [
+    {
+      "index": 70,
+      "name": "潮州飛鸿",
+      "time": "2026/10/27 13:51",
+      "likes": 1,
+      "content": "方便叫你同事聯絡一下我 [抱拳]",
+      "kw": "方便叫你同事",
+      "asked": "客户让明哥的同事联系他",
+      "action": "reply",
+      "text": "好呀，同事會聯絡你；私訊我 📩",
+      "answerOk": true,
+      "category": "contact",
+      "reason": "求联系 → 承接 + 引导；不在公开区要电话",
+      "caseId": "c132",
+      "result": "sent"
+    },
+    {
+      "index": 75,
+      "name": "娟[玫瑰]",
+      "time": "2026/10/27 07:09",
+      "likes": null,
+      "content": "講得啱，句句都實話為你點讚 /:strong /:strong",
+      "kw": "句句都實話為",
+      "asked": "客户说讲得对、句句实话，为明哥点赞",
+      "action": "reply",
+      "text": "多謝你點讚，句句都係真心話 🙏",
+      "answerOk": true,
+      "category": "praise",
+      "reason": "正向文字 → 回",
+      "caseId": "c133",
+      "result": "sent"
+    },
+    {
+      "index": 76,
+      "name": "laohuaqiao",
+      "time": "2026/10/27 04:18",
+      "likes": null,
+      "content": "唱好香港 [強] 獅子山精神[动画表情]",
+      "kw": "唱好香港獅子",
+      "asked": "客户说唱好香港、狮子山精神",
+      "action": "reply",
+      "text": "一齊唱好香港，獅子山精神 💪",
+      "answerOk": true,
+      "category": "praise",
+      "reason": "正向文字 → 回",
+      "caseId": "c134",
+      "result": "sent"
+    },
+    {
+      "index": 90,
+      "name": "偉SIR",
+      "time": "2026/10/23 13:00",
+      "likes": null,
+      "content": "為自己是香港人永遠驕傲",
+      "kw": "為自己是香港",
+      "asked": "客户说为自己是香港人永远骄傲",
+      "action": "reply",
+      "text": "多謝，香港人值得驕傲 🙏",
+      "answerOk": true,
+      "category": "praise",
+      "reason": "正向文字（认同主题）→ 回",
+      "caseId": "c135",
+      "result": "sent"
+    }
+  ]
+}

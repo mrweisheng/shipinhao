@@ -1,0 +1,166 @@
+{
+  "name": "偉SIR",
+  "kw": "為自己是香港",
+  "text": "多謝，香港人值得驕傲 🙏",
+  "dry": false,
+  "steps": [],
+  "before": {
+    "video": {
+      "title": "香港人会有自己的骄傲和优越感，是因为有资本！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "time": "2026年10月17日 07:00"
+    },
+    "declared": 453,
+    "rendered": 453,
+    "textareas": 0
+  },
+  "locate": {
+    "found": 1,
+    "x": 1446,
+    "y": 589,
+    "item": {
+      "name": "偉SIR",
+      "time": "2026/10/23 13:00",
+      "text": "為自己是香港人永遠驕傲"
+    },
+    "replies": [],
+    "authorReplied": false
+  },
+  "panel0": {
+    "textareas": 1,
+    "placeholder": "回复 偉SIR：",
+    "value": "",
+    "ta": {
+      "x": 1195,
+      "y": 677
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap disabled primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap disabled primary",
+      "enabled": false,
+      "x": 960,
+      "y": 726,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "panel1": {
+    "textareas": 1,
+    "placeholder": "回复 偉SIR：",
+    "value": "多謝，香港人值得驕傲 🙏",
+    "ta": {
+      "x": 1195,
+      "y": 677
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 726,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "sendClick": {
+    "textareas": 1,
+    "placeholder": "回复 偉SIR：",
+    "value": "多謝，香港人值得驕傲 🙏",
+    "ta": {
+      "x": 1195,
+      "y": 571
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 620,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "verify": {
+    "declared": 454,
+    "textareas": 0,
+    "found": true,
+    "replies": [
+      {
+        "name": "明哥揀粤港车",
+        "text": "多謝，香港人值得驕傲"
+      }
+    ],
+    "hit": true
+  },
+  "trace": {
+    "requests": [
+      {
+        "requestId": "80620.174086",
+        "url": "https://channels.weixin.qq.com/micro/interaction/cgi-bin/mmfinderassistant-bin/comment/create_comment?_aid=a92662d8-2b79-413e-87ed-244b48318e0a&_rid=6ae15f37-b2bea212&_pageUrl=https:%2F%2Fchannels.weixin.qq.com%2Fmicro%2Finteraction%2Fcomment",
+        "method": "POST",
+        "postData": "{\"replyCommentId\":\"15038522699117564385\",\"content\":\"多謝，香港人值得驕傲 🙏\",\"clientId\":\"6947909b-f5ac-410a-8fd5-939273990f39\",\"rootCommentId\":\"15038522699117564385\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15038522699117564385\",\"commentNickname\":\"偉SIR\",\"commentContent\":\"為自己是香港人永遠驕傲\",\"commentHeadurl\":\"https://mmhead.hk.wechat.com/mmhead/ver_1/WrDAU0FG12BF4ibIIOYbvsAHXCEJicHPB3yGpziatiaQcYcbdRvxQrhv5VcnYmicpaYUTZSCLYXq3c5KS8X845oUdZQYuOZBYtzkVia3FyQ8tbSBc/132\",\"commentCreatetime\":\"1792731606\",\"commentLikeCount\":0,\"lastBuff\":\"\",\"downContinueFlag\":0,\"visibleFlag\":0,\"readFlag\":true,\"displayFlag\":0,\"username\":\"\",\"blacklistFlag\":0,\"likeFlag\":0},\"exportId\":\"export/UzFfBgAAxLmhWHJydQS0k8zT4DCa9vJAuS9kvrpuTG0gZ-uQ6Q\",\"timestamp\":\"1793154871285\",\"_log_finder_uin\":\"\",\"_log_finder_id\":\"v2_060000231003b20faec8c6e68e1ac6d2cc0ce43db077c80c7ad975ea80702c9b7231ef3e0fd2@finder\",\"rawKeyBuff\":\"\",\"pluginSessionId\":null,\"scene\":7,\"reqScene\":7}",
+        "ts": "2026-10-28T02:34:31.290Z",
+        "status": 201,
+        "mimeType": "application/json",
+        "body": "{\"errCode\":0,\"errMsg\":\"request successful\",\"data\":{\"commentId\":\"15042073302854666567\",\"clientId\":\"6947909b-f5ac-410a-8fd5-939273990f39\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15042073302854666567\",\"commentContent\":\"多謝，香港人值得驕傲 🙏\",\"commentCreatetime\":\"1793154871\",\"commentLikeCount\":0,\"replyCommentId\":\"15038522699117564385\",\"replyContent\":\"為自己是香港人永遠驕傲\",\"visibleFlag\":1,\"displayFlag\":2,\"username\":\"v2_060000231003b20faec8c6e68e1ac6d2cc0ce43db077c80c7ad975ea80702c9b7231ef3e0fd2@finder\"},\"baseResp\":{\"errcode\":0,\"errmsg\":\"\"}}}",
+        "error": null,
+        "errCode": 0,
+        "errMsg": "request successful",
+        "topErrCode": 0,
+        "topErrMsg": "request successful",
+        "baseResp": {
+          "errcode": 0,
+          "errmsg": ""
+        }
+      }
+    ],
+    "toasts": []
+  },
+  "result": {
+    "countUp": true,
+    "threadHit": true,
+    "taZero": true,
+    "declared": 454
+  },
+  "like": {
+    "ok": true
+  }
+}

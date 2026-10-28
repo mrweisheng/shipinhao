@@ -1,0 +1,167 @@
+{
+  "name": "小城4866",
+  "kw": "认同",
+  "text": "多謝你認同 😄",
+  "dry": false,
+  "steps": [],
+  "before": {
+    "video": {
+      "title": "信任很重要，但你要懂得如何去判断，哪个值得你信任的人！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "time": "2026年10月01日 07:05"
+    },
+    "declared": 50,
+    "rendered": 50,
+    "textareas": 0
+  },
+  "locate": {
+    "found": 1,
+    "x": 1457,
+    "y": 578,
+    "item": {
+      "name": "小城4866",
+      "time": "2026/10/11 08:01",
+      "text": "认同"
+    },
+    "replies": [],
+    "authorReplied": false
+  },
+  "panel0": {
+    "textareas": 1,
+    "placeholder": "回复 小城4866：",
+    "value": "",
+    "ta": {
+      "x": 1195,
+      "y": 689
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap disabled primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap disabled primary",
+      "enabled": false,
+      "x": 960,
+      "y": 738,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "panel1": {
+    "textareas": 1,
+    "placeholder": "回复 小城4866：",
+    "value": "多謝你認同 😄",
+    "ta": {
+      "x": 1195,
+      "y": 689
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 738,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "sendClick": {
+    "textareas": 1,
+    "placeholder": "回复 小城4866：",
+    "value": "多謝你認同 😄",
+    "ta": {
+      "x": 1195,
+      "y": 571
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 620,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "verify": {
+    "declared": 51,
+    "textareas": 0,
+    "found": true,
+    "replies": [
+      {
+        "name": "明哥揾粤港车",
+        "text": "多謝你認同"
+      }
+    ],
+    "hit": true
+  },
+  "trace": {
+    "requests": [
+      {
+        "requestId": "80620.143129",
+        "url": "https://channels.weixin.qq.com/micro/interaction/cgi-bin/mmfinderassistant-bin/comment/create_comment?_aid=a92662d8-2b79-413e-87ed-244b48318e0a&_rid=6ae15955-1455e275&_pageUrl=https:%2F%2Fchannels.weixin.qq.com%2Fmicro%2Finteraction%2Fcomment",
+        "method": "POST",
+        "postData": "{\"replyCommentId\":\"15029675178075692139\",\"content\":\"多謝你認同 😄\",\"clientId\":\"ae42fb35-4341-453b-a2f5-986251dfb973\",\"rootCommentId\":\"15029675178075692139\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15029675178075692139\",\"commentNickname\":\"小城4866\",\"commentContent\":\"认同\",\"commentHeadurl\":\"https://wx.qlogo.cn/finderhead/JibTZoJNgUtqqzQIDSydXDeNokdIylvEj13uZhsJXCtJ255QgAtCgJCZ7ptdKg4HQsRurqFs7cc4/0\",\"commentCreatetime\":\"1791676900\",\"commentLikeCount\":1,\"lastBuff\":\"\",\"downContinueFlag\":0,\"visibleFlag\":0,\"readFlag\":true,\"displayFlag\":9,\"username\":\"v2_060000231003b20faec8c6e18d1bc1d2cb05e536b077c82aa296100e762be54b4a8c3ef79c5b@finder\",\"blacklistFlag\":0,\"likeFlag\":1},\"exportId\":\"export/UzFfBgAAxJ-mbA9hakjYk8zT4DCah3Ovh2g1Mr6nPLmTSj9RlQ\",\"timestamp\":\"1793153365394\",\"_log_finder_uin\":\"\",\"_log_finder_id\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\",\"rawKeyBuff\":\"\",\"pluginSessionId\":null,\"scene\":7,\"reqScene\":7}",
+        "ts": "2026-10-28T02:09:25.399Z",
+        "status": 201,
+        "mimeType": "application/json",
+        "body": "{\"errCode\":0,\"errMsg\":\"request successful\",\"data\":{\"commentId\":\"15042060671334484714\",\"clientId\":\"ae42fb35-4341-453b-a2f5-986251dfb973\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15042060671334484714\",\"commentContent\":\"多謝你認同 😄\",\"commentCreatetime\":\"1793153366\",\"commentLikeCount\":0,\"replyCommentId\":\"15029675178075692139\",\"replyContent\":\"认同\",\"visibleFlag\":1,\"displayFlag\":2,\"username\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\"},\"baseResp\":{\"errcode\":0,\"errmsg\":\"\"}}}",
+        "error": null,
+        "errCode": 0,
+        "errMsg": "request successful",
+        "topErrCode": 0,
+        "topErrMsg": "request successful",
+        "baseResp": {
+          "errcode": 0,
+          "errmsg": ""
+        }
+      }
+    ],
+    "toasts": []
+  },
+  "result": {
+    "countUp": true,
+    "threadHit": true,
+    "taZero": true,
+    "declared": 51
+  },
+  "like": {
+    "ok": true,
+    "already": true
+  }
+}

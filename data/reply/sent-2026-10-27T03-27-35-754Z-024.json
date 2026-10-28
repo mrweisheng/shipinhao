@@ -1,0 +1,176 @@
+{
+  "name": "YUen仔2565",
+  "kw": "如果真係有這",
+  "text": "有問題私訊我，幫你睇清楚 📩",
+  "dry": false,
+  "steps": [],
+  "before": {
+    "video": {
+      "title": "如果你的客人要退车！你会怎么做？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "time": "2026年10月14日 07:05"
+    },
+    "declared": 67,
+    "rendered": 67,
+    "textareas": 0
+  },
+  "locate": {
+    "found": 1,
+    "x": 1457,
+    "y": 538,
+    "item": {
+      "name": "YUen仔2565",
+      "time": "2026/10/14 19:46",
+      "text": "明哥：如果真係有這樣問題的話，你點解決？，講真果句"
+    },
+    "replies": [
+      {
+        "name": "凌峰",
+        "text": "这应该是真实发生的。",
+        "isAuthor": false
+      }
+    ],
+    "authorReplied": false
+  },
+  "panel0": {
+    "textareas": 1,
+    "placeholder": "回复 YUen仔2565：",
+    "value": "",
+    "ta": {
+      "x": 1195,
+      "y": 650
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap disabled primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap disabled primary",
+      "enabled": false,
+      "x": 960,
+      "y": 699,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "panel1": {
+    "textareas": 1,
+    "placeholder": "回复 YUen仔2565：",
+    "value": "有問題私訊我，幫你睇清楚 📩",
+    "ta": {
+      "x": 1195,
+      "y": 650
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 699,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "sendClick": {
+    "textareas": 1,
+    "placeholder": "回复 YUen仔2565：",
+    "value": "有問題私訊我，幫你睇清楚 📩",
+    "ta": {
+      "x": 1195,
+      "y": 571
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 620,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "verify": {
+    "declared": 68,
+    "textareas": 0,
+    "found": true,
+    "replies": [
+      {
+        "name": "明哥揾粤港车",
+        "text": "有問題私訊我，幫你睇清楚 📩"
+      },
+      {
+        "name": "凌峰",
+        "text": "这应该是真实发生的。"
+      }
+    ],
+    "hit": true
+  },
+  "trace": {
+    "requests": [
+      {
+        "requestId": "80620.44461",
+        "url": "https://channels.weixin.qq.com/micro/interaction/cgi-bin/mmfinderassistant-bin/comment/create_comment?_aid=a92662d8-2b79-413e-87ed-244b48318e0a&_rid=6ae01a29-39038372&_pageUrl=https:%2F%2Fchannels.weixin.qq.com%2Fmicro%2Finteraction%2Fcomment",
+        "method": "POST",
+        "postData": "{\"replyCommentId\":\"15032204446049112503\",\"content\":\"有問題私訊我，幫你睇清楚 📩\",\"clientId\":\"56a37506-0c1c-4e5d-88a8-08710e6678ac\",\"rootCommentId\":\"15032204446049112503\",\"comment\":{\"levelTwoComment\":[{\"levelTwoComment\":[],\"commentId\":\"15033378987438573634\",\"commentNickname\":\"凌峰\",\"commentContent\":\"这应该是真实发生的。\",\"commentHeadurl\":\"https://wx.qlogo.cn/mmhead/ver_1/msd11iawe3HlxDvODopkiauty1Fs0R3qm1kbDSyFVIVeny2dtMWGicFibTSJnoNRtK2ic7VMnXc7iaZhVDcNZDkbL7L47aLaWgBQYHk21PQaib0xbHKxRibmwSM4tly5DicCvu6NC/132\",\"commentCreatetime\":\"1792118428\",\"commentLikeCount\":0,\"replyCommentId\":\"15032204446049112503\",\"replyContent\":\"明哥：如果真係有這樣問題的話，你點解決？，講真果句\",\"lastBuff\":\"\",\"downContinueFlag\":0,\"visibleFlag\":0,\"readFlag\":true,\"displayFlag\":0,\"username\":\"\",\"blacklistFlag\":0,\"likeFlag\":0}],\"commentId\":\"15032204446049112503\",\"commentNickname\":\"YUen仔2565\",\"commentContent\":\"明哥：如果真係有這樣問題的話，你點解決？，講真果句\",\"commentHeadurl\":\"https://mmhead.hk.wechat.com/finderhead/Fu1VwcmCRMMNr5LHJia7Z0gM4ibgGicwrONW3zY7PySteQQp3RricLPxibM7Cuq6X3BZuEmYeMwE0v3g/0\",\"commentCreatetime\":\"1791978412\",\"commentLikeCount\":1,\"lastBuff\":\"AATVfYAEAAABAAAAAAB5nEVaej+GncsuJRrgaiAAAADzrBEppsryM1QLZ+dDmBLm9XwcA0exd+eEMM5e+lsrRzxDVthyjBnzHAyiJplgVEZyS2H9TXZM9DDxMEMQihZh04w8IxKrw4Sbq/93iUlVRxsJ\",\"downContinueFlag\":0,\"visibleFlag\":0,\"readFlag\":true,\"displayFlag\":8,\"username\":\"v2_060000231003b20faec8c4ea8e11c6d7c805ec31b07718243232f0cba3484fdf4e5c2e4b1639@finder\",\"blacklistFlag\":0,\"likeFlag\":0},\"exportId\":\"export/UzFfBgAAxIGmdClSXSqok8zT4DCa5g2-uFLkwiMXER-E9nIhXQ\",\"timestamp\":\"1793071657584\",\"_log_finder_uin\":\"\",\"_log_finder_id\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\",\"rawKeyBuff\":\"\",\"pluginSessionId\":null,\"scene\":7,\"reqScene\":7}",
+        "ts": "2026-10-27T03:27:37.586Z",
+        "status": 201,
+        "mimeType": "application/json",
+        "body": "{\"errCode\":0,\"errMsg\":\"request successful\",\"data\":{\"commentId\":\"15041375256243342016\",\"clientId\":\"56a37506-0c1c-4e5d-88a8-08710e6678ac\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15041375256243342016\",\"commentContent\":\"有問題私訊我，幫你睇清楚 📩\",\"commentCreatetime\":\"1793071658\",\"commentLikeCount\":0,\"replyCommentId\":\"15032204446049112503\",\"replyContent\":\"明哥：如果真係有這樣問題的話，你點解決？，講真果句\",\"visibleFlag\":1,\"displayFlag\":2,\"username\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\"},\"baseResp\":{\"errcode\":0,\"errmsg\":\"\"}}}",
+        "error": null,
+        "errCode": 0,
+        "errMsg": "request successful",
+        "topErrCode": 0,
+        "topErrMsg": "request successful",
+        "baseResp": {
+          "errcode": 0,
+          "errmsg": ""
+        }
+      }
+    ],
+    "toasts": []
+  },
+  "result": {
+    "countUp": true,
+    "threadHit": true,
+    "taZero": true,
+    "declared": 68
+  },
+  "like": {
+    "ok": true
+  }
+}

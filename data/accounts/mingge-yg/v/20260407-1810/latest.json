@@ -1,0 +1,118 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "雷克萨斯超级跑车LC500！！！！ #中港两地牌#香港二手车#香港买车#香港生活#香港#明哥中港牌",
+  "time": "2026年04月07日 18:10"
+ },
+ "declared": 7,
+ "isEmpty": false,
+ "total": 7,
+ "topLevel": 4,
+ "replies": 3,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "正",
+   "isAuthor": false,
+   "time": "2026/04/07 19:04",
+   "content": "不是所有有香港身份证的就是香港人 [Facepalm]",
+   "likes": 6,
+   "replyCount": 2,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/04/09 09:48"
+  },
+  {
+   "index": 1,
+   "level": 2,
+   "parentIndex": 0,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/04/09 09:48",
+   "content": "怎么说？",
+   "likes": null
+  },
+  {
+   "index": 2,
+   "level": 2,
+   "parentIndex": 0,
+   "author": "Dave",
+   "isAuthor": false,
+   "time": "2026/06/15 08:24",
+   "content": "回复明哥揾粤港车: 潮汕音好重喔 [Facepalm]",
+   "likes": 2
+  },
+  {
+   "index": 3,
+   "level": 1,
+   "parentIndex": null,
+   "author": "PWIA",
+   "isAuthor": false,
+   "time": "2026/05/31 09:23",
+   "content": "請問有冇I G？",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 4,
+   "level": 1,
+   "parentIndex": null,
+   "author": "kingng666",
+   "isAuthor": false,
+   "time": "2026/04/08 16:54",
+   "content": "使唔使十皮連黑牌",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/04/08 17:12"
+  },
+  {
+   "index": 5,
+   "level": 2,
+   "parentIndex": 4,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/04/08 17:12",
+   "content": "[捂脸]",
+   "likes": null
+  },
+  {
+   "index": 6,
+   "level": 1,
+   "parentIndex": null,
+   "author": "Cindyka",
+   "isAuthor": false,
+   "time": "2026/06/05 13:36",
+   "content": "几钱？",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  }
+ ],
+ "summary": {
+  "declared": 7,
+  "total": 7,
+  "level1": 4,
+  "level2": 3,
+  "ownComments": 0,
+  "authorRepliedThreads": 2,
+  "awaitingThreads": 2,
+  "authorReplies": 2,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   3,
+   6
+  ]
+ }
+}

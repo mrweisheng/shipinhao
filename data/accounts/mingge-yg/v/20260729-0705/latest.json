@@ -1,0 +1,115 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "宾利和本田，你会选那台？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车",
+  "time": "2026年07月29日 07:05"
+ },
+ "declared": 6,
+ "isEmpty": false,
+ "total": 6,
+ "topLevel": 5,
+ "replies": 1,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "蕭邦",
+   "isAuthor": false,
+   "time": "2026/07/29 14:46",
+   "content": "佢講咗幾次係德國 咁應該係德國",
+   "likes": null,
+   "replyCount": 1,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 1,
+   "level": 2,
+   "parentIndex": 0,
+   "author": "凌峰4671",
+   "isAuthor": false,
+   "time": "2026/07/29 16:49",
+   "content": "难道不知道宾利几十年前就被德国大众收购了 [Doge]",
+   "likes": null
+  },
+  {
+   "index": 2,
+   "level": 1,
+   "parentIndex": null,
+   "author": "[调皮]小吉[眨眼]",
+   "isAuthor": false,
+   "time": "2026/07/29 14:07",
+   "content": "活了30年终于搞清楚宾利是德国的",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 3,
+   "level": 1,
+   "parentIndex": null,
+   "author": "peter.Lau",
+   "isAuthor": false,
+   "time": "2026/07/29 13:16",
+   "content": "买了10几年第一次宾利是德國的",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 4,
+   "level": 1,
+   "parentIndex": null,
+   "author": "Karl",
+   "isAuthor": false,
+   "time": "2026/07/29 13:05",
+   "content": "我而家先知道，原來賓利係德國，唔係英國，我真係大鄉里",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 5,
+   "level": 1,
+   "parentIndex": null,
+   "author": "家輝",
+   "isAuthor": false,
+   "time": "2026/07/29 12:25",
+   "content": "你台賓利系德国，我想揾英国賓利。",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  }
+ ],
+ "summary": {
+  "declared": 6,
+  "total": 6,
+  "level1": 5,
+  "level2": 1,
+  "ownComments": 0,
+  "authorRepliedThreads": 0,
+  "awaitingThreads": 5,
+  "authorReplies": 0,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   0,
+   2,
+   3,
+   4,
+   5
+  ]
+ }
+}

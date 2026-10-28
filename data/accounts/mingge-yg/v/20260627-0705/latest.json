@@ -1,0 +1,79 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "今天明哥分享下，自己30几年做生意摸索出来的真谛！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车",
+  "time": "2026年06月27日 07:05"
+ },
+ "declared": 4,
+ "isEmpty": false,
+ "total": 4,
+ "topLevel": 2,
+ "replies": 2,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "陳明",
+   "isAuthor": false,
+   "time": "2026/08/19 16:08",
+   "content": "加油生意興隆 [強] [強] [強] [強] [強] [強]",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 1,
+   "level": 1,
+   "parentIndex": null,
+   "author": "伦",
+   "isAuthor": false,
+   "time": "2026/06/28 18:19",
+   "content": "我记得你第一个镜头系第一代卡宴 [Facepalm]",
+   "likes": 1,
+   "replyCount": 2,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/06/29 09:29"
+  },
+  {
+   "index": 2,
+   "level": 2,
+   "parentIndex": 1,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/06/29 09:29",
+   "content": "[捂脸] [捂脸] [捂脸]",
+   "likes": null
+  },
+  {
+   "index": 3,
+   "level": 2,
+   "parentIndex": 1,
+   "author": "伦",
+   "isAuthor": false,
+   "time": "2026/06/29 11:29",
+   "content": "回复明哥揾粤港车: /::D",
+   "likes": null
+  }
+ ],
+ "summary": {
+  "declared": 4,
+  "total": 4,
+  "level1": 2,
+  "level2": 2,
+  "ownComments": 0,
+  "authorRepliedThreads": 1,
+  "awaitingThreads": 1,
+  "authorReplies": 1,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   0
+  ]
+ }
+}

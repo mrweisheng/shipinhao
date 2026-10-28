@@ -1,0 +1,166 @@
+{
+  "name": "小商玥",
+  "kw": "可以回汕尾上",
+  "text": "上牌同異地用車，PM 我講 📩",
+  "dry": false,
+  "steps": [],
+  "before": {
+    "video": {
+      "title": "香港老板们，这台v6的雷克萨斯，你值得拥有！ #香港#香港车牌#港车北上#明哥中港牌#粤港车#港车#香港买车",
+      "time": "2026年06月03日 07:05"
+    },
+    "declared": 159,
+    "rendered": 159,
+    "textareas": 0
+  },
+  "locate": {
+    "found": 1,
+    "x": 1446,
+    "y": 589,
+    "item": {
+      "name": "小商玥",
+      "time": "2026/10/26 14:54",
+      "text": "可以回汕尾上牌，汕尾开吗？"
+    },
+    "replies": [],
+    "authorReplied": false
+  },
+  "panel0": {
+    "textareas": 1,
+    "placeholder": "回复 小商玥：",
+    "value": "",
+    "ta": {
+      "x": 1195,
+      "y": 677
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap disabled primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap disabled primary",
+      "enabled": false,
+      "x": 960,
+      "y": 726,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "panel1": {
+    "textareas": 1,
+    "placeholder": "回复 小商玥：",
+    "value": "上牌同異地用車，PM 我講 📩",
+    "ta": {
+      "x": 1195,
+      "y": 677
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 726,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "sendClick": {
+    "textareas": 1,
+    "placeholder": "回复 小商玥：",
+    "value": "上牌同異地用車，PM 我講 📩",
+    "ta": {
+      "x": 1195,
+      "y": 570
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 620,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "verify": {
+    "declared": 160,
+    "textareas": 0,
+    "found": true,
+    "replies": [
+      {
+        "name": "明哥揾粤港车",
+        "text": "上牌同異地用車，PM 我講 📩"
+      }
+    ],
+    "hit": true
+  },
+  "trace": {
+    "requests": [
+      {
+        "requestId": "80620.110780",
+        "url": "https://channels.weixin.qq.com/micro/interaction/cgi-bin/mmfinderassistant-bin/comment/create_comment?_aid=a92662d8-2b79-413e-87ed-244b48318e0a&_rid=6ae14dc0-3a1b3a8f&_pageUrl=https:%2F%2Fchannels.weixin.qq.com%2Fmicro%2Finteraction%2Fcomment",
+        "method": "POST",
+        "postData": "{\"replyCommentId\":\"15040754370241764762\",\"content\":\"上牌同異地用車，PM 我講 📩\",\"clientId\":\"008d7ee0-3719-4d1a-a3fc-f08094ad9045\",\"rootCommentId\":\"15040754370241764762\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15040754370241764762\",\"commentNickname\":\"小商玥\",\"commentContent\":\"可以回汕尾上牌，汕尾开吗？\",\"commentHeadurl\":\"https://wx.qlogo.cn/finderhead/Ugw9Uu1mFyIvrztLiaJFXmbPOtZzbyd8QEODsKRbQLJX3okeZ8wf6I8VVuVp2Qibd3Egic2HCJ3rUA/0\",\"commentCreatetime\":\"1792997642\",\"commentLikeCount\":0,\"lastBuff\":\"\",\"downContinueFlag\":0,\"visibleFlag\":0,\"readFlag\":true,\"displayFlag\":8,\"username\":\"v2_060000231003b20faec8c7e08b1ac3d3c801ed34b0773bfa01e5ede3ace4615a97b33877b946@finder\",\"blacklistFlag\":0,\"likeFlag\":0},\"exportId\":\"export/UzFfBgAAxIajMHlyOAjHjMzT4DCaRXDXLRhEIhakNYwuzoaXAg\",\"timestamp\":\"1793150400345\",\"_log_finder_uin\":\"\",\"_log_finder_id\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\",\"rawKeyBuff\":\"\",\"pluginSessionId\":null,\"scene\":7,\"reqScene\":7}",
+        "ts": "2026-10-28T01:20:00.351Z",
+        "status": 201,
+        "mimeType": "application/json",
+        "body": "{\"errCode\":0,\"errMsg\":\"request successful\",\"data\":{\"commentId\":\"15042035798183709372\",\"clientId\":\"008d7ee0-3719-4d1a-a3fc-f08094ad9045\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15042035798183709372\",\"commentContent\":\"上牌同異地用車，PM 我講 📩\",\"commentCreatetime\":\"1793150400\",\"commentLikeCount\":0,\"replyCommentId\":\"15040754370241764762\",\"replyContent\":\"可以回汕尾上牌，汕尾开吗？\",\"visibleFlag\":1,\"displayFlag\":2,\"username\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\"},\"baseResp\":{\"errcode\":0,\"errmsg\":\"\"}}}",
+        "error": null,
+        "errCode": 0,
+        "errMsg": "request successful",
+        "topErrCode": 0,
+        "topErrMsg": "request successful",
+        "baseResp": {
+          "errcode": 0,
+          "errmsg": ""
+        }
+      }
+    ],
+    "toasts": []
+  },
+  "result": {
+    "countUp": true,
+    "threadHit": true,
+    "taZero": true,
+    "declared": 160
+  },
+  "like": {
+    "ok": true
+  }
+}

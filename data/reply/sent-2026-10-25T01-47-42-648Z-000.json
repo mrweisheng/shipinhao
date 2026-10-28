@@ -1,0 +1,166 @@
+{
+  "name": "罗布乐思河北唐县动画",
+  "kw": "讲潮汕话",
+  "text": "係呀，家鄉話 😄",
+  "dry": false,
+  "steps": [],
+  "before": {
+    "video": {
+      "title": "胶己人，这一次你想清楚了吗？香港到底有什么好？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "time": "2026年10月10日 07:05"
+    },
+    "declared": 19,
+    "rendered": 17,
+    "textareas": 0
+  },
+  "locate": {
+    "found": 1,
+    "x": 1269,
+    "y": 429,
+    "item": {
+      "name": "罗布乐思河北唐县动画",
+      "time": "2026/10/14 22:00",
+      "text": "讲潮汕话？"
+    },
+    "replies": [],
+    "authorReplied": false
+  },
+  "panel0": {
+    "textareas": 1,
+    "placeholder": "回复 罗布乐思河北唐县动画：",
+    "value": "",
+    "ta": {
+      "x": 1018,
+      "y": 514
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap disabled primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap disabled primary",
+      "enabled": false,
+      "x": 783,
+      "y": 564,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "panel1": {
+    "textareas": 1,
+    "placeholder": "回复 罗布乐思河北唐县动画：",
+    "value": "係呀，家鄉話 😄",
+    "ta": {
+      "x": 1018,
+      "y": 514
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 783,
+      "y": 564,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "sendClick": {
+    "textareas": 1,
+    "placeholder": "回复 罗布乐思河北唐县动画：",
+    "value": "係呀，家鄉話 😄",
+    "ta": {
+      "x": 1018,
+      "y": 473
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 783,
+      "y": 523,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "verify": {
+    "declared": 20,
+    "textareas": 0,
+    "found": true,
+    "replies": [
+      {
+        "name": "明哥揾粤港车",
+        "text": "係呀，家鄉話"
+      }
+    ],
+    "hit": true
+  },
+  "trace": {
+    "requests": [
+      {
+        "requestId": "10780.125401",
+        "url": "https://channels.weixin.qq.com/micro/interaction/cgi-bin/mmfinderassistant-bin/comment/create_comment?_aid=68322090-7d6b-44c0-a7f6-df85e8af959a&_rid=6add5fc0-9a26dc63&_pageUrl=https:%2F%2Fchannels.weixin.qq.com%2Fmicro%2Finteraction%2Fcomment",
+        "method": "POST",
+        "postData": "{\"replyCommentId\":\"15032271516527104489\",\"content\":\"係呀，家鄉話 😄\",\"clientId\":\"1fed510b-04cd-4b60-a49f-8f1c10b9ffbb\",\"rootCommentId\":\"15032271516527104489\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15032271516527104489\",\"commentNickname\":\"罗布乐思河北唐县动画\",\"commentContent\":\"讲潮汕话？\",\"commentHeadurl\":\"https://mmhead.hk.wechat.com/finderhead/AOBFOIekZwXbrZicWjc0A6Xo7F1YvIL6Yac3xheY72VHDv8wQDJribTFvKVHcvUYgUrNuF9trfzQM/0\",\"commentCreatetime\":\"1791986407\",\"commentLikeCount\":0,\"lastBuff\":\"\",\"downContinueFlag\":0,\"visibleFlag\":0,\"readFlag\":true,\"displayFlag\":8,\"username\":\"v2_060000231003b20faec8c7eb8f10c7d5ca00e936b077515eebf9b599c324bcc282aba100d42f@finder\",\"blacklistFlag\":0,\"likeFlag\":0},\"exportId\":\"export/UzFfBgAAxOqmGDxWdgetk8zT4DCaJ-CPaO3aEyORMpK92UEEiw\",\"timestamp\":\"1792892864482\",\"_log_finder_uin\":\"\",\"_log_finder_id\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\",\"rawKeyBuff\":\"\",\"pluginSessionId\":null,\"scene\":7,\"reqScene\":7}",
+        "ts": "2026-10-25T01:47:44.486Z",
+        "status": 201,
+        "mimeType": "application/json",
+        "body": "{\"errCode\":0,\"errMsg\":\"request successful\",\"data\":{\"commentId\":\"15039875420512848583\",\"clientId\":\"1fed510b-04cd-4b60-a49f-8f1c10b9ffbb\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15039875420512848583\",\"commentContent\":\"係呀，家鄉話 😄\",\"commentCreatetime\":\"1792892863\",\"commentLikeCount\":0,\"replyCommentId\":\"15032271516527104489\",\"replyContent\":\"讲潮汕话？\",\"visibleFlag\":1,\"displayFlag\":2,\"username\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\"},\"baseResp\":{\"errcode\":0,\"errmsg\":\"\"}}}",
+        "error": null,
+        "errCode": 0,
+        "errMsg": "request successful",
+        "topErrCode": 0,
+        "topErrMsg": "request successful",
+        "baseResp": {
+          "errcode": 0,
+          "errmsg": ""
+        }
+      }
+    ],
+    "toasts": []
+  },
+  "result": {
+    "countUp": true,
+    "threadHit": true,
+    "taZero": true,
+    "declared": 20
+  },
+  "like": {
+    "ok": true
+  }
+}

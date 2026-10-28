@@ -1,0 +1,153 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "这才是香港男人的至爱大玩具！ #中港两地牌#香港二手车#香港买车#香港生活#香港",
+  "time": "2026年03月07日 18:05"
+ },
+ "declared": 9,
+ "isEmpty": false,
+ "total": 9,
+ "topLevel": 7,
+ "replies": 2,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "CaptainAX",
+   "isAuthor": false,
+   "time": "2026/06/03 03:14",
+   "content": "几座？",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 1,
+   "level": 1,
+   "parentIndex": null,
+   "author": "順時針",
+   "isAuthor": false,
+   "time": "2026/03/12 21:50",
+   "content": "明哥，下次講凌志啦好冇",
+   "likes": 1,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 2,
+   "level": 1,
+   "parentIndex": null,
+   "author": "周岸（JOE）",
+   "isAuthor": false,
+   "time": "2026/03/12 13:21",
+   "content": "每年牌费几多",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 3,
+   "level": 1,
+   "parentIndex": null,
+   "author": "信守一生. 刘.中磷&高磷化学镍",
+   "isAuthor": false,
+   "time": "2026/03/07 21:44",
+   "content": "L X570係邊一年的車？",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 4,
+   "level": 1,
+   "parentIndex": null,
+   "author": "陈志良",
+   "isAuthor": false,
+   "time": "2026/03/07 20:21",
+   "content": "老板，中港車可以做分期吗？",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/03/10 16:12"
+  },
+  {
+   "index": 5,
+   "level": 2,
+   "parentIndex": 4,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/03/10 16:12",
+   "content": "可以的",
+   "likes": null
+  },
+  {
+   "index": 6,
+   "level": 1,
+   "parentIndex": null,
+   "author": "陈志良",
+   "isAuthor": false,
+   "time": "2026/03/07 20:20",
+   "content": "老板，中港車可以分",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 7,
+   "level": 1,
+   "parentIndex": null,
+   "author": "輝哥david",
+   "isAuthor": false,
+   "time": "2026/03/07 20:02",
+   "content": "等我睇到我中意概，一定皇後山過來五分鐘就到。",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/03/10 16:12"
+  },
+  {
+   "index": 8,
+   "level": 2,
+   "parentIndex": 7,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/03/10 16:12",
+   "content": "OK [强]",
+   "likes": null
+  }
+ ],
+ "summary": {
+  "declared": 9,
+  "total": 9,
+  "level1": 7,
+  "level2": 2,
+  "ownComments": 0,
+  "authorRepliedThreads": 2,
+  "awaitingThreads": 5,
+  "authorReplies": 2,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   0,
+   1,
+   2,
+   3,
+   6
+  ]
+ }
+}

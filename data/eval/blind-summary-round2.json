@@ -1,0 +1,266 @@
+{
+  "total": 30,
+  "wins": {
+    "templateA": 1,
+    "caseB": 24,
+    "tie": 5
+  },
+  "avg": {
+    "A": {
+      "answersQuestion": 2.77,
+      "factualGrounding": 3.67,
+      "tone": 3.27,
+      "compliance": 4.67,
+      "naturalness": 3.93
+    },
+    "B": {
+      "answersQuestion": 4.4,
+      "factualGrounding": 3.93,
+      "tone": 4.07,
+      "compliance": 4.87,
+      "naturalness": 4.4
+    }
+  },
+  "rows": [
+    {
+      "id": "e01",
+      "winnerSide": "B",
+      "baseline": "有，白色可以傾 🙏",
+      "caseReply": "白色埃爾法有得訂，私訊我傾提車 📩",
+      "judgeReason": "Y確認可訂並引導私訊提車，X只講可以傾，冇回應點聯絡",
+      "action": "reply"
+    },
+    {
+      "id": "e02",
+      "winnerSide": "B",
+      "baseline": "包咩細節，私訊傾 📩",
+      "caseReply": "包唔包牌，私訊傾最清楚 📩",
+      "judgeReason": "X承接包牌問題再引導，Y「包咩細節」語意不清",
+      "action": "reply"
+    },
+    {
+      "id": "e03",
+      "winnerSide": "B",
+      "baseline": "3萬8，明碼實價 😄",
+      "caseReply": "係，3萬8冇花假；皇后山睇車 😄",
+      "judgeReason": "複合問題X只答價錢漏地址，Y價錢同皇后山都答齊",
+      "action": "reply"
+    },
+    {
+      "id": "e04",
+      "winnerSide": "B",
+      "baseline": "可以，主頁有資料 😄",
+      "caseReply": "可以，隨時私訊我 📩",
+      "judgeReason": "X直接答可以並邀私訊，Y推去主頁冇回應私聊",
+      "action": "reply"
+    },
+    {
+      "id": "e05",
+      "winnerSide": "B",
+      "baseline": "有，喺度 😄",
+      "caseReply": "仲喺度，未賣 😄",
+      "judgeReason": "Y明確講未賣，X「有，喺度」答得含糊",
+      "action": "reply"
+    },
+    {
+      "id": "e06",
+      "winnerSide": "B",
+      "baseline": "可以全款，都可以分期 😄",
+      "caseReply": "可以全款，費用細節私訊傾 📩",
+      "judgeReason": "X全款同其他費用都有回應，Y只補分期漏咗費用",
+      "action": "reply"
+    },
+    {
+      "id": "e07",
+      "winnerSide": "tie",
+      "baseline": "皇后山，導航搜「明哥中港牌」😄",
+      "caseReply": "喺皇后山，朝九晚九過嚟 😄",
+      "judgeReason": "兩條都答到皇后山，X多給導航、Y多給時間",
+      "action": "reply"
+    },
+    {
+      "id": "e08",
+      "winnerSide": "tie",
+      "baseline": "皇后山，導航搜「明哥中港牌」😄",
+      "caseReply": "喺皇后山，導航搜明哥中港牌 😄",
+      "judgeReason": "兩條幾乎一樣，地址同導航都齊",
+      "action": "reply"
+    },
+    {
+      "id": "e09",
+      "winnerSide": "B",
+      "baseline": "（不回）",
+      "caseReply": "開去澳門嘅嘢，私訊我傾 📩",
+      "judgeReason": "Y用自信引導接住問題，X直接唔回太冷",
+      "action": "reply"
+    },
+    {
+      "id": "e10",
+      "winnerSide": "B",
+      "baseline": "兩地牌價錢，有得傾 😄",
+      "caseReply": "有，價錢睇資格，私訊傾 📩",
+      "judgeReason": "Y先答有再講價錢睇資格，X冇確認亦冇引導",
+      "action": "reply"
+    },
+    {
+      "id": "e11",
+      "winnerSide": "tie",
+      "baseline": "有，白色可以傾 🙏",
+      "caseReply": "有，白色有得傾 😄",
+      "judgeReason": "兩條同義，字數同語氣都自然",
+      "action": "reply"
+    },
+    {
+      "id": "e12",
+      "winnerSide": "B",
+      "baseline": "價錢公道，有得傾 😄",
+      "caseReply": "呢款私訊我，幫你睇清楚價 📩",
+      "judgeReason": "Y認到具體車款並引導睇價，X只講價錢公道",
+      "action": "reply"
+    },
+    {
+      "id": "e13",
+      "winnerSide": "tie",
+      "baseline": "可以分期，詳情私訊傾 📩",
+      "caseReply": "可以分期，手續私訊傾 📩",
+      "judgeReason": "同樣答可以分期加私訊，差別只在用字",
+      "action": "reply"
+    },
+    {
+      "id": "e14",
+      "winnerSide": "B",
+      "baseline": "可以驗車，約個時間 😄",
+      "caseReply": "可以驗車，里數價錢私訊傾 📩",
+      "judgeReason": "X漏里數同16萬比較，Y兩樣都接得住",
+      "action": "reply"
+    },
+    {
+      "id": "e15",
+      "winnerSide": "B",
+      "baseline": "（不回）",
+      "caseReply": "過戶大陸嘅嘢，私訊我傾 📩",
+      "judgeReason": "X用引導接過戶問題，Y完全唔回",
+      "action": "reply"
+    },
+    {
+      "id": "e16",
+      "winnerSide": "B",
+      "baseline": "唔設門檻，可以傾 😄",
+      "caseReply": "係，可以幫你了解；私訊傾 📩",
+      "judgeReason": "X答唔設門檻離題且武斷，Y明確答係再引導",
+      "action": "reply"
+    },
+    {
+      "id": "e17",
+      "winnerSide": "B",
+      "baseline": "移民都啱傾 😄",
+      "caseReply": "可以傾，途徑同費用私訊講 📩",
+      "judgeReason": "X途徑同費用都接住，Y「都啱傾」冇答兼冇引導",
+      "action": "reply"
+    },
+    {
+      "id": "e18",
+      "winnerSide": "B",
+      "baseline": "過去做工都啱傾 😄",
+      "caseReply": "係，做工證幫你了解，私訊傾 📩",
+      "judgeReason": "Y先答係再引導，X用都啱傾繞開是非題",
+      "action": "reply"
+    },
+    {
+      "id": "e19",
+      "winnerSide": "B",
+      "baseline": "都啱傾，放心 😄",
+      "caseReply": "可以，唔設年齡門檻；私訊傾 📩",
+      "judgeReason": "X明確答可以，Y繞開；X唔設年齡門檻偏武斷",
+      "action": "reply"
+    },
+    {
+      "id": "e20",
+      "winnerSide": "B",
+      "baseline": "初中學歷都啱傾 🙏",
+      "caseReply": "可以，學歷唔設限；私訊傾 📩",
+      "judgeReason": "X先答可以，Y只講都啱傾；X學歷不設限稍武斷",
+      "action": "reply"
+    },
+    {
+      "id": "e21",
+      "winnerSide": "B",
+      "baseline": "唔設門檻，可以傾 😄",
+      "caseReply": "可以，家人在港都啱傾；私訊 📩",
+      "judgeReason": "Y明確答可以並結合家人在港，X泛泛講門檻",
+      "action": "reply"
+    },
+    {
+      "id": "e22",
+      "winnerSide": "B",
+      "baseline": "兩地牌價錢，有得傾 😄",
+      "caseReply": "蓮塘牌嘅價，私訊我傾 📩",
+      "judgeReason": "X認到蓮塘牌呢個具體需求，Y答得太籠統",
+      "action": "reply"
+    },
+    {
+      "id": "e23",
+      "winnerSide": "B",
+      "baseline": "賣車都啱傾 😄",
+      "caseReply": "換車同舊車處理都啱傾，私訊我 📩",
+      "judgeReason": "X只講賣車漏換車，Y換車同舊車處理都回應",
+      "action": "reply"
+    },
+    {
+      "id": "e24",
+      "winnerSide": "B",
+      "baseline": "係，就喺皇后山 😄",
+      "caseReply": "係，皇后山睇車，朝九晚九 😄",
+      "judgeReason": "兩條都答係，X多講營業時間資訊較全",
+      "action": "reply"
+    },
+    {
+      "id": "e25",
+      "winnerSide": "B",
+      "baseline": "可以，主頁有資料 😄",
+      "caseReply": "私訊我，我畀你 😄",
+      "judgeReason": "Y直接講私訊畀你，X推去主頁較轉折",
+      "action": "reply"
+    },
+    {
+      "id": "e26",
+      "winnerSide": "B",
+      "baseline": "多謝讚賞 🙏",
+      "caseReply": "多謝讚賞 😄 品牌私訊同你講",
+      "judgeReason": "X回應品牌提問，Y只道謝冇答問題",
+      "action": "reply"
+    },
+    {
+      "id": "e27",
+      "winnerSide": "tie",
+      "baseline": "多謝讚賞，共勉 🙏",
+      "caseReply": "多謝欣賞，一齊學嘢 🙏",
+      "judgeReason": "兩條都係自然道謝，冇多餘引導",
+      "action": "reply"
+    },
+    {
+      "id": "e28",
+      "winnerSide": "B",
+      "baseline": "多謝支持 🙏",
+      "caseReply": "多謝你，正正經經做生意 💪",
+      "judgeReason": "X順住客人講法回應，較有來有往",
+      "action": "reply"
+    },
+    {
+      "id": "e29",
+      "winnerSide": "A",
+      "baseline": "哈哈，承你貴言 🙏",
+      "caseReply": "承你貴言，繼續努力 🙏",
+      "judgeReason": "X加哈哈更似真人講嘢，Y稍公式",
+      "action": "reply"
+    },
+    {
+      "id": "e30",
+      "winnerSide": "B",
+      "baseline": "多謝支持 🙏",
+      "caseReply": "多謝信任，等你過嚟睇車 😄",
+      "judgeReason": "Y多謝信任兼輕輕邀請睇車，較有溫度",
+      "action": "reply"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "name": "惜福",
+  "kw": "选择比努力重要",
+  "text": "多謝認同 🙏",
+  "dry": false,
+  "steps": [],
+  "before": {
+    "video": {
+      "title": "在汕尾，阿姐，我要这，我要那，是常情，这次兄弟，你要站起来！ #两地牌#港澳车牌#香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "time": "2026年10月01日 07:00"
+    },
+    "declared": 744,
+    "rendered": 744,
+    "textareas": 0
+  },
+  "locate": {
+    "found": 1,
+    "x": 1280,
+    "y": 491,
+    "item": {
+      "name": "惜福",
+      "time": "2026/10/01 22:49",
+      "text": "讲的对选择比努力重要长穷难够每個人是要対自己的人生负責任不可将自己问题推到他人身上令他人苦脑"
+    },
+    "replies": [],
+    "authorReplied": false
+  },
+  "panel0": {
+    "textareas": 1,
+    "placeholder": "回复 惜福：",
+    "value": "",
+    "ta": {
+      "x": 1018,
+      "y": 602
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap disabled primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap disabled primary",
+      "enabled": false,
+      "x": 783,
+      "y": 652,
+      "covered": true,
+      "hit": {
+        "tag": "SECTION",
+        "cls": ""
+      }
+    }
+  },
+  "panel1": {
+    "textareas": 1,
+    "placeholder": "回复 惜福：",
+    "value": "多謝認同 🙏",
+    "ta": {
+      "x": 1018,
+      "y": 602
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 783,
+      "y": 652,
+      "covered": true,
+      "hit": {
+        "tag": "SECTION",
+        "cls": ""
+      }
+    }
+  },
+  "sendClick": {
+    "textareas": 1,
+    "placeholder": "回复 惜福：",
+    "value": "多謝認同 🙏",
+    "ta": {
+      "x": 1018,
+      "y": 473
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 783,
+      "y": 523,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "verify": {
+    "declared": 745,
+    "textareas": 0,
+    "found": true,
+    "replies": [
+      {
+        "name": "明哥揀粤港车",
+        "text": "多謝認同"
+      }
+    ],
+    "hit": true
+  },
+  "result": {
+    "countUp": true,
+    "threadHit": true,
+    "taZero": true,
+    "declared": 745
+  },
+  "like": {
+    "ok": true,
+    "already": true
+  }
+}

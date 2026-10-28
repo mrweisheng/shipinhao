@@ -1,0 +1,50 @@
+{
+  "finishedAt": "2026-10-25T01:47:22.831Z",
+  "mode": "send",
+  "planFile": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\account-new\\plan-nth7.json",
+  "video": {
+    "title": "在香港，宾利和本田，你会选那一辆？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月11日 07:05"
+  },
+  "before": {
+    "declared": 15,
+    "plannedReplies": 2,
+    "executed": 2
+  },
+  "summary": {
+    "ok": 2,
+    "failed": 0,
+    "rejected": 0,
+    "policy": 0
+  },
+  "after": {
+    "declared": 17,
+    "awaitingThreads": 1,
+    "complete": true,
+    "file": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\reply\\verify-2026-10-25T01-47-02-571Z.json"
+  },
+  "results": [
+    {
+      "index": 0,
+      "name": "Jett-杰特",
+      "content": "明哥 [强]",
+      "kw": "明哥",
+      "action": "reply",
+      "text": "多謝支持 🙏",
+      "category": "praise",
+      "reason": "新评论，点名式捧场",
+      "result": "sent"
+    },
+    {
+      "index": 1,
+      "name": "黄明7163",
+      "content": "司分期付款嗎？",
+      "kw": "分期付款",
+      "action": "reply",
+      "text": "全款嚟嘅；點頭像👤私訊我 📩",
+      "category": "car_payment",
+      "reason": "问分期付款，属车业务咨询；按策略统一回「全款」，不承诺分期",
+      "result": "sent"
+    }
+  ]
+}

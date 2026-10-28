@@ -1,0 +1,60 @@
+{
+  "finishedAt": "2026-10-24T08:19:21.298Z",
+  "mode": "send",
+  "planFile": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\maintain\\plan-nth3.json",
+  "video": {
+    "title": "香港人会有自己的骄傲和优越感，是因为有资本！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月17日 07:00"
+  },
+  "before": {
+    "declared": 437,
+    "plannedReplies": 3,
+    "executed": 3
+  },
+  "summary": {
+    "ok": 3,
+    "failed": 0,
+    "policy": 0
+  },
+  "after": {
+    "declared": 440,
+    "awaitingThreads": 131,
+    "complete": true,
+    "file": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\reply\\verify-2026-10-24T08-17-38-279Z.json"
+  },
+  "results": [
+    {
+      "index": 69,
+      "name": "Tim",
+      "content": "香港精神 永遠流行 /:strong /:strong /::D /::D",
+      "kw": "永遠流行",
+      "action": "reply",
+      "text": "多謝支持，香港精神 💪",
+      "category": "praise",
+      "reason": "正面口号，无对比无涉政",
+      "result": "sent"
+    },
+    {
+      "index": 70,
+      "name": "南寧",
+      "content": "絕對講出香港狀況 [強] [強] [強] [強] [愛心] [愛心] [愛心] [愛心] [愛心]",
+      "kw": "絕對講出",
+      "action": "reply",
+      "text": "多謝支持 🙏",
+      "category": "praise",
+      "reason": "认同视频内容，纯捧场",
+      "result": "sent"
+    },
+    {
+      "index": 72,
+      "name": "andy",
+      "content": "兄弟，我都敬你。",
+      "kw": "我都敬你",
+      "action": "reply",
+      "text": "多謝，互相尊重 🙏",
+      "category": "praise",
+      "reason": "表达敬意，安全互动",
+      "result": "sent"
+    }
+  ]
+}

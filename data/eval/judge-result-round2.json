@@ -1,0 +1,212 @@
+[
+  {
+    "id": "e01",
+    "X": {"answersQuestion": 2, "factualGrounding": 4, "tone": 3, "compliance": 5, "naturalness": 4},
+    "Y": {"answersQuestion": 5, "factualGrounding": 4, "tone": 4, "compliance": 5, "naturalness": 5},
+    "winner": "Y",
+    "reason": "Y確認可訂並引導私訊提車，X只講可以傾，冇回應點聯絡"
+  },
+  {
+    "id": "e02",
+    "X": {"answersQuestion": 3, "factualGrounding": 4, "tone": 3, "compliance": 5, "naturalness": 4},
+    "Y": {"answersQuestion": 2, "factualGrounding": 3, "tone": 2, "compliance": 5, "naturalness": 3},
+    "winner": "X",
+    "reason": "X承接包牌問題再引導，Y「包咩細節」語意不清"
+  },
+  {
+    "id": "e03",
+    "X": {"answersQuestion": 3, "factualGrounding": 4, "tone": 4, "compliance": 5, "naturalness": 4},
+    "Y": {"answersQuestion": 5, "factualGrounding": 4, "tone": 5, "compliance": 5, "naturalness": 5},
+    "winner": "Y",
+    "reason": "複合問題X只答價錢漏地址，Y價錢同皇后山都答齊"
+  },
+  {
+    "id": "e04",
+    "X": {"answersQuestion": 5, "factualGrounding": 4, "tone": 4, "compliance": 5, "naturalness": 5},
+    "Y": {"answersQuestion": 3, "factualGrounding": 4, "tone": 3, "compliance": 5, "naturalness": 4},
+    "winner": "X",
+    "reason": "X直接答可以並邀私訊，Y推去主頁冇回應私聊"
+  },
+  {
+    "id": "e05",
+    "X": {"answersQuestion": 2, "factualGrounding": 4, "tone": 3, "compliance": 5, "naturalness": 4},
+    "Y": {"answersQuestion": 5, "factualGrounding": 4, "tone": 4, "compliance": 5, "naturalness": 5},
+    "winner": "Y",
+    "reason": "Y明確講未賣，X「有，喺度」答得含糊"
+  },
+  {
+    "id": "e06",
+    "X": {"answersQuestion": 5, "factualGrounding": 4, "tone": 4, "compliance": 5, "naturalness": 4},
+    "Y": {"answersQuestion": 3, "factualGrounding": 4, "tone": 3, "compliance": 5, "naturalness": 4},
+    "winner": "X",
+    "reason": "X全款同其他費用都有回應，Y只補分期漏咗費用"
+  },
+  {
+    "id": "e07",
+    "X": {"answersQuestion": 5, "factualGrounding": 4, "tone": 4, "compliance": 5, "naturalness": 4},
+    "Y": {"answersQuestion": 4, "factualGrounding": 4, "tone": 4, "compliance": 5, "naturalness": 5},
+    "winner": "tie",
+    "reason": "兩條都答到皇后山，X多給導航、Y多給時間"
+  },
+  {
+    "id": "e08",
+    "X": {"answersQuestion": 5, "factualGrounding": 4, "tone": 4, "compliance": 5, "naturalness": 4},
+    "Y": {"answersQuestion": 5, "factualGrounding": 4, "tone": 4, "compliance": 5, "naturalness": 4},
+    "winner": "tie",
+    "reason": "兩條幾乎一樣，地址同導航都齊"
+  },
+  {
+    "id": "e09",
+    "X": {"answersQuestion": 1, "factualGrounding": 3, "tone": 2, "compliance": 5, "naturalness": 3},
+    "Y": {"answersQuestion": 4, "factualGrounding": 4, "tone": 4, "compliance": 5, "naturalness": 4},
+    "winner": "Y",
+    "reason": "Y用自信引導接住問題，X直接唔回太冷"
+  },
+  {
+    "id": "e10",
+    "X": {"answersQuestion": 2, "factualGrounding": 3, "tone": 3, "compliance": 4, "naturalness": 4},
+    "Y": {"answersQuestion": 4, "factualGrounding": 4, "tone": 4, "compliance": 5, "naturalness": 5},
+    "winner": "Y",
+    "reason": "Y先答有再講價錢睇資格，X冇確認亦冇引導"
+  },
+  {
+    "id": "e11",
+    "X": {"answersQuestion": 5, "factualGrounding": 4, "tone": 4, "compliance": 5, "naturalness": 5},
+    "Y": {"answersQuestion": 5, "factualGrounding": 4, "tone": 4, "compliance": 5, "naturalness": 4},
+    "winner": "tie",
+    "reason": "兩條同義，字數同語氣都自然"
+  },
+  {
+    "id": "e12",
+    "X": {"answersQuestion": 2, "factualGrounding": 3, "tone": 3, "compliance": 4, "naturalness": 4},
+    "Y": {"answersQuestion": 4, "factualGrounding": 4, "tone": 4, "compliance": 5, "naturalness": 5},
+    "winner": "Y",
+    "reason": "Y認到具體車款並引導睇價，X只講價錢公道"
+  },
+  {
+    "id": "e13",
+    "X": {"answersQuestion": 4, "factualGrounding": 4, "tone": 4, "compliance": 5, "naturalness": 4},
+    "Y": {"answersQuestion": 5, "factualGrounding": 4, "tone": 4, "compliance": 5, "naturalness": 5},
+    "winner": "tie",
+    "reason": "同樣答可以分期加私訊，差別只在用字"
+  },
+  {
+    "id": "e14",
+    "X": {"answersQuestion": 2, "factualGrounding": 3, "tone": 3, "compliance": 4, "naturalness": 4},
+    "Y": {"answersQuestion": 4, "factualGrounding": 4, "tone": 4, "compliance": 5, "naturalness": 4},
+    "winner": "Y",
+    "reason": "X漏里數同16萬比較，Y兩樣都接得住"
+  },
+  {
+    "id": "e15",
+    "X": {"answersQuestion": 4, "factualGrounding": 4, "tone": 4, "compliance": 5, "naturalness": 4},
+    "Y": {"answersQuestion": 1, "factualGrounding": 3, "tone": 2, "compliance": 5, "naturalness": 3},
+    "winner": "X",
+    "reason": "X用引導接過戶問題，Y完全唔回"
+  },
+  {
+    "id": "e16",
+    "X": {"answersQuestion": 2, "factualGrounding": 2, "tone": 2, "compliance": 3, "naturalness": 3},
+    "Y": {"answersQuestion": 5, "factualGrounding": 4, "tone": 4, "compliance": 5, "naturalness": 4},
+    "winner": "Y",
+    "reason": "X答唔設門檻離題且武斷，Y明確答係再引導"
+  },
+  {
+    "id": "e17",
+    "X": {"answersQuestion": 5, "factualGrounding": 4, "tone": 4, "compliance": 5, "naturalness": 5},
+    "Y": {"answersQuestion": 2, "factualGrounding": 3, "tone": 3, "compliance": 4, "naturalness": 4},
+    "winner": "X",
+    "reason": "X途徑同費用都接住，Y「都啱傾」冇答兼冇引導"
+  },
+  {
+    "id": "e18",
+    "X": {"answersQuestion": 2, "factualGrounding": 3, "tone": 3, "compliance": 4, "naturalness": 4},
+    "Y": {"answersQuestion": 5, "factualGrounding": 4, "tone": 4, "compliance": 5, "naturalness": 4},
+    "winner": "Y",
+    "reason": "Y先答係再引導，X用都啱傾繞開是非題"
+  },
+  {
+    "id": "e19",
+    "X": {"answersQuestion": 4, "factualGrounding": 2, "tone": 4, "compliance": 3, "naturalness": 4},
+    "Y": {"answersQuestion": 2, "factualGrounding": 4, "tone": 3, "compliance": 5, "naturalness": 4},
+    "winner": "X",
+    "reason": "X明確答可以，Y繞開；X唔設年齡門檻偏武斷"
+  },
+  {
+    "id": "e20",
+    "X": {"answersQuestion": 4, "factualGrounding": 2, "tone": 4, "compliance": 3, "naturalness": 4},
+    "Y": {"answersQuestion": 2, "factualGrounding": 4, "tone": 3, "compliance": 5, "naturalness": 4},
+    "winner": "X",
+    "reason": "X先答可以，Y只講都啱傾；X學歷不設限稍武斷"
+  },
+  {
+    "id": "e21",
+    "X": {"answersQuestion": 2, "factualGrounding": 3, "tone": 3, "compliance": 4, "naturalness": 4},
+    "Y": {"answersQuestion": 5, "factualGrounding": 4, "tone": 4, "compliance": 5, "naturalness": 4},
+    "winner": "Y",
+    "reason": "Y明確答可以並結合家人在港，X泛泛講門檻"
+  },
+  {
+    "id": "e22",
+    "X": {"answersQuestion": 4, "factualGrounding": 4, "tone": 4, "compliance": 5, "naturalness": 4},
+    "Y": {"answersQuestion": 2, "factualGrounding": 3, "tone": 3, "compliance": 4, "naturalness": 4},
+    "winner": "X",
+    "reason": "X認到蓮塘牌呢個具體需求，Y答得太籠統"
+  },
+  {
+    "id": "e23",
+    "X": {"answersQuestion": 2, "factualGrounding": 4, "tone": 3, "compliance": 4, "naturalness": 4},
+    "Y": {"answersQuestion": 5, "factualGrounding": 4, "tone": 4, "compliance": 5, "naturalness": 4},
+    "winner": "Y",
+    "reason": "X只講賣車漏換車，Y換車同舊車處理都回應"
+  },
+  {
+    "id": "e24",
+    "X": {"answersQuestion": 5, "factualGrounding": 4, "tone": 4, "compliance": 5, "naturalness": 4},
+    "Y": {"answersQuestion": 4, "factualGrounding": 4, "tone": 4, "compliance": 5, "naturalness": 4},
+    "winner": "X",
+    "reason": "兩條都答係，X多講營業時間資訊較全"
+  },
+  {
+    "id": "e25",
+    "X": {"answersQuestion": 3, "factualGrounding": 4, "tone": 3, "compliance": 5, "naturalness": 4},
+    "Y": {"answersQuestion": 4, "factualGrounding": 4, "tone": 4, "compliance": 5, "naturalness": 5},
+    "winner": "Y",
+    "reason": "Y直接講私訊畀你，X推去主頁較轉折"
+  },
+  {
+    "id": "e26",
+    "X": {"answersQuestion": 4, "factualGrounding": 4, "tone": 3, "compliance": 5, "naturalness": 4},
+    "Y": {"answersQuestion": 2, "factualGrounding": 4, "tone": 4, "compliance": 5, "naturalness": 4},
+    "winner": "X",
+    "reason": "X回應品牌提問，Y只道謝冇答問題"
+  },
+  {
+    "id": "e27",
+    "X": {"answersQuestion": 4, "factualGrounding": 5, "tone": 5, "compliance": 5, "naturalness": 4},
+    "Y": {"answersQuestion": 4, "factualGrounding": 5, "tone": 5, "compliance": 5, "naturalness": 5},
+    "winner": "tie",
+    "reason": "兩條都係自然道謝，冇多餘引導"
+  },
+  {
+    "id": "e28",
+    "X": {"answersQuestion": 4, "factualGrounding": 5, "tone": 5, "compliance": 5, "naturalness": 4},
+    "Y": {"answersQuestion": 4, "factualGrounding": 4, "tone": 4, "compliance": 5, "naturalness": 4},
+    "winner": "X",
+    "reason": "X順住客人講法回應，較有來有往"
+  },
+  {
+    "id": "e29",
+    "X": {"answersQuestion": 4, "factualGrounding": 5, "tone": 5, "compliance": 5, "naturalness": 5},
+    "Y": {"answersQuestion": 4, "factualGrounding": 4, "tone": 4, "compliance": 5, "naturalness": 4},
+    "winner": "X",
+    "reason": "X加哈哈更似真人講嘢，Y稍公式"
+  },
+  {
+    "id": "e30",
+    "X": {"answersQuestion": 3, "factualGrounding": 4, "tone": 3, "compliance": 5, "naturalness": 4},
+    "Y": {"answersQuestion": 4, "factualGrounding": 4, "tone": 5, "compliance": 5, "naturalness": 5},
+    "winner": "Y",
+    "reason": "Y多謝信任兼輕輕邀請睇車，較有溫度"
+  }
+]

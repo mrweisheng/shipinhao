@@ -1,0 +1,166 @@
+{
+  "name": "传承林",
+  "kw": "叔侄关系怎么",
+  "text": "呢個私訊我，幫你睇清楚 📩",
+  "dry": false,
+  "steps": [],
+  "before": {
+    "video": {
+      "title": "香港和汕尾，你会选择哪个地方呢？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行",
+      "time": "2026年09月12日 07:00"
+    },
+    "declared": 95,
+    "rendered": 95,
+    "textareas": 0
+  },
+  "locate": {
+    "found": 1,
+    "x": 1446,
+    "y": 589,
+    "item": {
+      "name": "传承林",
+      "time": "2026/09/12 13:17",
+      "text": "明哥，叔侄关系怎么申请过去？"
+    },
+    "replies": [],
+    "authorReplied": false
+  },
+  "panel0": {
+    "textareas": 1,
+    "placeholder": "回复 传承林：",
+    "value": "",
+    "ta": {
+      "x": 1195,
+      "y": 677
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap disabled primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap disabled primary",
+      "enabled": false,
+      "x": 960,
+      "y": 726,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "panel1": {
+    "textareas": 1,
+    "placeholder": "回复 传承林：",
+    "value": "呢個私訊我，幫你睇清楚 📩",
+    "ta": {
+      "x": 1195,
+      "y": 677
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 726,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "sendClick": {
+    "textareas": 1,
+    "placeholder": "回复 传承林：",
+    "value": "呢個私訊我，幫你睇清楚 📩",
+    "ta": {
+      "x": 1195,
+      "y": 570
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 620,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "verify": {
+    "declared": 96,
+    "textareas": 0,
+    "found": true,
+    "replies": [
+      {
+        "name": "明哥揀粤港车",
+        "text": "呢個私訊我，幫你睇清楚 📩"
+      }
+    ],
+    "hit": true
+  },
+  "trace": {
+    "requests": [
+      {
+        "requestId": "80620.90408",
+        "url": "https://channels.weixin.qq.com/micro/interaction/cgi-bin/mmfinderassistant-bin/comment/create_comment?_aid=a92662d8-2b79-413e-87ed-244b48318e0a&_rid=6ae05903-742a7dbb&_pageUrl=https:%2F%2Fchannels.weixin.qq.com%2Fmicro%2Finteraction%2Fcomment",
+        "method": "POST",
+        "postData": "{\"replyCommentId\":\"15008815567190624650\",\"content\":\"呢個私訊我，幫你睇清楚 📩\",\"clientId\":\"40d0bc95-5bd2-424f-b25f-966592949eea\",\"rootCommentId\":\"15008815567190624650\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15008815567190624650\",\"commentNickname\":\"传承林\",\"commentContent\":\"明哥，叔侄关系怎么申请过去？[呲牙]\",\"commentHeadurl\":\"https://wx.qlogo.cn/finderhead/Q3auHgzwzM6Q0jnQGaMlNnvW4gRNwdB2BtETj3c4u47snicLibnn7Eicg/0\",\"commentCreatetime\":\"1789190240\",\"commentLikeCount\":0,\"lastBuff\":\"\",\"downContinueFlag\":0,\"visibleFlag\":0,\"readFlag\":true,\"displayFlag\":8,\"username\":\"v2_060000231003b20faec8c5e28811cad0c60de937b077887d69a70f96ea8af473326a2a687470@finder\",\"blacklistFlag\":0,\"likeFlag\":0},\"exportId\":\"export/UzFfBgAAxIehRHkPXAzBk8zT4DCaq_VNU90NUPt2T4y6XUHtyw\",\"timestamp\":\"1793087747906\",\"_log_finder_uin\":\"\",\"_log_finder_id\":\"v2_060000231003b20faec8c6e68e1ac6d2cc0ce43db077c80c7ad975ea80702c9b7231ef3e0fd2@finder\",\"rawKeyBuff\":\"\",\"pluginSessionId\":null,\"scene\":7,\"reqScene\":7}",
+        "ts": "2026-10-27T07:55:47.910Z",
+        "status": 201,
+        "mimeType": "application/json",
+        "body": "{\"errCode\":0,\"errMsg\":\"request successful\",\"data\":{\"commentId\":\"15041510231383542103\",\"clientId\":\"40d0bc95-5bd2-424f-b25f-966592949eea\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15041510231383542103\",\"commentContent\":\"呢個私訊我，幫你睇清楚 📩\",\"commentCreatetime\":\"1793087748\",\"commentLikeCount\":0,\"replyCommentId\":\"15008815567190624650\",\"replyContent\":\"明哥，叔侄关系怎么申请过去？[呲牙]\",\"visibleFlag\":1,\"displayFlag\":2,\"username\":\"v2_060000231003b20faec8c6e68e1ac6d2cc0ce43db077c80c7ad975ea80702c9b7231ef3e0fd2@finder\"},\"baseResp\":{\"errcode\":0,\"errmsg\":\"\"}}}",
+        "error": null,
+        "errCode": 0,
+        "errMsg": "request successful",
+        "topErrCode": 0,
+        "topErrMsg": "request successful",
+        "baseResp": {
+          "errcode": 0,
+          "errmsg": ""
+        }
+      }
+    ],
+    "toasts": []
+  },
+  "result": {
+    "countUp": true,
+    "threadHit": true,
+    "taZero": true,
+    "declared": 96
+  },
+  "like": {
+    "ok": true
+  }
+}

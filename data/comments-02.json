@@ -1,0 +1,57 @@
+{
+  "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+  "declared": 4,
+  "total": 4,
+  "topLevel": 2,
+  "replies": 2,
+  "comments": [
+    {
+      "index": 0,
+      "level": 1,
+      "parentIndex": null,
+      "author": "曾门",
+      "isAuthor": false,
+      "time": "2026/10/18 22:00",
+      "content": "有没有白色的",
+      "likes": 1,
+      "replyCount": 1,
+      "authorReplied": true,
+      "authorReplyCount": 1,
+      "lastAuthorReplyAt": "2026/10/19 10:18"
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "parentIndex": 0,
+      "author": "明哥揾粤港车",
+      "isAuthor": true,
+      "time": "2026/10/19 10:18",
+      "content": "有的",
+      "likes": null
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "parentIndex": null,
+      "author": "a僵小鱼的视频号",
+      "isAuthor": false,
+      "time": "2026/10/18 20:42",
+      "content": "犀利",
+      "likes": 1,
+      "replyCount": 1,
+      "authorReplied": true,
+      "authorReplyCount": 1,
+      "lastAuthorReplyAt": "2026/10/22 12:04"
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "parentIndex": 2,
+      "author": "明哥揾粤港车",
+      "isAuthor": true,
+      "time": "2026/10/22 12:04",
+      "content": "多謝 🙏",
+      "likes": null
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "香港收车中-拿下这台GLE！！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车",
+  "time": "2026年07月06日 07:00"
+ },
+ "declared": 4,
+ "isEmpty": false,
+ "total": 4,
+ "topLevel": 4,
+ "replies": 0,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "明哥揀粤港车",
+   "isAuthor": true,
+   "time": "2026/07/06 10:28",
+   "content": "點.👤搵明哥 mg14144",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 1,
+   "level": 1,
+   "parentIndex": null,
+   "author": "細寶suki",
+   "isAuthor": false,
+   "time": "2026/07/12 10:12",
+   "content": "我鍾意呢個。",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 2,
+   "level": 1,
+   "parentIndex": null,
+   "author": "Marco_Shum",
+   "isAuthor": false,
+   "time": "2026/07/08 13:41",
+   "content": "你賣幾多錢？",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 3,
+   "level": 1,
+   "parentIndex": null,
+   "author": "Tony 长乐 #1 2302",
+   "isAuthor": false,
+   "time": "2026/07/06 08:23",
+   "content": "明哥 这台多少公里 价格",
+   "likes": 1,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  }
+ ],
+ "summary": {
+  "declared": 4,
+  "total": 4,
+  "level1": 4,
+  "level2": 0,
+  "ownComments": 1,
+  "authorRepliedThreads": 0,
+  "awaitingThreads": 3,
+  "authorReplies": 0,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   1,
+   2,
+   3
+  ]
+ }
+}

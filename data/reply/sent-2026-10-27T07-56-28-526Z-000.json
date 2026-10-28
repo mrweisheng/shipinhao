@@ -1,0 +1,166 @@
+{
+  "name": "[emoji]🥢",
+  "kw": "係咪免費充電",
+  "text": "中港牌同充電，PM 我講 📩",
+  "dry": false,
+  "steps": [],
+  "before": {
+    "video": {
+      "title": "香港首批特斯拉 X，现在依然状态良好！ #粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行",
+      "time": "2026年08月23日 07:00"
+    },
+    "declared": 6,
+    "rendered": 6,
+    "textareas": 0
+  },
+  "locate": {
+    "found": 1,
+    "x": 1446,
+    "y": 484,
+    "item": {
+      "name": "[emoji]🥢",
+      "time": "2026/09/30 20:23",
+      "text": "連中港牌？係咪免費充電"
+    },
+    "replies": [],
+    "authorReplied": false
+  },
+  "panel0": {
+    "textareas": 1,
+    "placeholder": "回复 [emoji]🥢：",
+    "value": "",
+    "ta": {
+      "x": 1195,
+      "y": 572
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap disabled primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap disabled primary",
+      "enabled": false,
+      "x": 960,
+      "y": 621,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "panel1": {
+    "textareas": 1,
+    "placeholder": "回复 [emoji]🥢：",
+    "value": "中港牌同充電，PM 我講 📩",
+    "ta": {
+      "x": 1195,
+      "y": 572
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 621,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "sendClick": {
+    "textareas": 1,
+    "placeholder": "回复 [emoji]🥢：",
+    "value": "中港牌同充電，PM 我講 📩",
+    "ta": {
+      "x": 1195,
+      "y": 514
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 563,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "verify": {
+    "declared": 7,
+    "textareas": 0,
+    "found": true,
+    "replies": [
+      {
+        "name": "明哥揀粤港车",
+        "text": "中港牌同充電，PM 我講 📩"
+      }
+    ],
+    "hit": true
+  },
+  "trace": {
+    "requests": [
+      {
+        "requestId": "80620.92438",
+        "url": "https://channels.weixin.qq.com/micro/interaction/cgi-bin/mmfinderassistant-bin/comment/create_comment?_aid=a92662d8-2b79-413e-87ed-244b48318e0a&_rid=6ae0592e-d8af0643&_pageUrl=https:%2F%2Fchannels.weixin.qq.com%2Fmicro%2Finteraction%2Fcomment",
+        "method": "POST",
+        "postData": "{\"replyCommentId\":\"15022076082325819804\",\"content\":\"中港牌同充電，PM 我講 📩\",\"clientId\":\"4e746020-8092-48eb-b061-981db4061778\",\"rootCommentId\":\"15022076082325819804\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15022076082325819804\",\"commentNickname\":\"[emoji]🥢\",\"commentContent\":\"連中港牌？係咪免費充電\",\"commentHeadurl\":\"https://mmhead.hk.wechat.com/mmhead/ver_1/b15spCIOeOTicOLrhg6SpibQIH5HictLkDcIbLeIBuo29WTRY8rnmOCBNE1FFdia1kfdo5YAbOqG3l9gV7Jgww8pfQDgelv1mVqD7uGR5y6lju1ca18SbXTz3wWtaqHFMIick/132\",\"commentCreatetime\":\"1790771017\",\"commentLikeCount\":0,\"lastBuff\":\"\",\"downContinueFlag\":0,\"visibleFlag\":0,\"readFlag\":true,\"displayFlag\":0,\"username\":\"\",\"blacklistFlag\":0,\"likeFlag\":0},\"exportId\":\"export/UzFfBgAAxK-gRCs-USzvk8zT4DCafRkNNwwwwYpNkpFJhBvd-Q\",\"timestamp\":\"1793087790333\",\"_log_finder_uin\":\"\",\"_log_finder_id\":\"v2_060000231003b20faec8c6e68e1ac6d2cc0ce43db077c80c7ad975ea80702c9b7231ef3e0fd2@finder\",\"rawKeyBuff\":\"\",\"pluginSessionId\":null,\"scene\":7,\"reqScene\":7}",
+        "ts": "2026-10-27T07:56:30.335Z",
+        "status": 201,
+        "mimeType": "application/json",
+        "body": "{\"errCode\":0,\"errMsg\":\"request successful\",\"data\":{\"commentId\":\"15041510587419724124\",\"clientId\":\"4e746020-8092-48eb-b061-981db4061778\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15041510587419724124\",\"commentContent\":\"中港牌同充電，PM 我講 📩\",\"commentCreatetime\":\"1793087790\",\"commentLikeCount\":0,\"replyCommentId\":\"15022076082325819804\",\"replyContent\":\"連中港牌？係咪免費充電\",\"visibleFlag\":1,\"displayFlag\":2,\"username\":\"v2_060000231003b20faec8c6e68e1ac6d2cc0ce43db077c80c7ad975ea80702c9b7231ef3e0fd2@finder\"},\"baseResp\":{\"errcode\":0,\"errmsg\":\"\"}}}",
+        "error": null,
+        "errCode": 0,
+        "errMsg": "request successful",
+        "topErrCode": 0,
+        "topErrMsg": "request successful",
+        "baseResp": {
+          "errcode": 0,
+          "errmsg": ""
+        }
+      }
+    ],
+    "toasts": []
+  },
+  "result": {
+    "countUp": true,
+    "threadHit": true,
+    "taZero": true,
+    "declared": 7
+  },
+  "like": {
+    "ok": true
+  }
+}

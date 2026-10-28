@@ -1,0 +1,71 @@
+{
+  "finishedAt": "2026-10-27T03:33:31.372Z",
+  "mode": "send",
+  "planFile": "D:\\视频号\\data\\reply\\plan-1027a2-nth18.json",
+  "video": {
+    "title": "在香港，z实用的七人车之一，本田步威 #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行",
+    "time": "2026年09月17日 07:05"
+  },
+  "before": {
+    "declared": 33,
+    "plannedReplies": 3,
+    "executed": 3
+  },
+  "summary": {
+    "ok": 3,
+    "failed": 0,
+    "rejected": 0,
+    "policy": 0
+  },
+  "after": null,
+  "results": [
+    {
+      "index": 3,
+      "name": "香港装修超爽哥",
+      "time": "2026/10/10 04:55",
+      "likes": 1,
+      "content": "喜欢，帮忙安排一下",
+      "kw": "帮忙安排一下",
+      "asked": "客户说喜欢，让明哥帮忙安排一台",
+      "action": "reply",
+      "text": "想安排冇問題，私訊我傾 📩",
+      "answerOk": true,
+      "category": "car_stock",
+      "reason": "明确购车意向（帮忙安排）；肯定承接 + 引私域，不承诺交期",
+      "caseId": "c071",
+      "result": "sent"
+    },
+    {
+      "index": 8,
+      "name": "發亮發光",
+      "time": "2026/10/01 00:47",
+      "likes": null,
+      "content": "有興趣",
+      "kw": "有興趣",
+      "asked": "客户表示对这台车有兴趣",
+      "action": "reply",
+      "text": "有興趣就私訊我，傾下 😄",
+      "answerOk": true,
+      "category": "car_stock",
+      "reason": "购车兴趣表达；承接 + 引导，不报价",
+      "caseId": "c072",
+      "result": "sent"
+    },
+    {
+      "index": 14,
+      "name": "偉成2053",
+      "time": "2026/09/20 10:48",
+      "likes": 1,
+      "content": "請問幾多錢？",
+      "kw": "請問幾多錢",
+      "asked": "客户问这台车多少钱",
+      "action": "reply",
+      "text": "價錢私訊我，睇岩再傾 😄",
+      "answerOk": true,
+      "category": "car_price",
+      "reason": "明确问价；未标价 → 不编数字，引私域",
+      "caseId": "c073",
+      "result": "sent"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "name": "鐘效",
+  "kw": "我要",
+  "text": "有興趣私訊我，慢慢傾 🙏",
+  "dry": false,
+  "steps": [],
+  "before": {
+    "video": {
+      "title": "在香港买车，你就绕不开这不本田的七人车步威！ #两地牌#港澳车牌#香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行",
+      "time": "2026年09月06日 07:05"
+    },
+    "declared": 40,
+    "rendered": 40,
+    "textareas": 0
+  },
+  "locate": {
+    "found": 1,
+    "x": 1446,
+    "y": 589,
+    "item": {
+      "name": "鐘效",
+      "time": "2026/09/21 13:31",
+      "text": "我要"
+    },
+    "replies": [],
+    "authorReplied": false
+  },
+  "panel0": {
+    "textareas": 1,
+    "placeholder": "回复 鐘效：",
+    "value": "",
+    "ta": {
+      "x": 1195,
+      "y": 677
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap disabled primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap disabled primary",
+      "enabled": false,
+      "x": 960,
+      "y": 726,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "panel1": {
+    "textareas": 1,
+    "placeholder": "回复 鐘效：",
+    "value": "有興趣私訊我，慢慢傾 🙏",
+    "ta": {
+      "x": 1195,
+      "y": 677
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 726,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "sendClick": {
+    "textareas": 1,
+    "placeholder": "回复 鐘效：",
+    "value": "有興趣私訊我，慢慢傾 🙏",
+    "ta": {
+      "x": 1195,
+      "y": 570
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 620,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "verify": {
+    "declared": 41,
+    "textareas": 0,
+    "found": true,
+    "replies": [
+      {
+        "name": "明哥揾粤港车",
+        "text": "有興趣私訊我，慢慢傾"
+      }
+    ],
+    "hit": true
+  },
+  "trace": {
+    "requests": [
+      {
+        "requestId": "80620.52136",
+        "url": "https://channels.weixin.qq.com/micro/interaction/cgi-bin/mmfinderassistant-bin/comment/create_comment?_aid=a92662d8-2b79-413e-87ed-244b48318e0a&_rid=6ae01baa-b55f95ab&_pageUrl=https:%2F%2Fchannels.weixin.qq.com%2Fmicro%2Finteraction%2Fcomment",
+        "method": "POST",
+        "postData": "{\"replyCommentId\":\"15015345776524794815\",\"content\":\"有興趣私訊我，慢慢傾 🙏\",\"clientId\":\"463178cc-03ab-4b11-8813-9b8c60d1f416\",\"rootCommentId\":\"15015345776524794815\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15015345776524794815\",\"commentNickname\":\"鐘效\",\"commentContent\":\"我要\",\"commentHeadurl\":\"https://wx.qlogo.cn/finderhead/ps68icnpRvDWgbrianhxe17DrbURmhQGibezoicvohUHSLaFAQehAIz79g/0\",\"commentCreatetime\":\"1789968702\",\"commentLikeCount\":0,\"lastBuff\":\"\",\"downContinueFlag\":0,\"visibleFlag\":0,\"readFlag\":true,\"displayFlag\":8,\"username\":\"v2_060000231003b20faec8c5e4801bc3d0cc04e53db077af6e8becce0f52aba617ce9028aab4be@finder\",\"blacklistFlag\":0,\"likeFlag\":0},\"exportId\":\"export/UzFfBgAAxKCudEcZeyD5k8zT4DCaBH_41Wia372bbh-0ofi4WA\",\"timestamp\":\"1793072042527\",\"_log_finder_uin\":\"\",\"_log_finder_id\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\",\"rawKeyBuff\":\"\",\"pluginSessionId\":null,\"scene\":7,\"reqScene\":7}",
+        "ts": "2026-10-27T03:34:02.530Z",
+        "status": 201,
+        "mimeType": "application/json",
+        "body": "{\"errCode\":0,\"errMsg\":\"request successful\",\"data\":{\"commentId\":\"15041378485564476129\",\"clientId\":\"463178cc-03ab-4b11-8813-9b8c60d1f416\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15041378485564476129\",\"commentContent\":\"有興趣私訊我，慢慢傾 🙏\",\"commentCreatetime\":\"1793072043\",\"commentLikeCount\":0,\"replyCommentId\":\"15015345776524794815\",\"replyContent\":\"我要\",\"visibleFlag\":1,\"displayFlag\":2,\"username\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\"},\"baseResp\":{\"errcode\":0,\"errmsg\":\"\"}}}",
+        "error": null,
+        "errCode": 0,
+        "errMsg": "request successful",
+        "topErrCode": 0,
+        "topErrMsg": "request successful",
+        "baseResp": {
+          "errcode": 0,
+          "errmsg": ""
+        }
+      }
+    ],
+    "toasts": []
+  },
+  "result": {
+    "countUp": true,
+    "threadHit": true,
+    "taZero": true,
+    "declared": 41
+  },
+  "like": {
+    "ok": true
+  }
+}

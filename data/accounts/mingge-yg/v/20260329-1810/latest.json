@@ -1,0 +1,108 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "迈巴赫才是香港男人的最终品味！ #中港两地牌#香港二手车#香港买车#香港生活#香港#明哥中港牌",
+  "time": "2026年03月29日 18:10"
+ },
+ "declared": 6,
+ "isEmpty": false,
+ "total": 6,
+ "topLevel": 4,
+ "replies": 2,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "富强李",
+   "isAuthor": false,
+   "time": "2026/05/27 23:18",
+   "content": "几多年车？几錢？",
+   "likes": 1,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 1,
+   "level": 1,
+   "parentIndex": null,
+   "author": "发发1569",
+   "isAuthor": false,
+   "time": "2026/05/18 13:29",
+   "content": "大劉都嫌油貴！坐電車啦",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 2,
+   "level": 1,
+   "parentIndex": null,
+   "author": "一切为你",
+   "isAuthor": false,
+   "time": "2026/03/30 09:30",
+   "content": "有資料嗎 幾錢",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/03/31 14:13"
+  },
+  {
+   "index": 3,
+   "level": 2,
+   "parentIndex": 2,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/03/31 14:13",
+   "content": "有的 [爱心]",
+   "likes": null
+  },
+  {
+   "index": 4,
+   "level": 1,
+   "parentIndex": null,
+   "author": "一切为你",
+   "isAuthor": false,
+   "time": "2026/03/29 21:06",
+   "content": "有13年14年的飞驰吗",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/03/30 09:21"
+  },
+  {
+   "index": 5,
+   "level": 2,
+   "parentIndex": 4,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/03/30 09:21",
+   "content": "有的",
+   "likes": null
+  }
+ ],
+ "summary": {
+  "declared": 6,
+  "total": 6,
+  "level1": 4,
+  "level2": 2,
+  "ownComments": 0,
+  "authorRepliedThreads": 2,
+  "awaitingThreads": 2,
+  "authorReplies": 2,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   0,
+   1
+  ]
+ }
+}

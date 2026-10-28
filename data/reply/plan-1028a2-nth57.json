@@ -1,0 +1,103 @@
+{
+  "createdAt": "2026-10-28T01:18:36.993Z",
+  "nth": null,
+  "video": {
+    "title": "在香港全款去买宾利是什么体验？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车",
+    "time": "2026年07月09日 07:05"
+  },
+  "titleContext": {
+    "business": "car",
+    "ports": [],
+    "models": [
+      "宾利"
+    ],
+    "price": null
+  },
+  "declared": 9,
+  "source": "D:\\视频号\\data\\maintain-1028-acct2\\nth57.json",
+  "rules": {
+    "facts": "业务事实.md（唯一事实来源：价格/付款/车况/地址/移民/求职）",
+    "judgment": ".opencode/skills/channels-comment-ops/SKILL.md（回不回、红线、动作分类）",
+    "cases": "data/cases/（主参考：先判意图 → 检索 2 好 1 坏 → 仿写）",
+    "style": "模板池.md（仅 GUIDE-* 引导尾巴与兜底候选，按语义改写，不要关键词对号入座）"
+  },
+  "counts": {
+    "topLevel": 7,
+    "authorReplied": 2,
+    "authorOwn": 0,
+    "pending": 5
+  },
+  "items": [
+    {
+      "index": 0,
+      "name": "阿細",
+      "time": "2026/10/27 13:20",
+      "likes": null,
+      "content": "明哥 /:strong /:strong /:strong /:strong",
+      "kw": "明哥",
+      "asked": "客户只发了「明哥」加一排大拇指，纯点名互动",
+      "action": "reply",
+      "text": "多謝支持 🙏",
+      "answerOk": true,
+      "category": "praise",
+      "reason": "点名互动（SKILL 第 3 问命中）→ 该回；纯回应不带引导"
+    },
+    {
+      "index": 3,
+      "name": "kkkk",
+      "time": "2026/07/11 10:15",
+      "likes": null,
+      "content": "我還以為你有咁霸氣 [呲牙] [呲牙] [呲牙]",
+      "kw": "我還以為你有",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "观点闲聊 / 表情 / 贬义 / 内容讨论，无业务意向，按策略跳过"
+    },
+    {
+      "index": 4,
+      "name": "john",
+      "time": "2026/07/11 09:26",
+      "likes": null,
+      "content": "贬值厉害",
+      "kw": "贬值厉害",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "观点闲聊 / 表情 / 贬义 / 内容讨论，无业务意向，按策略跳过"
+    },
+    {
+      "index": 5,
+      "name": "牙仔",
+      "time": "2026/07/10 01:20",
+      "likes": null,
+      "content": "咩意思呀，唔係你買？！",
+      "kw": "咩意思呀",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "观点闲聊 / 表情 / 贬义 / 内容讨论，无业务意向，按策略跳过"
+    },
+    {
+      "index": 8,
+      "name": "Ben",
+      "time": "2026/07/09 11:50",
+      "likes": null,
+      "content": "卖笨你 /::D",
+      "kw": "卖笨你",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "观点闲聊 / 表情 / 贬义 / 内容讨论，无业务意向，按策略跳过"
+    }
+  ],
+  "videoType": "业务类"
+}

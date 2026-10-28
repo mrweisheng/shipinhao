@@ -1,0 +1,107 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "三十年前，有上海滩而今它还依然在维多利亚港！ #两地牌#香港#香港生活#香港二手车#粤港车#香港买车",
+  "time": "2025年11月05日 07:15"
+ },
+ "declared": 6,
+ "isEmpty": false,
+ "total": 6,
+ "topLevel": 4,
+ "replies": 2,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "阿志",
+   "isAuthor": false,
+   "time": "2025/12/27 12:30",
+   "content": "明哥应该系福建人 [强]",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 1,
+   "level": 1,
+   "parentIndex": null,
+   "author": "明哥粤港车",
+   "isAuthor": true,
+   "time": "2025/11/05 21:22",
+   "content": "18w",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 2,
+   "level": 1,
+   "parentIndex": null,
+   "author": "我喺K.C陳[吉他]",
+   "isAuthor": false,
+   "time": "2025/11/05 17:32",
+   "content": "几钱？",
+   "likes": null,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2025/11/05 20:17"
+  },
+  {
+   "index": 3,
+   "level": 2,
+   "parentIndex": 2,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2025/11/05 20:17",
+   "content": "主 页揾 我 [呲牙]",
+   "likes": null
+  },
+  {
+   "index": 4,
+   "level": 1,
+   "parentIndex": null,
+   "author": "龙虎际风云",
+   "isAuthor": false,
+   "time": "2025/11/05 13:14",
+   "content": "什么价？",
+   "likes": null,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2025/11/05 14:44"
+  },
+  {
+   "index": 5,
+   "level": 2,
+   "parentIndex": 4,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2025/11/05 14:44",
+   "content": "主 页揾 我啦 [呲牙]",
+   "likes": null
+  }
+ ],
+ "summary": {
+  "declared": 6,
+  "total": 6,
+  "level1": 4,
+  "level2": 2,
+  "ownComments": 1,
+  "authorRepliedThreads": 2,
+  "awaitingThreads": 1,
+  "authorReplies": 2,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   0
+  ]
+ }
+}

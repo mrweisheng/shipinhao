@@ -1,0 +1,85 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "香港人超爱的特斯拉X，今天你就18.8万带走！ #两地牌#香港#香港生活#香港二手车#粤港车#香港买车",
+  "time": "2025年11月01日 07:15"
+ },
+ "declared": 4,
+ "isEmpty": false,
+ "total": 4,
+ "topLevel": 3,
+ "replies": 1,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "CatherineYeung",
+   "isAuthor": false,
+   "time": "2026/01/09 17:49",
+   "content": "地址",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 1,
+   "level": 1,
+   "parentIndex": null,
+   "author": "亦布哒",
+   "isAuthor": false,
+   "time": "2025/11/06 20:07",
+   "content": "[破涕为笑] 光这个两地牌一年啥不干都得掏你 2-3W 港纸去养着它",
+   "likes": null,
+   "replyCount": 1,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 2,
+   "level": 2,
+   "parentIndex": 1,
+   "author": "张锡斌",
+   "isAuthor": false,
+   "time": "2026/01/05 23:24",
+   "content": "单牌照租金3w一年？",
+   "likes": null
+  },
+  {
+   "index": 3,
+   "level": 1,
+   "parentIndex": null,
+   "author": "礁岛候鸟-",
+   "isAuthor": false,
+   "time": "2025/11/06 10:04",
+   "content": "右，感觉不习惯 [Facepalm]",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  }
+ ],
+ "summary": {
+  "declared": 4,
+  "total": 4,
+  "level1": 3,
+  "level2": 1,
+  "ownComments": 0,
+  "authorRepliedThreads": 0,
+  "awaitingThreads": 3,
+  "authorReplies": 0,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   0,
+   1,
+   3
+  ]
+ }
+}

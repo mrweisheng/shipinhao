@@ -1,0 +1,166 @@
+{
+  "name": "黄明7163",
+  "kw": "分期付款",
+  "text": "全款嚟嘅；點頭像👤私訊我 📩",
+  "dry": false,
+  "steps": [],
+  "before": {
+    "video": {
+      "title": "在香港，宾利和本田，你会选那一辆？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "time": "2026年10月11日 07:05"
+    },
+    "declared": 16,
+    "rendered": 16,
+    "textareas": 0
+  },
+  "locate": {
+    "found": 1,
+    "x": 1269,
+    "y": 492,
+    "item": {
+      "name": "黄明7163",
+      "time": "2026/10/23 21:12",
+      "text": "司分期付款嗎？"
+    },
+    "replies": [],
+    "authorReplied": false
+  },
+  "panel0": {
+    "textareas": 1,
+    "placeholder": "回复 黄明7163：",
+    "value": "",
+    "ta": {
+      "x": 1018,
+      "y": 579
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap disabled primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap disabled primary",
+      "enabled": false,
+      "x": 783,
+      "y": 629,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "panel1": {
+    "textareas": 1,
+    "placeholder": "回复 黄明7163：",
+    "value": "全款嚟嘅；點頭像👤私訊我 📩",
+    "ta": {
+      "x": 1018,
+      "y": 579
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 783,
+      "y": 629,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "sendClick": {
+    "textareas": 1,
+    "placeholder": "回复 黄明7163：",
+    "value": "全款嚟嘅；點頭像👤私訊我 📩",
+    "ta": {
+      "x": 1018,
+      "y": 474
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 783,
+      "y": 523,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "verify": {
+    "declared": 17,
+    "textareas": 0,
+    "found": true,
+    "replies": [
+      {
+        "name": "明哥揾粤港车",
+        "text": "全款嚟嘅；點頭像👤私訊我 📩"
+      }
+    ],
+    "hit": true
+  },
+  "trace": {
+    "requests": [
+      {
+        "requestId": "10780.125028",
+        "url": "https://channels.weixin.qq.com/micro/interaction/cgi-bin/mmfinderassistant-bin/comment/create_comment?_aid=68322090-7d6b-44c0-a7f6-df85e8af959a&_rid=6add5fa4-20433cf7&_pageUrl=https:%2F%2Fchannels.weixin.qq.com%2Fmicro%2Finteraction%2Fcomment",
+        "method": "POST",
+        "postData": "{\"replyCommentId\":\"15038770641627257982\",\"content\":\"全款嚟嘅；點頭像👤私訊我 📩\",\"clientId\":\"1123ad17-5fe1-4bf5-a997-3ed9e94e98af\",\"rootCommentId\":\"15038770641627257982\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15038770641627257982\",\"commentNickname\":\"黄明7163\",\"commentContent\":\"司分期付款嗎？\",\"commentHeadurl\":\"https://wx.qlogo.cn/finderhead/DcS5VBNQiaL48OtN6ibG0L248W1oxpRFyh4FKQF54oyib4WsBRNpjOqksW77HHxvIicS4MfiaK6sCwzs/0\",\"commentCreatetime\":\"1792761163\",\"commentLikeCount\":0,\"lastBuff\":\"\",\"downContinueFlag\":0,\"visibleFlag\":0,\"readFlag\":true,\"displayFlag\":8,\"username\":\"v2_060000231003b20faec8c5e08011cadccd00e535b077693bb264f0506a75222f7615fa5c8d71@finder\",\"blacklistFlag\":0,\"likeFlag\":0},\"exportId\":\"export/UzFfBgAAxISmRHAzbFivk8zT4DCaGZ-F-ISaHxpErg39kfQ4vw\",\"timestamp\":\"1792892836042\",\"_log_finder_uin\":\"\",\"_log_finder_id\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\",\"rawKeyBuff\":\"\",\"pluginSessionId\":null,\"scene\":7,\"reqScene\":7}",
+        "ts": "2026-10-25T01:47:16.045Z",
+        "status": 201,
+        "mimeType": "application/json",
+        "body": "{\"errCode\":0,\"errMsg\":\"request successful\",\"data\":{\"commentId\":\"15039875182272252615\",\"clientId\":\"1123ad17-5fe1-4bf5-a997-3ed9e94e98af\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15039875182272252615\",\"commentContent\":\"全款嚟嘅；點頭像👤私訊我 📩\",\"commentCreatetime\":\"1792892835\",\"commentLikeCount\":0,\"replyCommentId\":\"15038770641627257982\",\"replyContent\":\"司分期付款嗎？\",\"visibleFlag\":1,\"displayFlag\":2,\"username\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\"},\"baseResp\":{\"errcode\":0,\"errmsg\":\"\"}}}",
+        "error": null,
+        "errCode": 0,
+        "errMsg": "request successful",
+        "topErrCode": 0,
+        "topErrMsg": "request successful",
+        "baseResp": {
+          "errcode": 0,
+          "errmsg": ""
+        }
+      }
+    ],
+    "toasts": []
+  },
+  "result": {
+    "countUp": true,
+    "threadHit": true,
+    "taZero": true,
+    "declared": 17
+  },
+  "like": {
+    "ok": true
+  }
+}

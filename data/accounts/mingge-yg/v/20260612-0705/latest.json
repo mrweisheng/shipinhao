@@ -1,0 +1,99 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "今天给大家隆重介绍这台全新40系！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车",
+  "time": "2026年06月12日 07:05"
+ },
+ "declared": 5,
+ "isEmpty": false,
+ "total": 5,
+ "topLevel": 4,
+ "replies": 1,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "刘先生",
+   "isAuthor": false,
+   "time": "2026/07/01 21:21",
+   "content": "水貨",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 1,
+   "level": 1,
+   "parentIndex": null,
+   "author": "文記",
+   "isAuthor": false,
+   "time": "2026/06/12 13:03",
+   "content": "我要一台？什厶介 [呲牙] [呲牙] [呲牙] [呲牙]",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 2,
+   "level": 1,
+   "parentIndex": null,
+   "author": "厚于德_敏于行",
+   "isAuthor": false,
+   "time": "2026/06/12 10:13",
+   "content": "靓",
+   "likes": 1,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 3,
+   "level": 1,
+   "parentIndex": null,
+   "author": "小小笑黃",
+   "isAuthor": false,
+   "time": "2026/06/12 23:00",
+   "content": "how much",
+   "likes": 2,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/06/14 13:58"
+  },
+  {
+   "index": 4,
+   "level": 2,
+   "parentIndex": 3,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/06/14 13:58",
+   "content": "mg14144 +我咯",
+   "likes": null
+  }
+ ],
+ "summary": {
+  "declared": 5,
+  "total": 5,
+  "level1": 4,
+  "level2": 1,
+  "ownComments": 0,
+  "authorRepliedThreads": 1,
+  "awaitingThreads": 3,
+  "authorReplies": 1,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   0,
+   1,
+   2
+  ]
+ }
+}

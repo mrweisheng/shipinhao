@@ -1,0 +1,71 @@
+{
+  "finishedAt": "2026-10-28T02:42:29.094Z",
+  "mode": "send",
+  "planFile": "D:\\视频号\\data\\reply\\plan-jg-20261001-0700.json",
+  "video": {
+    "title": "在汕尾，阿姐，我要这，我要那，是常情，这次兄弟，你要站起来！ #两地牌#港澳车牌#香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月01日 07:00"
+  },
+  "before": {
+    "declared": 748,
+    "plannedReplies": 3,
+    "executed": 3
+  },
+  "summary": {
+    "ok": 3,
+    "failed": 0,
+    "rejected": 0,
+    "policy": 0
+  },
+  "after": null,
+  "results": [
+    {
+      "index": 12,
+      "name": "幸福妈妈",
+      "time": "2026/10/01 12:00",
+      "likes": 13,
+      "content": "人要自力更生丰衣足食，不可衣靠外援，有真正难事救急时侯，可以求救过后要还，每人都有家庭难处是不容易，各人爱自觉，老师说得对给你点赞",
+      "kw": "每人都有家庭",
+      "asked": "客户认同「人要自力更生」，说老师讲得对、给点赞",
+      "action": "reply",
+      "text": "多謝你認同，也謝謝你點讚 🙏",
+      "answerOk": true,
+      "category": "praise",
+      "reason": "正向文字 → 回",
+      "caseId": "c138",
+      "result": "sent"
+    },
+    {
+      "index": 184,
+      "name": "LYM玉玉玉",
+      "time": "2026/10/02 00:37",
+      "likes": 1,
+      "content": "帅哥，讲的对对对 /:strong /:heart /:strong /:strong /:heart /:heart",
+      "kw": "讲的对对对",
+      "asked": "客户说「帅哥，讲得对」",
+      "action": "reply",
+      "text": "哈哈，多謝你 😄",
+      "answerOk": true,
+      "category": "praise",
+      "reason": "正向文字 → 回",
+      "caseId": "c139",
+      "result": "sent"
+    },
+    {
+      "index": 243,
+      "name": "碧水蓝天",
+      "time": "2026/10/01 21:47",
+      "likes": 1,
+      "content": "听你说的那么多，你的兄弟姐妹值得，不好意思，每个家庭都有家庭的难处，不容易啊 [强] [爱心] [捂脸]",
+      "kw": "每个家庭都有",
+      "asked": "客户说兄弟姐妹值得，每个家庭都有难处",
+      "action": "reply",
+      "text": "多謝理解，家人真係唔容易 🙏",
+      "answerOk": true,
+      "category": "praise",
+      "reason": "正向共情 → 回",
+      "caseId": "c140",
+      "result": "sent"
+    }
+  ]
+}

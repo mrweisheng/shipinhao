@@ -1,0 +1,87 @@
+{
+  "finishedAt": "2026-10-28T01:57:38.340Z",
+  "mode": "send",
+  "planFile": "D:\\视频号\\data\\reply\\plan-1028a2-20261027-0950.json",
+  "video": {
+    "title": "以前这是香港的骄傲，新的时刻，香港会更好！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月27日 09:50"
+  },
+  "before": {
+    "declared": 27,
+    "plannedReplies": 4,
+    "executed": 4
+  },
+  "summary": {
+    "ok": 3,
+    "failed": 1,
+    "rejected": 0,
+    "policy": 0
+  },
+  "after": null,
+  "results": [
+    {
+      "index": 0,
+      "name": "曹小玲",
+      "time": "2026/10/28 06:37",
+      "likes": null,
+      "content": "讲得對 /:strong /:strong /:strong [666] [666] [666] [Worship] [Worship] [Worship] /:heart /:heart",
+      "kw": "Worshi",
+      "asked": "客户认同视频讲得对",
+      "action": "reply",
+      "text": "多謝你認同，共勉 😄",
+      "answerOk": true,
+      "category": "praise",
+      "reason": "文字捧场（观点类规则 A）→ 回；纯回应不带引导",
+      "result": "failed",
+      "detail": "① 当前视频：以前这是香港的骄傲，新的时刻，香港会更好！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾｜2026年10月27日 09:50｜共 27 条\n[失败] 目标未唯一命中（命中 0 条）"
+    },
+    {
+      "index": 14,
+      "name": "LAW1330",
+      "time": "2026/10/27 18:18",
+      "likes": null,
+      "content": "加油.明哥. [强]",
+      "kw": "加油",
+      "asked": "客户说「加油，明哥」",
+      "action": "reply",
+      "text": "多謝鼓勵，收到 💪",
+      "answerOk": true,
+      "category": "praise",
+      "reason": "点名 + 鼓励 → 第 3 问命中，回",
+      "caseId": "c114",
+      "result": "sent"
+    },
+    {
+      "index": 15,
+      "name": "勇",
+      "time": "2026/10/27 14:35",
+      "likes": null,
+      "content": "明哥 /:strong",
+      "kw": "明哥",
+      "asked": "客户只叫了一声「明哥」",
+      "action": "reply",
+      "text": "喺度，多謝支持 🙏",
+      "answerOk": true,
+      "category": "praise",
+      "reason": "纯点名互动 → 第 3 问命中；「喺度」自然接住",
+      "caseId": "c115",
+      "result": "sent"
+    },
+    {
+      "index": 17,
+      "name": "劉欣欣劉止欣",
+      "time": "2026/10/27 13:21",
+      "likes": null,
+      "content": "講到有道 /:strong",
+      "kw": "講到有道",
+      "asked": "客户说讲得有道理（講到有道）",
+      "action": "reply",
+      "text": "哈哈，過獎啦 🙏",
+      "answerOk": true,
+      "category": "praise",
+      "reason": "文字捧场（观点类规则 A）→ 回",
+      "caseId": "c116",
+      "result": "sent"
+    }
+  ]
+}

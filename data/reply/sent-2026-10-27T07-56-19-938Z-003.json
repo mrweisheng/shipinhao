@@ -1,0 +1,167 @@
+{
+  "name": "自強不息",
+  "kw": "怎麼聯繫你呢",
+  "text": "簡介有資料，PM 我 📩",
+  "dry": false,
+  "steps": [],
+  "before": {
+    "video": {
+      "title": "明哥今天，在香港车场这次全部给你们推荐埃尔法！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行",
+      "time": "2026年08月26日 07:00"
+    },
+    "declared": 6,
+    "rendered": 6,
+    "textareas": 0
+  },
+  "locate": {
+    "found": 1,
+    "x": 1457,
+    "y": 578,
+    "item": {
+      "name": "自強不息",
+      "time": "2026/08/30 10:07",
+      "text": "怎麼聯繫你呢"
+    },
+    "replies": [],
+    "authorReplied": false
+  },
+  "panel0": {
+    "textareas": 1,
+    "placeholder": "回复 自強不息：",
+    "value": "",
+    "ta": {
+      "x": 1195,
+      "y": 689
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap disabled primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap disabled primary",
+      "enabled": false,
+      "x": 960,
+      "y": 738,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "panel1": {
+    "textareas": 1,
+    "placeholder": "回复 自強不息：",
+    "value": "簡介有資料，PM 我 📩",
+    "ta": {
+      "x": 1195,
+      "y": 689
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 738,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "sendClick": {
+    "textareas": 1,
+    "placeholder": "回复 自強不息：",
+    "value": "簡介有資料，PM 我 📩",
+    "ta": {
+      "x": 1195,
+      "y": 571
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 620,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "verify": {
+    "declared": 7,
+    "textareas": 0,
+    "found": true,
+    "replies": [
+      {
+        "name": "明哥揀粤港车",
+        "text": "簡介有資料，PM 我 📩"
+      }
+    ],
+    "hit": true
+  },
+  "trace": {
+    "requests": [
+      {
+        "requestId": "80620.92174",
+        "url": "https://channels.weixin.qq.com/micro/interaction/cgi-bin/mmfinderassistant-bin/comment/create_comment?_aid=a92662d8-2b79-413e-87ed-244b48318e0a&_rid=6ae05925-1f2d5fbb&_pageUrl=https:%2F%2Fchannels.weixin.qq.com%2Fmicro%2Finteraction%2Fcomment",
+        "method": "POST",
+        "postData": "{\"replyCommentId\":\"14999297968343879833\",\"content\":\"簡介有資料，PM 我 📩\",\"clientId\":\"ee14badf-8c17-4b5b-b6ff-27bf70f12651\",\"rootCommentId\":\"14999297968343879833\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"14999297968343879833\",\"commentNickname\":\"自強不息\",\"commentContent\":\"怎麼聯繫你呢\",\"commentHeadurl\":\"https://mmhead.hk.wechat.com/mmhead/ver_1/sribFlcF2iciceBFib3bSBriaETicUianaafYiagyOBY6Mb27S6Spcs1hJcIPDFBbDNRkZvTErm6ttc5w3906iaBS27xlfBjq8M8PUD4BypCpNHKR1Xw/132\",\"commentCreatetime\":\"1788055654\",\"commentLikeCount\":1,\"lastBuff\":\"\",\"downContinueFlag\":0,\"visibleFlag\":0,\"readFlag\":true,\"displayFlag\":1,\"username\":\"\",\"blacklistFlag\":0,\"likeFlag\":1},\"exportId\":\"export/UzFfBgAAxKGgaBRBAj7rk8zT4DCax18-WRXgjSK2qD3CXh_NMw\",\"timestamp\":\"1793087781758\",\"_log_finder_uin\":\"\",\"_log_finder_id\":\"v2_060000231003b20faec8c6e68e1ac6d2cc0ce43db077c80c7ad975ea80702c9b7231ef3e0fd2@finder\",\"rawKeyBuff\":\"\",\"pluginSessionId\":null,\"scene\":7,\"reqScene\":7}",
+        "ts": "2026-10-27T07:56:21.760Z",
+        "status": 201,
+        "mimeType": "application/json",
+        "body": "{\"errCode\":0,\"errMsg\":\"request successful\",\"data\":{\"commentId\":\"15041510515547965770\",\"clientId\":\"ee14badf-8c17-4b5b-b6ff-27bf70f12651\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15041510515547965770\",\"commentContent\":\"簡介有資料，PM 我 📩\",\"commentCreatetime\":\"1793087782\",\"commentLikeCount\":0,\"replyCommentId\":\"14999297968343879833\",\"replyContent\":\"怎麼聯繫你呢\",\"visibleFlag\":1,\"displayFlag\":2,\"username\":\"v2_060000231003b20faec8c6e68e1ac6d2cc0ce43db077c80c7ad975ea80702c9b7231ef3e0fd2@finder\"},\"baseResp\":{\"errcode\":0,\"errmsg\":\"\"}}}",
+        "error": null,
+        "errCode": 0,
+        "errMsg": "request successful",
+        "topErrCode": 0,
+        "topErrMsg": "request successful",
+        "baseResp": {
+          "errcode": 0,
+          "errmsg": ""
+        }
+      }
+    ],
+    "toasts": []
+  },
+  "result": {
+    "countUp": true,
+    "threadHit": true,
+    "taZero": true,
+    "declared": 7
+  },
+  "like": {
+    "ok": true,
+    "already": true
+  }
+}

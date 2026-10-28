@@ -1,0 +1,167 @@
+{
+  "name": "Jackie珠城小猪",
+  "kw": "科起科起",
+  "text": "哈哈，多謝支持 🙏",
+  "dry": false,
+  "steps": [],
+  "before": {
+    "video": {
+      "title": "香港老友们，马上中秋节了，还记得那个帮助过你的贵人吗？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行",
+      "time": "2026年09月23日 07:05"
+    },
+    "declared": 49,
+    "rendered": 49,
+    "textareas": 0
+  },
+  "locate": {
+    "found": 1,
+    "x": 1457,
+    "y": 577,
+    "item": {
+      "name": "Jackie珠城小猪",
+      "time": "2026/09/23 13:42",
+      "text": "科起科起~"
+    },
+    "replies": [],
+    "authorReplied": false
+  },
+  "panel0": {
+    "textareas": 1,
+    "placeholder": "回复 Jackie珠城小猪：",
+    "value": "",
+    "ta": {
+      "x": 1195,
+      "y": 688
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap disabled primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap disabled primary",
+      "enabled": false,
+      "x": 960,
+      "y": 738,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "panel1": {
+    "textareas": 1,
+    "placeholder": "回复 Jackie珠城小猪：",
+    "value": "哈哈，多謝支持 🙏",
+    "ta": {
+      "x": 1195,
+      "y": 688
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 738,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "sendClick": {
+    "textareas": 1,
+    "placeholder": "回复 Jackie珠城小猪：",
+    "value": "哈哈，多謝支持 🙏",
+    "ta": {
+      "x": 1195,
+      "y": 571
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 620,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "verify": {
+    "declared": 50,
+    "textareas": 0,
+    "found": true,
+    "replies": [
+      {
+        "name": "明哥揾粤港车",
+        "text": "哈哈，多謝支持"
+      }
+    ],
+    "hit": true
+  },
+  "trace": {
+    "requests": [
+      {
+        "requestId": "80620.104025",
+        "url": "https://channels.weixin.qq.com/micro/interaction/cgi-bin/mmfinderassistant-bin/comment/create_comment?_aid=a92662d8-2b79-413e-87ed-244b48318e0a&_rid=6ae14aec-c31fea86&_pageUrl=https:%2F%2Fchannels.weixin.qq.com%2Fmicro%2Finteraction%2Fcomment",
+        "method": "POST",
+        "postData": "{\"replyCommentId\":\"15016800687722139022\",\"content\":\"哈哈，多謝支持 🙏\",\"clientId\":\"1d1aacff-5c34-49f7-989e-b01e22de97b8\",\"rootCommentId\":\"15016800687722139022\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15016800687722139022\",\"commentNickname\":\"Jackie珠城小猪\",\"commentContent\":\"科起科起~\",\"commentHeadurl\":\"https://wx.qlogo.cn/finderhead/0WdUhrYaOdbJYU4pY0FzHk4bJaAcP3w7heTsgTWl71uPKJK0EZuZAxl0SyI0GvBoLbZ9unpIVR8/0\",\"commentCreatetime\":\"1790142141\",\"commentLikeCount\":1,\"lastBuff\":\"\",\"downContinueFlag\":0,\"visibleFlag\":0,\"readFlag\":true,\"displayFlag\":9,\"username\":\"v2_060000231003b20faec8c7e78d19c5d5c801ec36b07754d13db79501dee2fabfd29c962fe187@finder\",\"blacklistFlag\":0,\"likeFlag\":1},\"exportId\":\"export/UzFfBgAAxJqmTHwTNTHXk8zT4DCa64J9GkBF_iTX0xiGld7gGg\",\"timestamp\":\"1793149676615\",\"_log_finder_uin\":\"\",\"_log_finder_id\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\",\"rawKeyBuff\":\"\",\"pluginSessionId\":null,\"scene\":7,\"reqScene\":7}",
+        "ts": "2026-10-28T01:07:56.617Z",
+        "status": 201,
+        "mimeType": "application/json",
+        "body": "{\"errCode\":0,\"errMsg\":\"request successful\",\"data\":{\"commentId\":\"15042029736525892294\",\"clientId\":\"1d1aacff-5c34-49f7-989e-b01e22de97b8\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15042029736525892294\",\"commentContent\":\"哈哈，多謝支持 🙏\",\"commentCreatetime\":\"1793149678\",\"commentLikeCount\":0,\"replyCommentId\":\"15016800687722139022\",\"replyContent\":\"科起科起~\",\"visibleFlag\":1,\"displayFlag\":2,\"username\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\"},\"baseResp\":{\"errcode\":0,\"errmsg\":\"\"}}}",
+        "error": null,
+        "errCode": 0,
+        "errMsg": "request successful",
+        "topErrCode": 0,
+        "topErrMsg": "request successful",
+        "baseResp": {
+          "errcode": 0,
+          "errmsg": ""
+        }
+      }
+    ],
+    "toasts": []
+  },
+  "result": {
+    "countUp": true,
+    "threadHit": true,
+    "taZero": true,
+    "declared": 50
+  },
+  "like": {
+    "ok": true,
+    "already": true
+  }
+}

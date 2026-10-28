@@ -1,0 +1,63 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "一百万在香港你会怎么选？那台车？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车",
+  "time": "2026年07月18日 07:05"
+ },
+ "declared": 3,
+ "isEmpty": false,
+ "total": 3,
+ "topLevel": 1,
+ "replies": 2,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "伦",
+   "isAuthor": false,
+   "time": "2026/07/28 11:35",
+   "content": "如果有一百个余额毫不犹豫宾利，因为人一世物一世，咩都要砌一砌 [Doge] ，精神明哥",
+   "likes": 1,
+   "replyCount": 2,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/07/28 17:10"
+  },
+  {
+   "index": 1,
+   "level": 2,
+   "parentIndex": 0,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/07/28 17:10",
+   "content": "[呲牙] [呲牙] [呲牙]",
+   "likes": null
+  },
+  {
+   "index": 2,
+   "level": 2,
+   "parentIndex": 0,
+   "author": "伦",
+   "isAuthor": false,
+   "time": "2026/07/28 22:46",
+   "content": "回复明哥揾粤港车: /:strong",
+   "likes": 1
+  }
+ ],
+ "summary": {
+  "declared": 3,
+  "total": 3,
+  "level1": 1,
+  "level2": 2,
+  "ownComments": 0,
+  "authorRepliedThreads": 1,
+  "awaitingThreads": 0,
+  "authorReplies": 1,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": []
+ }
+}

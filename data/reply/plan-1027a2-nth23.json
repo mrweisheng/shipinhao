@@ -1,0 +1,187 @@
+{
+  "createdAt": "2026-10-27T03:31:45.806Z",
+  "nth": null,
+  "video": {
+    "title": "在香港买车，你就绕不开这不本田的七人车步威！ #两地牌#港澳车牌#香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行",
+    "time": "2026年09月06日 07:05"
+  },
+  "titleContext": {
+    "business": "car",
+    "ports": [],
+    "models": [
+      "本田"
+    ],
+    "price": null
+  },
+  "declared": 38,
+  "source": "D:\\视频号\\data\\maintain-1027-acct2\\nth23.json",
+  "rules": {
+    "facts": "业务事实.md（唯一事实来源：价格/付款/车况/地址/移民/求职）",
+    "judgment": ".opencode/skills/channels-comment-ops/SKILL.md（回不回、红线、动作分类）",
+    "cases": "data/cases/（主参考：先判意图 → 检索 2 好 1 坏 → 仿写）",
+    "style": "模板池.md（仅 GUIDE-* 引导尾巴与兜底候选，按语义改写，不要关键词对号入座）"
+  },
+  "counts": {
+    "topLevel": 24,
+    "authorReplied": 13,
+    "authorOwn": 0,
+    "pending": 11
+  },
+  "items": [
+    {
+      "index": 2,
+      "name": "eddyson",
+      "time": "2026/10/18 15:57",
+      "likes": 1,
+      "content": "我要",
+      "kw": "我要",
+      "asked": "客户说「我要」，即想要这台车",
+      "action": "reply",
+      "text": "想要就私訊我傾 😄",
+      "answerOk": true,
+      "category": "car_stock",
+      "reason": "明确购车意向；承接 + 引私域，不承诺有货"
+    },
+    {
+      "index": 5,
+      "name": "Emily",
+      "time": "2026/10/12 18:26",
+      "likes": 1,
+      "content": "我要",
+      "kw": "我要",
+      "asked": "客户说「我要」，想要这台车",
+      "action": "reply",
+      "text": "啱就點頭像👤私訊我 📩",
+      "answerOk": true,
+      "category": "car_stock",
+      "reason": "同上，换一条引导路径避免重复"
+    },
+    {
+      "index": 10,
+      "name": "偵古達人",
+      "time": "2026/09/25 23:43",
+      "likes": 1,
+      "content": "先关注下",
+      "kw": "先关注下",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "内容讨论 / 情绪表达 / 纯表情 / 负面调侃，不构成业务咨询，按策略跳过"
+    },
+    {
+      "index": 11,
+      "name": "鐘效",
+      "time": "2026/09/21 13:31",
+      "likes": null,
+      "content": "我要",
+      "kw": "我要",
+      "asked": "客户说「我要」，想要这台车",
+      "action": "reply",
+      "text": "有興趣私訊我，慢慢傾 🙏",
+      "answerOk": true,
+      "category": "car_stock",
+      "reason": "同上，第 3 个变体"
+    },
+    {
+      "index": 16,
+      "name": "Sing3888",
+      "time": "2026/09/13 23:21",
+      "likes": 1,
+      "content": "我要",
+      "kw": "我要",
+      "asked": "客户说「我要」，想要这台车",
+      "action": "reply",
+      "text": "想要就過嚟睇，朝九晚九 😄",
+      "answerOk": true,
+      "category": "car_view",
+      "reason": "同上；这条走「到店看车 + 营业时间」，不重复用私域引导"
+    },
+    {
+      "index": 21,
+      "name": "洛其elToN",
+      "time": "2026/09/09 10:54",
+      "likes": 1,
+      "content": "我要豐田",
+      "kw": "我要豐田",
+      "asked": "客户说「我要豐田」，点名要丰田",
+      "action": "reply",
+      "text": "想搵豐田？私訊我傾 😄",
+      "answerOk": true,
+      "category": "car_stock",
+      "reason": "点名车型；只承接不报库存，引私域"
+    },
+    {
+      "index": 22,
+      "name": "幸福滿滿",
+      "time": "2026/09/09 06:20",
+      "likes": 1,
+      "content": "[强] [强] [强]",
+      "kw": "[强][强]",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "内容讨论 / 情绪表达 / 纯表情 / 负面调侃，不构成业务咨询，按策略跳过"
+    },
+    {
+      "index": 25,
+      "name": "elvis3796",
+      "time": "2026/09/07 18:22",
+      "likes": 1,
+      "content": "[强]",
+      "kw": "[强]",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "内容讨论 / 情绪表达 / 纯表情 / 负面调侃，不构成业务咨询，按策略跳过"
+    },
+    {
+      "index": 26,
+      "name": "幸福滿滿",
+      "time": "2026/09/07 17:25",
+      "likes": 1,
+      "content": "[强] [强] [强] [强]",
+      "kw": "[强][强]",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "内容讨论 / 情绪表达 / 纯表情 / 负面调侃，不构成业务咨询，按策略跳过"
+    },
+    {
+      "index": 27,
+      "name": "Hugo KWOK",
+      "time": "2026/09/06 23:31",
+      "likes": 1,
+      "content": "呢只車想佐好耐！",
+      "kw": "呢只車想佐好",
+      "asked": "客户说这台车想了很久",
+      "action": "reply",
+      "text": "想咗好耐就過嚟睇 😄",
+      "answerOk": true,
+      "category": "car_view",
+      "reason": "高意向但非提问；邀请到店看车，不承诺有货"
+    },
+    {
+      "index": 31,
+      "name": "CW",
+      "time": "2026/09/06 13:55",
+      "likes": 1,
+      "content": "我要",
+      "kw": "我要",
+      "asked": "客户说「我要」，想要这台车",
+      "action": "reply",
+      "text": "啱就私訊我，幫你安排 📩",
+      "answerOk": true,
+      "category": "car_stock",
+      "reason": "同上，第 4 个变体"
+    }
+  ],
+  "videoType": "业务类"
+}

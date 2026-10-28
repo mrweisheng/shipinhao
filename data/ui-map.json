@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "commentPageUrl": "https://channels.weixin.qq.com/platform/interaction/comment",
+  "routes": {
+    "comment": {
+      "lastWorking": "url",
+      "menuPath": [
+        "互动管理",
+        "评论"
+      ],
+      "updatedAt": null
+    }
+  },
+  "selectors": {
+    "accountName": {
+      "candidates": [
+        ".account-info .name"
+      ],
+      "lastWorking": ".account-info .name",
+      "updatedAt": "2026-10-28T08:28:29.186Z"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-28T08:28:29.186Z",
+      "kind": "selector",
+      "detail": "accountName -> .account-info .name (heuristic)"
+    }
+  ]
+}

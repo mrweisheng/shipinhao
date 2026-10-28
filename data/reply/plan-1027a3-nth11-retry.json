@@ -1,0 +1,61 @@
+{
+  "createdAt": "2026-10-27T07:51:49.003Z",
+  "nth": null,
+  "video": {
+    "title": "香港这台3万8的埃尔法，一定要拿下！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行",
+    "time": "2026年09月27日 07:00"
+  },
+  "titleContext": {
+    "business": "car",
+    "ports": [],
+    "models": [
+      "埃尔法"
+    ],
+    "price": "3萬8"
+  },
+  "declared": 52,
+  "source": "D:\\视频号\\data\\maintain-1027-acct3\\nth11.json",
+  "rules": {
+    "facts": "业务事实.md（唯一事实来源：价格/付款/车况/地址/移民/求职）",
+    "judgment": ".opencode/skills/channels-comment-ops/SKILL.md（回不回、红线、动作分类）",
+    "cases": "data/cases/（主参考：先判意图 → 检索 2 好 1 坏 → 仿写）",
+    "style": "模板池.md（仅 GUIDE-* 引导尾巴与兜底候选，按语义改写，不要关键词对号入座）"
+  },
+  "counts": {
+    "topLevel": 31,
+    "authorReplied": 14,
+    "authorOwn": 0,
+    "pending": 17
+  },
+  "items": [
+    {
+      "index": 5,
+      "name": "Dickson W",
+      "time": "2026/10/15 14:59",
+      "likes": null,
+      "content": "38888 可以整埋兩地牌？ 加起來多少？",
+      "kw": "38888可",
+      "asked": "问38888能不能连两地牌一起做，总共多少钱",
+      "action": "reply",
+      "text": "兩地牌可以整，價錢私訊傾 📩",
+      "answerOk": true,
+      "category": "car_plate",
+      "reason": "先答「可以」，价格不编数字；两个问题都接住"
+    },
+    {
+      "index": 36,
+      "name": "Dentist 牙医鄒醫生 请提前预约",
+      "time": "2026/09/27 12:12",
+      "likes": null,
+      "content": "大陆身份证购买在大陆用车，需要什么手续与后期费用",
+      "kw": "大陆身份证购",
+      "asked": "问大陆身份证买车在大陆用，要什么手续和后期费用",
+      "action": "reply",
+      "text": "手續同費用，PM 我講清楚 📩",
+      "answerOk": true,
+      "category": "car_identity",
+      "reason": "与 c082 同类：业务相关但事实未列明 → 不推断、不下结论，引导 PM"
+    }
+  ],
+  "videoType": "业务类"
+}

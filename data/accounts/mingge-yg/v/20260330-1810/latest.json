@@ -1,0 +1,120 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "这一代s500，才是奔驰的s的代表之作！ #中港两地牌#香港二手车#香港买车#香港生活#香港#明哥中港牌",
+  "time": "2026年03月30日 18:10"
+ },
+ "declared": 6,
+ "isEmpty": false,
+ "total": 6,
+ "topLevel": 6,
+ "replies": 0,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "风雨无阻一路为伴",
+   "isAuthor": false,
+   "time": "2026/06/05 11:02",
+   "content": "这个车就是费油",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 1,
+   "level": 1,
+   "parentIndex": null,
+   "author": "Mr 陳",
+   "isAuthor": false,
+   "time": "2026/05/14 22:34",
+   "content": "香港啲車同大陸無得比 [掩面] [掩面] [掩面]",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 2,
+   "level": 1,
+   "parentIndex": null,
+   "author": "和谐万里",
+   "isAuthor": false,
+   "time": "2026/03/31 17:29",
+   "content": "老板最紧要是多少年车？ [抱拳]",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 3,
+   "level": 1,
+   "parentIndex": null,
+   "author": "大雄",
+   "isAuthor": false,
+   "time": "2026/03/31 02:12",
+   "content": "年份",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 4,
+   "level": 1,
+   "parentIndex": null,
+   "author": "澳门长脚蟹",
+   "isAuthor": false,
+   "time": "2026/03/30 20:54",
+   "content": "我有台S550",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 5,
+   "level": 1,
+   "parentIndex": null,
+   "author": "輝哥david",
+   "isAuthor": false,
+   "time": "2026/03/30 19:33",
+   "content": "我中意",
+   "likes": 1,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  }
+ ],
+ "summary": {
+  "declared": 6,
+  "total": 6,
+  "level1": 6,
+  "level2": 0,
+  "ownComments": 0,
+  "authorRepliedThreads": 0,
+  "awaitingThreads": 6,
+  "authorReplies": 0,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5
+  ]
+ }
+}

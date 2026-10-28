@@ -1,0 +1,93 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "忘了他，明哥卖车养你！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车",
+  "time": "2026年07月20日 07:05"
+ },
+ "declared": 5,
+ "isEmpty": false,
+ "total": 5,
+ "topLevel": 3,
+ "replies": 2,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "顺然日常分享健康",
+   "isAuthor": false,
+   "time": "2026/07/22 20:26",
+   "content": "/:strong /:strong /:strong",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/07/23 09:35"
+  },
+  {
+   "index": 1,
+   "level": 2,
+   "parentIndex": 0,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/07/23 09:35",
+   "content": "[合十]",
+   "likes": null
+  },
+  {
+   "index": 2,
+   "level": 1,
+   "parentIndex": null,
+   "author": "zzhaozq",
+   "isAuthor": false,
+   "time": "2026/07/21 19:49",
+   "content": "靓仔 /::D",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/07/22 10:33"
+  },
+  {
+   "index": 3,
+   "level": 2,
+   "parentIndex": 2,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/07/22 10:33",
+   "content": "[呲牙] [呲牙] [呲牙]",
+   "likes": null
+  },
+  {
+   "index": 4,
+   "level": 1,
+   "parentIndex": null,
+   "author": "自律有爱的宝13692998624",
+   "isAuthor": false,
+   "time": "2026/07/20 14:09",
+   "content": "真的假的？",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  }
+ ],
+ "summary": {
+  "declared": 5,
+  "total": 5,
+  "level1": 3,
+  "level2": 2,
+  "ownComments": 0,
+  "authorRepliedThreads": 2,
+  "awaitingThreads": 1,
+  "authorReplies": 2,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   4
+  ]
+ }
+}

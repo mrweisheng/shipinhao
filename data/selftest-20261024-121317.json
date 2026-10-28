@@ -1,0 +1,455 @@
+{
+  "when": "2026-10-24T04:13:17.242Z",
+  "seed": 814752742,
+  "totalVideos": 169,
+  "results": [
+    {
+      "round": 1,
+      "mode": "url",
+      "from": "https://channels.weixin.qq.com/platform/post/draftListManager",
+      "route": {
+        "parent": "内容管理",
+        "child": "草稿箱",
+        "url": "https://channels.weixin.qq.com/platform/post/draftListManager"
+      },
+      "nth": 150,
+      "ms": 61068,
+      "code": 1,
+      "summary": null,
+      "checks": [
+        {
+          "name": "退出码 0",
+          "ok": false,
+          "detail": "exit=1"
+        },
+        {
+          "name": "点开的正是第 N 条",
+          "ok": false,
+          "detail": "期望 150，实际 null"
+        },
+        {
+          "name": "详情区头部已核对",
+          "ok": false,
+          "detail": "未见「已确认打开」"
+        },
+        {
+          "name": "结果 JSON 可读",
+          "ok": false,
+          "detail": "文件不存在或解析失败"
+        }
+      ],
+      "ok": false
+    },
+    {
+      "round": 2,
+      "mode": "click",
+      "from": "https://channels.weixin.qq.com/platform/interaction/bulletChat",
+      "route": {
+        "parent": "互动管理",
+        "child": "弹幕",
+        "url": "https://channels.weixin.qq.com/platform/interaction/bulletChat"
+      },
+      "nth": 62,
+      "ms": 7562,
+      "code": 0,
+      "summary": {
+        "declared": 18,
+        "total": 18,
+        "level1": 13,
+        "level2": 5,
+        "authorRepliedThreads": 3,
+        "awaitingThreads": 10,
+        "authorReplies": 4,
+        "complete": true,
+        "awaitingIndices": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      "checks": [
+        {
+          "name": "退出码 0",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "点开的正是第 N 条",
+          "ok": true,
+          "detail": "期望 62，实际 62"
+        },
+        {
+          "name": "详情区头部已核对",
+          "ok": true,
+          "detail": "2026/07/01 07:05"
+        },
+        {
+          "name": "输出含 summary",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "声明数 = 实抓数",
+          "ok": true,
+          "detail": "声明 18 / 实抓 18"
+        },
+        {
+          "name": "一级 + 回复 = 总数",
+          "ok": true,
+          "detail": "13+5 vs 18"
+        },
+        {
+          "name": "已回 + 未回 = 一级",
+          "ok": true,
+          "detail": "3+10 vs 13"
+        },
+        {
+          "name": "完整性标记",
+          "ok": true,
+          "detail": "true"
+        },
+        {
+          "name": "评论数与页面声明一致",
+          "ok": true,
+          "detail": "页面 18 / JSON 18"
+        },
+        {
+          "name": "视频时间与头部一致",
+          "ok": true,
+          "detail": "2026/07/01 07:05 vs 2026年07月01日 07:05"
+        }
+      ],
+      "ok": true
+    },
+    {
+      "round": 3,
+      "mode": "url",
+      "from": "https://channels.weixin.qq.com/platform/post/draftListManager",
+      "route": {
+        "parent": "内容管理",
+        "child": "草稿箱",
+        "url": "https://channels.weixin.qq.com/platform/post/draftListManager"
+      },
+      "nth": 3,
+      "ms": 2182,
+      "code": 0,
+      "summary": {
+        "declared": 11,
+        "total": 11,
+        "level1": 7,
+        "level2": 4,
+        "authorRepliedThreads": 4,
+        "awaitingThreads": 3,
+        "authorReplies": 4,
+        "complete": true,
+        "awaitingIndices": [
+          0,
+          7,
+          10
+        ]
+      },
+      "checks": [
+        {
+          "name": "退出码 0",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "点开的正是第 N 条",
+          "ok": true,
+          "detail": "期望 3，实际 3"
+        },
+        {
+          "name": "详情区头部已核对",
+          "ok": true,
+          "detail": "2026/10/17 07:05"
+        },
+        {
+          "name": "输出含 summary",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "声明数 = 实抓数",
+          "ok": true,
+          "detail": "声明 11 / 实抓 11"
+        },
+        {
+          "name": "一级 + 回复 = 总数",
+          "ok": true,
+          "detail": "7+4 vs 11"
+        },
+        {
+          "name": "已回 + 未回 = 一级",
+          "ok": true,
+          "detail": "4+3 vs 7"
+        },
+        {
+          "name": "完整性标记",
+          "ok": true,
+          "detail": "true"
+        },
+        {
+          "name": "评论数与页面声明一致",
+          "ok": true,
+          "detail": "页面 11 / JSON 11"
+        },
+        {
+          "name": "视频时间与头部一致",
+          "ok": true,
+          "detail": "2026/10/17 07:05 vs 2026年10月17日 07:05"
+        }
+      ],
+      "ok": true
+    },
+    {
+      "round": 4,
+      "mode": "click",
+      "from": "https://channels.weixin.qq.com/platform/commodity/window",
+      "route": {
+        "parent": "带货中心",
+        "child": "商品管理",
+        "url": "https://channels.weixin.qq.com/platform/commodity/window"
+      },
+      "nth": 10,
+      "ms": 3749,
+      "code": 0,
+      "summary": {
+        "declared": 29,
+        "total": 29,
+        "level1": 15,
+        "level2": 14,
+        "authorRepliedThreads": 13,
+        "awaitingThreads": 2,
+        "authorReplies": 13,
+        "complete": true,
+        "awaitingIndices": [
+          0,
+          22
+        ]
+      },
+      "checks": [
+        {
+          "name": "退出码 0",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "点开的正是第 N 条",
+          "ok": true,
+          "detail": "期望 10，实际 10"
+        },
+        {
+          "name": "详情区头部已核对",
+          "ok": true,
+          "detail": "2026/10/03 07:05"
+        },
+        {
+          "name": "输出含 summary",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "声明数 = 实抓数",
+          "ok": true,
+          "detail": "声明 29 / 实抓 29"
+        },
+        {
+          "name": "一级 + 回复 = 总数",
+          "ok": true,
+          "detail": "15+14 vs 29"
+        },
+        {
+          "name": "已回 + 未回 = 一级",
+          "ok": true,
+          "detail": "13+2 vs 15"
+        },
+        {
+          "name": "完整性标记",
+          "ok": true,
+          "detail": "true"
+        },
+        {
+          "name": "评论数与页面声明一致",
+          "ok": true,
+          "detail": "页面 29 / JSON 29"
+        },
+        {
+          "name": "视频时间与头部一致",
+          "ok": true,
+          "detail": "2026/10/03 07:05 vs 2026年10月03日 07:05"
+        }
+      ],
+      "ok": true
+    },
+    {
+      "round": 5,
+      "mode": "url",
+      "from": "https://channels.weixin.qq.com/platform/setting/portraitAuth/authAuthor",
+      "route": {
+        "parent": "设置",
+        "child": "肖像授权管理",
+        "url": "https://channels.weixin.qq.com/platform/setting/portraitAuth/authAuthor"
+      },
+      "nth": 138,
+      "ms": 53985,
+      "code": 0,
+      "summary": {
+        "declared": 6,
+        "total": 6,
+        "level1": 5,
+        "level2": 1,
+        "authorRepliedThreads": 1,
+        "awaitingThreads": 4,
+        "authorReplies": 1,
+        "complete": true,
+        "awaitingIndices": [
+          0,
+          1,
+          2,
+          5
+        ]
+      },
+      "checks": [
+        {
+          "name": "退出码 0",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "点开的正是第 N 条",
+          "ok": true,
+          "detail": "期望 138，实际 138"
+        },
+        {
+          "name": "详情区头部已核对",
+          "ok": true,
+          "detail": "2025/11/03 07:15"
+        },
+        {
+          "name": "输出含 summary",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "声明数 = 实抓数",
+          "ok": true,
+          "detail": "声明 6 / 实抓 6"
+        },
+        {
+          "name": "一级 + 回复 = 总数",
+          "ok": true,
+          "detail": "5+1 vs 6"
+        },
+        {
+          "name": "已回 + 未回 = 一级",
+          "ok": true,
+          "detail": "1+4 vs 5"
+        },
+        {
+          "name": "完整性标记",
+          "ok": true,
+          "detail": "true"
+        },
+        {
+          "name": "评论数与页面声明一致",
+          "ok": true,
+          "detail": "页面 6 / JSON 6"
+        },
+        {
+          "name": "视频时间与头部一致",
+          "ok": true,
+          "detail": "2025/11/03 07:15 vs 2025年11月03日 07:15"
+        }
+      ],
+      "ok": true
+    },
+    {
+      "round": 6,
+      "mode": "click",
+      "from": "https://channels.weixin.qq.com/platform/activity/index",
+      "route": {
+        "parent": "内容管理",
+        "child": "活动",
+        "url": "https://channels.weixin.qq.com/platform/activity/index"
+      },
+      "nth": 1,
+      "ms": 4177,
+      "code": 0,
+      "summary": {
+        "declared": 23,
+        "total": 23,
+        "level1": 12,
+        "level2": 11,
+        "authorRepliedThreads": 10,
+        "awaitingThreads": 2,
+        "authorReplies": 10,
+        "complete": true,
+        "awaitingIndices": [
+          0,
+          1
+        ]
+      },
+      "checks": [
+        {
+          "name": "退出码 0",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "点开的正是第 N 条",
+          "ok": true,
+          "detail": "期望 1，实际 1"
+        },
+        {
+          "name": "详情区头部已核对",
+          "ok": true,
+          "detail": "2026/10/21 07:05"
+        },
+        {
+          "name": "输出含 summary",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "声明数 = 实抓数",
+          "ok": true,
+          "detail": "声明 23 / 实抓 23"
+        },
+        {
+          "name": "一级 + 回复 = 总数",
+          "ok": true,
+          "detail": "12+11 vs 23"
+        },
+        {
+          "name": "已回 + 未回 = 一级",
+          "ok": true,
+          "detail": "10+2 vs 12"
+        },
+        {
+          "name": "完整性标记",
+          "ok": true,
+          "detail": "true"
+        },
+        {
+          "name": "评论数与页面声明一致",
+          "ok": true,
+          "detail": "页面 23 / JSON 23"
+        },
+        {
+          "name": "视频时间与头部一致",
+          "ok": true,
+          "detail": "2026/10/21 07:05 vs 2026年10月21日 07:05"
+        }
+      ],
+      "ok": true
+    }
+  ]
+}

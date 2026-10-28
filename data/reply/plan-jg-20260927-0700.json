@@ -1,0 +1,159 @@
+{
+  "createdAt": "2026-10-28T02:39:36.017Z",
+  "nth": null,
+  "video": {
+    "title": "香港这台3万8的埃尔法，一定要拿下！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行",
+    "time": "2026年09月27日 07:00"
+  },
+  "titleContext": {
+    "business": "car",
+    "ports": [],
+    "models": [
+      "埃尔法"
+    ],
+    "price": "3萬8"
+  },
+  "declared": 61,
+  "source": "D:\\视频号\\data\\accounts\\mingge-jg\\v\\20260927-0700\\latest.json",
+  "rules": {
+    "facts": "业务事实.md（唯一事实来源：价格/付款/车况/地址/移民/求职）",
+    "judgment": ".opencode/skills/channels-comment-ops/SKILL.md（回不回、红线、动作分类）",
+    "cases": "data/cases/（主参考：先判意图 → 检索 2 好 1 坏 → 仿写）",
+    "style": "模板池.md（仅 GUIDE-* 引导尾巴与兜底候选，按语义改写，不要关键词对号入座）"
+  },
+  "counts": {
+    "topLevel": 31,
+    "authorReplied": 22,
+    "authorOwn": 0,
+    "pending": 9
+  },
+  "items": [
+    {
+      "index": 6,
+      "name": "玩车叹世界",
+      "time": "2026/10/18 15:14",
+      "likes": null,
+      "content": "费用比车贵 [Facepalm] [Facepalm] [Facepalm]",
+      "kw": "费用比车贵",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "观点表达 / 争论 / 中性陈述，非业务也非捧场"
+    },
+    {
+      "index": 9,
+      "name": "KC",
+      "time": "2026/10/15 12:07",
+      "likes": null,
+      "content": "[强]",
+      "kw": "[强]",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "纯表情 / 符号"
+    },
+    {
+      "index": 14,
+      "name": "曾建伟",
+      "time": "2026/10/02 00:34",
+      "likes": 1,
+      "content": "条村都无港牌",
+      "kw": "条村都无港牌",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "观点表达 / 争论 / 中性陈述，非业务也非捧场"
+    },
+    {
+      "index": 31,
+      "name": "得意幫幫主",
+      "time": "2026/09/27 15:05",
+      "likes": null,
+      "content": "有冇可能咁平呀積木車？🤔",
+      "kw": "有冇可能咁平",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "负面、唱衰、地域对比、贬义"
+    },
+    {
+      "index": 34,
+      "name": "兴仔",
+      "time": "2026/09/27 14:03",
+      "likes": 2,
+      "content": "这么吊贵。我那台白色2万都不要，还13年",
+      "kw": "我那台白色2",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "负面、唱衰、地域对比、贬义"
+    },
+    {
+      "index": 36,
+      "name": "Raymond HK",
+      "time": "2026/09/27 13:31",
+      "likes": null,
+      "content": "20000",
+      "kw": "20000",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "观点表达 / 争论 / 中性陈述，非业务也非捧场"
+    },
+    {
+      "index": 37,
+      "name": "老余说国际物流",
+      "time": "2026/09/27 12:50",
+      "likes": 1,
+      "content": "可以上两地牌吗？",
+      "kw": "可以上两地牌",
+      "asked": "问这台车能不能上两地牌",
+      "action": "reply",
+      "text": "可以，兩地牌都啱傾 😄",
+      "answerOk": true,
+      "category": "car_plate",
+      "reason": "业务咨询（是/否问题先答「可以」）→ 回"
+    },
+    {
+      "index": 46,
+      "name": "澳门依云66888864",
+      "time": "2026/09/27 11:45",
+      "likes": null,
+      "content": "香港牌",
+      "kw": "香港牌",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "观点表达 / 争论 / 中性陈述，非业务也非捧场"
+    },
+    {
+      "index": 56,
+      "name": "绝世好爸",
+      "time": "2026/09/27 08:51",
+      "likes": 2,
+      "content": "[破涕为笑]",
+      "kw": "[破涕为笑]",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "纯表情 / 符号"
+    }
+  ],
+  "videoType": "业务类"
+}

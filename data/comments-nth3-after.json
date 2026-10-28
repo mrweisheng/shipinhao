@@ -1,0 +1,180 @@
+{
+  "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+  "video": {
+    "title": "香港真的是一个豪车超有信价比的地方，12万8就能拿下一台宾利！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月17日 07:05"
+  },
+  "declared": 12,
+  "isEmpty": false,
+  "total": 12,
+  "topLevel": 7,
+  "replies": 5,
+  "comments": [
+    {
+      "index": 0,
+      "level": 1,
+      "parentIndex": null,
+      "author": "伦",
+      "isAuthor": false,
+      "time": "2026/10/23 17:51",
+      "content": "我系皇后山下面最勤力噶男人明少 /::D",
+      "likes": 1,
+      "replyCount": 1,
+      "authorReplied": true,
+      "authorReplyCount": 1,
+      "lastAuthorReplyAt": "2026/10/24 14:39"
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "parentIndex": 0,
+      "author": "明哥揾粤港车",
+      "isAuthor": true,
+      "time": "2026/10/24 14:39",
+      "content": "哈哈，勤力最實際 💪",
+      "likes": null
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "parentIndex": null,
+      "author": "人生1112345",
+      "isAuthor": false,
+      "time": "2026/10/17 16:52",
+      "content": "皇后山最勤力嘅男人",
+      "likes": 1,
+      "replyCount": 1,
+      "authorReplied": true,
+      "authorReplyCount": 1,
+      "lastAuthorReplyAt": "2026/10/17 21:28"
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "parentIndex": 2,
+      "author": "明哥揾粤港车",
+      "isAuthor": true,
+      "time": "2026/10/17 21:28",
+      "content": "[呲牙] [呲牙] [呲牙]",
+      "likes": null
+    },
+    {
+      "index": 4,
+      "level": 1,
+      "parentIndex": null,
+      "author": "靓仔肥仔",
+      "isAuthor": false,
+      "time": "2026/10/17 11:57",
+      "content": "差127800",
+      "likes": 1,
+      "replyCount": 1,
+      "authorReplied": true,
+      "authorReplyCount": 1,
+      "lastAuthorReplyAt": "2026/10/17 21:28"
+    },
+    {
+      "index": 5,
+      "level": 2,
+      "parentIndex": 4,
+      "author": "明哥揾粤港车",
+      "isAuthor": true,
+      "time": "2026/10/17 21:28",
+      "content": "[捂脸] [捂脸] [捂脸]",
+      "likes": null
+    },
+    {
+      "index": 6,
+      "level": 1,
+      "parentIndex": null,
+      "author": "大把银纸",
+      "isAuthor": false,
+      "time": "2026/10/17 11:55",
+      "content": "等我银行卡有10个亿先",
+      "likes": 1,
+      "replyCount": 1,
+      "authorReplied": true,
+      "authorReplyCount": 1,
+      "lastAuthorReplyAt": "2026/10/17 21:28"
+    },
+    {
+      "index": 7,
+      "level": 2,
+      "parentIndex": 6,
+      "author": "明哥揾粤港车",
+      "isAuthor": true,
+      "time": "2026/10/17 21:28",
+      "content": "加油",
+      "likes": null
+    },
+    {
+      "index": 8,
+      "level": 1,
+      "parentIndex": null,
+      "author": "馬夋",
+      "isAuthor": false,
+      "time": "2026/10/17 10:43",
+      "content": "而家你买得起，有冇钱加油？？坏左整得起冇？？？",
+      "likes": 1,
+      "replyCount": 0,
+      "authorReplied": false,
+      "authorReplyCount": 0,
+      "lastAuthorReplyAt": null
+    },
+    {
+      "index": 9,
+      "level": 1,
+      "parentIndex": null,
+      "author": "汽车专项加工",
+      "isAuthor": false,
+      "time": "2026/10/17 10:06",
+      "content": "73岁大姑娘值多少 [偷笑]",
+      "likes": 1,
+      "replyCount": 1,
+      "authorReplied": true,
+      "authorReplyCount": 1,
+      "lastAuthorReplyAt": "2026/10/22 12:05"
+    },
+    {
+      "index": 10,
+      "level": 2,
+      "parentIndex": 9,
+      "author": "明哥揾粤港车",
+      "isAuthor": true,
+      "time": "2026/10/22 12:05",
+      "content": "見頭像度有簡介，搵明哥 📩",
+      "likes": null
+    },
+    {
+      "index": 11,
+      "level": 1,
+      "parentIndex": null,
+      "author": "ISCM-Studio",
+      "isAuthor": false,
+      "time": "2026/10/17 08:57",
+      "content": "买得起，养唔起 [Doge]",
+      "likes": 2,
+      "replyCount": 0,
+      "authorReplied": false,
+      "authorReplyCount": 0,
+      "lastAuthorReplyAt": null
+    }
+  ],
+  "summary": {
+    "declared": 12,
+    "total": 12,
+    "level1": 7,
+    "level2": 5,
+    "ownComments": 0,
+    "authorRepliedThreads": 5,
+    "awaitingThreads": 2,
+    "authorReplies": 5,
+    "complete": true,
+    "gap": 0,
+    "leftExpand": 0,
+    "unreachable": false,
+    "awaitingIndices": [
+      8,
+      11
+    ]
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "name": "滴水之恩涌泉相报",
+  "kw": "明哥生意越来",
+  "text": "多謝，大家咁話 🙏",
+  "dry": false,
+  "steps": [],
+  "before": {
+    "video": {
+      "title": "在香港，这个奔驰，你喜不喜欢？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行",
+      "time": "2026年08月26日 07:05"
+    },
+    "declared": 26,
+    "rendered": 26,
+    "textareas": 0
+  },
+  "locate": {
+    "found": 1,
+    "x": 1446,
+    "y": 589,
+    "item": {
+      "name": "滴水之恩涌泉相报",
+      "time": "2026/08/26 22:20",
+      "text": "明哥生意越来越好"
+    },
+    "replies": [],
+    "authorReplied": false
+  },
+  "panel0": {
+    "textareas": 1,
+    "placeholder": "回复 滴水之恩涌泉相报：",
+    "value": "",
+    "ta": {
+      "x": 1195,
+      "y": 676
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap disabled primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap disabled primary",
+      "enabled": false,
+      "x": 960,
+      "y": 726,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "panel1": {
+    "textareas": 1,
+    "placeholder": "回复 滴水之恩涌泉相报：",
+    "value": "多謝，大家咁話 🙏",
+    "ta": {
+      "x": 1195,
+      "y": 676
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 726,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "sendClick": {
+    "textareas": 1,
+    "placeholder": "回复 滴水之恩涌泉相报：",
+    "value": "多謝，大家咁話 🙏",
+    "ta": {
+      "x": 1195,
+      "y": 570
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 620,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "verify": {
+    "declared": 27,
+    "textareas": 0,
+    "found": true,
+    "replies": [
+      {
+        "name": "明哥揾粤港车",
+        "text": "多謝，大家咁話"
+      }
+    ],
+    "hit": true
+  },
+  "trace": {
+    "requests": [
+      {
+        "requestId": "80620.53468",
+        "url": "https://channels.weixin.qq.com/micro/interaction/cgi-bin/mmfinderassistant-bin/comment/create_comment?_aid=a92662d8-2b79-413e-87ed-244b48318e0a&_rid=6ae01be6-483fd84f&_pageUrl=https:%2F%2Fchannels.weixin.qq.com%2Fmicro%2Finteraction%2Fcomment",
+        "method": "POST",
+        "postData": "{\"replyCommentId\":\"14996767745874008520\",\"content\":\"多謝，大家咁話 🙏\",\"clientId\":\"8a9c5dae-3371-4cbf-939c-69f28ba0f7d0\",\"rootCommentId\":\"14996767745874008520\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"14996767745874008520\",\"commentNickname\":\"滴水之恩涌泉相报\",\"commentContent\":\"明哥生意越来越好[合十][合十][合十]\",\"commentHeadurl\":\"https://wx.qlogo.cn/mmhead/ver_1/k8iaHlt58QicNHkTOEgDia5tuKAwgMx6cSCR8FicQTolCkph0Tmr5tplBCsjzjJicicy6opuYHYIHuQfVVrRVf94GpGZwbhXc6qT5tsLkO2VjJn7ibLMWDG7TiaEJcUVW8KlicoibQ/132\",\"commentCreatetime\":\"1787754028\",\"commentLikeCount\":0,\"lastBuff\":\"\",\"downContinueFlag\":0,\"visibleFlag\":0,\"readFlag\":true,\"displayFlag\":0,\"username\":\"\",\"blacklistFlag\":0,\"likeFlag\":0},\"exportId\":\"export/UzFfBgAAxK-nXEx5Wz_rk8zT4DCafj4zyPpCu7_QU3hkilz6OQ\",\"timestamp\":\"1793072102718\",\"_log_finder_uin\":\"\",\"_log_finder_id\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\",\"rawKeyBuff\":\"\",\"pluginSessionId\":null,\"scene\":7,\"reqScene\":7}",
+        "ts": "2026-10-27T03:35:02.723Z",
+        "status": 201,
+        "mimeType": "application/json",
+        "body": "{\"errCode\":0,\"errMsg\":\"request successful\",\"data\":{\"commentId\":\"15041378989776833242\",\"clientId\":\"8a9c5dae-3371-4cbf-939c-69f28ba0f7d0\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15041378989776833242\",\"commentContent\":\"多謝，大家咁話 🙏\",\"commentCreatetime\":\"1793072103\",\"commentLikeCount\":0,\"replyCommentId\":\"14996767745874008520\",\"replyContent\":\"明哥生意越来越好[合十][合十][合十]\",\"visibleFlag\":1,\"displayFlag\":2,\"username\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\"},\"baseResp\":{\"errcode\":0,\"errmsg\":\"\"}}}",
+        "error": null,
+        "errCode": 0,
+        "errMsg": "request successful",
+        "topErrCode": 0,
+        "topErrMsg": "request successful",
+        "baseResp": {
+          "errcode": 0,
+          "errmsg": ""
+        }
+      }
+    ],
+    "toasts": []
+  },
+  "result": {
+    "countUp": true,
+    "threadHit": true,
+    "taZero": true,
+    "declared": 27
+  },
+  "like": {
+    "ok": true
+  }
+}

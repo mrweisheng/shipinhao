@@ -1,0 +1,87 @@
+{
+  "createdAt": "2026-10-27T03:26:29.325Z",
+  "nth": null,
+  "video": {
+    "title": "如果你的客人要退车！你会怎么做？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月14日 07:05"
+  },
+  "titleContext": {
+    "business": "car",
+    "ports": [],
+    "models": [],
+    "price": null
+  },
+  "declared": 67,
+  "source": "D:\\视频号\\data\\maintain-1027-acct2\\nth6.json",
+  "rules": {
+    "facts": "业务事实.md（唯一事实来源：价格/付款/车况/地址/移民/求职）",
+    "judgment": ".opencode/skills/channels-comment-ops/SKILL.md（回不回、红线、动作分类）",
+    "cases": "data/cases/（主参考：先判意图 → 检索 2 好 1 坏 → 仿写）",
+    "style": "模板池.md（仅 GUIDE-* 引导尾巴与兜底候选，按语义改写，不要关键词对号入座）"
+  },
+  "counts": {
+    "topLevel": 34,
+    "authorReplied": 29,
+    "authorOwn": 1,
+    "pending": 4
+  },
+  "items": [
+    {
+      "index": 3,
+      "name": "佛光普照",
+      "time": "2026/10/19 20:14",
+      "likes": 1,
+      "content": "界定義者必然後又要是不能讀完整性別有不同@老王夫妇农村生活 死了解決",
+      "kw": "界定義者必然",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "内容讨论 / 情绪表达 / 纯表情 / 负面调侃，不构成业务咨询，按策略跳过"
+    },
+    {
+      "index": 4,
+      "name": "佛光普照",
+      "time": "2026/10/19 20:14",
+      "likes": 1,
+      "content": "原則可惜別為主[图片]",
+      "kw": "原則可惜別為",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "内容讨论 / 情绪表达 / 纯表情 / 负面调侃，不构成业务咨询，按策略跳过"
+    },
+    {
+      "index": 5,
+      "name": "佛光普照",
+      "time": "2026/10/19 20:13",
+      "likes": null,
+      "content": "及，電腦操作方式樣衰竭盡情人事實係唔係好合約翰林峯[图片]",
+      "kw": "電腦操作方式",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "内容讨论 / 情绪表达 / 纯表情 / 负面调侃，不构成业务咨询，按策略跳过"
+    },
+    {
+      "index": 24,
+      "name": "YUen仔2565",
+      "time": "2026/10/14 19:46",
+      "likes": 1,
+      "content": "明哥：如果真係有這樣問題的話，你點解決？，講真果句",
+      "kw": "如果真係有這",
+      "asked": "客户问：如果真遇到退车这种问题，你会怎么解决",
+      "action": "reply",
+      "text": "有問題私訊我，幫你睇清楚 📩",
+      "answerOk": true,
+      "category": "car_after",
+      "reason": "针对退车视频的直接提问，属业务相关但事实未列明 → 承接 + 引私域；不承诺处理结果、不解释流程"
+    }
+  ],
+  "videoType": "业务类"
+}

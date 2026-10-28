@@ -1,0 +1,167 @@
+{
+  "name": "碧水蓝天",
+  "kw": "每个家庭都有",
+  "text": "多謝理解，家人真係唔容易 🙏",
+  "dry": false,
+  "steps": [],
+  "before": {
+    "video": {
+      "title": "在汕尾，阿姐，我要这，我要那，是常情，这次兄弟，你要站起来！ #两地牌#港澳车牌#香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "time": "2026年10月01日 07:00"
+    },
+    "declared": 750,
+    "rendered": 750,
+    "textareas": 0
+  },
+  "locate": {
+    "found": 1,
+    "x": 1457,
+    "y": 588,
+    "item": {
+      "name": "碧水蓝天",
+      "time": "2026/10/01 21:47",
+      "text": "听你说的那么多，你的兄弟姐妹值得，不好意思，每个家庭都有家庭的难处，不容易啊"
+    },
+    "replies": [],
+    "authorReplied": false
+  },
+  "panel0": {
+    "textareas": 1,
+    "placeholder": "回复 碧水蓝天：",
+    "value": "",
+    "ta": {
+      "x": 1195,
+      "y": 699
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap disabled primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap disabled primary",
+      "enabled": false,
+      "x": 960,
+      "y": 749,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "panel1": {
+    "textareas": 1,
+    "placeholder": "回复 碧水蓝天：",
+    "value": "多謝理解，家人真係唔容易 🙏",
+    "ta": {
+      "x": 1195,
+      "y": 699
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 749,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "sendClick": {
+    "textareas": 1,
+    "placeholder": "回复 碧水蓝天：",
+    "value": "多謝理解，家人真係唔容易 🙏",
+    "ta": {
+      "x": 1195,
+      "y": 571
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 620,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "verify": {
+    "declared": 751,
+    "textareas": 0,
+    "found": true,
+    "replies": [
+      {
+        "name": "明哥揀粤港车",
+        "text": "多謝理解，家人真係唔容易"
+      }
+    ],
+    "hit": true
+  },
+  "trace": {
+    "requests": [
+      {
+        "requestId": "80620.186586",
+        "url": "https://channels.weixin.qq.com/micro/interaction/cgi-bin/mmfinderassistant-bin/comment/create_comment?_aid=a92662d8-2b79-413e-87ed-244b48318e0a&_rid=6ae16110-60465a41&_pageUrl=https:%2F%2Fchannels.weixin.qq.com%2Fmicro%2Finteraction%2Fcomment",
+        "method": "POST",
+        "postData": "{\"replyCommentId\":\"15022843060771363893\",\"content\":\"多謝理解，家人真係唔容易 🙏\",\"clientId\":\"0b09d924-e2ad-4e37-b60e-d66030f6cc54\",\"rootCommentId\":\"15022843060771363893\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15022843060771363893\",\"commentNickname\":\"碧水蓝天\",\"commentContent\":\"听你说的那么多，你的兄弟姐妹值得，不好意思，每个家庭都有家庭的难处，不容易啊[强][爱心][捂脸]\",\"commentHeadurl\":\"https://wx.qlogo.cn/mmhead/ver_1/6SkD5v26WUpniaD4hGpI7vhhZz9sM3lLdbOicYqBOhy2Q0Bgq8thpaiaattbhfsx9JibUespuzHszJvic7zIZdS6Nrp08UoufAKDGibSl9wHXjvXFrWqmpq1Dx8Vr3pNMhgNkbbaGsOsBro5X2PhyInwPcIg/132\",\"commentCreatetime\":\"1790862448\",\"commentLikeCount\":1,\"lastBuff\":\"\",\"downContinueFlag\":0,\"visibleFlag\":0,\"readFlag\":true,\"displayFlag\":1,\"username\":\"\",\"blacklistFlag\":0,\"likeFlag\":1},\"exportId\":\"export/UzFfBgAAxIehYFRFUUvYk8zT4DCagi4AbkXGHLHZhDn2BOzdbA\",\"timestamp\":\"1793155344050\",\"_log_finder_uin\":\"\",\"_log_finder_id\":\"v2_060000231003b20faec8c6e68e1ac6d2cc0ce43db077c80c7ad975ea80702c9b7231ef3e0fd2@finder\",\"rawKeyBuff\":\"\",\"pluginSessionId\":null,\"scene\":7,\"reqScene\":7}",
+        "ts": "2026-10-28T02:42:24.059Z",
+        "status": 201,
+        "mimeType": "application/json",
+        "body": "{\"errCode\":0,\"errMsg\":\"request successful\",\"data\":{\"commentId\":\"15042077269095745867\",\"clientId\":\"0b09d924-e2ad-4e37-b60e-d66030f6cc54\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15042077269095745867\",\"commentContent\":\"多謝理解，家人真係唔容易 🙏\",\"commentCreatetime\":\"1793155344\",\"commentLikeCount\":0,\"replyCommentId\":\"15022843060771363893\",\"replyContent\":\"听你说的那么多，你的兄弟姐妹值得，不好意思，每个家庭都有家庭的难处，不容易啊[强][爱心][捂脸]\",\"visibleFlag\":1,\"displayFlag\":2,\"username\":\"v2_060000231003b20faec8c6e68e1ac6d2cc0ce43db077c80c7ad975ea80702c9b7231ef3e0fd2@finder\"},\"baseResp\":{\"errcode\":0,\"errmsg\":\"\"}}}",
+        "error": null,
+        "errCode": 0,
+        "errMsg": "request successful",
+        "topErrCode": 0,
+        "topErrMsg": "request successful",
+        "baseResp": {
+          "errcode": 0,
+          "errmsg": ""
+        }
+      }
+    ],
+    "toasts": []
+  },
+  "result": {
+    "countUp": true,
+    "threadHit": true,
+    "taZero": true,
+    "declared": 751
+  },
+  "like": {
+    "ok": true,
+    "already": true
+  }
+}

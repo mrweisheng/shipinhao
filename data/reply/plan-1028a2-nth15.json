@@ -1,0 +1,101 @@
+{
+  "createdAt": "2026-10-28T01:05:54.974Z",
+  "nth": null,
+  "video": {
+    "title": "今天中秋节，带车行同事去香港敬老院做点有意义的事！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行",
+    "time": "2026年09月25日 07:05"
+  },
+  "titleContext": {
+    "business": "car",
+    "ports": [],
+    "models": [],
+    "price": null
+  },
+  "declared": 18,
+  "source": "D:\\视频号\\data\\maintain-1028-acct2\\nth15.json",
+  "rules": {
+    "facts": "业务事实.md（唯一事实来源：价格/付款/车况/地址/移民/求职）",
+    "judgment": ".opencode/skills/channels-comment-ops/SKILL.md（回不回、红线、动作分类）",
+    "cases": "data/cases/（主参考：先判意图 → 检索 2 好 1 坏 → 仿写）",
+    "style": "模板池.md（仅 GUIDE-* 引导尾巴与兜底候选，按语义改写，不要关键词对号入座）"
+  },
+  "counts": {
+    "topLevel": 11,
+    "authorReplied": 6,
+    "authorOwn": 0,
+    "pending": 5
+  },
+  "items": [
+    {
+      "index": 0,
+      "name": "A 蔡景文《海纳百川》",
+      "time": "2026/10/08 16:21",
+      "likes": null,
+      "content": "善行",
+      "kw": "善行",
+      "asked": "客户说这是善行",
+      "action": "reply",
+      "text": "多謝，小事嚟嘅 🙏",
+      "answerOk": true,
+      "category": "praise",
+      "reason": "小视频（18 条），短评也给回应；低调不邀功"
+    },
+    {
+      "index": 6,
+      "name": "༄**",
+      "time": "2026/09/25 13:43",
+      "likes": 1,
+      "content": "[强] [强] [强]",
+      "kw": "[强][强]",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "纯表情 / 短评 / 负面调侃，无业务意向，按策略跳过"
+    },
+    {
+      "index": 7,
+      "name": "英英",
+      "time": "2026/09/25 13:41",
+      "likes": 1,
+      "content": "[强] [强] [强] [强] [强] [强]",
+      "kw": "[强][强]",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "纯表情 / 短评 / 负面调侃，无业务意向，按策略跳过"
+    },
+    {
+      "index": 10,
+      "name": "阿細",
+      "time": "2026/09/25 12:38",
+      "likes": 1,
+      "content": "/:strong /:strong /:strong /:strong",
+      "kw": "////",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "纯表情 / 短评 / 负面调侃，无业务意向，按策略跳过"
+    },
+    {
+      "index": 15,
+      "name": "华强北坏旧老手机高价回收",
+      "time": "2026/09/25 10:41",
+      "likes": 1,
+      "content": "/:strong /:strong /:strong",
+      "kw": "///",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "纯表情 / 短评 / 负面调侃，无业务意向，按策略跳过"
+    }
+  ],
+  "videoType": "生活类"
+}

@@ -1,0 +1,49 @@
+{
+  "finishedAt": "2026-10-24T08:21:02.967Z",
+  "mode": "send",
+  "planFile": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\maintain\\plan-nth6.json",
+  "video": {
+    "title": "今天在汕尾和儿子探讨下，何为善良！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月13日 07:00"
+  },
+  "before": {
+    "declared": 45,
+    "plannedReplies": 2,
+    "executed": 2
+  },
+  "summary": {
+    "ok": 2,
+    "failed": 0,
+    "policy": 0
+  },
+  "after": {
+    "declared": 47,
+    "awaitingThreads": 8,
+    "complete": true,
+    "file": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\reply\\verify-2026-10-24T08-20-43-679Z.json"
+  },
+  "results": [
+    {
+      "index": 24,
+      "name": "品清平记牛腩",
+      "content": "有好棒，的爸爸就有很棒的孩子",
+      "kw": "有好棒",
+      "action": "reply",
+      "text": "哈哈，多謝誇獎 😄",
+      "category": "praise",
+      "reason": "夸张父子，纯捧场",
+      "result": "sent"
+    },
+    {
+      "index": 39,
+      "name": "大寶閆",
+      "content": "施比受更為有福 /:strong /:strong /:strong",
+      "kw": "施比受",
+      "action": "reply",
+      "text": "施比受更有福，共勉 🙏",
+      "category": "praise",
+      "reason": "认同视频价值观，回引原句",
+      "result": "sent"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "createdAt": "2026-10-28T02:08:50.532Z",
+  "nth": null,
+  "video": {
+    "title": "今天分享一位75岁的香港客人的理念！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行",
+    "time": "2026年09月26日 07:05"
+  },
+  "titleContext": {
+    "business": "unknown",
+    "ports": [],
+    "models": [],
+    "price": null
+  },
+  "declared": 23,
+  "source": "D:\\视频号\\data\\accounts\\mingge-yg\\v\\20260926-0705\\latest.json",
+  "rules": {
+    "facts": "业务事实.md（唯一事实来源：价格/付款/车况/地址/移民/求职）",
+    "judgment": ".opencode/skills/channels-comment-ops/SKILL.md（回不回、红线、动作分类）",
+    "cases": "data/cases/（主参考：先判意图 → 检索 2 好 1 坏 → 仿写）",
+    "style": "模板池.md（仅 GUIDE-* 引导尾巴与兜底候选，按语义改写，不要关键词对号入座）"
+  },
+  "counts": {
+    "topLevel": 15,
+    "authorReplied": 8,
+    "authorOwn": 0,
+    "pending": 7
+  },
+  "items": [
+    {
+      "index": 4,
+      "name": "深圳燃气",
+      "time": "2026/10/20 03:48",
+      "likes": 1,
+      "content": "不要想那么多了，就想明天怎么过？明哥",
+      "kw": "不要想那么多",
+      "asked": "客户劝：不要想那么多，就想明天怎么过",
+      "action": "reply",
+      "text": "講得啱，活在當下 😄",
+      "answerOk": true,
+      "category": "praise",
+      "reason": "点名 + 正向劝勉 → 回"
+    },
+    {
+      "index": 5,
+      "name": "阿达",
+      "time": "2026/10/08 19:42",
+      "likes": 1,
+      "content": "大陆有奔驰，有劳斯莱斯，都系香港澳门，便宜就系啦",
+      "kw": "都系香港澳门",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "观点讨论 / 内容探讨，非业务且非捧场"
+    },
+    {
+      "index": 6,
+      "name": "红海",
+      "time": "2026/10/03 15:46",
+      "likes": 1,
+      "content": "香港人有进取精神，75 岁要开车来内地旅游 /:strong /:strong /:strong",
+      "kw": "75岁要开车",
+      "asked": "客户赞 75 岁仍有进取精神、开车来内地旅游",
+      "action": "reply",
+      "text": "係呀，75 歲仲咁有火 😄",
+      "answerOk": true,
+      "category": "praise",
+      "reason": "正向文字 → 回"
+    },
+    {
+      "index": 9,
+      "name": "伟仔",
+      "time": "2026/10/02 23:22",
+      "likes": 1,
+      "content": "的士 [Facepalm]",
+      "kw": "的士",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "玩笑调侃 / 中性陈述"
+    },
+    {
+      "index": 10,
+      "name": "发仔哥",
+      "time": "2026/10/02 01:39",
+      "likes": 1,
+      "content": "有钱想点就点",
+      "kw": "有钱想点就点",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "观点讨论 / 内容探讨，非业务且非捧场"
+    },
+    {
+      "index": 11,
+      "name": "🐋強࿐",
+      "time": "2026/09/30 22:02",
+      "likes": null,
+      "content": "前后賺 [Facepalm]",
+      "kw": "前后賺",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "观点讨论 / 内容探讨，非业务且非捧场"
+    },
+    {
+      "index": 22,
+      "name": "A作",
+      "time": "2026/09/26 14:13",
+      "likes": null,
+      "content": "香港生活方式都是模仿日本",
+      "kw": "香港生活方式",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "观点讨论 / 内容探讨，非业务且非捧场"
+    }
+  ],
+  "videoType": "观点类"
+}

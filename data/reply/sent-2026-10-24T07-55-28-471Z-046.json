@@ -1,0 +1,101 @@
+{
+  "name": "陈镇波",
+  "kw": "真实",
+  "text": "真事嚟嘅，多謝認同 🙏",
+  "dry": false,
+  "steps": [],
+  "before": {
+    "video": {
+      "title": "阿兄呀，你听我的，这个项目一定赚，结果阿兄倒下了！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "time": "2026年10月16日 07:00"
+    },
+    "declared": 79,
+    "rendered": 79,
+    "textareas": 0
+  },
+  "locate": {
+    "found": 1,
+    "x": 1269,
+    "y": 492,
+    "item": {
+      "name": "陈镇波",
+      "time": "2026/10/16 17:01",
+      "text": "真实"
+    },
+    "replies": [],
+    "authorReplied": false
+  },
+  "panel0": {
+    "textareas": 1,
+    "placeholder": "回复 陈镇波：",
+    "value": "",
+    "ta": {
+      "x": 1018,
+      "y": 580
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap disabled primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap disabled primary",
+      "enabled": false,
+      "x": 783,
+      "y": 629
+    }
+  },
+  "panel1": {
+    "textareas": 1,
+    "placeholder": "回复 陈镇波：",
+    "value": "真事嚟嘅，多謝認同 🙏",
+    "ta": {
+      "x": 1018,
+      "y": 580
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 783,
+      "y": 629
+    }
+  },
+  "verify": {
+    "declared": 80,
+    "textareas": 0,
+    "found": true,
+    "replies": [
+      {
+        "name": "明哥揀粤港车",
+        "text": "真事嚟嘅，多謝認同"
+      }
+    ],
+    "hit": true
+  },
+  "result": {
+    "countUp": true,
+    "threadHit": true,
+    "taZero": true,
+    "declared": 80
+  },
+  "like": {
+    "ok": true
+  }
+}

@@ -1,0 +1,137 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "香港点样来明哥车行，交通指南！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车",
+  "time": "2026年07月07日 19:07"
+ },
+ "declared": 8,
+ "isEmpty": false,
+ "total": 8,
+ "topLevel": 6,
+ "replies": 2,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "明哥揀粤港车",
+   "isAuthor": true,
+   "time": "2026/07/07 19:08",
+   "content": "地址：粉岭沙头角公路皇后山 揾明哥+： MG14144",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 1,
+   "level": 1,
+   "parentIndex": null,
+   "author": "何76878",
+   "isAuthor": false,
+   "time": "2026/10/20 16:31",
+   "content": "明哥靓车多多 [强]",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/10/21 09:40"
+  },
+  {
+   "index": 2,
+   "level": 2,
+   "parentIndex": 1,
+   "author": "明哥揀粤港车",
+   "isAuthor": true,
+   "time": "2026/10/21 09:40",
+   "content": "[強]",
+   "likes": null
+  },
+  {
+   "index": 3,
+   "level": 1,
+   "parentIndex": null,
+   "author": "在深圳的牛马",
+   "isAuthor": false,
+   "time": "2026/08/11 10:55",
+   "content": "定位",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 4,
+   "level": 1,
+   "parentIndex": null,
+   "author": "狼王虎尊",
+   "isAuthor": false,
+   "time": "2026/07/13 22:25",
+   "content": "復雜",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 5,
+   "level": 1,
+   "parentIndex": null,
+   "author": "文記",
+   "isAuthor": false,
+   "time": "2026/07/07 21:00",
+   "content": "中港車？？？ [合十] [合十] [合十] [合十]",
+   "likes": 1,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 6,
+   "level": 1,
+   "parentIndex": null,
+   "author": "正在輸入中",
+   "isAuthor": false,
+   "time": "2026/07/07 20:27",
+   "content": "加了微信多多少少",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/07/08 11:13"
+  },
+  {
+   "index": 7,
+   "level": 2,
+   "parentIndex": 6,
+   "author": "明哥揀粤港车",
+   "isAuthor": true,
+   "time": "2026/07/08 11:13",
+   "content": "請查收",
+   "likes": null
+  }
+ ],
+ "summary": {
+  "declared": 8,
+  "total": 8,
+  "level1": 6,
+  "level2": 2,
+  "ownComments": 1,
+  "authorRepliedThreads": 2,
+  "awaitingThreads": 3,
+  "authorReplies": 2,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   3,
+   4,
+   5
+  ]
+ }
+}

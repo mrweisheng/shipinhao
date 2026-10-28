@@ -1,0 +1,123 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "又是香港皇后山的fans，带来一部可玩性极高的丰田FJ! #两地牌#香港#香港生活#香港二手车#粤港车#香港买车",
+  "time": "2025年10月26日 07:15"
+ },
+ "declared": 7,
+ "isEmpty": false,
+ "total": 7,
+ "topLevel": 5,
+ "replies": 2,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "龙虎际风云",
+   "isAuthor": false,
+   "time": "2025/11/13 15:06",
+   "content": "多少公里数？",
+   "likes": null,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2025/11/13 17:43"
+  },
+  {
+   "index": 1,
+   "level": 2,
+   "parentIndex": 0,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2025/11/13 17:43",
+   "content": "進我主頁揾我啦 [呲牙]",
+   "likes": null
+  },
+  {
+   "index": 2,
+   "level": 1,
+   "parentIndex": null,
+   "author": "SuN",
+   "isAuthor": false,
+   "time": "2025/11/13 15:02",
+   "content": "我冇電話留低啊，明哥",
+   "likes": null,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2025/11/13 17:43"
+  },
+  {
+   "index": 3,
+   "level": 2,
+   "parentIndex": 2,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2025/11/13 17:43",
+   "content": "可以主頁找我哈 [呲牙]",
+   "likes": null
+  },
+  {
+   "index": 4,
+   "level": 1,
+   "parentIndex": null,
+   "author": "列達光",
+   "isAuthor": false,
+   "time": "2025/11/05 22:09",
+   "content": "明哥，你都好有型呀！！",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 5,
+   "level": 1,
+   "parentIndex": null,
+   "author": "志豪Jamie",
+   "isAuthor": false,
+   "time": "2025/10/30 12:05",
+   "content": "呢條友好樣衰，講嘢九唔搭八 [Facepalm] 。",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 6,
+   "level": 1,
+   "parentIndex": null,
+   "author": "Scorponok",
+   "isAuthor": false,
+   "time": "2025/10/26 08:14",
+   "content": "第一",
+   "likes": 1,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  }
+ ],
+ "summary": {
+  "declared": 7,
+  "total": 7,
+  "level1": 5,
+  "level2": 2,
+  "ownComments": 0,
+  "authorRepliedThreads": 2,
+  "awaitingThreads": 3,
+  "authorReplies": 2,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   4,
+   5,
+   6
+  ]
+ }
+}

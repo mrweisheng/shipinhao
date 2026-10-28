@@ -1,0 +1,55 @@
+{
+  "createdAt": "2026-10-25T09:35:00.000Z",
+  "nth": 2,
+  "video": {
+    "title": "汕尾老乡们，谦虚低调才是你应该要走的路！！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月18日 07:00"
+  },
+  "declared": 351,
+  "items": [
+    {
+      "index": 24,
+      "name": "方丽贞",
+      "content": "[强] [强] [强] [强] [强] 真实",
+      "asked": "客户认同视频内容，说真实",
+      "action": "reply",
+      "text": "多謝認同 🙏",
+      "answerOk": true,
+      "category": "praise",
+      "reason": "文字捧场"
+    },
+    {
+      "index": 26,
+      "name": "阿吕伟",
+      "content": "[强] [强] [强] 明哥讲得有道理",
+      "asked": "客户认同明哥讲得有道理",
+      "action": "reply",
+      "text": "多謝認同，共勉 🙏",
+      "answerOk": true,
+      "category": "praise",
+      "reason": "文字捧场"
+    },
+    {
+      "index": 28,
+      "name": "希望世界和平6666",
+      "content": "逢人请教他人，汕尾话啊兄的，应该翻译成别人成功的秘诀就是你的老师，这点要好好学习",
+      "asked": "客户在补充/认同“向别人请教、把别人成功经验当老师”的观点",
+      "action": "reply",
+      "text": "多謝你嘅分享 🙏",
+      "answerOk": true,
+      "category": "praise",
+      "reason": "正向认同/补充，不引导"
+    },
+    {
+      "index": 29,
+      "name": "希望世界和平6666",
+      "content": "认真踏实做事，低调默默做事",
+      "asked": "客户表达“认真踏实、低调做事”的认同",
+      "action": "reply",
+      "text": "講得啱，踏實最實際 💪",
+      "answerOk": true,
+      "category": "praise",
+      "reason": "正向价值观认同"
+    }
+  ]
+}

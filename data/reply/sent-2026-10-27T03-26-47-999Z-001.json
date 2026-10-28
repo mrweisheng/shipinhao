@@ -1,0 +1,166 @@
+{
+  "name": "林公子。😎",
+  "kw": "沧桑了那么多",
+  "text": "哈哈，係辛苦咗啲 😄",
+  "dry": false,
+  "steps": [],
+  "before": {
+    "video": {
+      "title": "以前这是香港的骄傲，新的时刻，香港会更好！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "time": "2026年10月27日 09:50"
+    },
+    "declared": 4,
+    "rendered": 4,
+    "textareas": 0
+  },
+  "locate": {
+    "found": 1,
+    "x": 1446,
+    "y": 596,
+    "item": {
+      "name": "林公子。😎",
+      "time": "2026/10/27 10:36",
+      "text": "干嘛，沧桑了那么多"
+    },
+    "replies": [],
+    "authorReplied": false
+  },
+  "panel0": {
+    "textareas": 1,
+    "placeholder": "回复 林公子。😎：",
+    "value": "",
+    "ta": {
+      "x": 1195,
+      "y": 683
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap disabled primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap disabled primary",
+      "enabled": false,
+      "x": 960,
+      "y": 733,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "panel1": {
+    "textareas": 1,
+    "placeholder": "回复 林公子。😎：",
+    "value": "哈哈，係辛苦咗啲 😄",
+    "ta": {
+      "x": 1195,
+      "y": 683
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 733,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "sendClick": {
+    "textareas": 1,
+    "placeholder": "回复 林公子。😎：",
+    "value": "哈哈，係辛苦咗啲 😄",
+    "ta": {
+      "x": 1195,
+      "y": 571
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 620,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "verify": {
+    "declared": 5,
+    "textareas": 0,
+    "found": true,
+    "replies": [
+      {
+        "name": "明哥揾粤港车",
+        "text": "哈哈，係辛苦咗啲"
+      }
+    ],
+    "hit": true
+  },
+  "trace": {
+    "requests": [
+      {
+        "requestId": "80620.42838",
+        "url": "https://channels.weixin.qq.com/micro/interaction/cgi-bin/mmfinderassistant-bin/comment/create_comment?_aid=a92662d8-2b79-413e-87ed-244b48318e0a&_rid=6ae01a08-6487a41e&_pageUrl=https:%2F%2Fchannels.weixin.qq.com%2Fmicro%2Finteraction%2Fcomment",
+        "method": "POST",
+        "postData": "{\"replyCommentId\":\"15041349704458575282\",\"content\":\"哈哈，係辛苦咗啲 😄\",\"clientId\":\"e0b80b0b-f56a-4c70-9e90-8b35159d5ec7\",\"rootCommentId\":\"15041349704458575282\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15041349704458575282\",\"commentNickname\":\"林公子。😎\",\"commentContent\":\"干嘛，沧桑了那么多[捂脸]\",\"commentHeadurl\":\"https://wx.qlogo.cn/mmhead/ver_1/aj6ya6Yp1nHiaGZlmpAE4o4NjU4TaTNZPzFBxGfbcC5cf68JeAb2LicCJ1vtwjcKxkxBfB26LibB9f0twlsStSuTiaUHbich4ezybticEtcbE0HjEpF63ODNdo46gJffZpmyso/132\",\"commentCreatetime\":\"1793068612\",\"commentLikeCount\":0,\"lastBuff\":\"\",\"downContinueFlag\":0,\"visibleFlag\":0,\"readFlag\":true,\"displayFlag\":0,\"username\":\"\",\"blacklistFlag\":0,\"likeFlag\":0},\"exportId\":\"export/UzFfBgAAxOqmYGleNDu7k8zT4DCaZ1_kNLZZIgNQ3QkoGyGoSQ\",\"timestamp\":\"1793071624485\",\"_log_finder_uin\":\"\",\"_log_finder_id\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\",\"rawKeyBuff\":\"\",\"pluginSessionId\":null,\"scene\":7,\"reqScene\":7}",
+        "ts": "2026-10-27T03:27:04.487Z",
+        "status": 201,
+        "mimeType": "application/json",
+        "body": "{\"errCode\":0,\"errMsg\":\"request successful\",\"data\":{\"commentId\":\"15041374978917010110\",\"clientId\":\"e0b80b0b-f56a-4c70-9e90-8b35159d5ec7\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15041374978917010110\",\"commentContent\":\"哈哈，係辛苦咗啲 😄\",\"commentCreatetime\":\"1793071625\",\"commentLikeCount\":0,\"replyCommentId\":\"15041349704458575282\",\"replyContent\":\"干嘛，沧桑了那么多[捂脸]\",\"visibleFlag\":1,\"displayFlag\":2,\"username\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\"},\"baseResp\":{\"errcode\":0,\"errmsg\":\"\"}}}",
+        "error": null,
+        "errCode": 0,
+        "errMsg": "request successful",
+        "topErrCode": 0,
+        "topErrMsg": "request successful",
+        "baseResp": {
+          "errcode": 0,
+          "errmsg": ""
+        }
+      }
+    ],
+    "toasts": []
+  },
+  "result": {
+    "countUp": true,
+    "threadHit": true,
+    "taZero": true,
+    "declared": 5
+  },
+  "like": {
+    "ok": true
+  }
+}

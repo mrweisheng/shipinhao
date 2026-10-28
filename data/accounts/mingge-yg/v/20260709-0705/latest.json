@@ -1,0 +1,162 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "在香港全款去买宾利是什么体验？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车",
+  "time": "2026年07月09日 07:05"
+ },
+ "declared": 10,
+ "isEmpty": false,
+ "total": 10,
+ "topLevel": 7,
+ "replies": 3,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "阿細",
+   "isAuthor": false,
+   "time": "2026/10/27 13:20",
+   "content": "明哥 /:strong /:strong /:strong /:strong",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/10/28 09:19"
+  },
+  {
+   "index": 1,
+   "level": 2,
+   "parentIndex": 0,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/10/28 09:19",
+   "content": "多謝支持 🙏",
+   "likes": null
+  },
+  {
+   "index": 2,
+   "level": 1,
+   "parentIndex": null,
+   "author": "小雄",
+   "isAuthor": false,
+   "time": "2026/10/10 11:16",
+   "content": "人地有钱想买全新车0首车，信任明哥帮手搞掂 /:strong /:strong /:strong 。",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/10/10 11:29"
+  },
+  {
+   "index": 3,
+   "level": 2,
+   "parentIndex": 2,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/10/10 11:29",
+   "content": "[合十] [合十] [合十]",
+   "likes": null
+  },
+  {
+   "index": 4,
+   "level": 1,
+   "parentIndex": null,
+   "author": "kkkk",
+   "isAuthor": false,
+   "time": "2026/07/11 10:15",
+   "content": "我還以為你有咁霸氣 [呲牙] [呲牙] [呲牙]",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 5,
+   "level": 1,
+   "parentIndex": null,
+   "author": "john",
+   "isAuthor": false,
+   "time": "2026/07/11 09:26",
+   "content": "贬值厉害",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 6,
+   "level": 1,
+   "parentIndex": null,
+   "author": "牙仔",
+   "isAuthor": false,
+   "time": "2026/07/10 01:20",
+   "content": "咩意思呀，唔係你買？！",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 7,
+   "level": 1,
+   "parentIndex": null,
+   "author": "跨境无有浅谈",
+   "isAuthor": false,
+   "time": "2026/07/09 13:45",
+   "content": "是的！信任是人格最重要的资产，向明哥学习 /:strong",
+   "likes": 2,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/07/09 14:52"
+  },
+  {
+   "index": 8,
+   "level": 2,
+   "parentIndex": 7,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/07/09 14:52",
+   "content": "[合十] [合十] [合十]",
+   "likes": 1
+  },
+  {
+   "index": 9,
+   "level": 1,
+   "parentIndex": null,
+   "author": "Ben",
+   "isAuthor": false,
+   "time": "2026/07/09 11:50",
+   "content": "卖笨你 /::D",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  }
+ ],
+ "summary": {
+  "declared": 10,
+  "total": 10,
+  "level1": 7,
+  "level2": 3,
+  "ownComments": 0,
+  "authorRepliedThreads": 3,
+  "awaitingThreads": 4,
+  "authorReplies": 3,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   4,
+   5,
+   6,
+   9
+  ]
+ }
+}

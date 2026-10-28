@@ -1,0 +1,53 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "在香港，车真的一个代步工具吗？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车",
+  "time": "2026年07月20日 11:19"
+ },
+ "declared": 2,
+ "isEmpty": false,
+ "total": 2,
+ "topLevel": 1,
+ "replies": 1,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "/J\"\"",
+   "isAuthor": false,
+   "time": "2026/07/21 16:23",
+   "content": "228888这是真的吗",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/07/22 11:21"
+  },
+  {
+   "index": 1,
+   "level": 2,
+   "parentIndex": 0,
+   "author": "明哥揀粤港车",
+   "isAuthor": true,
+   "time": "2026/07/22 11:21",
+   "content": "✅",
+   "likes": null
+  }
+ ],
+ "summary": {
+  "declared": 2,
+  "total": 2,
+  "level1": 1,
+  "level2": 1,
+  "ownComments": 0,
+  "authorRepliedThreads": 1,
+  "awaitingThreads": 0,
+  "authorReplies": 1,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": []
+ }
+}

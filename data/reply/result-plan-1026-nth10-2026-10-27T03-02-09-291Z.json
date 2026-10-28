@@ -1,0 +1,39 @@
+{
+  "finishedAt": "2026-10-27T03:02:21.927Z",
+  "mode": "send",
+  "planFile": "D:\\视频号\\data\\reply\\plan-1026-nth10.json",
+  "video": {
+    "title": "在汕尾，阿姐，我要这，我要那，是常情，这次兄弟，你要站起来！ #两地牌#港澳车牌#香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月01日 07:00"
+  },
+  "before": {
+    "declared": 746,
+    "plannedReplies": 1,
+    "executed": 1
+  },
+  "summary": {
+    "ok": 1,
+    "failed": 0,
+    "rejected": 0,
+    "policy": 0
+  },
+  "after": null,
+  "results": [
+    {
+      "index": 623,
+      "name": "one-two--",
+      "time": "2026/10/01 11:01",
+      "likes": null,
+      "content": "来去，来去申请，我是本科学历，做尼申请",
+      "kw": "我是本科学历",
+      "asked": "客户说自己本科学历，问怎么申请（海丰话「做尼申请」=怎么申请）",
+      "action": "reply",
+      "text": "學歷唔設限，本科都啱傾；私訊我 📩",
+      "answerOk": true,
+      "category": "imm_education",
+      "reason": "学历咨询 → 先答「学历不设限」，不指定高才/优才路线，不给方案细节，引私域",
+      "caseId": "c057",
+      "result": "sent"
+    }
+  ]
+}

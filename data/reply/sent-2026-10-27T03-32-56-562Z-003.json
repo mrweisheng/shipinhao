@@ -1,0 +1,167 @@
+{
+  "name": "香港装修超爽哥",
+  "kw": "帮忙安排一下",
+  "text": "想安排冇問題，私訊我傾 📩",
+  "dry": false,
+  "steps": [],
+  "before": {
+    "video": {
+      "title": "在香港，z实用的七人车之一，本田步威 #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行",
+      "time": "2026年09月17日 07:05"
+    },
+    "declared": 33,
+    "rendered": 17,
+    "textareas": 0
+  },
+  "locate": {
+    "found": 1,
+    "x": 1457,
+    "y": 578,
+    "item": {
+      "name": "香港装修超爽哥",
+      "time": "2026/10/10 04:55",
+      "text": "喜欢，帮忙安排一下"
+    },
+    "replies": [],
+    "authorReplied": false
+  },
+  "panel0": {
+    "textareas": 1,
+    "placeholder": "回复 香港装修超爽哥：",
+    "value": "",
+    "ta": {
+      "x": 1195,
+      "y": 689
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap disabled primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap disabled primary",
+      "enabled": false,
+      "x": 960,
+      "y": 738,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "panel1": {
+    "textareas": 1,
+    "placeholder": "回复 香港装修超爽哥：",
+    "value": "想安排冇問題，私訊我傾 📩",
+    "ta": {
+      "x": 1195,
+      "y": 689
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 738,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "sendClick": {
+    "textareas": 1,
+    "placeholder": "回复 香港装修超爽哥：",
+    "value": "想安排冇問題，私訊我傾 📩",
+    "ta": {
+      "x": 1195,
+      "y": 571
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 620,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "verify": {
+    "declared": 34,
+    "textareas": 0,
+    "found": true,
+    "replies": [
+      {
+        "name": "明哥揾粤港车",
+        "text": "想安排冇問題，私訊我傾 📩"
+      }
+    ],
+    "hit": true
+  },
+  "trace": {
+    "requests": [
+      {
+        "requestId": "80620.50774",
+        "url": "https://channels.weixin.qq.com/micro/interaction/cgi-bin/mmfinderassistant-bin/comment/create_comment?_aid=a92662d8-2b79-413e-87ed-244b48318e0a&_rid=6ae01b6a-451769e3&_pageUrl=https:%2F%2Fchannels.weixin.qq.com%2Fmicro%2Finteraction%2Fcomment",
+        "method": "POST",
+        "postData": "{\"replyCommentId\":\"15028856705547705904\",\"content\":\"想安排冇問題，私訊我傾 📩\",\"clientId\":\"79d0c078-543b-4a17-bbb0-45a38b7b7d0e\",\"rootCommentId\":\"15028856705547705904\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15028856705547705904\",\"commentNickname\":\"香港装修超爽哥\",\"commentContent\":\"喜欢，帮忙安排一下\",\"commentHeadurl\":\"https://wx.qlogo.cn/finderhead/gwhELYibibFdQwicz6vbWXMXia8U12j0m12KyTTT7dotprIcEPA81GtrRw/0\",\"commentCreatetime\":\"1791579330\",\"commentLikeCount\":1,\"lastBuff\":\"\",\"downContinueFlag\":0,\"visibleFlag\":0,\"readFlag\":true,\"displayFlag\":9,\"username\":\"v2_060000231003b20faec8c7e1891cc5d6c902e83db0773aab1d193611497aa048729d0a4d35de@finder\",\"blacklistFlag\":0,\"likeFlag\":1},\"exportId\":\"export/UzFfBgAAxKGuTGI1GlTOk8zT4DCaV80lxi6XpgqWSYPUNVMh6w\",\"timestamp\":\"1793071978370\",\"_log_finder_uin\":\"\",\"_log_finder_id\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\",\"rawKeyBuff\":\"\",\"pluginSessionId\":null,\"scene\":7,\"reqScene\":7}",
+        "ts": "2026-10-27T03:32:58.374Z",
+        "status": 201,
+        "mimeType": "application/json",
+        "body": "{\"errCode\":0,\"errMsg\":\"request successful\",\"data\":{\"commentId\":\"15041377947030719209\",\"clientId\":\"79d0c078-543b-4a17-bbb0-45a38b7b7d0e\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15041377947030719209\",\"commentContent\":\"想安排冇問題，私訊我傾 📩\",\"commentCreatetime\":\"1793071978\",\"commentLikeCount\":0,\"replyCommentId\":\"15028856705547705904\",\"replyContent\":\"喜欢，帮忙安排一下\",\"visibleFlag\":1,\"displayFlag\":2,\"username\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\"},\"baseResp\":{\"errcode\":0,\"errmsg\":\"\"}}}",
+        "error": null,
+        "errCode": 0,
+        "errMsg": "request successful",
+        "topErrCode": 0,
+        "topErrMsg": "request successful",
+        "baseResp": {
+          "errcode": 0,
+          "errmsg": ""
+        }
+      }
+    ],
+    "toasts": []
+  },
+  "result": {
+    "countUp": true,
+    "threadHit": true,
+    "taZero": true,
+    "declared": 34
+  },
+  "like": {
+    "ok": true,
+    "already": true
+  }
+}

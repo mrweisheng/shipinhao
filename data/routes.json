@@ -1,0 +1,254 @@
+{
+  "when": "2026-10-24T04:05:42.026Z",
+  "total": 31,
+  "results": [
+    {
+      "parent": "内容管理",
+      "child": "视频",
+      "ok": true,
+      "url": "https://channels.weixin.qq.com/platform/post/list",
+      "newTab": null,
+      "error": null
+    },
+    {
+      "parent": "内容管理",
+      "child": "图文",
+      "ok": true,
+      "url": "https://channels.weixin.qq.com/platform/post/finderNewLifePostList",
+      "newTab": null,
+      "error": null
+    },
+    {
+      "parent": "内容管理",
+      "child": "音乐",
+      "ok": true,
+      "url": "https://channels.weixin.qq.com/platform/post/music",
+      "newTab": null,
+      "error": null
+    },
+    {
+      "parent": "内容管理",
+      "child": "音频",
+      "ok": true,
+      "url": "https://channels.weixin.qq.com/platform/post/audioManager",
+      "newTab": null,
+      "error": null
+    },
+    {
+      "parent": "内容管理",
+      "child": "草稿箱",
+      "ok": true,
+      "url": "https://channels.weixin.qq.com/platform/post/draftListManager",
+      "newTab": null,
+      "error": null
+    },
+    {
+      "parent": "内容管理",
+      "child": "主页",
+      "ok": true,
+      "url": "https://channels.weixin.qq.com/platform/userProfileManager",
+      "newTab": null,
+      "error": null
+    },
+    {
+      "parent": "内容管理",
+      "child": "活动",
+      "ok": true,
+      "url": "https://channels.weixin.qq.com/platform/activity/index",
+      "newTab": null,
+      "error": null
+    },
+    {
+      "parent": "互动管理",
+      "child": "评论",
+      "ok": true,
+      "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+      "newTab": null,
+      "error": null
+    },
+    {
+      "parent": "互动管理",
+      "child": "弹幕",
+      "ok": true,
+      "url": "https://channels.weixin.qq.com/platform/interaction/bulletChat",
+      "newTab": null,
+      "error": null
+    },
+    {
+      "parent": "互动管理",
+      "child": "私信",
+      "ok": true,
+      "url": "https://channels.weixin.qq.com/platform/private_msg",
+      "newTab": null,
+      "error": null
+    },
+    {
+      "parent": "直播",
+      "child": "直播管理",
+      "ok": true,
+      "url": "https://channels.weixin.qq.com/platform/live/home",
+      "newTab": null,
+      "error": null
+    },
+    {
+      "parent": "直播",
+      "child": "直播商品管理",
+      "ok": true,
+      "url": "https://channels.weixin.qq.com/platform/live/commodity/onsale/index",
+      "newTab": null,
+      "error": null
+    },
+    {
+      "parent": "直播",
+      "child": "直播收入",
+      "ok": true,
+      "url": "https://channels.weixin.qq.com/platform/liveIncome/enter",
+      "newTab": null,
+      "error": null
+    },
+    {
+      "parent": "直播",
+      "child": "直播预告",
+      "ok": true,
+      "url": "https://channels.weixin.qq.com/platform/live/reserve",
+      "newTab": null,
+      "error": null
+    },
+    {
+      "parent": "直播",
+      "child": "直播回放",
+      "ok": true,
+      "url": "https://channels.weixin.qq.com/platform/live/liveReplayHistory",
+      "newTab": null,
+      "error": null
+    },
+    {
+      "parent": "收入与服务",
+      "child": "收入权益",
+      "ok": true,
+      "url": "https://channels.weixin.qq.com/platform/income",
+      "newTab": null,
+      "error": null
+    },
+    {
+      "parent": "收入与服务",
+      "child": "原创保护记录",
+      "ok": true,
+      "url": "https://channels.weixin.qq.com/platform/extensions/originalPlan",
+      "newTab": null,
+      "error": null
+    },
+    {
+      "parent": "收入与服务",
+      "child": "加热工具",
+      "ok": true,
+      "url": "https://channels.weixin.qq.com/platform/extensions/originalPlan",
+      "newTab": "https://channels.weixin.qq.com/login.html?from=promote",
+      "error": null
+    },
+    {
+      "parent": "带货中心",
+      "child": "选品中心",
+      "ok": true,
+      "url": "https://channels.weixin.qq.com/platform/commodity/pool",
+      "newTab": null,
+      "error": null
+    },
+    {
+      "parent": "带货中心",
+      "child": "商品管理",
+      "ok": true,
+      "url": "https://channels.weixin.qq.com/platform/commodity/window",
+      "newTab": null,
+      "error": null
+    },
+    {
+      "parent": "带货中心",
+      "child": "带货订单",
+      "ok": true,
+      "url": "https://channels.weixin.qq.com/platform/commodity/order",
+      "newTab": null,
+      "error": null
+    },
+    {
+      "parent": "带货中心",
+      "child": "佣金",
+      "ok": true,
+      "url": "https://channels.weixin.qq.com/platform/commodity/commission",
+      "newTab": null,
+      "error": null
+    },
+    {
+      "parent": "带货中心",
+      "child": "违规管理",
+      "ok": true,
+      "url": "https://channels.weixin.qq.com/platform/shop/violation/home",
+      "newTab": null,
+      "error": null
+    },
+    {
+      "parent": "数据中心",
+      "child": "关注者数据",
+      "ok": true,
+      "url": "https://channels.weixin.qq.com/platform/statistic/follower",
+      "newTab": null,
+      "error": null
+    },
+    {
+      "parent": "数据中心",
+      "child": "视频数据",
+      "ok": true,
+      "url": "https://channels.weixin.qq.com/platform/statistic/post",
+      "newTab": null,
+      "error": null
+    },
+    {
+      "parent": "数据中心",
+      "child": "图文数据",
+      "ok": true,
+      "url": "https://channels.weixin.qq.com/platform/statistic/finderNewLifeStatisticPost",
+      "newTab": null,
+      "error": null
+    },
+    {
+      "parent": "数据中心",
+      "child": "直播数据",
+      "ok": true,
+      "url": "https://channels.weixin.qq.com/platform/statistic/live",
+      "newTab": null,
+      "error": null
+    },
+    {
+      "parent": "数据中心",
+      "child": "带货数据",
+      "ok": true,
+      "url": "https://channels.weixin.qq.com/platform/statistic/live",
+      "newTab": null,
+      "error": null
+    },
+    {
+      "parent": "设置",
+      "child": "人员设置",
+      "ok": true,
+      "url": "https://channels.weixin.qq.com/platform/setting/member",
+      "newTab": null,
+      "error": null
+    },
+    {
+      "parent": "设置",
+      "child": "肖像授权管理",
+      "ok": true,
+      "url": "https://channels.weixin.qq.com/platform/setting/portraitAuth/authAuthor",
+      "newTab": null,
+      "error": null
+    },
+    {
+      "parent": "设置",
+      "child": "服务菜单",
+      "ok": true,
+      "url": "https://channels.weixin.qq.com/platform/menu",
+      "newTab": null,
+      "error": null
+    }
+  ]
+}

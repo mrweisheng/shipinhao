@@ -1,0 +1,3174 @@
+{
+  "createdAt": "2026-10-27T02:37:31.162Z",
+  "total": 90,
+  "summary": {
+    "novel": 61,
+    "partial": 11,
+    "strong": 18
+  },
+  "scopeSummary": {
+    "ask+topic": 17,
+    "ask": 24,
+    "topic": 9,
+    "other": 40
+  },
+  "businessSummary": {
+    "total": 50,
+    "novel": 31,
+    "partial": 8,
+    "strong": 11
+  },
+  "note": "「业务向」为统计启发式（疑问/业务话题），仅用于覆盖度，不参与回复决策",
+  "rows": [
+    {
+      "comment": "订购一台白色埃尔法，怎样联系提车",
+      "author": "健文",
+      "time": "2026/10/23 14:04",
+      "video": "在香港，3万8的埃尔法，才是你的最佳 家庭帮手！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 27,
+      "source": "data/account-new/nth1.json",
+      "scope": "ask+topic",
+      "business": true,
+      "score": 0.305,
+      "bucket": "novel",
+      "best": {
+        "id": "c006",
+        "label": "good",
+        "score": 0.305,
+        "reply": "有，白色可以傾 🙏"
+      },
+      "top": [
+        {
+          "id": "c006",
+          "label": "good",
+          "score": 0.305
+        },
+        {
+          "id": "c044",
+          "label": "good",
+          "score": 0.183
+        },
+        {
+          "id": "c051",
+          "label": "unreviewed",
+          "score": 0.105
+        }
+      ]
+    },
+    {
+      "comment": "包牌吗？",
+      "author": "碧海蓝天荣哥",
+      "time": "2026/10/22 23:19",
+      "video": "在香港，3万8的埃尔法，才是你的最佳 家庭帮手！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 27,
+      "source": "data/account-new/nth1.json",
+      "scope": "ask+topic",
+      "business": true,
+      "score": 0.45,
+      "bucket": "partial",
+      "best": {
+        "id": "c015",
+        "label": "good",
+        "score": 0.45,
+        "reply": "包咩細節，私訊傾 📩"
+      },
+      "top": [
+        {
+          "id": "c015",
+          "label": "good",
+          "score": 0.45
+        },
+        {
+          "id": "c016",
+          "label": "good",
+          "score": 0.415
+        },
+        {
+          "id": "c043",
+          "label": "good",
+          "score": 0.193
+        }
+      ]
+    },
+    {
+      "comment": "真的3万8吗？在哪里",
+      "author": "A，",
+      "time": "2026/10/22 22:26",
+      "video": "在香港，3万8的埃尔法，才是你的最佳 家庭帮手！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 27,
+      "source": "data/account-new/nth1.json",
+      "scope": "ask",
+      "business": true,
+      "score": 0.341,
+      "bucket": "novel",
+      "best": {
+        "id": "c012",
+        "label": "good",
+        "score": 0.341,
+        "reply": "皇后山，導航搜「明哥中港牌」😄"
+      },
+      "top": [
+        {
+          "id": "c012",
+          "label": "good",
+          "score": 0.341
+        },
+        {
+          "id": "c047",
+          "label": "good",
+          "score": 0.227
+        },
+        {
+          "id": "c033",
+          "label": "good",
+          "score": 0.17
+        }
+      ]
+    },
+    {
+      "comment": "得唔得先？得過嚟提車 [Doge] [Doge]",
+      "author": "星星",
+      "time": "2026/10/22 12:19",
+      "video": "在香港，3万8的埃尔法，才是你的最佳 家庭帮手！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 27,
+      "source": "data/account-new/nth1.json",
+      "scope": "ask+topic",
+      "business": true,
+      "score": 0.255,
+      "bucket": "novel",
+      "best": {
+        "id": "c036",
+        "label": "good",
+        "score": 0.255,
+        "reply": "（不回）"
+      },
+      "top": [
+        {
+          "id": "c036",
+          "label": "good",
+          "score": 0.255
+        },
+        {
+          "id": "c031",
+          "label": "good",
+          "score": 0.201
+        },
+        {
+          "id": "c056",
+          "label": "unreviewed",
+          "score": 0.191
+        }
+      ]
+    },
+    {
+      "comment": "明哥，可以私聊嗎",
+      "author": "Heibi Lam",
+      "time": "2026/10/21 22:27",
+      "video": "在香港，3万8的埃尔法，才是你的最佳 家庭帮手！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 27,
+      "source": "data/account-new/nth1.json",
+      "scope": "ask",
+      "business": true,
+      "score": 0.336,
+      "bucket": "novel",
+      "best": {
+        "id": "c030",
+        "label": "good",
+        "score": 0.336,
+        "reply": "多謝支持 🙏"
+      },
+      "top": [
+        {
+          "id": "c030",
+          "label": "good",
+          "score": 0.336
+        },
+        {
+          "id": "c014",
+          "label": "good",
+          "score": 0.254
+        },
+        {
+          "id": "c053",
+          "label": "unreviewed",
+          "score": 0.231
+        }
+      ]
+    },
+    {
+      "comment": "賣左未？",
+      "author": "F",
+      "time": "2026/10/21 18:24",
+      "video": "在香港，3万8的埃尔法，才是你的最佳 家庭帮手！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 27,
+      "source": "data/account-new/nth1.json",
+      "scope": "ask",
+      "business": true,
+      "score": 0.943,
+      "bucket": "strong",
+      "best": {
+        "id": "c041",
+        "label": "good",
+        "score": 0.943,
+        "reply": "有，喺度 😄"
+      },
+      "top": [
+        {
+          "id": "c041",
+          "label": "good",
+          "score": 0.943
+        },
+        {
+          "id": "c001",
+          "label": "good",
+          "score": 0
+        },
+        {
+          "id": "c002",
+          "label": "bad",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "comment": "全款吗还有什么费用吗",
+      "author": "好开来34183915858951775",
+      "time": "2026/10/21 13:25",
+      "video": "在香港，3万8的埃尔法，才是你的最佳 家庭帮手！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 27,
+      "source": "data/account-new/nth1.json",
+      "scope": "ask",
+      "business": true,
+      "score": 0.986,
+      "bucket": "strong",
+      "best": {
+        "id": "c043",
+        "label": "good",
+        "score": 0.986,
+        "reply": "可以全款，都可以分期；費用細節私訊傾 📩"
+      },
+      "top": [
+        {
+          "id": "c043",
+          "label": "good",
+          "score": 0.986
+        },
+        {
+          "id": "c005",
+          "label": "good",
+          "score": 0.151
+        },
+        {
+          "id": "c045",
+          "label": "good",
+          "score": 0.094
+        }
+      ]
+    },
+    {
+      "comment": "明哥，地址？",
+      "author": "人生贏家9711",
+      "time": "2026/10/13 12:12",
+      "video": "明哥真系全香港Z蠢的老细咯！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 30,
+      "source": "data/account-new/nth10.json",
+      "scope": "ask+topic",
+      "business": true,
+      "score": 0.379,
+      "bucket": "partial",
+      "best": {
+        "id": "c012",
+        "label": "good",
+        "score": 0.379,
+        "reply": "皇后山，導航搜「明哥中港牌」😄"
+      },
+      "top": [
+        {
+          "id": "c012",
+          "label": "good",
+          "score": 0.379
+        },
+        {
+          "id": "c030",
+          "label": "good",
+          "score": 0.341
+        },
+        {
+          "id": "c053",
+          "label": "unreviewed",
+          "score": 0.234
+        }
+      ]
+    },
+    {
+      "comment": "位置？",
+      "author": "🌲🥑Amy Lam",
+      "time": "2026/10/04 23:37",
+      "video": "明哥真系全香港Z蠢的老细咯！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 30,
+      "source": "data/account-new/nth10.json",
+      "scope": "ask",
+      "business": true,
+      "score": 0.918,
+      "bucket": "strong",
+      "best": {
+        "id": "c042",
+        "label": "good",
+        "score": 0.918,
+        "reply": "皇后山，導航搜「明哥中港牌」😄"
+      },
+      "top": [
+        {
+          "id": "c042",
+          "label": "good",
+          "score": 0.918
+        },
+        {
+          "id": "c001",
+          "label": "good",
+          "score": 0
+        },
+        {
+          "id": "c002",
+          "label": "bad",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "comment": "明哥还招人吗",
+      "author": "悦升",
+      "time": "2026/10/04 20:40",
+      "video": "明哥真系全香港Z蠢的老细咯！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 30,
+      "source": "data/account-new/nth10.json",
+      "scope": "ask",
+      "business": true,
+      "score": 0.34,
+      "bucket": "novel",
+      "best": {
+        "id": "c030",
+        "label": "good",
+        "score": 0.34,
+        "reply": "多謝支持 🙏"
+      },
+      "top": [
+        {
+          "id": "c030",
+          "label": "good",
+          "score": 0.34
+        },
+        {
+          "id": "c043",
+          "label": "good",
+          "score": 0.247
+        },
+        {
+          "id": "c053",
+          "label": "unreviewed",
+          "score": 0.233
+        }
+      ]
+    },
+    {
+      "comment": "可以开去澳门吗",
+      "author": "joe",
+      "time": "2026/10/03 18:15",
+      "video": "明哥真系全香港Z蠢的老细咯！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 30,
+      "source": "data/account-new/nth10.json",
+      "scope": "ask",
+      "business": true,
+      "score": 0.291,
+      "bucket": "novel",
+      "best": {
+        "id": "c027",
+        "label": "good",
+        "score": 0.291,
+        "reply": "過去做工都啱傾 😄"
+      },
+      "top": [
+        {
+          "id": "c027",
+          "label": "good",
+          "score": 0.291
+        },
+        {
+          "id": "c014",
+          "label": "good",
+          "score": 0.277
+        },
+        {
+          "id": "c039",
+          "label": "good",
+          "score": 0.235
+        }
+      ]
+    },
+    {
+      "comment": "吾系必須既咩？？ [掩面] [掩面] [掩面]",
+      "author": "歐仔(昌)",
+      "time": "2026/10/03 08:58",
+      "video": "明哥真系全香港Z蠢的老细咯！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 30,
+      "source": "data/account-new/nth10.json",
+      "scope": "ask",
+      "business": true,
+      "score": 0,
+      "bucket": "novel",
+      "best": {
+        "id": "c001",
+        "label": "good",
+        "score": 0,
+        "reply": "可以分期，詳情私訊傾 📩"
+      },
+      "top": [
+        {
+          "id": "c001",
+          "label": "good",
+          "score": 0
+        },
+        {
+          "id": "c002",
+          "label": "bad",
+          "score": 0
+        },
+        {
+          "id": "c003",
+          "label": "good",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "comment": "怎么联系你",
+      "author": "雷厉风行",
+      "time": "2026/10/19 15:07",
+      "video": "明哥真系全香港Z蠢的老细咯！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 30,
+      "source": "data/account-new/nth10.json",
+      "scope": "ask+topic",
+      "business": true,
+      "score": 0.244,
+      "bucket": "novel",
+      "best": {
+        "id": "c032",
+        "label": "good",
+        "score": 0.244,
+        "reply": "可以，主頁有資料 😄"
+      },
+      "top": [
+        {
+          "id": "c032",
+          "label": "good",
+          "score": 0.244
+        },
+        {
+          "id": "c043",
+          "label": "good",
+          "score": 0.149
+        },
+        {
+          "id": "c010",
+          "label": "good",
+          "score": 0.143
+        }
+      ]
+    },
+    {
+      "comment": "有內地車牌幾錢",
+      "author": "Takchi",
+      "time": "2026/10/14 07:44",
+      "video": "明哥真系全香港Z蠢的老细咯！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 30,
+      "source": "data/account-new/nth10.json",
+      "scope": "topic",
+      "business": true,
+      "score": 0.274,
+      "bucket": "novel",
+      "best": {
+        "id": "c011",
+        "label": "good",
+        "score": 0.274,
+        "reply": "可以驗車，報告最準 📩"
+      },
+      "top": [
+        {
+          "id": "c011",
+          "label": "good",
+          "score": 0.274
+        },
+        {
+          "id": "c021",
+          "label": "good",
+          "score": 0.233
+        },
+        {
+          "id": "c008",
+          "label": "good",
+          "score": 0.233
+        }
+      ]
+    },
+    {
+      "comment": "有没有白色的",
+      "author": "曾门",
+      "time": "2026/10/18 22:00",
+      "video": "全香港Z平的埃尔法！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 4,
+      "source": "data/account-new/nth2.json",
+      "scope": "other",
+      "business": false,
+      "score": 0.855,
+      "bucket": "strong",
+      "best": {
+        "id": "c006",
+        "label": "good",
+        "score": 0.855,
+        "reply": "有，白色可以傾 🙏"
+      },
+      "top": [
+        {
+          "id": "c006",
+          "label": "good",
+          "score": 0.855
+        },
+        {
+          "id": "c008",
+          "label": "good",
+          "score": 0.204
+        },
+        {
+          "id": "c009",
+          "label": "good",
+          "score": 0.145
+        }
+      ]
+    },
+    {
+      "comment": "而家你买得起，有冇钱加油？？坏左整得起冇？？？",
+      "author": "馬夋",
+      "time": "2026/10/17 10:43",
+      "video": "香港真的是一个豪车超有信价比的地方，12万8就能拿下一台宾利！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 12,
+      "source": "data/account-new/nth3.json",
+      "scope": "ask+topic",
+      "business": true,
+      "score": 0.477,
+      "bucket": "partial",
+      "best": {
+        "id": "c036",
+        "label": "good",
+        "score": 0.477,
+        "reply": "（不回）"
+      },
+      "top": [
+        {
+          "id": "c036",
+          "label": "good",
+          "score": 0.477
+        },
+        {
+          "id": "c038",
+          "label": "good",
+          "score": 0.222
+        },
+        {
+          "id": "c030",
+          "label": "good",
+          "score": 0.182
+        }
+      ]
+    },
+    {
+      "comment": "73岁大姑娘值多少 [偷笑]",
+      "author": "汽车专项加工",
+      "time": "2026/10/17 10:06",
+      "video": "香港真的是一个豪车超有信价比的地方，12万8就能拿下一台宾利！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 12,
+      "source": "data/account-new/nth3.json",
+      "scope": "ask",
+      "business": true,
+      "score": 0.265,
+      "bucket": "novel",
+      "best": {
+        "id": "c044",
+        "label": "good",
+        "score": 0.265,
+        "reply": "途徑同費用，私訊我傾 📩"
+      },
+      "top": [
+        {
+          "id": "c044",
+          "label": "good",
+          "score": 0.265
+        },
+        {
+          "id": "c009",
+          "label": "good",
+          "score": 0.224
+        },
+        {
+          "id": "c021",
+          "label": "good",
+          "score": 0.206
+        }
+      ]
+    },
+    {
+      "comment": "底牌全告訴大眾？？？？ 要什麼直說 [合十] [合十] [合十]",
+      "author": "歐仔(昌)",
+      "time": "2026/10/16 07:55",
+      "video": "香港人，还记得你人生买的第一台车吗？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 13,
+      "source": "data/account-new/nth4.json",
+      "scope": "ask+topic",
+      "business": true,
+      "score": 0.305,
+      "bucket": "novel",
+      "best": {
+        "id": "c017",
+        "label": "good",
+        "score": 0.305,
+        "reply": "12萬8，明碼實價 😄"
+      },
+      "top": [
+        {
+          "id": "c017",
+          "label": "good",
+          "score": 0.305
+        },
+        {
+          "id": "c043",
+          "label": "good",
+          "score": 0.138
+        },
+        {
+          "id": "c022",
+          "label": "good",
+          "score": 0.112
+        }
+      ]
+    },
+    {
+      "comment": "明哥，怎么找你？",
+      "author": "琼",
+      "time": "2026/10/16 22:00",
+      "video": "香港人，还记得你人生买的第一台车吗？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 13,
+      "source": "data/account-new/nth4.json",
+      "scope": "ask",
+      "business": true,
+      "score": 0.299,
+      "bucket": "novel",
+      "best": {
+        "id": "c033",
+        "label": "good",
+        "score": 0.299,
+        "reply": "真嘅；點頭像👤私訊我 📩"
+      },
+      "top": [
+        {
+          "id": "c033",
+          "label": "good",
+          "score": 0.299
+        },
+        {
+          "id": "c030",
+          "label": "good",
+          "score": 0.295
+        },
+        {
+          "id": "c053",
+          "label": "unreviewed",
+          "score": 0.202
+        }
+      ]
+    },
+    {
+      "comment": "明哥：如果真係有這樣問題的話，你點解決？，講真果句",
+      "author": "YUen仔2565",
+      "time": "2026/10/14 19:46",
+      "video": "如果你的客人要退车！你会怎么做？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 66,
+      "source": "data/account-new/nth5.json",
+      "scope": "ask",
+      "business": true,
+      "score": 0.227,
+      "bucket": "novel",
+      "best": {
+        "id": "c033",
+        "label": "good",
+        "score": 0.227,
+        "reply": "真嘅；點頭像👤私訊我 📩"
+      },
+      "top": [
+        {
+          "id": "c033",
+          "label": "good",
+          "score": 0.227
+        },
+        {
+          "id": "c030",
+          "label": "good",
+          "score": 0.214
+        },
+        {
+          "id": "c053",
+          "label": "unreviewed",
+          "score": 0.169
+        }
+      ]
+    },
+    {
+      "comment": "日本水货沃尔沃XC90 T8顶配的要多少钱啊？",
+      "author": "I LOVE YOU BABY🇮🇱",
+      "time": "2026/10/14 04:59",
+      "video": "今天帮香港fans全款拿下这台奔驰GLE！！ #两地牌#港澳车牌#香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 23,
+      "source": "data/account-new/nth6.json",
+      "scope": "ask+topic",
+      "business": true,
+      "score": 0.894,
+      "bucket": "strong",
+      "best": {
+        "id": "c046",
+        "label": "good",
+        "score": 0.894,
+        "reply": "呢款嘅價錢，私訊我傾 📩"
+      },
+      "top": [
+        {
+          "id": "c046",
+          "label": "good",
+          "score": 0.894
+        },
+        {
+          "id": "c044",
+          "label": "good",
+          "score": 0.211
+        },
+        {
+          "id": "c009",
+          "label": "good",
+          "score": 0.09
+        }
+      ]
+    },
+    {
+      "comment": "司分期付款嗎？",
+      "author": "黄明7163",
+      "time": "2026/10/23 21:12",
+      "video": "在香港，宾利和本田，你会选那一辆？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 15,
+      "source": "data/account-new/nth7.json",
+      "scope": "ask+topic",
+      "business": true,
+      "score": 0.969,
+      "bucket": "strong",
+      "best": {
+        "id": "c001",
+        "label": "good",
+        "score": 0.969,
+        "reply": "可以分期，詳情私訊傾 📩"
+      },
+      "top": [
+        {
+          "id": "c001",
+          "label": "good",
+          "score": 0.969
+        },
+        {
+          "id": "c002",
+          "label": "bad",
+          "score": 0.969
+        },
+        {
+          "id": "c003",
+          "label": "good",
+          "score": 0.27
+        }
+      ]
+    },
+    {
+      "comment": "公里数？宾利在东莞16万",
+      "author": "阿达",
+      "time": "2026/10/12 13:54",
+      "video": "在香港，宾利和本田，你会选那一辆？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 15,
+      "source": "data/account-new/nth7.json",
+      "scope": "ask",
+      "business": true,
+      "score": 0.983,
+      "bucket": "strong",
+      "best": {
+        "id": "c047",
+        "label": "good",
+        "score": 0.983,
+        "reply": "可以驗車，里數睇報告 📩"
+      },
+      "top": [
+        {
+          "id": "c047",
+          "label": "good",
+          "score": 0.983
+        },
+        {
+          "id": "c009",
+          "label": "good",
+          "score": 0.054
+        },
+        {
+          "id": "c017",
+          "label": "good",
+          "score": 0.053
+        }
+      ]
+    },
+    {
+      "comment": "能过户去大陆吗。",
+      "author": "Mr.何7517",
+      "time": "2026/10/11 09:30",
+      "video": "在香港，宾利和本田，你会选那一辆？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 15,
+      "source": "data/account-new/nth7.json",
+      "scope": "ask",
+      "business": true,
+      "score": 0.959,
+      "bucket": "strong",
+      "best": {
+        "id": "c045",
+        "label": "good",
+        "score": 0.959,
+        "reply": "過戶嘅嘢，私訊我傾 📩"
+      },
+      "top": [
+        {
+          "id": "c045",
+          "label": "good",
+          "score": 0.959
+        },
+        {
+          "id": "c044",
+          "label": "good",
+          "score": 0.219
+        },
+        {
+          "id": "c048",
+          "label": "good",
+          "score": 0.148
+        }
+      ]
+    },
+    {
+      "comment": "讲潮汕话？",
+      "author": "罗布乐思河北唐县动画",
+      "time": "2026/10/14 22:00",
+      "video": "胶己人，这一次你想清楚了吗？香港到底有什么好？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 19,
+      "source": "data/account-new/nth8.json",
+      "scope": "ask",
+      "business": true,
+      "score": 0.124,
+      "bucket": "novel",
+      "best": {
+        "id": "c054",
+        "label": "unreviewed",
+        "score": 0.124,
+        "reply": "多謝你嘅分享 🙏"
+      },
+      "top": [
+        {
+          "id": "c054",
+          "label": "unreviewed",
+          "score": 0.124
+        },
+        {
+          "id": "c053",
+          "label": "unreviewed",
+          "score": 0.119
+        },
+        {
+          "id": "c001",
+          "label": "good",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "comment": "拜拜挣大钱老乡",
+      "author": "lam",
+      "time": "2026/10/11 00:32",
+      "video": "胶己人，这一次你想清楚了吗？香港到底有什么好？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 19,
+      "source": "data/account-new/nth8.json",
+      "scope": "topic",
+      "business": true,
+      "score": 0.18,
+      "bucket": "novel",
+      "best": {
+        "id": "c044",
+        "label": "good",
+        "score": 0.18,
+        "reply": "途徑同費用，私訊我傾 📩"
+      },
+      "top": [
+        {
+          "id": "c044",
+          "label": "good",
+          "score": 0.18
+        },
+        {
+          "id": "c004",
+          "label": "good",
+          "score": 0.13
+        },
+        {
+          "id": "c050",
+          "label": "good",
+          "score": 0.12
+        }
+      ]
+    },
+    {
+      "comment": "怎么找你",
+      "author": "阿k.k群室内装修工程",
+      "time": "2026/10/10 18:21",
+      "video": "胶己人，这一次你想清楚了吗？香港到底有什么好？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 19,
+      "source": "data/account-new/nth8.json",
+      "scope": "ask",
+      "business": true,
+      "score": 0.378,
+      "bucket": "partial",
+      "best": {
+        "id": "c033",
+        "label": "good",
+        "score": 0.378,
+        "reply": "真嘅；點頭像👤私訊我 📩"
+      },
+      "top": [
+        {
+          "id": "c033",
+          "label": "good",
+          "score": 0.378
+        },
+        {
+          "id": "c032",
+          "label": "good",
+          "score": 0.185
+        },
+        {
+          "id": "c043",
+          "label": "good",
+          "score": 0.113
+        }
+      ]
+    },
+    {
+      "comment": "明哥老乡要过去怎么联系你？",
+      "author": "逍遥叹",
+      "time": "2026/10/12 23:12",
+      "video": "胶己人，这一次你想清楚了吗？香港到底有什么好？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 19,
+      "source": "data/account-new/nth8.json",
+      "scope": "ask+topic",
+      "business": true,
+      "score": 0.264,
+      "bucket": "novel",
+      "best": {
+        "id": "c030",
+        "label": "good",
+        "score": 0.264,
+        "reply": "多謝支持 🙏"
+      },
+      "top": [
+        {
+          "id": "c030",
+          "label": "good",
+          "score": 0.264
+        },
+        {
+          "id": "c044",
+          "label": "good",
+          "score": 0.186
+        },
+        {
+          "id": "c053",
+          "label": "unreviewed",
+          "score": 0.181
+        }
+      ]
+    },
+    {
+      "comment": "老板你好，你是不是帮人办这个香港证件啊？",
+      "author": "jiao小玲珑",
+      "time": "2026/10/07 14:28",
+      "video": "兄弟，不要再找你阿姐了，这一次，可以靠自己！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 76,
+      "source": "data/account-new/nth9.json",
+      "scope": "ask+topic",
+      "business": true,
+      "score": 0.856,
+      "bucket": "strong",
+      "best": {
+        "id": "c049",
+        "label": "good",
+        "score": 0.856,
+        "reply": "係，可以傾；唔設門檻 😄"
+      },
+      "top": [
+        {
+          "id": "c049",
+          "label": "good",
+          "score": 0.856
+        },
+        {
+          "id": "c054",
+          "label": "unreviewed",
+          "score": 0.198
+        },
+        {
+          "id": "c033",
+          "label": "good",
+          "score": 0.193
+        }
+      ]
+    },
+    {
+      "comment": "明兄，李作知宛姐啰开银行，宛姐夫啰印银纸啊？ [呲牙] [呲牙] [捂脸] [捂脸]",
+      "author": "恋上古典🌈汉服",
+      "time": "2026/10/07 18:47",
+      "video": "兄弟，不要再找你阿姐了，这一次，可以靠自己！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 76,
+      "source": "data/account-new/nth9.json",
+      "scope": "ask",
+      "business": true,
+      "score": 0.099,
+      "bucket": "novel",
+      "best": {
+        "id": "c030",
+        "label": "good",
+        "score": 0.099,
+        "reply": "多謝支持 🙏"
+      },
+      "top": [
+        {
+          "id": "c030",
+          "label": "good",
+          "score": 0.099
+        },
+        {
+          "id": "c054",
+          "label": "unreviewed",
+          "score": 0.087
+        },
+        {
+          "id": "c053",
+          "label": "unreviewed",
+          "score": 0.068
+        }
+      ]
+    },
+    {
+      "comment": "怎样去，大概要多少钱才能去",
+      "author": "NIC1210",
+      "time": "2026/10/12 22:02",
+      "video": "兄弟，不要再找你阿姐了，这一次，可以靠自己！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 76,
+      "source": "data/account-new/nth9.json",
+      "scope": "ask+topic",
+      "business": true,
+      "score": 0.975,
+      "bucket": "strong",
+      "best": {
+        "id": "c044",
+        "label": "good",
+        "score": 0.975,
+        "reply": "途徑同費用，私訊我傾 📩"
+      },
+      "top": [
+        {
+          "id": "c044",
+          "label": "good",
+          "score": 0.975
+        },
+        {
+          "id": "c045",
+          "label": "good",
+          "score": 0.215
+        },
+        {
+          "id": "c004",
+          "label": "good",
+          "score": 0.206
+        }
+      ]
+    },
+    {
+      "comment": "明哥，汕尾的19岁能去和你学习吗 [呲牙]",
+      "author": "嗯嗯oup",
+      "time": "2026/10/09 22:39",
+      "video": "兄弟，不要再找你阿姐了，这一次，可以靠自己！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 76,
+      "source": "data/account-new/nth9.json",
+      "scope": "ask",
+      "business": true,
+      "score": 0.803,
+      "bucket": "strong",
+      "best": {
+        "id": "c048",
+        "label": "good",
+        "score": 0.803,
+        "reply": "有心，私訊傾下 📩"
+      },
+      "top": [
+        {
+          "id": "c048",
+          "label": "good",
+          "score": 0.803
+        },
+        {
+          "id": "c054",
+          "label": "unreviewed",
+          "score": 0.2
+        },
+        {
+          "id": "c030",
+          "label": "good",
+          "score": 0.17
+        }
+      ]
+    },
+    {
+      "comment": "老板你过港证是的？，有帮办过去香港做工证是吗？",
+      "author": "英",
+      "time": "2026/10/08 20:05",
+      "video": "兄弟，不要再找你阿姐了，这一次，可以靠自己！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 76,
+      "source": "data/account-new/nth9.json",
+      "scope": "ask+topic",
+      "business": true,
+      "score": 0.446,
+      "bucket": "partial",
+      "best": {
+        "id": "c049",
+        "label": "good",
+        "score": 0.446,
+        "reply": "係，可以傾；唔設門檻 😄"
+      },
+      "top": [
+        {
+          "id": "c049",
+          "label": "good",
+          "score": 0.446
+        },
+        {
+          "id": "c027",
+          "label": "good",
+          "score": 0.4
+        },
+        {
+          "id": "c045",
+          "label": "good",
+          "score": 0.185
+        }
+      ]
+    },
+    {
+      "comment": "這種人 [掩面] 沒有必要 [發呆] 直接把他們了，我們家人心中就是這樣做出真心對待 [累] 金錢錢錢錢錢錢錢錢錢財來看到這個使命就是這樣做事情是這樣的我們自己要臉 [流淚] [流淚我們今天 [流淚] [流淚我 [掩面]",
+      "author": "年年有餘",
+      "time": "2026/10/08 13:44",
+      "video": "兄弟，不要再找你阿姐了，这一次，可以靠自己！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 76,
+      "source": "data/account-new/nth9.json",
+      "scope": "topic",
+      "business": true,
+      "score": 0.247,
+      "bucket": "novel",
+      "best": {
+        "id": "c016",
+        "label": "good",
+        "score": 0.247,
+        "reply": "包牌稅險嘅嘢，私訊傾 🙏"
+      },
+      "top": [
+        {
+          "id": "c016",
+          "label": "good",
+          "score": 0.247
+        },
+        {
+          "id": "c021",
+          "label": "good",
+          "score": 0.144
+        },
+        {
+          "id": "c054",
+          "label": "unreviewed",
+          "score": 0.123
+        }
+      ]
+    },
+    {
+      "comment": "怎么联系",
+      "author": "ᯤ⁵ᴳ",
+      "time": "2026/10/07 17:37",
+      "video": "兄弟，不要再找你阿姐了，这一次，可以靠自己！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 76,
+      "source": "data/account-new/nth9.json",
+      "scope": "ask+topic",
+      "business": true,
+      "score": 0.168,
+      "bucket": "novel",
+      "best": {
+        "id": "c043",
+        "label": "good",
+        "score": 0.168,
+        "reply": "可以全款，都可以分期；費用細節私訊傾 📩"
+      },
+      "top": [
+        {
+          "id": "c043",
+          "label": "good",
+          "score": 0.168
+        },
+        {
+          "id": "c010",
+          "label": "good",
+          "score": 0.161
+        },
+        {
+          "id": "c032",
+          "label": "good",
+          "score": 0.158
+        }
+      ]
+    },
+    {
+      "comment": "明兄我想去怎样联系你",
+      "author": "酸甜辣苦生活都要过",
+      "time": "2026/10/07 20:48",
+      "video": "兄弟，不要再找你阿姐了，这一次，可以靠自己！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 76,
+      "source": "data/account-new/nth9.json",
+      "scope": "ask+topic",
+      "business": true,
+      "score": 0.322,
+      "bucket": "novel",
+      "best": {
+        "id": "c044",
+        "label": "good",
+        "score": 0.322,
+        "reply": "途徑同費用，私訊我傾 📩"
+      },
+      "top": [
+        {
+          "id": "c044",
+          "label": "good",
+          "score": 0.322
+        },
+        {
+          "id": "c029",
+          "label": "good",
+          "score": 0.159
+        },
+        {
+          "id": "c032",
+          "label": "good",
+          "score": 0.142
+        }
+      ]
+    },
+    {
+      "comment": "明哥你好，我75年Ⅱ月能办吗",
+      "author": "建乔(黑...",
+      "time": "2026/10/21 13:57",
+      "video": "兄弟，香港的机会，不会一直在等你！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 81,
+      "source": "data/maintain/nth1.json",
+      "scope": "ask",
+      "business": true,
+      "score": 0.273,
+      "bucket": "novel",
+      "best": {
+        "id": "c025",
+        "label": "good",
+        "score": 0.273,
+        "reply": "都啱傾，放心 😄"
+      },
+      "top": [
+        {
+          "id": "c025",
+          "label": "good",
+          "score": 0.273
+        },
+        {
+          "id": "c030",
+          "label": "good",
+          "score": 0.24
+        },
+        {
+          "id": "c053",
+          "label": "unreviewed",
+          "score": 0.165
+        }
+      ]
+    },
+    {
+      "comment": "初中文化可以申请吗？",
+      "author": "颜姐爱唱歌7720",
+      "time": "2026/10/23 15:18",
+      "video": "兄弟，香港的机会，不会一直在等你！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 81,
+      "source": "data/maintain/nth1.json",
+      "scope": "ask",
+      "business": true,
+      "score": 0.804,
+      "bucket": "strong",
+      "best": {
+        "id": "c023",
+        "label": "good",
+        "score": 0.804,
+        "reply": "初中學歷都啱傾；點頭像👤睇簡介，私訊我 📩"
+      },
+      "top": [
+        {
+          "id": "c023",
+          "label": "good",
+          "score": 0.804
+        },
+        {
+          "id": "c020",
+          "label": "good",
+          "score": 0.18
+        },
+        {
+          "id": "c014",
+          "label": "good",
+          "score": 0.134
+        }
+      ]
+    },
+    {
+      "comment": "无钱去香港做工是不错的选择。",
+      "author": "公平水寨移民村东升饭店",
+      "time": "2026/10/22 22:26",
+      "video": "兄弟，香港的机会，不会一直在等你！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 81,
+      "source": "data/maintain/nth1.json",
+      "scope": "topic",
+      "business": true,
+      "score": 0.56,
+      "bucket": "partial",
+      "best": {
+        "id": "c027",
+        "label": "good",
+        "score": 0.56,
+        "reply": "過去做工都啱傾 😄"
+      },
+      "top": [
+        {
+          "id": "c027",
+          "label": "good",
+          "score": 0.56
+        },
+        {
+          "id": "c049",
+          "label": "good",
+          "score": 0.324
+        },
+        {
+          "id": "c038",
+          "label": "good",
+          "score": 0.181
+        }
+      ]
+    },
+    {
+      "comment": "明兄你好啊！我儿子儿媳妇在香港！我可以申请吗？",
+      "author": "前程似锦",
+      "time": "2026/10/22 17:37",
+      "video": "兄弟，香港的机会，不会一直在等你！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 81,
+      "source": "data/maintain/nth1.json",
+      "scope": "ask",
+      "business": true,
+      "score": 0.262,
+      "bucket": "novel",
+      "best": {
+        "id": "c029",
+        "label": "good",
+        "score": 0.262,
+        "reply": "哈哈，有心啦，私訊傾下 📩"
+      },
+      "top": [
+        {
+          "id": "c029",
+          "label": "good",
+          "score": 0.262
+        },
+        {
+          "id": "c023",
+          "label": "good",
+          "score": 0.197
+        },
+        {
+          "id": "c027",
+          "label": "good",
+          "score": 0.192
+        }
+      ]
+    },
+    {
+      "comment": "如果想要蓮塘牌要加幾$",
+      "author": "奇",
+      "time": "2026/10/24 13:46",
+      "video": "在香港，3万8的埃尔法，才是你的最佳 家庭帮手！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 27,
+      "source": "data/account-new/nth1.json",
+      "scope": "topic",
+      "business": true,
+      "score": 0.273,
+      "bucket": "novel",
+      "best": {
+        "id": "c021",
+        "label": "good",
+        "score": 0.273,
+        "reply": "睇邊個口岸，私訊我傾 📩"
+      },
+      "top": [
+        {
+          "id": "c021",
+          "label": "good",
+          "score": 0.273
+        },
+        {
+          "id": "c022",
+          "label": "good",
+          "score": 0.251
+        },
+        {
+          "id": "c003",
+          "label": "good",
+          "score": 0.14
+        }
+      ]
+    },
+    {
+      "comment": "多2萬蚊。我即刻攞走",
+      "author": "cool星",
+      "time": "2026/10/23 19:17",
+      "video": "在香港，3万8的埃尔法，才是你的最佳 家庭帮手！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 27,
+      "source": "data/account-new/nth1.json",
+      "scope": "other",
+      "business": false,
+      "score": 0.197,
+      "bucket": "novel",
+      "best": {
+        "id": "c029",
+        "label": "good",
+        "score": 0.197,
+        "reply": "哈哈，有心啦，私訊傾下 📩"
+      },
+      "top": [
+        {
+          "id": "c029",
+          "label": "good",
+          "score": 0.197
+        },
+        {
+          "id": "c004",
+          "label": "good",
+          "score": 0.102
+        },
+        {
+          "id": "c022",
+          "label": "good",
+          "score": 0.095
+        }
+      ]
+    },
+    {
+      "comment": "我想換車，但我有一㗎車，看看點處理等自己㗎車",
+      "author": "Heibi Lam",
+      "time": "2026/10/21 22:28",
+      "video": "在香港，3万8的埃尔法，才是你的最佳 家庭帮手！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 27,
+      "source": "data/account-new/nth1.json",
+      "scope": "ask+topic",
+      "business": true,
+      "score": 0.234,
+      "bucket": "novel",
+      "best": {
+        "id": "c013",
+        "label": "good",
+        "score": 0.234,
+        "reply": "朝九晚九，過嚟睇 😄"
+      },
+      "top": [
+        {
+          "id": "c013",
+          "label": "good",
+          "score": 0.234
+        },
+        {
+          "id": "c008",
+          "label": "good",
+          "score": 0.181
+        },
+        {
+          "id": "c029",
+          "label": "good",
+          "score": 0.138
+        }
+      ]
+    },
+    {
+      "comment": "系昧皇后山脚明哥睇車呀",
+      "author": "黄明",
+      "time": "2026/10/21 17:03",
+      "video": "在香港，3万8的埃尔法，才是你的最佳 家庭帮手！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 27,
+      "source": "data/account-new/nth1.json",
+      "scope": "topic",
+      "business": true,
+      "score": 0.344,
+      "bucket": "novel",
+      "best": {
+        "id": "c039",
+        "label": "good",
+        "score": 0.344,
+        "reply": "朝九晚九，過嚟睇 😄"
+      },
+      "top": [
+        {
+          "id": "c039",
+          "label": "good",
+          "score": 0.344
+        },
+        {
+          "id": "c030",
+          "label": "good",
+          "score": 0.321
+        },
+        {
+          "id": "c053",
+          "label": "unreviewed",
+          "score": 0.22
+        }
+      ]
+    },
+    {
+      "comment": "一口價30,000 。 [Facepalm] [Facepalm] [Facepalm] [Facepalm]",
+      "author": "星星",
+      "time": "2026/10/21 12:10",
+      "video": "在香港，3万8的埃尔法，才是你的最佳 家庭帮手！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 27,
+      "source": "data/account-new/nth1.json",
+      "scope": "topic",
+      "business": true,
+      "score": 0.168,
+      "bucket": "novel",
+      "best": {
+        "id": "c017",
+        "label": "good",
+        "score": 0.168,
+        "reply": "12萬8，明碼實價 😄"
+      },
+      "top": [
+        {
+          "id": "c017",
+          "label": "good",
+          "score": 0.168
+        },
+        {
+          "id": "c021",
+          "label": "good",
+          "score": 0.146
+        },
+        {
+          "id": "c026",
+          "label": "good",
+          "score": 0.118
+        }
+      ]
+    },
+    {
+      "comment": "買咗未",
+      "author": "keung4293",
+      "time": "2026/10/21 12:03",
+      "video": "在香港，3万8的埃尔法，才是你的最佳 家庭帮手！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 27,
+      "source": "data/account-new/nth1.json",
+      "scope": "other",
+      "business": false,
+      "score": 0.287,
+      "bucket": "novel",
+      "best": {
+        "id": "c041",
+        "label": "good",
+        "score": 0.287,
+        "reply": "有，喺度 😄"
+      },
+      "top": [
+        {
+          "id": "c041",
+          "label": "good",
+          "score": 0.287
+        },
+        {
+          "id": "c036",
+          "label": "good",
+          "score": 0.188
+        },
+        {
+          "id": "c001",
+          "label": "good",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "comment": "[耶] 搵靠譜質保，+ MG14144",
+      "author": "明哥揾粤港车",
+      "time": "2026/10/07 09:01",
+      "video": "明哥真系全香港Z蠢的老细咯！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 30,
+      "source": "data/account-new/nth10.json",
+      "scope": "other",
+      "business": false,
+      "score": 0.173,
+      "bucket": "novel",
+      "best": {
+        "id": "c040",
+        "label": "good",
+        "score": 0.173,
+        "reply": "可以驗車，記錄私訊傾 📩"
+      },
+      "top": [
+        {
+          "id": "c040",
+          "label": "good",
+          "score": 0.173
+        },
+        {
+          "id": "c015",
+          "label": "good",
+          "score": 0.141
+        },
+        {
+          "id": "c001",
+          "label": "good",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "comment": "相由心生",
+      "author": "強仔8433",
+      "time": "2026/10/24 16:06",
+      "video": "明哥真系全香港Z蠢的老细咯！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 30,
+      "source": "data/account-new/nth10.json",
+      "scope": "other",
+      "business": false,
+      "score": 0,
+      "bucket": "novel",
+      "best": {
+        "id": "c001",
+        "label": "good",
+        "score": 0,
+        "reply": "可以分期，詳情私訊傾 📩"
+      },
+      "top": [
+        {
+          "id": "c001",
+          "label": "good",
+          "score": 0
+        },
+        {
+          "id": "c002",
+          "label": "bad",
+          "score": 0
+        },
+        {
+          "id": "c003",
+          "label": "good",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "comment": "明哥畀個通訊號碼",
+      "author": "衣架 防護防墮網",
+      "time": "2026/10/22 16:29",
+      "video": "明哥真系全香港Z蠢的老细咯！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 30,
+      "source": "data/account-new/nth10.json",
+      "scope": "other",
+      "business": false,
+      "score": 0.342,
+      "bucket": "novel",
+      "best": {
+        "id": "c030",
+        "label": "good",
+        "score": 0.342,
+        "reply": "多謝支持 🙏"
+      },
+      "top": [
+        {
+          "id": "c030",
+          "label": "good",
+          "score": 0.342
+        },
+        {
+          "id": "c053",
+          "label": "unreviewed",
+          "score": 0.235
+        },
+        {
+          "id": "c034",
+          "label": "good",
+          "score": 0.115
+        }
+      ]
+    },
+    {
+      "comment": "出色",
+      "author": "小德4528",
+      "time": "2026/10/21 14:24",
+      "video": "明哥真系全香港Z蠢的老细咯！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 30,
+      "source": "data/account-new/nth10.json",
+      "scope": "other",
+      "business": false,
+      "score": 0.307,
+      "bucket": "novel",
+      "best": {
+        "id": "c006",
+        "label": "good",
+        "score": 0.307,
+        "reply": "有，白色可以傾 🙏"
+      },
+      "top": [
+        {
+          "id": "c006",
+          "label": "good",
+          "score": 0.307
+        },
+        {
+          "id": "c001",
+          "label": "good",
+          "score": 0
+        },
+        {
+          "id": "c002",
+          "label": "bad",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "comment": "位置",
+      "author": "BB",
+      "time": "2026/10/18 13:55",
+      "video": "明哥真系全香港Z蠢的老细咯！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 30,
+      "source": "data/account-new/nth10.json",
+      "scope": "other",
+      "business": false,
+      "score": 0.918,
+      "bucket": "strong",
+      "best": {
+        "id": "c042",
+        "label": "good",
+        "score": 0.918,
+        "reply": "皇后山，導航搜「明哥中港牌」😄"
+      },
+      "top": [
+        {
+          "id": "c042",
+          "label": "good",
+          "score": 0.918
+        },
+        {
+          "id": "c001",
+          "label": "good",
+          "score": 0
+        },
+        {
+          "id": "c002",
+          "label": "bad",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "comment": "我汕尾人诚信掂 [强] [强]",
+      "author": "伟武",
+      "time": "2026/10/03 14:06",
+      "video": "明哥真系全香港Z蠢的老细咯！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 30,
+      "source": "data/account-new/nth10.json",
+      "scope": "other",
+      "business": false,
+      "score": 0.603,
+      "bucket": "strong",
+      "best": {
+        "id": "c037",
+        "label": "good",
+        "score": 0.603,
+        "reply": "（不回）"
+      },
+      "top": [
+        {
+          "id": "c037",
+          "label": "good",
+          "score": 0.603
+        },
+        {
+          "id": "c052",
+          "label": "unreviewed",
+          "score": 0.586
+        },
+        {
+          "id": "c053",
+          "label": "unreviewed",
+          "score": 0.409
+        }
+      ]
+    },
+    {
+      "comment": "诚信经营赢天下 [强] [强] [强] [强] [强] [强]",
+      "author": "添记发财",
+      "time": "2026/10/03 09:54",
+      "video": "明哥真系全香港Z蠢的老细咯！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 30,
+      "source": "data/account-new/nth10.json",
+      "scope": "other",
+      "business": false,
+      "score": 0.926,
+      "bucket": "strong",
+      "best": {
+        "id": "c037",
+        "label": "good",
+        "score": 0.926,
+        "reply": "（不回）"
+      },
+      "top": [
+        {
+          "id": "c037",
+          "label": "good",
+          "score": 0.926
+        },
+        {
+          "id": "c052",
+          "label": "unreviewed",
+          "score": 0.919
+        },
+        {
+          "id": "c053",
+          "label": "unreviewed",
+          "score": 0.629
+        }
+      ]
+    },
+    {
+      "comment": "哪里",
+      "author": "洗刷刷自助洗车森哥",
+      "time": "2026/10/03 14:11",
+      "video": "明哥真系全香港Z蠢的老细咯！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 30,
+      "source": "data/account-new/nth10.json",
+      "scope": "ask",
+      "business": true,
+      "score": 0.248,
+      "bucket": "novel",
+      "best": {
+        "id": "c012",
+        "label": "good",
+        "score": 0.248,
+        "reply": "皇后山，導航搜「明哥中港牌」😄"
+      },
+      "top": [
+        {
+          "id": "c012",
+          "label": "good",
+          "score": 0.248
+        },
+        {
+          "id": "c009",
+          "label": "good",
+          "score": 0.159
+        },
+        {
+          "id": "c047",
+          "label": "good",
+          "score": 0.146
+        }
+      ]
+    },
+    {
+      "comment": "犀利",
+      "author": "a僵小鱼的视频号",
+      "time": "2026/10/18 20:42",
+      "video": "全香港Z平的埃尔法！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 4,
+      "source": "data/account-new/nth2.json",
+      "scope": "other",
+      "business": false,
+      "score": 0.231,
+      "bucket": "novel",
+      "best": {
+        "id": "c047",
+        "label": "good",
+        "score": 0.231,
+        "reply": "可以驗車，里數睇報告 📩"
+      },
+      "top": [
+        {
+          "id": "c047",
+          "label": "good",
+          "score": 0.231
+        },
+        {
+          "id": "c001",
+          "label": "good",
+          "score": 0
+        },
+        {
+          "id": "c002",
+          "label": "bad",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "comment": "我系皇后山下面最勤力噶男人明少 /::D",
+      "author": "伦",
+      "time": "2026/10/23 17:51",
+      "video": "香港真的是一个豪车超有信价比的地方，12万8就能拿下一台宾利！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 12,
+      "source": "data/account-new/nth3.json",
+      "scope": "other",
+      "business": false,
+      "score": 0.137,
+      "bucket": "novel",
+      "best": {
+        "id": "c029",
+        "label": "good",
+        "score": 0.137,
+        "reply": "哈哈，有心啦，私訊傾下 📩"
+      },
+      "top": [
+        {
+          "id": "c029",
+          "label": "good",
+          "score": 0.137
+        },
+        {
+          "id": "c030",
+          "label": "good",
+          "score": 0.121
+        },
+        {
+          "id": "c038",
+          "label": "good",
+          "score": 0.112
+        }
+      ]
+    },
+    {
+      "comment": "皇后山最勤力嘅男人",
+      "author": "人生1112345",
+      "time": "2026/10/17 16:52",
+      "video": "香港真的是一个豪车超有信价比的地方，12万8就能拿下一台宾利！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 12,
+      "source": "data/account-new/nth3.json",
+      "scope": "other",
+      "business": false,
+      "score": 0.194,
+      "bucket": "novel",
+      "best": {
+        "id": "c038",
+        "label": "good",
+        "score": 0.194,
+        "reply": "多謝支持，一齊努力 💪"
+      },
+      "top": [
+        {
+          "id": "c038",
+          "label": "good",
+          "score": 0.194
+        },
+        {
+          "id": "c035",
+          "label": "good",
+          "score": 0.183
+        },
+        {
+          "id": "c054",
+          "label": "unreviewed",
+          "score": 0.172
+        }
+      ]
+    },
+    {
+      "comment": "差127800",
+      "author": "靓仔肥仔",
+      "time": "2026/10/17 11:57",
+      "video": "香港真的是一个豪车超有信价比的地方，12万8就能拿下一台宾利！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 12,
+      "source": "data/account-new/nth3.json",
+      "scope": "other",
+      "business": false,
+      "score": 0,
+      "bucket": "novel",
+      "best": {
+        "id": "c001",
+        "label": "good",
+        "score": 0,
+        "reply": "可以分期，詳情私訊傾 📩"
+      },
+      "top": [
+        {
+          "id": "c001",
+          "label": "good",
+          "score": 0
+        },
+        {
+          "id": "c002",
+          "label": "bad",
+          "score": 0
+        },
+        {
+          "id": "c003",
+          "label": "good",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "comment": "等我银行卡有10个亿先",
+      "author": "大把银纸",
+      "time": "2026/10/17 11:55",
+      "video": "香港真的是一个豪车超有信价比的地方，12万8就能拿下一台宾利！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 12,
+      "source": "data/account-new/nth3.json",
+      "scope": "other",
+      "business": false,
+      "score": 0.202,
+      "bucket": "novel",
+      "best": {
+        "id": "c035",
+        "label": "good",
+        "score": 0.202,
+        "reply": "（不回）"
+      },
+      "top": [
+        {
+          "id": "c035",
+          "label": "good",
+          "score": 0.202
+        },
+        {
+          "id": "c029",
+          "label": "good",
+          "score": 0.164
+        },
+        {
+          "id": "c008",
+          "label": "good",
+          "score": 0.157
+        }
+      ]
+    },
+    {
+      "comment": "买得起，养唔起 [Doge]",
+      "author": "ISCM-Studio",
+      "time": "2026/10/17 08:57",
+      "video": "香港真的是一个豪车超有信价比的地方，12万8就能拿下一台宾利！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 12,
+      "source": "data/account-new/nth3.json",
+      "scope": "other",
+      "business": false,
+      "score": 0.697,
+      "bucket": "strong",
+      "best": {
+        "id": "c036",
+        "label": "good",
+        "score": 0.697,
+        "reply": "（不回）"
+      },
+      "top": [
+        {
+          "id": "c036",
+          "label": "good",
+          "score": 0.697
+        },
+        {
+          "id": "c016",
+          "label": "good",
+          "score": 0.067
+        },
+        {
+          "id": "c031",
+          "label": "good",
+          "score": 0.066
+        }
+      ]
+    },
+    {
+      "comment": "明哥衣品 [强] [强] 视频内搭是什么品牌",
+      "author": "丹",
+      "time": "2026/10/18 12:24",
+      "video": "香港人，还记得你人生买的第一台车吗？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 13,
+      "source": "data/account-new/nth4.json",
+      "scope": "ask+topic",
+      "business": true,
+      "score": 0.513,
+      "bucket": "partial",
+      "best": {
+        "id": "c037",
+        "label": "good",
+        "score": 0.513,
+        "reply": "（不回）"
+      },
+      "top": [
+        {
+          "id": "c037",
+          "label": "good",
+          "score": 0.513
+        },
+        {
+          "id": "c053",
+          "label": "unreviewed",
+          "score": 0.5
+        },
+        {
+          "id": "c052",
+          "label": "unreviewed",
+          "score": 0.499
+        }
+      ]
+    },
+    {
+      "comment": "正確",
+      "author": "Michael",
+      "time": "2026/10/17 22:30",
+      "video": "香港人，还记得你人生买的第一台车吗？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 13,
+      "source": "data/account-new/nth4.json",
+      "scope": "other",
+      "business": false,
+      "score": 0,
+      "bucket": "novel",
+      "best": {
+        "id": "c001",
+        "label": "good",
+        "score": 0,
+        "reply": "可以分期，詳情私訊傾 📩"
+      },
+      "top": [
+        {
+          "id": "c001",
+          "label": "good",
+          "score": 0
+        },
+        {
+          "id": "c002",
+          "label": "bad",
+          "score": 0
+        },
+        {
+          "id": "c003",
+          "label": "good",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "comment": "人都系甘＇未有时渴望有有时觉得没那么宝贵 [Worship]",
+      "author": "常平碧云天103",
+      "time": "2026/10/16 23:08",
+      "video": "香港人，还记得你人生买的第一台车吗？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 13,
+      "source": "data/account-new/nth4.json",
+      "scope": "other",
+      "business": false,
+      "score": 0.271,
+      "bucket": "novel",
+      "best": {
+        "id": "c008",
+        "label": "good",
+        "score": 0.271,
+        "reply": "有，過嚟睇，朝九晚九 👍"
+      },
+      "top": [
+        {
+          "id": "c008",
+          "label": "good",
+          "score": 0.271
+        },
+        {
+          "id": "c006",
+          "label": "good",
+          "score": 0.234
+        },
+        {
+          "id": "c009",
+          "label": "good",
+          "score": 0.192
+        }
+      ]
+    },
+    {
+      "comment": "吹水M",
+      "author": "晴朗小飛🐠",
+      "time": "2026/10/18 22:07",
+      "video": "香港人，还记得你人生买的第一台车吗？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 13,
+      "source": "data/account-new/nth4.json",
+      "scope": "other",
+      "business": false,
+      "score": 0.19,
+      "bucket": "novel",
+      "best": {
+        "id": "c046",
+        "label": "good",
+        "score": 0.19,
+        "reply": "呢款嘅價錢，私訊我傾 📩"
+      },
+      "top": [
+        {
+          "id": "c046",
+          "label": "good",
+          "score": 0.19
+        },
+        {
+          "id": "c001",
+          "label": "good",
+          "score": 0
+        },
+        {
+          "id": "c002",
+          "label": "bad",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "comment": "搵靠譜🚗+ MG14144",
+      "author": "明哥揾粤港车",
+      "time": "2026/10/16 10:46",
+      "video": "如果你的客人要退车！你会怎么做？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 66,
+      "source": "data/account-new/nth5.json",
+      "scope": "other",
+      "business": false,
+      "score": 0,
+      "bucket": "novel",
+      "best": {
+        "id": "c001",
+        "label": "good",
+        "score": 0,
+        "reply": "可以分期，詳情私訊傾 📩"
+      },
+      "top": [
+        {
+          "id": "c001",
+          "label": "good",
+          "score": 0
+        },
+        {
+          "id": "c002",
+          "label": "bad",
+          "score": 0
+        },
+        {
+          "id": "c003",
+          "label": "good",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "comment": "/:strong 看你视频都学到好多东西 真的好优秀",
+      "author": "素心",
+      "time": "2026/10/24 19:43",
+      "video": "如果你的客人要退车！你会怎么做？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 66,
+      "source": "data/account-new/nth5.json",
+      "scope": "other",
+      "business": false,
+      "score": 0.229,
+      "bucket": "novel",
+      "best": {
+        "id": "c054",
+        "label": "unreviewed",
+        "score": 0.229,
+        "reply": "多謝你嘅分享 🙏"
+      },
+      "top": [
+        {
+          "id": "c054",
+          "label": "unreviewed",
+          "score": 0.229
+        },
+        {
+          "id": "c033",
+          "label": "good",
+          "score": 0.181
+        },
+        {
+          "id": "c031",
+          "label": "good",
+          "score": 0.158
+        }
+      ]
+    },
+    {
+      "comment": "界定義者必然後又要是不能讀完整性別有不同@老王夫妇农村生活 死了解決",
+      "author": "佛光普照",
+      "time": "2026/10/19 20:14",
+      "video": "如果你的客人要退车！你会怎么做？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 66,
+      "source": "data/account-new/nth5.json",
+      "scope": "other",
+      "business": false,
+      "score": 0.259,
+      "bucket": "novel",
+      "best": {
+        "id": "c049",
+        "label": "good",
+        "score": 0.259,
+        "reply": "係，可以傾；唔設門檻 😄"
+      },
+      "top": [
+        {
+          "id": "c049",
+          "label": "good",
+          "score": 0.259
+        },
+        {
+          "id": "c026",
+          "label": "good",
+          "score": 0.102
+        },
+        {
+          "id": "c035",
+          "label": "good",
+          "score": 0.096
+        }
+      ]
+    },
+    {
+      "comment": "原則可惜別為主[图片]",
+      "author": "佛光普照",
+      "time": "2026/10/19 20:14",
+      "video": "如果你的客人要退车！你会怎么做？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 66,
+      "source": "data/account-new/nth5.json",
+      "scope": "other",
+      "business": false,
+      "score": 0.142,
+      "bucket": "novel",
+      "best": {
+        "id": "c014",
+        "label": "good",
+        "score": 0.142,
+        "reply": "可以試車，約個時間 😄"
+      },
+      "top": [
+        {
+          "id": "c014",
+          "label": "good",
+          "score": 0.142
+        },
+        {
+          "id": "c039",
+          "label": "good",
+          "score": 0.12
+        },
+        {
+          "id": "c020",
+          "label": "good",
+          "score": 0.113
+        }
+      ]
+    },
+    {
+      "comment": "及，電腦操作方式樣衰竭盡情人事實係唔係好合約翰林峯[图片]",
+      "author": "佛光普照",
+      "time": "2026/10/19 20:13",
+      "video": "如果你的客人要退车！你会怎么做？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 66,
+      "source": "data/account-new/nth5.json",
+      "scope": "ask",
+      "business": true,
+      "score": 0.152,
+      "bucket": "novel",
+      "best": {
+        "id": "c054",
+        "label": "unreviewed",
+        "score": 0.152,
+        "reply": "多謝你嘅分享 🙏"
+      },
+      "top": [
+        {
+          "id": "c054",
+          "label": "unreviewed",
+          "score": 0.152
+        },
+        {
+          "id": "c010",
+          "label": "good",
+          "score": 0.138
+        },
+        {
+          "id": "c055",
+          "label": "unreviewed",
+          "score": 0.117
+        }
+      ]
+    },
+    {
+      "comment": "下次買車搵明哥 /::D",
+      "author": "刘先生",
+      "time": "2026/10/16 19:53",
+      "video": "如果你的客人要退车！你会怎么做？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 66,
+      "source": "data/account-new/nth5.json",
+      "scope": "topic",
+      "business": true,
+      "score": 0.366,
+      "bucket": "partial",
+      "best": {
+        "id": "c030",
+        "label": "good",
+        "score": 0.366,
+        "reply": "多謝支持 🙏"
+      },
+      "top": [
+        {
+          "id": "c030",
+          "label": "good",
+          "score": 0.366
+        },
+        {
+          "id": "c053",
+          "label": "unreviewed",
+          "score": 0.251
+        },
+        {
+          "id": "c036",
+          "label": "good",
+          "score": 0.132
+        }
+      ]
+    },
+    {
+      "comment": "/:strong /:strong /:strong 明哥",
+      "author": "陈锦标18923579297",
+      "time": "2026/10/15 23:32",
+      "video": "如果你的客人要退车！你会怎么做？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 66,
+      "source": "data/account-new/nth5.json",
+      "scope": "other",
+      "business": false,
+      "score": 0.482,
+      "bucket": "partial",
+      "best": {
+        "id": "c030",
+        "label": "good",
+        "score": 0.482,
+        "reply": "多謝支持 🙏"
+      },
+      "top": [
+        {
+          "id": "c030",
+          "label": "good",
+          "score": 0.482
+        },
+        {
+          "id": "c053",
+          "label": "unreviewed",
+          "score": 0.33
+        },
+        {
+          "id": "c001",
+          "label": "good",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "comment": "正常香港或文明地方做生意既態度。支持你",
+      "author": "Andy",
+      "time": "2026/10/15 22:27",
+      "video": "如果你的客人要退车！你会怎么做？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 66,
+      "source": "data/account-new/nth5.json",
+      "scope": "other",
+      "business": false,
+      "score": 0.384,
+      "bucket": "partial",
+      "best": {
+        "id": "c030",
+        "label": "good",
+        "score": 0.384,
+        "reply": "多謝支持 🙏"
+      },
+      "top": [
+        {
+          "id": "c030",
+          "label": "good",
+          "score": 0.384
+        },
+        {
+          "id": "c027",
+          "label": "good",
+          "score": 0.219
+        },
+        {
+          "id": "c038",
+          "label": "good",
+          "score": 0.199
+        }
+      ]
+    },
+    {
+      "comment": "明哥...必成大器 😄 👍👏厲害..",
+      "author": "Ben Loh or BenSir",
+      "time": "2026/10/14 22:59",
+      "video": "如果你的客人要退车！你会怎么做？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 66,
+      "source": "data/account-new/nth5.json",
+      "scope": "other",
+      "business": false,
+      "score": 0.353,
+      "bucket": "partial",
+      "best": {
+        "id": "c030",
+        "label": "good",
+        "score": 0.353,
+        "reply": "多謝支持 🙏"
+      },
+      "top": [
+        {
+          "id": "c030",
+          "label": "good",
+          "score": 0.353
+        },
+        {
+          "id": "c053",
+          "label": "unreviewed",
+          "score": 0.242
+        },
+        {
+          "id": "c004",
+          "label": "good",
+          "score": 0.105
+        }
+      ]
+    },
+    {
+      "comment": "為你點贊",
+      "author": "陳星華",
+      "time": "2026/10/14 20:39",
+      "video": "如果你的客人要退车！你会怎么做？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 66,
+      "source": "data/account-new/nth5.json",
+      "scope": "ask",
+      "business": true,
+      "score": 0.171,
+      "bucket": "novel",
+      "best": {
+        "id": "c018",
+        "label": "good",
+        "score": 0.171,
+        "reply": "唔減，實價 😄"
+      },
+      "top": [
+        {
+          "id": "c018",
+          "label": "good",
+          "score": 0.171
+        },
+        {
+          "id": "c013",
+          "label": "good",
+          "score": 0.157
+        },
+        {
+          "id": "c032",
+          "label": "good",
+          "score": 0.13
+        }
+      ]
+    },
+    {
+      "comment": "我好欣賞明哥為人處事 /:strong",
+      "author": "小游加",
+      "time": "2026/10/14 20:21",
+      "video": "如果你的客人要退车！你会怎么做？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 66,
+      "source": "data/account-new/nth5.json",
+      "scope": "other",
+      "business": false,
+      "score": 0.302,
+      "bucket": "novel",
+      "best": {
+        "id": "c030",
+        "label": "good",
+        "score": 0.302,
+        "reply": "多謝支持 🙏"
+      },
+      "top": [
+        {
+          "id": "c030",
+          "label": "good",
+          "score": 0.302
+        },
+        {
+          "id": "c053",
+          "label": "unreviewed",
+          "score": 0.207
+        },
+        {
+          "id": "c054",
+          "label": "unreviewed",
+          "score": 0.154
+        }
+      ]
+    },
+    {
+      "comment": "講你一定啱 希望你做得到",
+      "author": "祥",
+      "time": "2026/10/14 19:50",
+      "video": "如果你的客人要退车！你会怎么做？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 66,
+      "source": "data/account-new/nth5.json",
+      "scope": "other",
+      "business": false,
+      "score": 0.249,
+      "bucket": "novel",
+      "best": {
+        "id": "c056",
+        "label": "unreviewed",
+        "score": 0.249,
+        "reply": "多謝讚賞 🙏"
+      },
+      "top": [
+        {
+          "id": "c056",
+          "label": "unreviewed",
+          "score": 0.249
+        },
+        {
+          "id": "c026",
+          "label": "good",
+          "score": 0.232
+        },
+        {
+          "id": "c031",
+          "label": "good",
+          "score": 0.155
+        }
+      ]
+    },
+    {
+      "comment": "關注咁耐，以後買車一定穩明哥！ /:strong",
+      "author": "低調的JK",
+      "time": "2026/10/14 19:23",
+      "video": "如果你的客人要退车！你会怎么做？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 66,
+      "source": "data/account-new/nth5.json",
+      "scope": "topic",
+      "business": true,
+      "score": 0.27,
+      "bucket": "novel",
+      "best": {
+        "id": "c030",
+        "label": "good",
+        "score": 0.27,
+        "reply": "多謝支持 🙏"
+      },
+      "top": [
+        {
+          "id": "c030",
+          "label": "good",
+          "score": 0.27
+        },
+        {
+          "id": "c026",
+          "label": "good",
+          "score": 0.24
+        },
+        {
+          "id": "c053",
+          "label": "unreviewed",
+          "score": 0.185
+        }
+      ]
+    },
+    {
+      "comment": "有這樣的心，你想唔發都難。 /:strong /:strong /:strong",
+      "author": "冧档",
+      "time": "2026/10/14 19:10",
+      "video": "如果你的客人要退车！你会怎么做？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 66,
+      "source": "data/account-new/nth5.json",
+      "scope": "other",
+      "business": false,
+      "score": 0.193,
+      "bucket": "novel",
+      "best": {
+        "id": "c006",
+        "label": "good",
+        "score": 0.193,
+        "reply": "有，白色可以傾 🙏"
+      },
+      "top": [
+        {
+          "id": "c006",
+          "label": "good",
+          "score": 0.193
+        },
+        {
+          "id": "c034",
+          "label": "good",
+          "score": 0.156
+        },
+        {
+          "id": "c033",
+          "label": "good",
+          "score": 0.152
+        }
+      ]
+    },
+    {
+      "comment": "良心企业 [愛心] [愛心] [愛心]",
+      "author": "ben",
+      "time": "2026/10/14 17:19",
+      "video": "如果你的客人要退车！你会怎么做？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 66,
+      "source": "data/account-new/nth5.json",
+      "scope": "other",
+      "business": false,
+      "score": 0.177,
+      "bucket": "novel",
+      "best": {
+        "id": "c051",
+        "label": "unreviewed",
+        "score": 0.177,
+        "reply": "有兩地牌，買車都啱傾；私訊我 📩"
+      },
+      "top": [
+        {
+          "id": "c051",
+          "label": "unreviewed",
+          "score": 0.177
+        },
+        {
+          "id": "c001",
+          "label": "good",
+          "score": 0
+        },
+        {
+          "id": "c002",
+          "label": "bad",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "comment": "明哥咁樣處理事情嘅態度同埋服務為你點讚 /:strong /:strong /:strong",
+      "author": "Hi华",
+      "time": "2026/10/14 16:18",
+      "video": "如果你的客人要退车！你会怎么做？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 66,
+      "source": "data/account-new/nth5.json",
+      "scope": "ask",
+      "business": true,
+      "score": 0.268,
+      "bucket": "novel",
+      "best": {
+        "id": "c030",
+        "label": "good",
+        "score": 0.268,
+        "reply": "多謝支持 🙏"
+      },
+      "top": [
+        {
+          "id": "c030",
+          "label": "good",
+          "score": 0.268
+        },
+        {
+          "id": "c053",
+          "label": "unreviewed",
+          "score": 0.258
+        },
+        {
+          "id": "c010",
+          "label": "good",
+          "score": 0.124
+        }
+      ]
+    },
+    {
+      "comment": "[强]",
+      "author": "KC",
+      "time": "2026/10/15 13:20",
+      "video": "明哥真系全香港Z蠢的老细咯！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 30,
+      "source": "data/account-new/nth10.json",
+      "scope": "other",
+      "business": false,
+      "score": 0.79,
+      "bucket": "strong",
+      "best": {
+        "id": "c037",
+        "label": "good",
+        "score": 0.79,
+        "reply": "（不回）"
+      },
+      "top": [
+        {
+          "id": "c037",
+          "label": "good",
+          "score": 0.79
+        },
+        {
+          "id": "c052",
+          "label": "unreviewed",
+          "score": 0.732
+        },
+        {
+          "id": "c053",
+          "label": "unreviewed",
+          "score": 0.536
+        }
+      ]
+    },
+    {
+      "comment": "/:strong /:strong /:strong /:strong /:strong /:strong",
+      "author": "，",
+      "time": "2026/10/16 14:59",
+      "video": "香港人，还记得你人生买的第一台车吗？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 13,
+      "source": "data/account-new/nth4.json",
+      "scope": "other",
+      "business": false,
+      "score": 0,
+      "bucket": "novel",
+      "best": {
+        "id": "c001",
+        "label": "good",
+        "score": 0,
+        "reply": "可以分期，詳情私訊傾 📩"
+      },
+      "top": [
+        {
+          "id": "c001",
+          "label": "good",
+          "score": 0
+        },
+        {
+          "id": "c002",
+          "label": "bad",
+          "score": 0
+        },
+        {
+          "id": "c003",
+          "label": "good",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "comment": "[強] [強] [強] [強] [強] [強] [強]",
+      "author": "琳",
+      "time": "2026/10/15 18:20",
+      "video": "如果你的客人要退车！你会怎么做？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 66,
+      "source": "data/account-new/nth5.json",
+      "scope": "other",
+      "business": false,
+      "score": 0,
+      "bucket": "novel",
+      "best": {
+        "id": "c001",
+        "label": "good",
+        "score": 0,
+        "reply": "可以分期，詳情私訊傾 📩"
+      },
+      "top": [
+        {
+          "id": "c001",
+          "label": "good",
+          "score": 0
+        },
+        {
+          "id": "c002",
+          "label": "bad",
+          "score": 0
+        },
+        {
+          "id": "c003",
+          "label": "good",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "comment": "[强] [强] [强]",
+      "author": "jacky",
+      "time": "2026/10/15 05:03",
+      "video": "如果你的客人要退车！你会怎么做？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 66,
+      "source": "data/account-new/nth5.json",
+      "scope": "other",
+      "business": false,
+      "score": 0.95,
+      "bucket": "strong",
+      "best": {
+        "id": "c037",
+        "label": "good",
+        "score": 0.95,
+        "reply": "（不回）"
+      },
+      "top": [
+        {
+          "id": "c037",
+          "label": "good",
+          "score": 0.95
+        },
+        {
+          "id": "c052",
+          "label": "unreviewed",
+          "score": 0.934
+        },
+        {
+          "id": "c053",
+          "label": "unreviewed",
+          "score": 0.645
+        }
+      ]
+    },
+    {
+      "comment": "/:strong",
+      "author": "加錢哥9376",
+      "time": "2026/10/14 18:19",
+      "video": "如果你的客人要退车！你会怎么做？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 66,
+      "source": "data/account-new/nth5.json",
+      "scope": "other",
+      "business": false,
+      "score": 0,
+      "bucket": "novel",
+      "best": {
+        "id": "c001",
+        "label": "good",
+        "score": 0,
+        "reply": "可以分期，詳情私訊傾 📩"
+      },
+      "top": [
+        {
+          "id": "c001",
+          "label": "good",
+          "score": 0
+        },
+        {
+          "id": "c002",
+          "label": "bad",
+          "score": 0
+        },
+        {
+          "id": "c003",
+          "label": "good",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "comment": "[強] [強] [強] [強] [強]",
+      "author": "惜芳陳",
+      "time": "2026/10/14 15:58",
+      "video": "如果你的客人要退车！你会怎么做？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 66,
+      "source": "data/account-new/nth5.json",
+      "scope": "other",
+      "business": false,
+      "score": 0,
+      "bucket": "novel",
+      "best": {
+        "id": "c001",
+        "label": "good",
+        "score": 0,
+        "reply": "可以分期，詳情私訊傾 📩"
+      },
+      "top": [
+        {
+          "id": "c001",
+          "label": "good",
+          "score": 0
+        },
+        {
+          "id": "c002",
+          "label": "bad",
+          "score": 0
+        },
+        {
+          "id": "c003",
+          "label": "good",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "comment": "[強] [強] [強]",
+      "author": "Sandy6513",
+      "time": "2026/10/14 14:25",
+      "video": "如果你的客人要退车！你会怎么做？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 66,
+      "source": "data/account-new/nth5.json",
+      "scope": "other",
+      "business": false,
+      "score": 0,
+      "bucket": "novel",
+      "best": {
+        "id": "c001",
+        "label": "good",
+        "score": 0,
+        "reply": "可以分期，詳情私訊傾 📩"
+      },
+      "top": [
+        {
+          "id": "c001",
+          "label": "good",
+          "score": 0
+        },
+        {
+          "id": "c002",
+          "label": "bad",
+          "score": 0
+        },
+        {
+          "id": "c003",
+          "label": "good",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "comment": "[合十] [合十] [強] [強] [強] [強] [愛心] [愛心] [愛心]",
+      "author": "娣",
+      "time": "2026/10/14 14:13",
+      "video": "如果你的客人要退车！你会怎么做？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 66,
+      "source": "data/account-new/nth5.json",
+      "scope": "other",
+      "business": false,
+      "score": 0,
+      "bucket": "novel",
+      "best": {
+        "id": "c001",
+        "label": "good",
+        "score": 0,
+        "reply": "可以分期，詳情私訊傾 📩"
+      },
+      "top": [
+        {
+          "id": "c001",
+          "label": "good",
+          "score": 0
+        },
+        {
+          "id": "c002",
+          "label": "bad",
+          "score": 0
+        },
+        {
+          "id": "c003",
+          "label": "good",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "comment": "[強] [強] [強] [強] [強] [強]",
+      "author": "陳明",
+      "time": "2026/10/14 12:25",
+      "video": "如果你的客人要退车！你会怎么做？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 66,
+      "source": "data/account-new/nth5.json",
+      "scope": "other",
+      "business": false,
+      "score": 0,
+      "bucket": "novel",
+      "best": {
+        "id": "c001",
+        "label": "good",
+        "score": 0,
+        "reply": "可以分期，詳情私訊傾 📩"
+      },
+      "top": [
+        {
+          "id": "c001",
+          "label": "good",
+          "score": 0
+        },
+        {
+          "id": "c002",
+          "label": "bad",
+          "score": 0
+        },
+        {
+          "id": "c003",
+          "label": "good",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "comment": "/:strong /:strong /:strong",
+      "author": "红海湾红土地",
+      "time": "2026/10/19 14:25",
+      "video": "今天帮香港fans全款拿下这台奔驰GLE！！ #两地牌#港澳车牌#香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "declared": 23,
+      "source": "data/account-new/nth6.json",
+      "scope": "other",
+      "business": false,
+      "score": 0,
+      "bucket": "novel",
+      "best": {
+        "id": "c001",
+        "label": "good",
+        "score": 0,
+        "reply": "可以分期，詳情私訊傾 📩"
+      },
+      "top": [
+        {
+          "id": "c001",
+          "label": "good",
+          "score": 0
+        },
+        {
+          "id": "c002",
+          "label": "bad",
+          "score": 0
+        },
+        {
+          "id": "c003",
+          "label": "good",
+          "score": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "name": "建華先生",
+  "kw": "隆金",
+  "text": "哈哈，你仲隆金 😄",
+  "dry": false,
+  "steps": [],
+  "before": {
+    "video": {
+      "title": "阿兄呀，你听我的，这个项目一定赚，结果阿兄倒下了！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "time": "2026年10月16日 07:00"
+    },
+    "declared": 78,
+    "rendered": 78,
+    "textareas": 0
+  },
+  "locate": {
+    "found": 1,
+    "x": 1280,
+    "y": 427,
+    "item": {
+      "name": "建華先生",
+      "time": "2026/10/17 04:19",
+      "text": "隆金"
+    },
+    "replies": [],
+    "authorReplied": false
+  },
+  "panel0": {
+    "textareas": 1,
+    "placeholder": "回复 建華先生：",
+    "value": "",
+    "ta": {
+      "x": 1018,
+      "y": 538
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap disabled primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap disabled primary",
+      "enabled": false,
+      "x": 783,
+      "y": 587
+    }
+  },
+  "panel1": {
+    "textareas": 1,
+    "placeholder": "回复 建華先生：",
+    "value": "哈哈，你仲隆金 😄",
+    "ta": {
+      "x": 1018,
+      "y": 538
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 783,
+      "y": 587
+    }
+  },
+  "verify": {
+    "declared": 79,
+    "textareas": 0,
+    "found": true,
+    "replies": [
+      {
+        "name": "明哥揀粤港车",
+        "text": "哈哈，你仲隆金"
+      }
+    ],
+    "hit": true
+  },
+  "result": {
+    "countUp": true,
+    "threadHit": true,
+    "taZero": true,
+    "declared": 79
+  },
+  "like": {
+    "ok": true,
+    "already": true
+  }
+}

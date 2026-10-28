@@ -1,0 +1,167 @@
+{
+  "name": "王岚灵",
+  "kw": "讲得岩",
+  "text": "講得啱就好，多謝 🙏",
+  "dry": false,
+  "steps": [],
+  "before": {
+    "video": {
+      "title": "香港老友们，马上中秋节了，还记得那个帮助过你的贵人吗？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行",
+      "time": "2026年09月23日 07:05"
+    },
+    "declared": 50,
+    "rendered": 50,
+    "textareas": 0
+  },
+  "locate": {
+    "found": 1,
+    "x": 1457,
+    "y": 577,
+    "item": {
+      "name": "王岚灵",
+      "time": "2026/09/24 20:18",
+      "text": "讲得岩"
+    },
+    "replies": [],
+    "authorReplied": false
+  },
+  "panel0": {
+    "textareas": 1,
+    "placeholder": "回复 王岚灵：",
+    "value": "",
+    "ta": {
+      "x": 1195,
+      "y": 688
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap disabled primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap disabled primary",
+      "enabled": false,
+      "x": 960,
+      "y": 738,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "panel1": {
+    "textareas": 1,
+    "placeholder": "回复 王岚灵：",
+    "value": "講得啱就好，多謝 🙏",
+    "ta": {
+      "x": 1195,
+      "y": 688
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 738,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "sendClick": {
+    "textareas": 1,
+    "placeholder": "回复 王岚灵：",
+    "value": "講得啱就好，多謝 🙏",
+    "ta": {
+      "x": 1195,
+      "y": 570
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 620,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "verify": {
+    "declared": 51,
+    "textareas": 0,
+    "found": true,
+    "replies": [
+      {
+        "name": "明哥揾粤港车",
+        "text": "講得啱就好，多謝"
+      }
+    ],
+    "hit": true
+  },
+  "trace": {
+    "requests": [
+      {
+        "requestId": "80620.145375",
+        "url": "https://channels.weixin.qq.com/micro/interaction/cgi-bin/mmfinderassistant-bin/comment/create_comment?_aid=a92662d8-2b79-413e-87ed-244b48318e0a&_rid=6ae159b5-90995fd6&_pageUrl=https:%2F%2Fchannels.weixin.qq.com%2Fmicro%2Finteraction%2Fcomment",
+        "method": "POST",
+        "postData": "{\"replyCommentId\":\"15017724658214050623\",\"content\":\"講得啱就好，多謝 🙏\",\"clientId\":\"83aa0a98-6e91-46f1-ba09-c2820dcc8209\",\"rootCommentId\":\"15017724658214050623\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15017724658214050623\",\"commentNickname\":\"王岚灵\",\"commentContent\":\"讲得岩[强][强][强][强]\",\"commentHeadurl\":\"https://wx.qlogo.cn/mmhead/ver_1/Q1Pc0YcaJsf4RneFnJFUm6Qza6q9oG2qcNKOTBXxjLll9StwapBfzhu4srWkCblXjwC2hXiclGyNn4XDSfhN3RaLqKCn2vgK83jtsiaanW2opf8zcCzCRYJNpCHibia1QNL7/132\",\"commentCreatetime\":\"1790252287\",\"commentLikeCount\":1,\"lastBuff\":\"\",\"downContinueFlag\":0,\"visibleFlag\":0,\"readFlag\":true,\"displayFlag\":1,\"username\":\"\",\"blacklistFlag\":0,\"likeFlag\":1},\"exportId\":\"export/UzFfBgAAxJqmTHwTNTHXk8zT4DCa64J9GkBF_iTX0xiGld7gGg\",\"timestamp\":\"1793153461943\",\"_log_finder_uin\":\"\",\"_log_finder_id\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\",\"rawKeyBuff\":\"\",\"pluginSessionId\":null,\"scene\":7,\"reqScene\":7}",
+        "ts": "2026-10-28T02:11:01.945Z",
+        "status": 201,
+        "mimeType": "application/json",
+        "body": "{\"errCode\":0,\"errMsg\":\"request successful\",\"data\":{\"commentId\":\"15042061487901379304\",\"clientId\":\"83aa0a98-6e91-46f1-ba09-c2820dcc8209\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15042061487901379304\",\"commentContent\":\"講得啱就好，多謝 🙏\",\"commentCreatetime\":\"1793153463\",\"commentLikeCount\":0,\"replyCommentId\":\"15017724658214050623\",\"replyContent\":\"讲得岩[强][强][强][强]\",\"visibleFlag\":1,\"displayFlag\":2,\"username\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\"},\"baseResp\":{\"errcode\":0,\"errmsg\":\"\"}}}",
+        "error": null,
+        "errCode": 0,
+        "errMsg": "request successful",
+        "topErrCode": 0,
+        "topErrMsg": "request successful",
+        "baseResp": {
+          "errcode": 0,
+          "errmsg": ""
+        }
+      }
+    ],
+    "toasts": []
+  },
+  "result": {
+    "countUp": true,
+    "threadHit": true,
+    "taZero": true,
+    "declared": 51
+  },
+  "like": {
+    "ok": true,
+    "already": true
+  }
+}

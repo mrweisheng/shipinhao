@@ -1,0 +1,173 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "今天是开心的一天，给客人交车啦！ #两地牌#香港#香港生活#香港二手车#粤港车#香港买车",
+  "time": "2025年11月22日 07:15"
+ },
+ "declared": 12,
+ "isEmpty": false,
+ "total": 12,
+ "topLevel": 6,
+ "replies": 6,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "陳明",
+   "isAuthor": false,
+   "time": "2026/09/12 14:07",
+   "content": "明祝你生意興隆",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/09/12 14:31"
+  },
+  {
+   "index": 1,
+   "level": 2,
+   "parentIndex": 0,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/09/12 14:31",
+   "content": "[合十] 多謝",
+   "likes": null
+  },
+  {
+   "index": 2,
+   "level": 1,
+   "parentIndex": null,
+   "author": "超勤奋(...",
+   "isAuthor": false,
+   "time": "2025/12/15 16:34",
+   "content": "明哥下次返香港拜访你",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2025/12/16 10:37"
+  },
+  {
+   "index": 3,
+   "level": 2,
+   "parentIndex": 2,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2025/12/16 10:37",
+   "content": "可以呀 [呲牙] 隨時歡迎",
+   "likes": null
+  },
+  {
+   "index": 4,
+   "level": 1,
+   "parentIndex": null,
+   "author": "求缺",
+   "isAuthor": false,
+   "time": "2025/12/02 06:58",
+   "content": "波子多少錢",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2025/12/02 09:21"
+  },
+  {
+   "index": 5,
+   "level": 2,
+   "parentIndex": 4,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2025/12/02 09:21",
+   "content": "pm [呲牙]",
+   "likes": null
+  },
+  {
+   "index": 6,
+   "level": 1,
+   "parentIndex": null,
+   "author": "老居士",
+   "isAuthor": false,
+   "time": "2025/11/23 05:49",
+   "content": "烧油嘅车遠离这时代啊！",
+   "likes": null,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2025/11/23 13:15"
+  },
+  {
+   "index": 7,
+   "level": 2,
+   "parentIndex": 6,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2025/11/23 13:15",
+   "content": "哈哈哈哈確實 [呲牙]",
+   "likes": null
+  },
+  {
+   "index": 8,
+   "level": 1,
+   "parentIndex": null,
+   "author": "Rosie9531",
+   "isAuthor": false,
+   "time": "2025/11/23 01:34",
+   "content": "我想买个两地车，能否现场看",
+   "likes": null,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2025/11/23 13:15"
+  },
+  {
+   "index": 9,
+   "level": 2,
+   "parentIndex": 8,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2025/11/23 13:15",
+   "content": "可以的，主 頁找 我了 解位 置 [呲牙]",
+   "likes": null
+  },
+  {
+   "index": 10,
+   "level": 1,
+   "parentIndex": null,
+   "author": "輝哥david",
+   "isAuthor": false,
+   "time": "2025/11/22 21:01",
+   "content": "我等緊你講柴油版的靚車哦 [壞笑]",
+   "likes": null,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2025/11/23 13:15"
+  },
+  {
+   "index": 11,
+   "level": 2,
+   "parentIndex": 10,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2025/11/23 13:15",
+   "content": "哈哈好的 [呲牙] [呲牙]",
+   "likes": null
+  }
+ ],
+ "summary": {
+  "declared": 12,
+  "total": 12,
+  "level1": 6,
+  "level2": 6,
+  "ownComments": 0,
+  "authorRepliedThreads": 6,
+  "awaitingThreads": 0,
+  "authorReplies": 6,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": []
+ }
+}

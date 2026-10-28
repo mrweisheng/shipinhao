@@ -1,0 +1,99 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "香港有钱人de的世界，你想象不到！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车",
+  "time": "2026年07月08日 07:10"
+ },
+ "declared": 5,
+ "isEmpty": false,
+ "total": 5,
+ "topLevel": 4,
+ "replies": 1,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "丹尼臣",
+   "isAuthor": false,
+   "time": "2026/08/05 05:56",
+   "content": "吾识欣賞",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 1,
+   "level": 1,
+   "parentIndex": null,
+   "author": "Andy",
+   "isAuthor": false,
+   "time": "2026/07/24 00:02",
+   "content": "勁！！ [強]",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/07/24 09:40"
+  },
+  {
+   "index": 2,
+   "level": 2,
+   "parentIndex": 1,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/07/24 09:40",
+   "content": "[强] [强] [强]",
+   "likes": null
+  },
+  {
+   "index": 3,
+   "level": 1,
+   "parentIndex": null,
+   "author": "BILLY-SIR [emoji]🇭🇰",
+   "isAuthor": false,
+   "time": "2026/07/21 17:07",
+   "content": "上吾到路愛來擺呀？ [Facepalm] [Facepalm]",
+   "likes": 1,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 4,
+   "level": 1,
+   "parentIndex": null,
+   "author": "𝒥ℴℯ𝓏𝓏𝓏",
+   "isAuthor": false,
+   "time": "2026/07/16 17:11",
+   "content": "想問吓你嘅車行嘅地址喺邊度？",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  }
+ ],
+ "summary": {
+  "declared": 5,
+  "total": 5,
+  "level1": 4,
+  "level2": 1,
+  "ownComments": 0,
+  "authorRepliedThreads": 1,
+  "awaitingThreads": 3,
+  "authorReplies": 1,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   0,
+   3,
+   4
+  ]
+ }
+}

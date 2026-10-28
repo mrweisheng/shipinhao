@@ -1,0 +1,53 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "今天不卖车，今天带同事去珠海吃喝玩乐！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车",
+  "time": "2026年07月23日 07:00"
+ },
+ "declared": 2,
+ "isEmpty": false,
+ "total": 2,
+ "topLevel": 1,
+ "replies": 1,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "曹公子一珈铭",
+   "isAuthor": false,
+   "time": "2026/07/27 11:04",
+   "content": "打個地址出嚟好喎 [強]",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/07/28 11:02"
+  },
+  {
+   "index": 1,
+   "level": 2,
+   "parentIndex": 0,
+   "author": "明哥揀粤港车",
+   "isAuthor": true,
+   "time": "2026/07/28 11:02",
+   "content": "導航：明哥中港牌",
+   "likes": 1
+  }
+ ],
+ "summary": {
+  "declared": 2,
+  "total": 2,
+  "level1": 1,
+  "level2": 1,
+  "ownComments": 0,
+  "authorRepliedThreads": 1,
+  "awaitingThreads": 0,
+  "authorReplies": 1,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": []
+ }
+}

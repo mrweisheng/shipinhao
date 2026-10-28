@@ -1,0 +1,51 @@
+{
+  "finishedAt": "2026-10-24T08:12:11.023Z",
+  "mode": "send",
+  "planFile": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\maintain\\plan-nth1.json",
+  "video": {
+    "title": "兄弟，香港的机会，不会一直在等你！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月21日 07:00"
+  },
+  "before": {
+    "declared": 81,
+    "plannedReplies": 2,
+    "executed": 2
+  },
+  "summary": {
+    "ok": 2,
+    "failed": 0,
+    "policy": 0
+  },
+  "after": {
+    "declared": 83,
+    "awaitingThreads": 10,
+    "complete": true,
+    "file": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\reply\\verify-2026-10-24T08-11-49-311Z.json"
+  },
+  "results": [
+    {
+      "index": 4,
+      "name": "颜姐爱唱歌7720",
+      "time": "2026/10/23 15:18",
+      "content": "初中文化可以申请吗？",
+      "kw": "初中文化",
+      "action": "reply",
+      "text": "初中學歷都啱傾；點頭像👤睇簡介，私訊我 📩",
+      "category": "imm_education",
+      "reason": "问学历能否申请，属高意向；只回肯定，不教步骤、不设门槛",
+      "result": "sent"
+    },
+    {
+      "index": 56,
+      "name": "开心每一天",
+      "time": "2026/10/21 12:47",
+      "content": "我帮你扫地，可以吗？",
+      "kw": "我帮你扫地",
+      "action": "reply",
+      "text": "哈哈，有心啦；頭像🔍私訊我 📩",
+      "category": "job",
+      "reason": "求职/打工类；不答应、不拒绝、不承诺，幽默承接 + 引导",
+      "result": "sent"
+    }
+  ]
+}

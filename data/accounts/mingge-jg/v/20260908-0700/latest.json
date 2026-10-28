@@ -1,0 +1,113 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "如果我们说在香港车行的服务是第二，那第一就不知道在哪了！ 香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行",
+  "time": "2026年09月08日 07:00"
+ },
+ "declared": 7,
+ "isEmpty": false,
+ "total": 7,
+ "topLevel": 3,
+ "replies": 4,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "请叫我林先生（小号）超凡脱俗",
+   "isAuthor": false,
+   "time": "2026/09/09 08:46",
+   "content": "敬业 [强] [强] [强] [發] [發] [發]",
+   "likes": 1,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 1,
+   "level": 1,
+   "parentIndex": null,
+   "author": "热血男友",
+   "isAuthor": false,
+   "time": "2026/09/08 11:02",
+   "content": "办司机位费用多少",
+   "likes": 2,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/09/08 14:35"
+  },
+  {
+   "index": 2,
+   "level": 2,
+   "parentIndex": 1,
+   "author": "明哥揀粤港车",
+   "isAuthor": true,
+   "time": "2026/09/08 14:35",
+   "content": "請查收PM [合十]",
+   "likes": null
+  },
+  {
+   "index": 3,
+   "level": 1,
+   "parentIndex": null,
+   "author": "HFDECO",
+   "isAuthor": false,
+   "time": "2026/09/08 08:07",
+   "content": "新建一個蓮塘高薪牌多少米？",
+   "likes": 4,
+   "replyCount": 3,
+   "authorReplied": true,
+   "authorReplyCount": 2,
+   "lastAuthorReplyAt": "2026/09/09 09:23"
+  },
+  {
+   "index": 4,
+   "level": 2,
+   "parentIndex": 3,
+   "author": "明哥粤港车",
+   "isAuthor": true,
+   "time": "2026/09/08 08:49",
+   "content": "直接来公司，一定有惊喜",
+   "likes": 1
+  },
+  {
+   "index": 5,
+   "level": 2,
+   "parentIndex": 3,
+   "author": "HFDECO",
+   "isAuthor": false,
+   "time": "2026/09/09 08:11",
+   "content": "回复明哥粤港车: OK發個定位俾我放假過嚟",
+   "likes": 1
+  },
+  {
+   "index": 6,
+   "level": 2,
+   "parentIndex": 3,
+   "author": "明哥揀粤港车",
+   "isAuthor": true,
+   "time": "2026/09/09 09:23",
+   "content": "回复HFDECO: 查收 [合十]",
+   "likes": null
+  }
+ ],
+ "summary": {
+  "declared": 7,
+  "total": 7,
+  "level1": 3,
+  "level2": 4,
+  "ownComments": 0,
+  "authorRepliedThreads": 2,
+  "awaitingThreads": 1,
+  "authorReplies": 3,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   0
+  ]
+ }
+}

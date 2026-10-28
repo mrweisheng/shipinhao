@@ -1,0 +1,145 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "香港车主为什么要把车停到莲塘口岸？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车",
+  "time": "2026年07月28日 07:00"
+ },
+ "declared": 10,
+ "isEmpty": false,
+ "total": 10,
+ "topLevel": 4,
+ "replies": 6,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "黎成钦",
+   "isAuthor": false,
+   "time": "2026/08/12 04:40",
+   "content": "明哥，中港牌多少钱？",
+   "likes": 1,
+   "replyCount": 2,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/08/12 10:26"
+  },
+  {
+   "index": 1,
+   "level": 2,
+   "parentIndex": 0,
+   "author": "黎成钦",
+   "isAuthor": false,
+   "time": "2026/08/12 04:41",
+   "content": "需要什么条件",
+   "likes": null
+  },
+  {
+   "index": 2,
+   "level": 2,
+   "parentIndex": 0,
+   "author": "明哥揀粤港车",
+   "isAuthor": true,
+   "time": "2026/08/12 10:26",
+   "content": "PM查收 [合十]",
+   "likes": null
+  },
+  {
+   "index": 3,
+   "level": 1,
+   "parentIndex": null,
+   "author": "Sam",
+   "isAuthor": false,
+   "time": "2026/08/08 16:48",
+   "content": "明哥收車嗎、我有架NX300h想放、197000公里、14年12月",
+   "likes": 2,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/08/10 10:56"
+  },
+  {
+   "index": 4,
+   "level": 2,
+   "parentIndex": 3,
+   "author": "明哥揀粤港车",
+   "isAuthor": true,
+   "time": "2026/08/10 10:56",
+   "content": "主.業搵明哥",
+   "likes": null
+  },
+  {
+   "index": 5,
+   "level": 1,
+   "parentIndex": null,
+   "author": "Sam Shum",
+   "isAuthor": false,
+   "time": "2026/08/26 15:24",
+   "content": "多少錢？蓮塘",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/08/26 16:27"
+  },
+  {
+   "index": 6,
+   "level": 2,
+   "parentIndex": 5,
+   "author": "明哥揀粤港车",
+   "isAuthor": true,
+   "time": "2026/08/26 16:27",
+   "content": "請查收WhatsApp",
+   "likes": null
+  },
+  {
+   "index": 7,
+   "level": 1,
+   "parentIndex": null,
+   "author": "鴨",
+   "isAuthor": false,
+   "time": "2026/08/19 12:32",
+   "content": "租車連牌幾多錢一個月？",
+   "likes": 1,
+   "replyCount": 2,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/08/19 15:50"
+  },
+  {
+   "index": 8,
+   "level": 2,
+   "parentIndex": 7,
+   "author": "明哥揀粤港车",
+   "isAuthor": true,
+   "time": "2026/08/19 15:50",
+   "content": "請查收PM [合十]",
+   "likes": null
+  },
+  {
+   "index": 9,
+   "level": 2,
+   "parentIndex": 7,
+   "author": "鴨",
+   "isAuthor": false,
+   "time": "2026/08/19 16:10",
+   "content": "回复明哥揀粤港车: ok",
+   "likes": 1
+  }
+ ],
+ "summary": {
+  "declared": 10,
+  "total": 10,
+  "level1": 4,
+  "level2": 6,
+  "ownComments": 0,
+  "authorRepliedThreads": 4,
+  "awaitingThreads": 0,
+  "authorReplies": 4,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": []
+ }
+}

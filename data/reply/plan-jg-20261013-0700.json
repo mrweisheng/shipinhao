@@ -1,0 +1,157 @@
+{
+  "createdAt": "2026-10-28T02:39:35.266Z",
+  "nth": null,
+  "video": {
+    "title": "今天在汕尾和儿子探讨下，何为善良！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月13日 07:00"
+  },
+  "titleContext": {
+    "business": "unknown",
+    "ports": [],
+    "models": [],
+    "price": null
+  },
+  "declared": 48,
+  "source": "D:\\视频号\\data\\accounts\\mingge-jg\\v\\20261013-0700\\latest.json",
+  "rules": {
+    "facts": "业务事实.md（唯一事实来源：价格/付款/车况/地址/移民/求职）",
+    "judgment": ".opencode/skills/channels-comment-ops/SKILL.md（回不回、红线、动作分类）",
+    "cases": "data/cases/（主参考：先判意图 → 检索 2 好 1 坏 → 仿写）",
+    "style": "模板池.md（仅 GUIDE-* 引导尾巴与兜底候选，按语义改写，不要关键词对号入座）"
+  },
+  "counts": {
+    "topLevel": 27,
+    "authorReplied": 17,
+    "authorOwn": 1,
+    "pending": 9
+  },
+  "items": [
+    {
+      "index": 1,
+      "name": "韩亿铭3791",
+      "time": "2026/10/26 23:38",
+      "likes": null,
+      "content": "你个子思想几成熟 [强]",
+      "kw": "你个子思想几",
+      "asked": "客户夸明哥儿子思想很成熟",
+      "action": "reply",
+      "text": "多謝讚賞，佢自己諗通 😄",
+      "answerOk": true,
+      "category": "praise",
+      "reason": "正向文字（夸家人）→ 回"
+    },
+    {
+      "index": 2,
+      "name": "[emoji]NEIL[emoji]",
+      "time": "2026/10/23 08:15",
+      "likes": null,
+      "content": "簡單來講：每個人的天性獨一無二，他們在世的經歷都會衍生了什麼心態；我們中國有云：人之初性本善、人之初性本惡，取態於當時的環境人類會有情緒，因此人類行為在於善良層面的理解…. 「本質」",
+      "kw": "他們在世的經",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "观点表达 / 争论 / 中性陈述，非业务也非捧场"
+    },
+    {
+      "index": 5,
+      "name": "滿堂紅",
+      "time": "2026/10/22 13:44",
+      "likes": null,
+      "content": "[強]",
+      "kw": "[強]",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "纯表情 / 符号"
+    },
+    {
+      "index": 8,
+      "name": "Jianghuiqiang",
+      "time": "2026/10/19 01:09",
+      "likes": null,
+      "content": "/:strong /:strong /:strong",
+      "kw": "///",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "纯表情 / 符号"
+    },
+    {
+      "index": 13,
+      "name": "浪子心声",
+      "time": "2026/10/15 07:46",
+      "likes": 1,
+      "content": "听A入 [强]",
+      "kw": "听A入",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "观点表达 / 争论 / 中性陈述，非业务也非捧场"
+    },
+    {
+      "index": 35,
+      "name": "WIN森SON",
+      "time": "2026/10/13 17:54",
+      "likes": 1,
+      "content": "[强]",
+      "kw": "[强]",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "纯表情 / 符号"
+    },
+    {
+      "index": 36,
+      "name": "。。。",
+      "time": "2026/10/13 17:18",
+      "likes": 1,
+      "content": "/:strong /:strong /:strong",
+      "kw": "///",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "纯表情 / 符号"
+    },
+    {
+      "index": 43,
+      "name": "eddie",
+      "time": "2026/10/13 09:30",
+      "likes": 2,
+      "content": "富生善，窮生惡！",
+      "kw": "富生善",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "观点表达 / 争论 / 中性陈述，非业务也非捧场"
+    },
+    {
+      "index": 46,
+      "name": "K .Chan",
+      "time": "2026/10/14 18:24",
+      "likes": 1,
+      "content": "醉猫係度尻吹，平買貴賣既生意講咩善良啊笑死人喇 [掩面]",
+      "kw": "平買貴賣既生",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "观点表达 / 争论 / 中性陈述，非业务也非捧场"
+    }
+  ],
+  "videoType": "观点类"
+}

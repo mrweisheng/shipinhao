@@ -1,0 +1,39 @@
+{
+  "finishedAt": "2026-10-27T07:56:35.863Z",
+  "mode": "send",
+  "planFile": "D:\\视频号\\data\\reply\\plan-1027a3-nth18.json",
+  "video": {
+    "title": "香港首批特斯拉 X，现在依然状态良好！ #粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行",
+    "time": "2026年08月23日 07:00"
+  },
+  "before": {
+    "declared": 6,
+    "plannedReplies": 1,
+    "executed": 1
+  },
+  "summary": {
+    "ok": 1,
+    "failed": 0,
+    "rejected": 0,
+    "policy": 0
+  },
+  "after": null,
+  "results": [
+    {
+      "index": 0,
+      "name": "[emoji]🥢",
+      "time": "2026/09/30 20:23",
+      "likes": null,
+      "content": "連中港牌？係咪免費充電",
+      "kw": "係咪免費充電",
+      "asked": "问这台车连不连中港牌，是不是免费充电",
+      "action": "reply",
+      "text": "中港牌同充電，PM 我講 📩",
+      "answerOk": true,
+      "category": "car_package",
+      "reason": "两个问题都接住；是否含牌属事实未列明细节，不编，引导 PM",
+      "caseId": "c101",
+      "result": "sent"
+    }
+  ]
+}

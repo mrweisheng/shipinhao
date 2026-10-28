@@ -1,0 +1,166 @@
+{
+  "name": "Z过眼雲煙J",
+  "kw": "可以上大陆牌",
+  "text": "呢個私訊我，幫你睇清楚 📩",
+  "dry": false,
+  "steps": [],
+  "before": {
+    "video": {
+      "title": "香港老板们，这台v6的雷克萨斯，你值得拥有！ #香港#香港车牌#港车北上#明哥中港牌#粤港车#港车#香港买车",
+      "time": "2026年06月03日 07:05"
+    },
+    "declared": 158,
+    "rendered": 158,
+    "textareas": 0
+  },
+  "locate": {
+    "found": 1,
+    "x": 1446,
+    "y": 589,
+    "item": {
+      "name": "Z过眼雲煙J",
+      "time": "2026/10/27 22:59",
+      "text": "可以上大陆牌吗"
+    },
+    "replies": [],
+    "authorReplied": false
+  },
+  "panel0": {
+    "textareas": 1,
+    "placeholder": "回复 Z过眼雲煙J：",
+    "value": "",
+    "ta": {
+      "x": 1195,
+      "y": 677
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap disabled primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap disabled primary",
+      "enabled": false,
+      "x": 960,
+      "y": 726,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "panel1": {
+    "textareas": 1,
+    "placeholder": "回复 Z过眼雲煙J：",
+    "value": "呢個私訊我，幫你睇清楚 📩",
+    "ta": {
+      "x": 1195,
+      "y": 677
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 726,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "sendClick": {
+    "textareas": 1,
+    "placeholder": "回复 Z过眼雲煙J：",
+    "value": "呢個私訊我，幫你睇清楚 📩",
+    "ta": {
+      "x": 1195,
+      "y": 571
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 620,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "verify": {
+    "declared": 159,
+    "textareas": 0,
+    "found": true,
+    "replies": [
+      {
+        "name": "明哥揾粤港车",
+        "text": "呢個私訊我，幫你睇清楚 📩"
+      }
+    ],
+    "hit": true
+  },
+  "trace": {
+    "requests": [
+      {
+        "requestId": "80620.110551",
+        "url": "https://channels.weixin.qq.com/micro/interaction/cgi-bin/mmfinderassistant-bin/comment/create_comment?_aid=a92662d8-2b79-413e-87ed-244b48318e0a&_rid=6ae14db1-6a98b522&_pageUrl=https:%2F%2Fchannels.weixin.qq.com%2Fmicro%2Finteraction%2Fcomment",
+        "method": "POST",
+        "postData": "{\"replyCommentId\":\"15041723332051863874\",\"content\":\"呢個私訊我，幫你睇清楚 📩\",\"clientId\":\"f44764db-200c-4576-9348-fd0c07f54fac\",\"rootCommentId\":\"15041723332051863874\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15041723332051863874\",\"commentNickname\":\"Z过眼雲煙J\",\"commentContent\":\"可以上大陆牌吗\",\"commentHeadurl\":\"https://wx.qlogo.cn/finderhead/ZJRuUrU3PMWl1lBBRLB7rQdTkYlXXoOAFfaqnrVX8pDxiaNHuW6ic8jwZHCG0sUUfMxzH3u4EnyX4/0\",\"commentCreatetime\":\"1793113152\",\"commentLikeCount\":0,\"lastBuff\":\"\",\"downContinueFlag\":0,\"visibleFlag\":0,\"readFlag\":true,\"displayFlag\":8,\"username\":\"v2_060000231003b20faec8c7e78911c3d0ca0de43db0770e5bde47dd46c1a4dc414d785b996af0@finder\",\"blacklistFlag\":0,\"likeFlag\":0},\"exportId\":\"export/UzFfBgAAxIajMHlyOAjHjMzT4DCaRXDXLRhEIhakNYwuzoaXAg\",\"timestamp\":\"1793150385688\",\"_log_finder_uin\":\"\",\"_log_finder_id\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\",\"rawKeyBuff\":\"\",\"pluginSessionId\":null,\"scene\":7,\"reqScene\":7}",
+        "ts": "2026-10-28T01:19:45.695Z",
+        "status": 201,
+        "mimeType": "application/json",
+        "body": "{\"errCode\":0,\"errMsg\":\"request successful\",\"data\":{\"commentId\":\"15042035674865011403\",\"clientId\":\"f44764db-200c-4576-9348-fd0c07f54fac\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15042035674865011403\",\"commentContent\":\"呢個私訊我，幫你睇清楚 📩\",\"commentCreatetime\":\"1793150386\",\"commentLikeCount\":0,\"replyCommentId\":\"15041723332051863874\",\"replyContent\":\"可以上大陆牌吗\",\"visibleFlag\":1,\"displayFlag\":2,\"username\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\"},\"baseResp\":{\"errcode\":0,\"errmsg\":\"\"}}}",
+        "error": null,
+        "errCode": 0,
+        "errMsg": "request successful",
+        "topErrCode": 0,
+        "topErrMsg": "request successful",
+        "baseResp": {
+          "errcode": 0,
+          "errmsg": ""
+        }
+      }
+    ],
+    "toasts": []
+  },
+  "result": {
+    "countUp": true,
+    "threadHit": true,
+    "taZero": true,
+    "declared": 159
+  },
+  "like": {
+    "ok": true
+  }
+}

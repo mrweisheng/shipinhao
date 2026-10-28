@@ -1,0 +1,114 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "宾利新款飞驰13萬？那不可能！ #香港二手车#香港#香港买车#港车北上#中港车",
+  "time": "2025年12月28日 18:05"
+ },
+ "declared": 6,
+ "isEmpty": false,
+ "total": 6,
+ "topLevel": 5,
+ "replies": 1,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "深秋.",
+   "isAuthor": false,
+   "time": "2026/03/13 17:58",
+   "content": "计钱这个车",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 1,
+   "level": 1,
+   "parentIndex": null,
+   "author": "罗泽雄",
+   "isAuthor": false,
+   "time": "2026/03/03 05:25",
+   "content": "牌系唔系要租啊？",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/03/03 09:03"
+  },
+  {
+   "index": 2,
+   "level": 2,
+   "parentIndex": 1,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/03/03 09:03",
+   "content": "根據自己需要，可租可買。如果香港本地用，也不需要兩地牌。",
+   "likes": null
+  },
+  {
+   "index": 3,
+   "level": 1,
+   "parentIndex": null,
+   "author": "孙伟",
+   "isAuthor": false,
+   "time": "2025/12/30 00:51",
+   "content": "多少",
+   "likes": 1,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 4,
+   "level": 1,
+   "parentIndex": null,
+   "author": "好年華",
+   "isAuthor": false,
+   "time": "2025/12/28 22:41",
+   "content": "明仔好口才，前程似锦 [強] [強] [強]",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 5,
+   "level": 1,
+   "parentIndex": null,
+   "author": "CHAINI",
+   "isAuthor": false,
+   "time": "2025/12/28 19:42",
+   "content": "乜都无办个牌咩费用啊",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  }
+ ],
+ "summary": {
+  "declared": 6,
+  "total": 6,
+  "level1": 5,
+  "level2": 1,
+  "ownComments": 0,
+  "authorRepliedThreads": 1,
+  "awaitingThreads": 4,
+  "authorReplies": 1,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   0,
+   3,
+   4,
+   5
+  ]
+ }
+}

@@ -1,0 +1,166 @@
+{
+  "name": "韩亿铭3791",
+  "kw": "你个子思想几",
+  "text": "多謝讚賞，佢自己諗通 😄",
+  "dry": false,
+  "steps": [],
+  "before": {
+    "video": {
+      "title": "今天在汕尾和儿子探讨下，何为善良！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "time": "2026年10月13日 07:00"
+    },
+    "declared": 48,
+    "rendered": 48,
+    "textareas": 0
+  },
+  "locate": {
+    "found": 1,
+    "x": 1446,
+    "y": 553,
+    "item": {
+      "name": "韩亿铭3791",
+      "time": "2026/10/26 23:38",
+      "text": "你个子思想几成熟"
+    },
+    "replies": [],
+    "authorReplied": false
+  },
+  "panel0": {
+    "textareas": 1,
+    "placeholder": "回复 韩亿铭3791：",
+    "value": "",
+    "ta": {
+      "x": 1195,
+      "y": 640
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap disabled primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap disabled primary",
+      "enabled": false,
+      "x": 960,
+      "y": 690,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "panel1": {
+    "textareas": 1,
+    "placeholder": "回复 韩亿铭3791：",
+    "value": "多謝讚賞，佢自己諗通 😄",
+    "ta": {
+      "x": 1195,
+      "y": 640
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 690,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "sendClick": {
+    "textareas": 1,
+    "placeholder": "回复 韩亿铭3791：",
+    "value": "多謝讚賞，佢自己諗通 😄",
+    "ta": {
+      "x": 1195,
+      "y": 571
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 620,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "verify": {
+    "declared": 49,
+    "textareas": 0,
+    "found": true,
+    "replies": [
+      {
+        "name": "明哥揀粤港车",
+        "text": "多謝讚賞，佢自己諗通"
+      }
+    ],
+    "hit": true
+  },
+  "trace": {
+    "requests": [
+      {
+        "requestId": "80620.179830",
+        "url": "https://channels.weixin.qq.com/micro/interaction/cgi-bin/mmfinderassistant-bin/comment/create_comment?_aid=a92662d8-2b79-413e-87ed-244b48318e0a&_rid=6ae160ce-cb21d2cb&_pageUrl=https:%2F%2Fchannels.weixin.qq.com%2Fmicro%2Finteraction%2Fcomment",
+        "method": "POST",
+        "postData": "{\"replyCommentId\":\"15041018289796619650\",\"content\":\"多謝讚賞，佢自己諗通 😄\",\"clientId\":\"1dade450-4eee-447c-8d95-4ea38ced7e06\",\"rootCommentId\":\"15041018289796619650\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15041018289796619650\",\"commentNickname\":\"韩亿铭3791\",\"commentContent\":\"你个子思想几成熟[强]\",\"commentHeadurl\":\"https://wx.qlogo.cn/finderhead/Cwj2m5VgtByickcDm6qeXEGNDYMUtegaR8yeqDBxPD8l1BTYD3CrLjfIVSp0CY4rK7cA1icfBer94/0\",\"commentCreatetime\":\"1793029104\",\"commentLikeCount\":0,\"lastBuff\":\"\",\"downContinueFlag\":0,\"visibleFlag\":0,\"readFlag\":true,\"displayFlag\":8,\"username\":\"v2_060000231003b20faec8cae78a18c5d1ca02e835b07703482c63a17f976e160200ba84fc3317@finder\",\"blacklistFlag\":0,\"likeFlag\":0},\"exportId\":\"export/UzFfBgAAxLChaG9BbhGpk8zT4DCabqJC9Br25ym3yF4ldvBeRw\",\"timestamp\":\"1793155278576\",\"_log_finder_uin\":\"\",\"_log_finder_id\":\"v2_060000231003b20faec8c6e68e1ac6d2cc0ce43db077c80c7ad975ea80702c9b7231ef3e0fd2@finder\",\"rawKeyBuff\":\"\",\"pluginSessionId\":null,\"scene\":7,\"reqScene\":7}",
+        "ts": "2026-10-28T02:41:18.579Z",
+        "status": 201,
+        "mimeType": "application/json",
+        "body": "{\"errCode\":0,\"errMsg\":\"request successful\",\"data\":{\"commentId\":\"15042076720177351013\",\"clientId\":\"1dade450-4eee-447c-8d95-4ea38ced7e06\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15042076720177351013\",\"commentContent\":\"多謝讚賞，佢自己諗通 😄\",\"commentCreatetime\":\"1793155279\",\"commentLikeCount\":0,\"replyCommentId\":\"15041018289796619650\",\"replyContent\":\"你个子思想几成熟[强]\",\"visibleFlag\":1,\"displayFlag\":2,\"username\":\"v2_060000231003b20faec8c6e68e1ac6d2cc0ce43db077c80c7ad975ea80702c9b7231ef3e0fd2@finder\"},\"baseResp\":{\"errcode\":0,\"errmsg\":\"\"}}}",
+        "error": null,
+        "errCode": 0,
+        "errMsg": "request successful",
+        "topErrCode": 0,
+        "topErrMsg": "request successful",
+        "baseResp": {
+          "errcode": 0,
+          "errmsg": ""
+        }
+      }
+    ],
+    "toasts": []
+  },
+  "result": {
+    "countUp": true,
+    "threadHit": true,
+    "taZero": true,
+    "declared": 49
+  },
+  "like": {
+    "ok": true
+  }
+}

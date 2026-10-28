@@ -1,0 +1,55 @@
+{
+  "finishedAt": "2026-10-28T01:20:05.833Z",
+  "mode": "send",
+  "planFile": "D:\\视频号\\data\\reply\\plan-1028a2-nth91.json",
+  "video": {
+    "title": "香港老板们，这台v6的雷克萨斯，你值得拥有！ #香港#香港车牌#港车北上#明哥中港牌#粤港车#港车#香港买车",
+    "time": "2026年06月03日 07:05"
+  },
+  "before": {
+    "declared": 158,
+    "plannedReplies": 2,
+    "executed": 2
+  },
+  "summary": {
+    "ok": 2,
+    "failed": 0,
+    "rejected": 0,
+    "policy": 0
+  },
+  "after": null,
+  "results": [
+    {
+      "index": 14,
+      "name": "Z过眼雲煙J",
+      "time": "2026/10/27 22:59",
+      "likes": null,
+      "content": "可以上大陆牌吗",
+      "kw": "可以上大陆牌",
+      "asked": "问这台车能不能上大陆牌",
+      "action": "reply",
+      "text": "呢個私訊我，幫你睇清楚 📩",
+      "answerOk": true,
+      "category": "car_plate",
+      "reason": "上牌政策：业务事实未列明 → 不推断、不下结论，引导私域",
+      "caseId": "c112",
+      "result": "sent"
+    },
+    {
+      "index": 15,
+      "name": "小商玥",
+      "time": "2026/10/26 14:54",
+      "likes": null,
+      "content": "可以回汕尾上牌，汕尾开吗？",
+      "kw": "可以回汕尾上",
+      "asked": "问能不能回汕尾上牌、在汕尾开",
+      "action": "reply",
+      "text": "上牌同異地用車，PM 我講 📩",
+      "answerOk": true,
+      "category": "car_plate",
+      "reason": "同上；两个问题（上牌 + 异地使用）一起接住，换变体避免重复",
+      "caseId": "c113",
+      "result": "sent"
+    }
+  ]
+}

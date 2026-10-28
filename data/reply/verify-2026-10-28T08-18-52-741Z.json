@@ -1,0 +1,103 @@
+{
+  "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+  "video": {
+    "title": "全香港最靓的一台30系，来找明哥拿下！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月28日 07:05"
+  },
+  "declared": 6,
+  "isEmpty": false,
+  "total": 6,
+  "topLevel": 3,
+  "replies": 3,
+  "comments": [
+    {
+      "index": 0,
+      "level": 1,
+      "parentIndex": null,
+      "author": "elvis3796",
+      "isAuthor": false,
+      "time": "2026/10/28 10:46",
+      "content": "幾錢？",
+      "likes": 1,
+      "replyCount": 1,
+      "authorReplied": true,
+      "authorReplyCount": 1,
+      "lastAuthorReplyAt": "2026/10/28 16:18"
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "parentIndex": 0,
+      "author": "明哥揾粤港车",
+      "isAuthor": true,
+      "time": "2026/10/28 16:18",
+      "content": "價錢公道有得傾；點頭像👤睇簡介 📩",
+      "likes": null
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "parentIndex": null,
+      "author": "请叫我林先生（小号）超凡脱俗",
+      "isAuthor": false,
+      "time": "2026/10/28 07:25",
+      "content": "生意兴隆 [發] [發] [發]",
+      "likes": 2,
+      "replyCount": 2,
+      "authorReplied": true,
+      "authorReplyCount": 1,
+      "lastAuthorReplyAt": "2026/10/28 09:06"
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "parentIndex": 2,
+      "author": "明哥揾粤港车",
+      "isAuthor": true,
+      "time": "2026/10/28 09:06",
+      "content": "多謝，祝你生意興隆 🙏",
+      "likes": null
+    },
+    {
+      "index": 4,
+      "level": 2,
+      "parentIndex": 2,
+      "author": "请叫我林先生（小号）超凡脱俗",
+      "isAuthor": false,
+      "time": "2026/10/28 11:40",
+      "content": "回复明哥揾粤港车: 大家发财 [發] [發] [發]",
+      "likes": null
+    },
+    {
+      "index": 5,
+      "level": 1,
+      "parentIndex": null,
+      "author": "请叫我林先生（小号）超凡脱俗",
+      "isAuthor": false,
+      "time": "2026/10/28 07:24",
+      "content": "[强] [强] [强]",
+      "likes": 1,
+      "replyCount": 0,
+      "authorReplied": false,
+      "authorReplyCount": 0,
+      "lastAuthorReplyAt": null
+    }
+  ],
+  "summary": {
+    "declared": 6,
+    "total": 6,
+    "level1": 3,
+    "level2": 3,
+    "ownComments": 0,
+    "authorRepliedThreads": 2,
+    "awaitingThreads": 1,
+    "authorReplies": 2,
+    "complete": true,
+    "gap": 0,
+    "leftExpand": 0,
+    "unreachable": false,
+    "awaitingIndices": [
+      5
+    ]
+  }
+}

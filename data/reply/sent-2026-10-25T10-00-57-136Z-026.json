@@ -1,0 +1,166 @@
+{
+  "name": "阿吕伟",
+  "kw": "明哥讲得有道",
+  "text": "多謝認同，共勉 🙏",
+  "dry": false,
+  "steps": [],
+  "before": {
+    "video": {
+      "title": "汕尾老乡们，谦虚低调才是你应该要走的路！！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "time": "2026年10月18日 07:00"
+    },
+    "declared": 352,
+    "rendered": 36,
+    "textareas": 0
+  },
+  "locate": {
+    "found": 1,
+    "x": 1269,
+    "y": 492,
+    "item": {
+      "name": "阿吕伟",
+      "time": "2026/10/24 23:33",
+      "text": "明哥讲得有道理"
+    },
+    "replies": [],
+    "authorReplied": false
+  },
+  "panel0": {
+    "textareas": 1,
+    "placeholder": "回复 阿吕伟：",
+    "value": "",
+    "ta": {
+      "x": 1018,
+      "y": 580
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap disabled primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap disabled primary",
+      "enabled": false,
+      "x": 783,
+      "y": 629,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "panel1": {
+    "textareas": 1,
+    "placeholder": "回复 阿吕伟：",
+    "value": "多謝認同，共勉 🙏",
+    "ta": {
+      "x": 1018,
+      "y": 580
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 783,
+      "y": 629,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "sendClick": {
+    "textareas": 1,
+    "placeholder": "回复 阿吕伟：",
+    "value": "多謝認同，共勉 🙏",
+    "ta": {
+      "x": 1018,
+      "y": 473
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 783,
+      "y": 523,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "verify": {
+    "declared": 353,
+    "textareas": 0,
+    "found": true,
+    "replies": [
+      {
+        "name": "明哥揀粤港车",
+        "text": "多謝認同，共勉"
+      }
+    ],
+    "hit": true
+  },
+  "trace": {
+    "requests": [
+      {
+        "requestId": "8632.16440",
+        "url": "https://channels.weixin.qq.com/micro/interaction/cgi-bin/mmfinderassistant-bin/comment/create_comment?_aid=68322090-7d6b-44c0-a7f6-df85e8af959a&_rid=6addd368-5c6a9545&_pageUrl=https:%2F%2Fchannels.weixin.qq.com%2Fmicro%2Finteraction%2Fcomment",
+        "method": "POST",
+        "postData": "{\"replyCommentId\":\"15039566029837573022\",\"content\":\"多謝認同，共勉 🙏\",\"clientId\":\"7f0454c0-5de4-4118-857f-4daba0b89e90\",\"rootCommentId\":\"15039566029837573022\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15039566029837573022\",\"commentNickname\":\"阿吕伟\",\"commentContent\":\"[强][强][强]明哥讲得有道理\",\"commentHeadurl\":\"https://wx.qlogo.cn/finderhead/PiajxSqBRaEKpKchZ8Iicedwt2OZJfO1DVfv46eoickefmNjgaKQavxFg/0\",\"commentCreatetime\":\"1792855981\",\"commentLikeCount\":0,\"lastBuff\":\"\",\"downContinueFlag\":0,\"visibleFlag\":0,\"readFlag\":true,\"displayFlag\":8,\"username\":\"v2_060000231003b20faec8c4ea8011c0ddca04ec3db077627aa857ef5e7f828df67b52d4538798@finder\",\"blacklistFlag\":0,\"likeFlag\":0},\"exportId\":\"export/UzFfBgAAxI2hDHtUE1i2k8zT4DCaEoxV9nwUZCNcHEsLkTUmcQ\",\"timestamp\":\"1792922472752\",\"_log_finder_uin\":\"\",\"_log_finder_id\":\"v2_060000231003b20faec8c6e68e1ac6d2cc0ce43db077c80c7ad975ea80702c9b7231ef3e0fd2@finder\",\"rawKeyBuff\":\"\",\"pluginSessionId\":null,\"scene\":7,\"reqScene\":7}",
+        "ts": "2026-10-25T10:01:12.756Z",
+        "status": 201,
+        "mimeType": "application/json",
+        "body": "{\"errCode\":0,\"errMsg\":\"request successful\",\"data\":{\"commentId\":\"15040123803459455345\",\"clientId\":\"7f0454c0-5de4-4118-857f-4daba0b89e90\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15040123803459455345\",\"commentContent\":\"多謝認同，共勉 🙏\",\"commentCreatetime\":\"1792922473\",\"commentLikeCount\":0,\"replyCommentId\":\"15039566029837573022\",\"replyContent\":\"[强][强][强]明哥讲得有道理\",\"visibleFlag\":1,\"displayFlag\":2,\"username\":\"v2_060000231003b20faec8c6e68e1ac6d2cc0ce43db077c80c7ad975ea80702c9b7231ef3e0fd2@finder\"},\"baseResp\":{\"errcode\":0,\"errmsg\":\"\"}}}",
+        "error": null,
+        "errCode": 0,
+        "errMsg": "request successful",
+        "topErrCode": 0,
+        "topErrMsg": "request successful",
+        "baseResp": {
+          "errcode": 0,
+          "errmsg": ""
+        }
+      }
+    ],
+    "toasts": []
+  },
+  "result": {
+    "countUp": true,
+    "threadHit": true,
+    "taZero": true,
+    "declared": 353
+  },
+  "like": {
+    "ok": true
+  }
+}

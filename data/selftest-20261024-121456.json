@@ -1,0 +1,87 @@
+{
+  "when": "2026-10-24T04:14:56.759Z",
+  "seed": 814752742,
+  "totalVideos": 169,
+  "results": [
+    {
+      "round": 1,
+      "mode": "url",
+      "from": "https://channels.weixin.qq.com/platform/post/draftListManager",
+      "route": {
+        "parent": "内容管理",
+        "child": "草稿箱",
+        "url": "https://channels.weixin.qq.com/platform/post/draftListManager"
+      },
+      "nth": 150,
+      "ms": 13842,
+      "code": 0,
+      "summary": {
+        "declared": 8,
+        "total": 8,
+        "level1": 4,
+        "level2": 4,
+        "authorRepliedThreads": 2,
+        "awaitingThreads": 2,
+        "authorReplies": 3,
+        "complete": true,
+        "awaitingIndices": [
+          0,
+          7
+        ]
+      },
+      "checks": [
+        {
+          "name": "退出码 0",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "点开的正是第 N 条",
+          "ok": true,
+          "detail": "期望 150，实际 150"
+        },
+        {
+          "name": "详情区头部已核对",
+          "ok": true,
+          "detail": "2025/10/16 07:11"
+        },
+        {
+          "name": "输出含 summary",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "声明数 = 实抓数",
+          "ok": true,
+          "detail": "声明 8 / 实抓 8"
+        },
+        {
+          "name": "一级 + 回复 = 总数",
+          "ok": true,
+          "detail": "4+4 vs 8"
+        },
+        {
+          "name": "已回 + 未回 = 一级",
+          "ok": true,
+          "detail": "2+2 vs 4"
+        },
+        {
+          "name": "完整性标记",
+          "ok": true,
+          "detail": "true"
+        },
+        {
+          "name": "评论数与页面声明一致",
+          "ok": true,
+          "detail": "页面 8 / JSON 8"
+        },
+        {
+          "name": "视频时间与头部一致",
+          "ok": true,
+          "detail": "2025/10/16 07:11 vs 2025年10月16日 07:11"
+        }
+      ],
+      "ok": true
+    }
+  ]
+}

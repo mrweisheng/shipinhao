@@ -1,0 +1,159 @@
+{
+  "createdAt": "2026-10-27T03:31:45.739Z",
+  "nth": null,
+  "video": {
+    "title": "在香港，z实用的七人车之一，本田步威 #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行",
+    "time": "2026年09月17日 07:05"
+  },
+  "titleContext": {
+    "business": "car",
+    "ports": [],
+    "models": [
+      "本田"
+    ],
+    "price": null
+  },
+  "declared": 33,
+  "source": "D:\\视频号\\data\\maintain-1027-acct2\\nth18.json",
+  "rules": {
+    "facts": "业务事实.md（唯一事实来源：价格/付款/车况/地址/移民/求职）",
+    "judgment": ".opencode/skills/channels-comment-ops/SKILL.md（回不回、红线、动作分类）",
+    "cases": "data/cases/（主参考：先判意图 → 检索 2 好 1 坏 → 仿写）",
+    "style": "模板池.md（仅 GUIDE-* 引导尾巴与兜底候选，按语义改写，不要关键词对号入座）"
+  },
+  "counts": {
+    "topLevel": 20,
+    "authorReplied": 11,
+    "authorOwn": 0,
+    "pending": 9
+  },
+  "items": [
+    {
+      "index": 0,
+      "name": "福哥2987",
+      "time": "2026/10/11 11:40",
+      "likes": 1,
+      "content": "我哋叫雪櫃車",
+      "kw": "我哋叫雪櫃車",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "内容讨论 / 情绪表达 / 纯表情 / 负面调侃，不构成业务咨询，按策略跳过"
+    },
+    {
+      "index": 3,
+      "name": "香港装修超爽哥",
+      "time": "2026/10/10 04:55",
+      "likes": 1,
+      "content": "喜欢，帮忙安排一下",
+      "kw": "帮忙安排一下",
+      "asked": "客户说喜欢，让明哥帮忙安排一台",
+      "action": "reply",
+      "text": "想安排冇問題，私訊我傾 📩",
+      "answerOk": true,
+      "category": "car_stock",
+      "reason": "明确购车意向（帮忙安排）；肯定承接 + 引私域，不承诺交期"
+    },
+    {
+      "index": 8,
+      "name": "發亮發光",
+      "time": "2026/10/01 00:47",
+      "likes": null,
+      "content": "有興趣",
+      "kw": "有興趣",
+      "asked": "客户表示对这台车有兴趣",
+      "action": "reply",
+      "text": "有興趣就私訊我，傾下 😄",
+      "answerOk": true,
+      "category": "car_stock",
+      "reason": "购车兴趣表达；承接 + 引导，不报价"
+    },
+    {
+      "index": 13,
+      "name": "幸福滿滿",
+      "time": "2026/09/20 17:34",
+      "likes": 1,
+      "content": "[强] [强] [强]",
+      "kw": "[强][强]",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "内容讨论 / 情绪表达 / 纯表情 / 负面调侃，不构成业务咨询，按策略跳过"
+    },
+    {
+      "index": 14,
+      "name": "偉成2053",
+      "time": "2026/09/20 10:48",
+      "likes": 1,
+      "content": "請問幾多錢？",
+      "kw": "請問幾多錢",
+      "asked": "客户问这台车多少钱",
+      "action": "reply",
+      "text": "價錢私訊我，睇岩再傾 😄",
+      "answerOk": true,
+      "category": "car_price",
+      "reason": "明确问价；未标价 → 不编数字，引私域"
+    },
+    {
+      "index": 17,
+      "name": "哈哈大少",
+      "time": "2026/09/18 00:55",
+      "likes": 1,
+      "content": "好车 [强]",
+      "kw": "好车",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "内容讨论 / 情绪表达 / 纯表情 / 负面调侃，不构成业务咨询，按策略跳过"
+    },
+    {
+      "index": 18,
+      "name": "benny仔9767",
+      "time": "2026/09/18 00:03",
+      "likes": 1,
+      "content": "可以",
+      "kw": "可以",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "内容讨论 / 情绪表达 / 纯表情 / 负面调侃，不构成业务咨询，按策略跳过"
+    },
+    {
+      "index": 21,
+      "name": "cowboy",
+      "time": "2026/09/17 21:10",
+      "likes": 1,
+      "content": "可以",
+      "kw": "可以",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "内容讨论 / 情绪表达 / 纯表情 / 负面调侃，不构成业务咨询，按策略跳过"
+    },
+    {
+      "index": 28,
+      "name": "黑黑0660",
+      "time": "2026/09/17 09:02",
+      "likes": 1,
+      "content": "[强]",
+      "kw": "[强]",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": null,
+      "category": "skip_nonbusiness",
+      "reason": "内容讨论 / 情绪表达 / 纯表情 / 负面调侃，不构成业务咨询，按策略跳过"
+    }
+  ],
+  "videoType": "业务类"
+}
