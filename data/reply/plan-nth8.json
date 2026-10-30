@@ -1,0 +1,87 @@
+{
+  "createdAt": "2026-10-30T08:19:12.876Z",
+  "nth": null,
+  "video": {
+    "title": "如果你的客人要退车！你会怎么做？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月14日 07:05"
+  },
+  "titleContext": {
+    "business": "car",
+    "ports": [],
+    "models": [],
+    "price": null
+  },
+  "declared": 69,
+  "source": "D:\\视频号\\data\\comments-nth8.json",
+  "rules": {
+    "facts": "业务事实.md（唯一事实来源：价格/付款/车况/地址/移民/求职）",
+    "judgment": ".opencode/skills/channels-comment-ops/SKILL.md（回不回、红线、动作分类）",
+    "cases": "data/cases/（主参考：先判意图 → 检索 2 好 1 坏 → 仿写）",
+    "style": "模板池.md（仅 GUIDE-* 引导尾巴与兜底候选，按语义改写，不要关键词对号入座）"
+  },
+  "counts": {
+    "topLevel": 35,
+    "authorReplied": 30,
+    "authorOwn": 1,
+    "pending": 4
+  },
+  "items": [
+    {
+      "index": 1,
+      "name": "余志强[emoji]",
+      "time": "2026/10/29 02:52",
+      "likes": null,
+      "content": "兄弟 [強] [強] [強] [強]",
+      "kw": "兄弟",
+      "asked": "客户打招呼支持（兄弟）",
+      "action": "reply",
+      "text": "多謝兄弟支持 🙏",
+      "answerOk": true,
+      "category": "praise",
+      "reason": "带文字捧场（兄弟+强）→ 回；纯捧场不加引导"
+    },
+    {
+      "index": 4,
+      "name": "佛光普照",
+      "time": "2026/10/19 20:14",
+      "likes": 1,
+      "content": "界定義者必然後又要是不能讀完整性別有不同@老王夫妇农村生活 死了解決",
+      "kw": "界定義者必然",
+      "asked": "界定義者必然後又要是不能讀完整性別有不同@老王夫妇农村生活 ",
+      "action": "skip",
+      "text": "",
+      "answerOk": false,
+      "category": "spam",
+      "reason": "文字不成立、疑似乱码/无关灌水 → 策略跳过"
+    },
+    {
+      "index": 5,
+      "name": "佛光普照",
+      "time": "2026/10/19 20:14",
+      "likes": 1,
+      "content": "原則可惜別為主[图片]",
+      "kw": "原則可惜別為",
+      "asked": "原則可惜別為主[图片]",
+      "action": "skip",
+      "text": "",
+      "answerOk": false,
+      "category": "spam",
+      "reason": "文字不成立、疑似乱码/无关灌水 → 策略跳过"
+    },
+    {
+      "index": 6,
+      "name": "佛光普照",
+      "time": "2026/10/19 20:13",
+      "likes": null,
+      "content": "及，電腦操作方式樣衰竭盡情人事實係唔係好合約翰林峯[图片]",
+      "kw": "電腦操作方式",
+      "asked": "及，電腦操作方式樣衰竭盡情人事實係唔係好合約翰林峯[图片]",
+      "action": "skip",
+      "text": "",
+      "answerOk": false,
+      "category": "spam",
+      "reason": "文字不成立、疑似乱码/无关灌水 → 策略跳过"
+    }
+  ],
+  "videoType": "opinion"
+}
