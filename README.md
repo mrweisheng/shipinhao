@@ -2,6 +2,10 @@
 
 微信视频号助手（channels.weixin.qq.com）评论区维护工具：读评论、判断作者是否已回、按策略生成回复、三信号核验、点赞、登记。
 
+> **回复策略与 `doubao-port` 分支完全同源**：`SKILL.md`、`业务事实.md`、`模板池.md`、`scripts/lib/plan.js` 两分支同一份内容。
+> 策略变更（判断、话术、配额、核验判据）必须同时进两个分支；本分支只保留 OpenCode + Chrome 执行层。
+> 当前执行期三铁律：先展开再判已回 / 先看红灰再点赞 / 按时间增量（`scripts/28-diff-comments.js`）。
+
 ## 每天开工先读这 3 个
 
 1. `.opencode/skills/channels-comment-ops/SKILL.md` — 执行入口（流程、硬规则、命令）

@@ -183,8 +183,10 @@ async function main() {
   }
 
   const plan = planLib.load(PLAN_FILE);
-  const v = planLib.validatePlan(plan);
-  const dup = planLib.checkDuplicates(plan, readHistorySafe());
+  const history = readHistorySafe();
+  // 批次密度按「滚动 7 天」算（含 history）；单批 <5 条且历史不足时只查连续路径
+  const v = planLib.validatePlan(plan, { history });
+  const dup = planLib.checkDuplicates(plan, history);
   // 与最近 3 条完全相同 → 默认阻断；7 天内用过同一句 → 默认提醒，--strict-dup 时升级为阻断
   const dupErrors = STRICT_DUP ? [...dup.errors, ...dup.warnings] : dup.errors;
   const allErrors = [...v.errors, ...dupErrors];

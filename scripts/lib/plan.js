@@ -101,7 +101,10 @@ const GUIDE = {
 function guidePath(text) {
   const t = String(text || "");
   const hits = Object.keys(GUIDE).filter((k) => GUIDE[k].test(t));
-  return hits.length ? hits.join("+") : null;
+  if (!hits.length) return null;
+  // 组合路径（如「點頭像👤，PM 我」）按“最具体出口”归一，否则连续检测会被组合写法打断
+  const ORDER = ["私訊", "PM", "置頂", "主頁", "頭像", "簡介"];
+  return ORDER.find((k) => hits.includes(k)) || hits[0];
 }
 
 /**
@@ -109,59 +112,105 @@ function guidePath(text) {
  * 单条合规 ≠ 整批安全：连续多条都用同一个私域词收尾、句句一个模子，
  * 平台侧看到的是「批量营销话术」，会被折叠/限流（2026-10-27 实测 私訊 密度 56%）。
  *
- * 私域词有三个出口：私訊 / PM / 頭像·簡介·置頂·主頁。任何一个词都不能垄断整批。
+ * 2026-10-30 改：
+ *  - 分母改「滚动 7 天」（含 history）；单批 <5 条不算占比，避免 1 条求联系 = 100% 的误伤。
+ *  - 新增「带引导占比」闸门（整批清一色导流，比单个词更危险）。
+ *  - 私訊 从「≤40%」降为受限词（目标 ≤15%）；PM 成为默认英文出口（≤20%）。
+ *  - 连续同路径：2 条为上限（第 3 条即拒）。
+ *  - DM 不用（中文语境指 IG/小红书私信，有引导站外联想），出现即提醒。
  */
-function checkBatch(items) {
+const WINDOW = 7 * 24 * 3600 * 1000;
+
+function windowReplies(replies, history, now) {
+  const from = now - WINDOW;
+  const hist = (history || [])
+    .filter((h) => h && h.text && (!h.at || !Number.isFinite(Date.parse(h.at)) || Date.parse(h.at) > from))
+    .map((h) => ({ text: String(h.text) }));
+  return hist.concat(replies);
+}
+
+function checkBatch(items, opt = {}) {
   const errors = [];
   const warnings = [];
   const replies = items.filter((x) => x.action === "reply" && x.text);
-  if (replies.length < 5) return { errors, warnings };
+  const now = opt.now || Date.now();
+  const all = windowReplies(replies, opt.history, now);
+  if (!all.length) return { errors, warnings };
 
-  // 1. 单一私域词垄断（私訊 / PM 各自都不能超过）
-  for (const word of ["私訊", "PM"]) {
-    const n = replies.filter((x) => GUIDE[word].test(String(x.text))).length;
-    const ratio = n / replies.length;
-    const pct = Math.round(ratio * 100);
-    if (ratio > 0.6) {
-      errors.push(`「${word}」出现在 ${n}/${replies.length} 条回复里（${pct}%），超过 60% —— 整批形状像批量营销话术，换一部分为 PM / 地址 / 时间 / 车况 / 主頁 / 置頂`);
-    } else if (ratio > 0.4) {
-      warnings.push(`「${word}」占比 ${pct}%（${n}/${replies.length}），建议压到 40% 以下`);
+  // 单批 <5 条且历史也不足 5 条时，占比没有统计意义，只查连续路径
+  const ratioOk = all.length >= 5;
+  const pct = (n, d) => Math.round((n / d) * 100);
+
+  // 1. 带引导占比（整批清一色导流）
+  if (ratioOk) {
+    const guided = all.filter((x) => guidePath(x.text)).length;
+    const r = guided / all.length;
+    if (r > 0.6) {
+      errors.push(
+        `近 7 天 ${guided}/${all.length} 条回复带引导（${pct(guided, all.length)}%），超过 60% —— 整批像营销话术；改为直接答事实（地址/时间/车况/库存）`
+      );
+    } else if (r > 0.4) {
+      warnings.push(`近 7 天带引导占比 ${pct(guided, all.length)}%（${guided}/${all.length}），目标 ≤40%`);
     }
   }
 
-  // 2. 连续同路径
+  // 2. 单一私域词（私訊 为受限词；PM 为默认英文出口，各有上限）
+  const LIMITS = [
+    { word: "私訊", warn: 0.15, deny: 0.3, hint: "改用點頭像／PM，私訊只留给确实要私信的场景" },
+    { word: "PM", warn: 0.2, deny: 0.35, hint: "换一部分为頭像／置頂／直接答" },
+  ];
+  for (const { word, warn, deny, hint } of LIMITS) {
+    if (!ratioOk) break;
+    const n = all.filter((x) => GUIDE[word].test(String(x.text))).length;
+    const r = n / all.length;
+    if (r > deny) {
+      errors.push(
+        `近 7 天「${word}」出现在 ${n}/${all.length} 条回复里（${pct(n, all.length)}%），超过 ${Math.round(
+          deny * 100
+        )}% —— ${hint}`
+      );
+    } else if (r > warn) {
+      warnings.push(`近 7 天「${word}」占比 ${pct(n, all.length)}%（${n}/${all.length}），目标 ≤${Math.round(warn * 100)}%`);
+    }
+  }
+
+  // 3. 连续同路径（跨批次边界也算；只报触及本批的连续段）
+  const start = all.length - replies.length;
   let run = 1;
   let worst = 0;
   let worstPath = null;
-  for (let i = 1; i < replies.length; i++) {
-    const a = guidePath(replies[i - 1].text);
-    const b = guidePath(replies[i].text);
+  let worstTouchesBatch = false;
+  for (let i = 1; i < all.length; i++) {
+    const a = guidePath(all[i - 1].text);
+    const b = guidePath(all[i].text);
     if (a && a === b) {
       run++;
       if (run > worst) {
         worst = run;
         worstPath = b;
+        worstTouchesBatch = i >= start;
       }
     } else {
       run = 1;
     }
   }
-  if (worst >= 4) {
-    errors.push(`连续 ${worst} 条都用「${worstPath}」引导，必须中间插一条直接答事实的`);
-  } else if (worst >= 3) {
-    warnings.push(`连续 ${worst} 条都用「${worstPath}」引导，建议换一条`);
+  if (worstTouchesBatch && worst >= 3) {
+    errors.push(`连续 ${worst} 条都用「${worstPath}」引导（含最近 7 天），必须中间插一条直接答事实的`);
+  } else if (worstTouchesBatch && worst === 2) {
+    warnings.push(`连续 2 条都用「${worstPath}」引导，下一条必须换路径`);
   }
 
-  // 3. 完全无引导的比例（太低说明全在导流）
-  const guided = replies.filter((x) => guidePath(x.text)).length;
-  if (guided === replies.length && replies.length >= 8) {
-    warnings.push(`本批 ${replies.length} 条回复全部带引导，没有任何一条直接给事实（地址/时间/车况/库存）`);
+  // 4. DM 不用（2026-10-30）
+  for (const x of replies) {
+    if (/\bDM\b/i.test(String(x.text))) {
+      warnings.push(`「${x.text}」用了 DM：中文语境常指 IG / 小红书私信，有引导站外联想，改用 PM 我`);
+    }
   }
 
   return { errors, warnings };
 }
 
-function validatePlan(plan) {
+function validatePlan(plan, opt = {}) {
   const errors = [];
   const warnings = [];
 
@@ -200,7 +249,7 @@ function validatePlan(plan) {
     }
   }
 
-  const batch = checkBatch(plan.items);
+  const batch = checkBatch(plan.items, { history: opt.history, now: opt.now });
   errors.push(...batch.errors);
   warnings.push(...batch.warnings);
 
