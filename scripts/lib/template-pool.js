@@ -20,7 +20,7 @@ const BANNED = [
   "私信",  // 简体；繁体「私訊」允许
   "唔方便喺度講", "唔方便喺度讲", "私下講", "私下讲",
 ];
-const GUIDE = /頭像|头像|簡介|简介|私訊|置頂|置顶|主頁|主页|🔍|📩|💬|🔝|頂部|顶部/;
+const GUIDE = /頭像|头像|簡介|简介|私訊|置頂|置顶|主頁|主页|🔍|📩|💬|🔝|頂部|顶部|\bPM\b/i;
 const EMOJI_RE = /[\u{1F300}-\u{1FAFF}\u2600-\u27BF\uFE0F]/u;
 
 function parse(file = DEFAULT_FILE) {
