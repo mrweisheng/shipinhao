@@ -1,0 +1,73 @@
+{
+  "createdAt": "2026-10-30T08:19:42.470Z",
+  "nth": null,
+  "video": {
+    "title": "胶己人，这一次你想清楚了吗？香港到底有什么好？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月10日 07:05"
+  },
+  "titleContext": {
+    "business": "unknown",
+    "ports": [],
+    "models": [],
+    "price": null
+  },
+  "declared": 21,
+  "source": "D:\\视频号\\data\\comments-nth11.json",
+  "rules": {
+    "facts": "业务事实.md（唯一事实来源：价格/付款/车况/地址/移民/求职）",
+    "judgment": ".opencode/skills/channels-comment-ops/SKILL.md（回不回、红线、动作分类）",
+    "cases": "data/cases/（主参考：先判意图 → 检索 2 好 1 坏 → 仿写）",
+    "style": "模板池.md（仅 GUIDE-* 引导尾巴与兜底候选，按语义改写，不要关键词对号入座）"
+  },
+  "counts": {
+    "topLevel": 12,
+    "authorReplied": 9,
+    "authorOwn": 0,
+    "pending": 3
+  },
+  "items": [
+    {
+      "index": 0,
+      "name": "海豚姐姐",
+      "time": "2026/10/29 00:07",
+      "likes": null,
+      "content": "拜拜，大家发财平安",
+      "kw": "大家发财平安",
+      "asked": "拜拜，大家发财平安",
+      "action": "skip",
+      "text": "",
+      "answerOk": false,
+      "category": "neutral",
+      "reason": "祝福语，非业务也非捧场 → 观点类策略跳过"
+    },
+    {
+      "index": 13,
+      "name": "欢喜就好",
+      "time": "2026/10/10 08:53",
+      "likes": null,
+      "content": "现在的香港不比以前的香港了",
+      "kw": "现在的香港不",
+      "asked": "现在的香港不比以前的香港了",
+      "action": "skip",
+      "text": "",
+      "answerOk": false,
+      "category": "argument",
+      "reason": "「现在的香港不比以前」地域对比/唱衰，属红线 → 永久跳过"
+    },
+    {
+      "index": 18,
+      "name": "陈冠仁",
+      "time": "2026/10/10 18:50",
+      "likes": null,
+      "content": "吹水明 [Facepalm]",
+      "kw": "吹水明",
+      "asked": "吹水明 [Facepalm]",
+      "action": "skip",
+      "text": "",
+      "answerOk": false,
+      "category": "negative",
+      "reason": "嘲讽调侃（吹水）→ 永久跳过，不解释不点赞"
+    }
+  ],
+  "videoType": "opinion"
+}

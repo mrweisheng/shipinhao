@@ -1,0 +1,68 @@
+{
+  "finishedAt": "2026-10-30T08:15:57.034Z",
+  "mode": "rehearse",
+  "planFile": "D:\\视频号\\data\\reply\\plan-nth1.json",
+  "video": {
+    "title": "即刻买，即刻就可可以揸回内地的，莲塘口岸，中港车！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月30日 10:58"
+  },
+  "before": {
+    "declared": 5,
+    "plannedReplies": 3,
+    "executed": 3
+  },
+  "summary": {
+    "ok": 3,
+    "failed": 0,
+    "rejected": 0,
+    "policy": 0
+  },
+  "after": null,
+  "results": [
+    {
+      "index": 2,
+      "name": "HFDECO",
+      "time": "2026/10/30 12:30",
+      "likes": null,
+      "content": "多少米",
+      "kw": "多少米",
+      "asked": "客户在问：这台中港车多少钱",
+      "action": "reply",
+      "text": "價錢公道，有得傾；點頭像👤，PM 我 📩",
+      "answerOk": true,
+      "category": "car_price_open",
+      "reason": "问价，视频未标价 → 不编数字，报「價錢公道，有得傾」+ 一条 PM 引导（短 CTA）",
+      "result": "rehearsed"
+    },
+    {
+      "index": 3,
+      "name": "我本善良3657",
+      "time": "2026/10/30 12:26",
+      "likes": 2,
+      "content": "现在买莲塘口岸和车多少钱呀 [Worship]",
+      "kw": "现在买莲塘口",
+      "asked": "客户在问：现在买莲塘口岸的中港车要多少钱",
+      "action": "reply",
+      "text": "蓮塘中港車有得傾；點頭像👤搵我 😄",
+      "answerOk": true,
+      "category": "plate_price_open",
+      "reason": "问价 + 指明莲塘口岸，视频未标价 → 承接口岸与车，不编数字；引导走頭像（与前后条不同路径）",
+      "result": "rehearsed"
+    },
+    {
+      "index": 4,
+      "name": "ℳℒℴѵℯ·杨·ꦿ໊ོ⁵²⁰",
+      "time": "2026/10/30 11:35",
+      "likes": null,
+      "content": "多少米？",
+      "kw": "多少米？",
+      "asked": "客户在问：价格多少",
+      "action": "reply",
+      "text": "中港車價錢有得傾；點頭像👤睇主頁 📩",
+      "answerOk": true,
+      "category": "car_price_open",
+      "reason": "问价，视频未标价 → 不编数字；引导走主頁，避免连续同一路径",
+      "result": "rehearsed"
+    }
+  ]
+}

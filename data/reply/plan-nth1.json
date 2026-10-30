@@ -1,58 +1,103 @@
 {
-  "createdAt": "2026-10-28T08:15:33.181Z",
-  "nth": 1,
+  "createdAt": "2026-10-30T08:14:57.800Z",
+  "nth": null,
   "video": {
-    "title": "全香港最靓的一台30系，来找明哥拿下！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
-    "time": "2026年10月28日 07:05"
+    "title": "即刻买，即刻就可可以揸回内地的，莲塘口岸，中港车！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月30日 10:58"
   },
   "titleContext": {
-    "business": "unknown",
-    "ports": [],
+    "business": "plate",
+    "ports": [
+      "莲塘"
+    ],
     "models": [],
     "price": null
   },
   "declared": 5,
-  "source": "D:\\视频号\\data\\reply\\read-nth1-1793175326214.json",
+  "source": "D:\\视频号\\data\\comments-nth1.json",
   "rules": {
     "facts": "业务事实.md（唯一事实来源：价格/付款/车况/地址/移民/求职）",
     "judgment": ".opencode/skills/channels-comment-ops/SKILL.md（回不回、红线、动作分类）",
     "cases": "data/cases/（主参考：先判意图 → 检索 2 好 1 坏 → 仿写）",
     "style": "模板池.md（仅 GUIDE-* 引导尾巴与兜底候选，按语义改写，不要关键词对号入座）"
   },
+  "videoType": "business",
   "counts": {
-    "topLevel": 3,
-    "authorReplied": 1,
+    "topLevel": 5,
+    "authorReplied": 0,
     "authorOwn": 0,
-    "pending": 2
+    "pending": 5
   },
   "items": [
     {
       "index": 0,
-      "name": "elvis3796",
-      "time": "2026/10/28 10:46",
+      "name": "百戰百勝6842",
+      "time": "2026/10/30 15:09",
       "likes": null,
-      "content": "幾錢？",
-      "kw": "幾錢",
-      "asked": "客戶問這台30系賣幾錢",
+      "content": "Co姐co姐 [呲牙] [呲牙]",
+      "kw": "Co姐co姐",
+      "asked": "在喊人（Co姐），没有问业务",
+      "action": "skip",
+      "text": "",
+      "answerOk": false,
+      "category": "banter",
+      "reason": "无业务意向、非正面捧场，纯喊人调侃 → 策略跳过（不回不点赞）"
+    },
+    {
+      "index": 1,
+      "name": "xue🍒🍋",
+      "time": "2026/10/30 14:54",
+      "likes": null,
+      "content": "[强] [强] [强]",
+      "kw": "[强][强]",
+      "asked": "纯表情，无文字",
+      "action": "skip",
+      "text": "",
+      "answerOk": false,
+      "category": "emoji",
+      "reason": "业务类视频的纯表情互动 → 策略跳过"
+    },
+    {
+      "index": 2,
+      "name": "HFDECO",
+      "time": "2026/10/30 12:30",
+      "likes": null,
+      "content": "多少米",
+      "kw": "多少米",
+      "asked": "客户在问：这台中港车多少钱",
       "action": "reply",
-      "text": "價錢公道有得傾；點頭像👤睇簡介 📩",
+      "text": "價錢公道，有得傾；點頭像👤，PM 我 📩",
       "answerOk": true,
-      "category": "car_price",
-      "reason": "问价且标题未标价：不编数字，报「價錢公道有得傾」+ 一条头像简介引导"
+      "category": "car_price_open",
+      "reason": "问价，视频未标价 → 不编数字，报「價錢公道，有得傾」+ 一条 PM 引导（短 CTA）"
+    },
+    {
+      "index": 3,
+      "name": "我本善良3657",
+      "time": "2026/10/30 12:26",
+      "likes": 2,
+      "content": "现在买莲塘口岸和车多少钱呀 [Worship]",
+      "kw": "现在买莲塘口",
+      "asked": "客户在问：现在买莲塘口岸的中港车要多少钱",
+      "action": "reply",
+      "text": "蓮塘中港車有得傾；點頭像👤搵我 😄",
+      "answerOk": true,
+      "category": "plate_price_open",
+      "reason": "问价 + 指明莲塘口岸，视频未标价 → 承接口岸与车，不编数字；引导走頭像（与前后条不同路径）"
     },
     {
       "index": 4,
-      "name": "请叫我林先生（小号）超凡脱俗",
-      "time": "2026/10/28 07:24",
-      "likes": 1,
-      "content": "[强] [强] [强]",
-      "kw": "[强][强]",
-      "asked": "客戶發純表情捧場",
-      "action": "skip",
-      "text": "",
+      "name": "ℳℒℴѵℯ·杨·ꦿ໊ོ⁵²⁰",
+      "time": "2026/10/30 11:35",
+      "likes": null,
+      "content": "多少米？",
+      "kw": "多少米？",
+      "asked": "客户在问：价格多少",
+      "action": "reply",
+      "text": "中港車價錢有得傾；點頭像👤睇主頁 📩",
       "answerOk": true,
-      "category": "emoji",
-      "reason": "纯表情，无文字意图，策略跳过"
+      "category": "car_price_open",
+      "reason": "问价，视频未标价 → 不编数字；引导走主頁，避免连续同一路径"
     }
   ]
 }
