@@ -55,6 +55,11 @@ function checkText(t) {
     errs.push("软邀请 + 引导 = 双 CTA（如「過嚟傾下先，頭像搵明哥」）：只保留一个动作");
   }
 
+  // 报价口径：指路，不自评、不喊口号（2026-10-30）
+  if (/價錢公道|公道|實惠|最抵|明碼實價|一車一價/.test(String(t))) {
+    errs.push("自评价格 / 喊口号（公道／實惠／最抵／明碼實價／一車一價）：改用「{對象}明細，點頭像👤搵明哥」");
+  }
+
   const len = [...String(t).replace(/\s/g, "")].length;
   if (len > 22) errs.push(`长度 ${len} 字（上限 22）`);
   if (!EMOJI_RE.test(String(t))) errs.push("缺少表情");
@@ -234,6 +239,15 @@ function checkBatch(items, opt = {}) {
     }
   }
 
+  // 5. 指路句式别形成新的清一色（2026-10-30）
+  const POINTER = /明細|詳情|細節|內容/;
+  const ptr = replies.filter((x) => POINTER.test(String(x.text))).length;
+  if (replies.length >= 5 && ptr / replies.length > 0.6) {
+    warnings.push(
+      `本批 ${ptr}/${replies.length} 条都用「明細／詳情」指路（${Math.round((ptr / replies.length) * 100)}%），换几条直接答事实或纯捧场`
+    );
+  }
+
   return { errors, warnings };
 }
 
@@ -309,4 +323,4 @@ function load(file) {
   return JSON.parse(text);
 }
 
-module.exports = { BANNED, checkText, keywordOf, detectPrice, detectContext, validatePlan, checkDuplicates, load };
+module.exports = { BANNED, checkText, guidePaths, keywordOf, detectPrice, detectContext, validatePlan, checkDuplicates, load };

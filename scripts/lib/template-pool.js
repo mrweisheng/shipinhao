@@ -95,6 +95,10 @@ function pick(category, opt = {}) {
   const poolMap = opt.pool || parse(opt.file).pool;
   const items = poolMap[category];
   if (!items || !items.length) throw new Error(`模板池没有分类 ${category}`);
+  // legacy 分类是多路径（点头像+私訊），2026-10-30 起不再作为候选
+  if (/^GUIDE-(FULL|SYMBOL|TALK)$/.test(category)) {
+    throw new Error(`分类 ${category} 已停用（多路径 CTA）；请改用 GUIDE-SHORT / GUIDE-PM / GUIDE-BIO / GUIDE-PIN / GUIDE-HOME / GUIDE-DM`);
+  }
 
   const now = opt.now || Date.now();
   const price = opt.price || null;
