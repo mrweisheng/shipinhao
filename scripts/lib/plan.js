@@ -21,12 +21,39 @@ const BANNED = [
 
 const EMOJI_RE = /[\u{1F300}-\u{1FAFF}\u2600-\u27BF\uFE0F]/u;
 
+/** 引导路径：一条回复只能走一条（「睇簡介」属于头像路径，不单算） */
+const PATH_DEFS = [
+  ["頭像", /頭像|头像/],
+  ["PM", /\bPM\b/i],
+  ["私訊", /私訊/],
+  ["置頂", /置頂|置顶|🔝|頂部|顶部/],
+  ["主頁", /主頁|主页/],
+];
+function guidePaths(text) {
+  const s = String(text || "");
+  const set = new Set();
+  for (const [k, re] of PATH_DEFS) if (re.test(s)) set.add(k);
+  return [...set];
+}
+
+/** 软邀请：和引导同时出现就是双 CTA（2026-10-23「過嚟傾下先，頭像搵明哥」） */
+const SOFT_INVITE = /過嚟|過黎|上嚟|嚟傾|搵我傾|搵明哥傾|傾下先|過來/;
+
 /** 文案硬校验：返回问题数组，空数组代表可发 */
 function checkText(t) {
   const errs = [];
   const low = String(t || "").toLowerCase();
   const hits = BANNED.filter((w) => low.includes(w.toLowerCase()));
   if (hits.length) errs.push(`禁词：${hits.join(" / ")}`);
+
+  // 单路径铁律：点头像 + PM/私訊 = 两个动作，用户会觉得在硬拉客
+  const paths = guidePaths(t);
+  if (paths.length > 1) {
+    errs.push(`引导路径叠加（${paths.join(" + ")}）：一条回复只走一条路径，别又点头像又 PM／私訊`);
+  }
+  if (paths.length && SOFT_INVITE.test(String(t))) {
+    errs.push("软邀请 + 引导 = 双 CTA（如「過嚟傾下先，頭像搵明哥」）：只保留一个动作");
+  }
 
   const len = [...String(t).replace(/\s/g, "")].length;
   if (len > 22) errs.push(`长度 ${len} 字（上限 22）`);
