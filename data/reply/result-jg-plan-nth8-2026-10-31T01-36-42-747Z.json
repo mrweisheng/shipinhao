@@ -1,0 +1,39 @@
+{
+  "finishedAt": "2026-10-31T01:36:50.104Z",
+  "mode": "send",
+  "planFile": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\reply\\jg-plan-nth8.json",
+  "video": {
+    "title": "今天在汕尾和儿子探讨下，何为善良！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月13日 07:00"
+  },
+  "before": {
+    "declared": 50,
+    "plannedReplies": 1,
+    "executed": 1
+  },
+  "summary": {
+    "ok": 1,
+    "failed": 0,
+    "rejected": 0,
+    "policy": 0
+  },
+  "after": null,
+  "results": [
+    {
+      "index": 1,
+      "name": "水蜜桃9809",
+      "time": "2026/10/29 16:07",
+      "likes": null,
+      "content": "福虽未至，祸已远离 [强] [强] [强]",
+      "kw": "福虽未至",
+      "asked": "对方表达认同/祝福（带文字捧场）",
+      "action": "reply",
+      "text": "多謝支持，心善最緊要 🙏",
+      "answerOk": true,
+      "category": "praise",
+      "reason": "带文字捧场（福虽未至祸已远离）+点赞表情：生活类有效互动，纯回应不加引导",
+      "caseId": "c152",
+      "result": "sent"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "createdAt": "2026-10-31T01:36:00.902Z",
+  "nth": null,
+  "video": {
+    "title": "阿兄呀，你听我的，这个项目一定赚，结果阿兄倒下了！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月16日 07:00"
+  },
+  "titleContext": {
+    "business": "unknown",
+    "ports": [],
+    "models": [],
+    "price": null
+  },
+  "declared": 86,
+  "source": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\maint-20261031\\jg-nth6.json",
+  "rules": {
+    "facts": "业务事实.md（唯一事实来源：价格/付款/车况/地址/移民/求职）",
+    "judgment": ".opencode/skills/channels-comment-ops/SKILL.md（回不回、红线、动作分类）",
+    "cases": "data/cases/（主参考：先判意图 → 检索 2 好 1 坏 → 仿写）",
+    "style": "模板池.md（仅 GUIDE-* 引导尾巴与兜底候选，按语义改写，不要关键词对号入座）"
+  },
+  "counts": {
+    "topLevel": 53,
+    "authorReplied": 27,
+    "authorOwn": 1,
+    "pending": 25,
+    "pendingIncrement": 2,
+    "repliesIncrement": 0
+  },
+  "items": [
+    {
+      "index": 6,
+      "name": "屏",
+      "time": "2026/10/31 06:03",
+      "likes": null,
+      "content": "/:strong /:strong [动画表情]",
+      "kw": "//",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": false,
+      "category": "纯表情",
+      "reason": "纯表情，无文字内容"
+    },
+    {
+      "index": 7,
+      "name": "终究",
+      "time": "2026/10/29 23:53",
+      "likes": 1,
+      "content": "[强]",
+      "kw": "[强]",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": false,
+      "category": "纯表情",
+      "reason": "只有点赞表情，无文字内容"
+    }
+  ],
+  "videoType": "观点类（讲项目/人性，评论多为争论与捧场）",
+  "incrementSince": "2026/10/28 14:20"
+}

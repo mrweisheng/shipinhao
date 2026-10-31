@@ -1,0 +1,62 @@
+{
+  "createdAt": "2026-10-31T01:36:01.050Z",
+  "nth": null,
+  "video": {
+    "title": "香港人会有自己的骄傲和优越感，是因为有资本！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月17日 07:00"
+  },
+  "titleContext": {
+    "business": "unknown",
+    "ports": [],
+    "models": [],
+    "price": null
+  },
+  "declared": 464,
+  "source": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\maint-20261031\\jg-nth5.json",
+  "rules": {
+    "facts": "业务事实.md（唯一事实来源：价格/付款/车况/地址/移民/求职）",
+    "judgment": ".opencode/skills/channels-comment-ops/SKILL.md（回不回、红线、动作分类）",
+    "cases": "data/cases/（主参考：先判意图 → 检索 2 好 1 坏 → 仿写）",
+    "style": "模板池.md（仅 GUIDE-* 引导尾巴与兜底候选，按语义改写，不要关键词对号入座）"
+  },
+  "counts": {
+    "topLevel": 220,
+    "authorReplied": 84,
+    "authorOwn": 1,
+    "pending": 135,
+    "pendingIncrement": 2,
+    "repliesIncrement": 0
+  },
+  "items": [
+    {
+      "index": 70,
+      "name": "F",
+      "time": "2026/10/30 22:58",
+      "likes": null,
+      "content": "我以前打工的时候，觉得香港不属于我。 当我现在有自己的事业，年入好几百万，我才觉得有点归属感。坐标香港上水",
+      "kw": "当我现在有自",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": false,
+      "category": "中性自述",
+      "reason": "自述个人经历，无业务意图也非捧场，观点类不回"
+    },
+    {
+      "index": 71,
+      "name": "cHRis@hKg",
+      "time": "2026/10/29 19:33",
+      "likes": null,
+      "content": "識少少扮代表",
+      "kw": "識少少扮代表",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": false,
+      "category": "嘲讽",
+      "reason": "「識少少扮代表」人身嘲讽，不回不点赞"
+    }
+  ],
+  "videoType": "观点类（香港人的骄傲与资本）",
+  "incrementSince": "2026/10/29 09:55"
+}

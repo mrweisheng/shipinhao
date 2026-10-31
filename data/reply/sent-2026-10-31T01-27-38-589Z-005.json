@@ -1,0 +1,180 @@
+{
+  "name": "陈永波7931",
+  "kw": "问一下初中毕",
+  "text": "學歷唔設限；費用明細，點頭像👤搵明哥 📩",
+  "dry": false,
+  "steps": [],
+  "before": {
+    "video": {
+      "title": "汕尾的兄弟，来香港你可以可以搵得到钱💰。 #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "time": "2026年10月30日 10:50"
+    },
+    "declared": 28,
+    "rendered": 28,
+    "textareas": 0
+  },
+  "locate": {
+    "found": 1,
+    "x": 1280,
+    "y": 503,
+    "item": {
+      "name": "陈永波7931",
+      "time": "2026/10/31 01:23",
+      "text": "明哥你表情变了，我想要赚钱，问一下初中毕业的能申请去香港嘛，如果可以要花多少费用，"
+    },
+    "replies": [],
+    "loadMore": null,
+    "authorReplied": false
+  },
+  "locateAfterExpand": {
+    "found": 1,
+    "x": 1280,
+    "y": 503,
+    "item": {
+      "name": "陈永波7931",
+      "time": "2026/10/31 01:23",
+      "text": "明哥你表情变了，我想要赚钱，问一下初中毕业的能申请去香港嘛，如果可以要花多少费用，"
+    },
+    "replies": [],
+    "loadMore": null,
+    "authorReplied": false
+  },
+  "panel0": {
+    "textareas": 1,
+    "placeholder": "回复 陈永波7931：",
+    "value": "",
+    "ta": {
+      "x": 1018,
+      "y": 590
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap disabled primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap disabled primary",
+      "enabled": false,
+      "x": 783,
+      "y": 640,
+      "covered": true,
+      "hit": {
+        "tag": "SECTION",
+        "cls": ""
+      }
+    }
+  },
+  "panel1": {
+    "textareas": 1,
+    "placeholder": "回复 陈永波7931：",
+    "value": "學歷唔設限；費用明細，點頭像👤搵明哥 📩",
+    "ta": {
+      "x": 1018,
+      "y": 590
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 783,
+      "y": 640,
+      "covered": true,
+      "hit": {
+        "tag": "SECTION",
+        "cls": ""
+      }
+    }
+  },
+  "sendClick": {
+    "textareas": 1,
+    "placeholder": "回复 陈永波7931：",
+    "value": "學歷唔設限；費用明細，點頭像👤搵明哥 📩",
+    "ta": {
+      "x": 1018,
+      "y": 473
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 783,
+      "y": 523,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "verify": {
+    "declared": 29,
+    "textareas": 0,
+    "found": true,
+    "replies": [
+      {
+        "name": "明哥揀粤港车",
+        "text": "學歷唔設限；費用明細，點頭像👤搵明哥 📩"
+      }
+    ],
+    "hit": true
+  },
+  "trace": {
+    "requests": [
+      {
+        "requestId": "17768.1040",
+        "url": "https://channels.weixin.qq.com/micro/interaction/cgi-bin/mmfinderassistant-bin/comment/create_comment?_aid=68322090-7d6b-44c0-a7f6-df85e8af959a&_rid=6ae5441b-b8551a1e&_pageUrl=https:%2F%2Fchannels.weixin.qq.com%2Fmicro%2Finteraction%2Fcomment",
+        "method": "POST",
+        "postData": "{\"replyCommentId\":\"15043970187794126906\",\"content\":\"學歷唔設限；費用明細，點頭像👤搵明哥 📩\",\"clientId\":\"f48b4010-77cc-485d-91f6-eb3cb523c839\",\"rootCommentId\":\"15043970187794126906\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15043970187794126906\",\"commentNickname\":\"陈永波7931\",\"commentContent\":\"明哥你表情变了，我想要赚钱，问一下初中毕业的能申请去香港嘛，如果可以要花多少费用，\",\"commentHeadurl\":\"https://wx.qlogo.cn/finderhead/dxKEsjQBP4RTJ0iaLic4BRnIW74DacYXhqq0Njr6WjpR9TicCWL0Up5mg/0\",\"commentCreatetime\":\"1793380998\",\"commentLikeCount\":1,\"lastBuff\":\"\",\"downContinueFlag\":0,\"visibleFlag\":0,\"readFlag\":false,\"displayFlag\":8,\"username\":\"v2_060000231003b20faec8c5e6881cc1d2cd05e936b0773be1902c35f7fe1bf5b2331d7f0fcd4f@finder\",\"blacklistFlag\":0,\"likeFlag\":0},\"exportId\":\"export/UzFfBgAAxIuhJD10HwyHk8zT4DCaIZFIaO0KbsGUED2G2mhMrA\",\"timestamp\":\"1793410075884\",\"_log_finder_uin\":\"\",\"_log_finder_id\":\"v2_060000231003b20faec8c6e68e1ac6d2cc0ce43db077c80c7ad975ea80702c9b7231ef3e0fd2@finder\",\"rawKeyBuff\":\"\",\"pluginSessionId\":null,\"scene\":7,\"reqScene\":7}",
+        "ts": "2026-10-31T01:27:55.888Z",
+        "status": 201,
+        "mimeType": "application/json",
+        "body": "{\"errCode\":0,\"errMsg\":\"request successful\",\"data\":{\"commentId\":\"15044214114413975686\",\"clientId\":\"f48b4010-77cc-485d-91f6-eb3cb523c839\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15044214114413975686\",\"commentContent\":\"學歷唔設限；費用明細，點頭像👤搵明哥 📩\",\"commentCreatetime\":\"1793410076\",\"commentLikeCount\":0,\"replyCommentId\":\"15043970187794126906\",\"replyContent\":\"明哥你表情变了，我想要赚钱，问一下初中毕业的能申请去香港嘛，如果可以要花多少费用，\",\"visibleFlag\":1,\"displayFlag\":2,\"username\":\"v2_060000231003b20faec8c6e68e1ac6d2cc0ce43db077c80c7ad975ea80702c9b7231ef3e0fd2@finder\"},\"baseResp\":{\"errcode\":0,\"errmsg\":\"\"}}}",
+        "error": null,
+        "errCode": 0,
+        "errMsg": "request successful",
+        "topErrCode": 0,
+        "topErrMsg": "request successful",
+        "baseResp": {
+          "errcode": 0,
+          "errmsg": ""
+        }
+      }
+    ],
+    "toasts": []
+  },
+  "result": {
+    "countUp": true,
+    "threadHit": true,
+    "taZero": true,
+    "declared": 29
+  },
+  "like": {
+    "ok": true
+  }
+}

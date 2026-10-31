@@ -1,0 +1,62 @@
+{
+  "createdAt": "2026-10-31T01:36:01.002Z",
+  "nth": null,
+  "video": {
+    "title": "汕尾老乡们，谦虚低调才是你应该要走的路！！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月18日 07:00"
+  },
+  "titleContext": {
+    "business": "unknown",
+    "ports": [],
+    "models": [],
+    "price": null
+  },
+  "declared": 379,
+  "source": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\maint-20261031\\jg-nth4.json",
+  "rules": {
+    "facts": "业务事实.md（唯一事实来源：价格/付款/车况/地址/移民/求职）",
+    "judgment": ".opencode/skills/channels-comment-ops/SKILL.md（回不回、红线、动作分类）",
+    "cases": "data/cases/（主参考：先判意图 → 检索 2 好 1 坏 → 仿写）",
+    "style": "模板池.md（仅 GUIDE-* 引导尾巴与兜底候选，按语义改写，不要关键词对号入座）"
+  },
+  "counts": {
+    "topLevel": 204,
+    "authorReplied": 171,
+    "authorOwn": 2,
+    "pending": 31,
+    "pendingIncrement": 2,
+    "repliesIncrement": 0
+  },
+  "items": [
+    {
+      "index": 26,
+      "name": "JAQ",
+      "time": "2026/10/30 20:49",
+      "likes": null,
+      "content": "[强] [强] [强] [玫瑰] [玫瑰] [玫瑰]",
+      "kw": "[强][强]",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": false,
+      "category": "纯表情",
+      "reason": "纯表情，无文字内容"
+    },
+    {
+      "index": 27,
+      "name": "AA默默（园）",
+      "time": "2026/10/30 09:53",
+      "likes": 1,
+      "content": "上半场精彩，下半场无彩了。 [捂脸] [捂脸] [捂脸]",
+      "kw": "下半场无彩了",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": false,
+      "category": "调侃/唱衰",
+      "reason": "「上半场精彩下半场无彩」带贬损调侃，观点类不回"
+    }
+  ],
+  "videoType": "观点类（谦虚低调）",
+  "incrementSince": "2026/10/29 14:13"
+}

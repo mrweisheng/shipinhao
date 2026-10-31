@@ -14,10 +14,11 @@
   "selectors": {
     "accountName": {
       "candidates": [
+        ".finder-nickname",
         ".account-info .name"
       ],
-      "lastWorking": ".account-info .name",
-      "updatedAt": "2026-10-28T08:28:29.186Z"
+      "lastWorking": ".finder-nickname",
+      "updatedAt": "2026-10-31T01:23:40.406Z"
     }
   },
   "history": [
@@ -25,6 +26,11 @@
       "at": "2026-10-28T08:28:29.186Z",
       "kind": "selector",
       "detail": "accountName -> .account-info .name (heuristic)"
+    },
+    {
+      "at": "2026-10-31T01:23:40.407Z",
+      "kind": "selector",
+      "detail": "accountName -> .finder-nickname (name-match)"
     }
   ]
 }
