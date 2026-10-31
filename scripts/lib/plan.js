@@ -79,6 +79,11 @@ function checkText(t) {
   if (len > 22) errs.push(`长度 ${len} 字（上限 22）`);
   if (!EMOJI_RE.test(String(t))) errs.push("缺少表情");
 
+  // 表情必须在句中（2026-10-31）：放开头/结尾等于把词和表情绑在一起，更容易被关键词命中
+  const chars = [...String(t).trim()];
+  if (chars.length && EMOJI_RE.test(chars[0])) errs.push("表情不要放开头：放在文字中间（打断关键词）");
+  if (chars.length && EMOJI_RE.test(chars[chars.length - 1])) errs.push("表情不要放结尾：放在文字中间（打断关键词）");
+
   if (/保证|包搞掂|包搞定|一定得|最低價|最低价|全港最平|實時行情|实时行情/.test(String(t))) {
     errs.push("含承诺/绝对化表述");
   }
@@ -198,6 +203,17 @@ function checkBatch(items, opt = {}) {
       );
     } else if (r > 0.4) {
       warnings.push(`近 7 天带引导占比 ${pct(guided, all.length)}%（${guided}/${all.length}），目标 ≤40%`);
+    }
+  }
+
+  // 1.1 单批（同一视频）指路上限 50%（2026-10-31）：每条都点头像，全局一扫就一模一样
+  //     「找明哥安排」这类提及但没有动作的不算指路
+  if (replies.length >= 4) {
+    const g = replies.filter((x) => guidePath(x.text)).length;
+    if (g / replies.length > 0.5) {
+      errors.push(
+        `本批 ${g}/${replies.length} 条带指路（${pct(g, replies.length)}%），超过 50% —— 至少一半要直接答事实或纯回应；提到「找明哥」但不带点头像/PM/私訊的不算指路`
+      );
     }
   }
 
