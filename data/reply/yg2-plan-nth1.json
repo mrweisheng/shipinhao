@@ -1,0 +1,101 @@
+{
+  "createdAt": "2026-10-31T07:57:33.611Z",
+  "nth": null,
+  "video": {
+    "title": "蚀到底啦！！在香港这批40系，有没有老板想拿的，给钱就出！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月31日 10:33"
+  },
+  "titleContext": {
+    "business": "unknown",
+    "ports": [],
+    "models": [],
+    "price": null
+  },
+  "declared": 8,
+  "source": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\maint-20261031\\yg2-nth1.json",
+  "rules": {
+    "facts": "业务事实.md（唯一事实来源：价格/付款/车况/地址/移民/求职）",
+    "judgment": ".opencode/skills/channels-comment-ops/SKILL.md（回不回、红线、动作分类）",
+    "cases": "data/cases/（主参考：先判意图 → 检索 2 好 1 坏 → 仿写）",
+    "style": "模板池.md（仅 GUIDE-* 引导尾巴与兜底候选，按语义改写，不要关键词对号入座）"
+  },
+  "counts": {
+    "topLevel": 7,
+    "authorReplied": 1,
+    "authorOwn": 0,
+    "pending": 6
+  },
+  "items": [
+    {
+      "index": 0,
+      "name": "森明",
+      "time": "2026/10/31 15:45",
+      "likes": null,
+      "content": "甘便？800O千一架？",
+      "kw": "800O千一",
+      "asked": "是不是八千一台",
+      "action": "reply",
+      "text": "40系明細 📩 點頭像👤找明哥",
+      "answerOk": true,
+      "category": "car_price",
+      "reason": "问8000一台（调侃价）：不接价、不确认，40系是商品对象→对象明細+单动作；表情放句中"
+    },
+    {
+      "index": 1,
+      "name": "梓恩4234",
+      "time": "2026/10/31 14:58",
+      "likes": null,
+      "content": "可𣎴可以上會",
+      "kw": "可𣎴可以上",
+      "asked": "这台上不上到会（分期）",
+      "action": "reply",
+      "text": "可以上會 😄 分期都得",
+      "answerOk": true,
+      "category": "car_pay",
+      "reason": "问可不可以上会：直接答可以，补分期也可；不带动作"
+    },
+    {
+      "index": 2,
+      "name": "深圳市超总一号汽车俱乐部",
+      "time": "2026/10/31 14:12",
+      "likes": null,
+      "content": "可不可以上会",
+      "kw": "可不可以上会",
+      "asked": "这台上不上到会（分期）",
+      "action": "reply",
+      "text": "可以上會 🙏 手續問明哥",
+      "answerOk": true,
+      "category": "car_pay",
+      "reason": "问可不可以上会：直接答可以；只提「問明哥」不带动作，不算指路"
+    },
+    {
+      "index": 3,
+      "name": "[emoji] Jerry",
+      "time": "2026/10/31 12:35",
+      "likes": null,
+      "content": "二萬八千 [合十]",
+      "kw": "二萬八千",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": false,
+      "category": "接价",
+      "reason": "观众自报「二萬八千」，属报价/议价，不接价"
+    },
+    {
+      "index": 4,
+      "name": "KC",
+      "time": "2026/10/31 11:48",
+      "likes": null,
+      "content": "[哇] 。。。 [强]",
+      "kw": "。。。",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": false,
+      "category": "纯表情",
+      "reason": "纯表情，无文字内容"
+    }
+  ],
+  "videoType": "业务类（40系现车，未标价）"
+}

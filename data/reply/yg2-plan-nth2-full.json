@@ -1,0 +1,116 @@
+{
+  "createdAt": "2026-10-31T08:00:04.552Z",
+  "nth": null,
+  "video": {
+    "title": "即刻买，即刻就可可以揸回内地的，莲塘口岸，中港车！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月30日 10:58"
+  },
+  "titleContext": {
+    "business": "plate",
+    "ports": [
+      "莲塘"
+    ],
+    "models": [],
+    "price": null
+  },
+  "declared": 31,
+  "source": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\maint-20261031\\yg2-nth2.json",
+  "rules": {
+    "facts": "业务事实.md（唯一事实来源：价格/付款/车况/地址/移民/求职）",
+    "judgment": ".opencode/skills/channels-comment-ops/SKILL.md（回不回、红线、动作分类）",
+    "cases": "data/cases/（主参考：先判意图 → 检索 2 好 1 坏 → 仿写）",
+    "style": "模板池.md（仅 GUIDE-* 引导尾巴与兜底候选，按语义改写，不要关键词对号入座）"
+  },
+  "counts": {
+    "topLevel": 19,
+    "authorReplied": 12,
+    "authorOwn": 1,
+    "pending": 6
+  },
+  "items": [
+    {
+      "index": 3,
+      "name": "吴",
+      "time": "2026/10/31 12:52",
+      "likes": null,
+      "content": "车牌多少钱？",
+      "kw": "车牌多少钱",
+      "asked": "",
+      "action": null,
+      "text": "",
+      "answerOk": false,
+      "category": "",
+      "reason": ""
+    },
+    {
+      "index": 8,
+      "name": "同台食飯，各自修行🇮🇱",
+      "time": "2026/10/31 00:53",
+      "likes": null,
+      "content": "20万全包明哥的粉丝绝对可以",
+      "kw": "20万全包明",
+      "asked": "",
+      "action": null,
+      "text": "",
+      "answerOk": false,
+      "category": "",
+      "reason": ""
+    },
+    {
+      "index": 11,
+      "name": "至德堂祖传青草药店",
+      "time": "2026/10/30 20:57",
+      "likes": null,
+      "content": "明兄 [强] [强]",
+      "kw": "明兄",
+      "asked": "",
+      "action": null,
+      "text": "",
+      "answerOk": false,
+      "category": "",
+      "reason": ""
+    },
+    {
+      "index": 12,
+      "name": "琰之琰Skyler",
+      "time": "2026/10/30 20:41",
+      "likes": null,
+      "content": "[強]",
+      "kw": "[強]",
+      "asked": "",
+      "action": null,
+      "text": "",
+      "answerOk": false,
+      "category": "",
+      "reason": ""
+    },
+    {
+      "index": 23,
+      "name": "百戰百勝6842",
+      "time": "2026/10/30 15:09",
+      "likes": null,
+      "content": "Co姐co姐 [呲牙] [呲牙]",
+      "kw": "Co姐co姐",
+      "asked": "",
+      "action": null,
+      "text": "",
+      "answerOk": false,
+      "category": "",
+      "reason": ""
+    },
+    {
+      "index": 24,
+      "name": "xue🍒🍋",
+      "time": "2026/10/30 14:54",
+      "likes": null,
+      "content": "[强] [强] [强]",
+      "kw": "[强][强]",
+      "asked": "",
+      "action": null,
+      "text": "",
+      "answerOk": false,
+      "category": "",
+      "reason": ""
+    }
+  ]
+}

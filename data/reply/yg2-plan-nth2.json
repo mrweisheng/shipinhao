@@ -1,0 +1,47 @@
+{
+  "createdAt": "2026-10-31T08:00:04.552Z",
+  "nth": null,
+  "video": {
+    "title": "即刻买，即刻就可可以揸回内地的，莲塘口岸，中港车！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月30日 10:58"
+  },
+  "titleContext": {
+    "business": "plate",
+    "ports": [
+      "莲塘"
+    ],
+    "models": [],
+    "price": null
+  },
+  "declared": 31,
+  "source": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\maint-20261031\\yg2-nth2.json",
+  "rules": {
+    "facts": "业务事实.md（唯一事实来源：价格/付款/车况/地址/移民/求职）",
+    "judgment": ".opencode/skills/channels-comment-ops/SKILL.md（回不回、红线、动作分类）",
+    "cases": "data/cases/（主参考：先判意图 → 检索 2 好 1 坏 → 仿写）",
+    "style": "模板池.md（仅 GUIDE-* 引导尾巴与兜底候选，按语义改写，不要关键词对号入座）"
+  },
+  "counts": {
+    "topLevel": 19,
+    "authorReplied": 12,
+    "authorOwn": 1,
+    "pending": 6
+  },
+  "items": [
+    {
+      "index": 3,
+      "name": "吴",
+      "time": "2026/10/31 12:52",
+      "likes": null,
+      "content": "车牌多少钱？",
+      "kw": "车牌多少钱",
+      "asked": "车牌要多少钱",
+      "action": "reply",
+      "text": "車牌明細 💬 點頭像👤找明哥",
+      "answerOk": true,
+      "category": "plate_price",
+      "reason": "问车牌多少钱：未标价不编数字，车牌是商品对象→对象明細+单动作；表情放句中"
+    }
+  ],
+  "videoType": "业务类（莲塘口岸中港车）"
+}

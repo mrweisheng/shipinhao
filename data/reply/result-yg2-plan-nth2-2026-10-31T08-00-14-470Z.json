@@ -1,0 +1,39 @@
+{
+  "finishedAt": "2026-10-31T08:00:22.496Z",
+  "mode": "send",
+  "planFile": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\reply\\yg2-plan-nth2.json",
+  "video": {
+    "title": "即刻买，即刻就可可以揸回内地的，莲塘口岸，中港车！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月30日 10:58"
+  },
+  "before": {
+    "declared": 31,
+    "plannedReplies": 1,
+    "executed": 1
+  },
+  "summary": {
+    "ok": 1,
+    "failed": 0,
+    "rejected": 0,
+    "policy": 0
+  },
+  "after": null,
+  "results": [
+    {
+      "index": 3,
+      "name": "吴",
+      "time": "2026/10/31 12:52",
+      "likes": null,
+      "content": "车牌多少钱？",
+      "kw": "车牌多少钱",
+      "asked": "车牌要多少钱",
+      "action": "reply",
+      "text": "車牌明細 💬 點頭像👤找明哥",
+      "answerOk": true,
+      "category": "plate_price",
+      "reason": "问车牌多少钱：未标价不编数字，车牌是商品对象→对象明細+单动作；表情放句中",
+      "caseId": "c173",
+      "result": "sent"
+    }
+  ]
+}

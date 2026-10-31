@@ -1,0 +1,180 @@
+{
+  "name": "吴",
+  "kw": "车牌多少钱",
+  "text": "車牌明細 💬 點頭像👤找明哥",
+  "dry": false,
+  "steps": [],
+  "before": {
+    "video": {
+      "title": "即刻买，即刻就可可以揸回内地的，莲塘口岸，中港车！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "time": "2026年10月30日 10:58"
+    },
+    "declared": 31,
+    "rendered": 31,
+    "textareas": 0
+  },
+  "locate": {
+    "found": 1,
+    "x": 1269,
+    "y": 492,
+    "item": {
+      "name": "吴",
+      "time": "2026/10/31 12:52",
+      "text": "车牌多少钱？"
+    },
+    "replies": [],
+    "loadMore": null,
+    "authorReplied": false
+  },
+  "locateAfterExpand": {
+    "found": 1,
+    "x": 1269,
+    "y": 492,
+    "item": {
+      "name": "吴",
+      "time": "2026/10/31 12:52",
+      "text": "车牌多少钱？"
+    },
+    "replies": [],
+    "loadMore": null,
+    "authorReplied": false
+  },
+  "panel0": {
+    "textareas": 1,
+    "placeholder": "回复 吴：",
+    "value": "",
+    "ta": {
+      "x": 1018,
+      "y": 579
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap disabled primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap disabled primary",
+      "enabled": false,
+      "x": 783,
+      "y": 629,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "panel1": {
+    "textareas": 1,
+    "placeholder": "回复 吴：",
+    "value": "車牌明細 💬 點頭像👤找明哥",
+    "ta": {
+      "x": 1018,
+      "y": 579
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 783,
+      "y": 629,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "sendClick": {
+    "textareas": 1,
+    "placeholder": "回复 吴：",
+    "value": "車牌明細 💬 點頭像👤找明哥",
+    "ta": {
+      "x": 1018,
+      "y": 474
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 783,
+      "y": 523,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "verify": {
+    "declared": 32,
+    "textareas": 0,
+    "found": true,
+    "replies": [
+      {
+        "name": "明哥揾粤港车",
+        "text": "車牌明細 💬 點頭像👤找明哥"
+      }
+    ],
+    "hit": true
+  },
+  "trace": {
+    "requests": [
+      {
+        "requestId": "17768.24365",
+        "url": "https://channels.weixin.qq.com/micro/interaction/cgi-bin/mmfinderassistant-bin/comment/create_comment?_aid=68322090-7d6b-44c0-a7f6-df85e8af959a&_rid=6ae5a010-d88b34da&_pageUrl=https:%2F%2Fchannels.weixin.qq.com%2Fmicro%2Finteraction%2Fcomment",
+        "method": "POST",
+        "postData": "{\"replyCommentId\":\"15044317146391907038\",\"content\":\"車牌明細 💬 點頭像👤找明哥\",\"clientId\":\"d0d9c180-2d20-44f9-bda0-ed384ce4e131\",\"rootCommentId\":\"15044317146391907038\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15044317146391907038\",\"commentNickname\":\"吴\",\"commentContent\":\"车牌多少钱？\",\"commentHeadurl\":\"https://wx.qlogo.cn/mmhead/ver_1/oribDws9R0SvQKE7k1UicvU7zYgtXgCY6VOU3FudX5SXontFRYWRJDp1EokygUCWdIJZ35ZMFGslb9CVxUd17TNg/132\",\"commentCreatetime\":\"1793422358\",\"commentLikeCount\":0,\"lastBuff\":\"\",\"downContinueFlag\":0,\"visibleFlag\":0,\"readFlag\":true,\"displayFlag\":0,\"username\":\"\",\"blacklistFlag\":0,\"likeFlag\":0},\"exportId\":\"export/UzFfBgAAxMquZA5lCw2Hk8zT4DCapYQnQ6BBiiGXJ-nfFhHPgA\",\"timestamp\":\"1793433616309\",\"_log_finder_uin\":\"\",\"_log_finder_id\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\",\"rawKeyBuff\":\"\",\"pluginSessionId\":null,\"scene\":7,\"reqScene\":7}",
+        "ts": "2026-10-31T08:00:16.313Z",
+        "status": 201,
+        "mimeType": "application/json",
+        "body": "{\"errCode\":0,\"errMsg\":\"request successful\",\"data\":{\"commentId\":\"15044411585066637441\",\"clientId\":\"d0d9c180-2d20-44f9-bda0-ed384ce4e131\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15044411585066637441\",\"commentContent\":\"車牌明細 💬 點頭像👤找明哥\",\"commentCreatetime\":\"1793433616\",\"commentLikeCount\":0,\"replyCommentId\":\"15044317146391907038\",\"replyContent\":\"车牌多少钱？\",\"visibleFlag\":1,\"displayFlag\":2,\"username\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\"},\"baseResp\":{\"errcode\":0,\"errmsg\":\"\"}}}",
+        "error": null,
+        "errCode": 0,
+        "errMsg": "request successful",
+        "topErrCode": 0,
+        "topErrMsg": "request successful",
+        "baseResp": {
+          "errcode": 0,
+          "errmsg": ""
+        }
+      }
+    ],
+    "toasts": []
+  },
+  "result": {
+    "countUp": true,
+    "threadHit": true,
+    "taZero": true,
+    "declared": 32
+  },
+  "like": {
+    "ok": true
+  }
+}
