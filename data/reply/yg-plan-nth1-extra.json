@@ -1,0 +1,44 @@
+{
+  "createdAt": "2026-10-31T03:31:04.170Z",
+  "nth": null,
+  "video": {
+    "title": "蚀到底啦！！在香港这批40系，有没有老板想拿的，给钱就出！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月31日 10:33"
+  },
+  "titleContext": {
+    "business": "unknown",
+    "ports": [],
+    "models": [],
+    "price": null
+  },
+  "declared": 3,
+  "source": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\maint-20261031\\yg-nth1-final.json",
+  "rules": {
+    "facts": "业务事实.md（唯一事实来源：价格/付款/车况/地址/移民/求职）",
+    "judgment": ".opencode/skills/channels-comment-ops/SKILL.md（回不回、红线、动作分类）",
+    "cases": "data/cases/（主参考：先判意图 → 检索 2 好 1 坏 → 仿写）",
+    "style": "模板池.md（仅 GUIDE-* 引导尾巴与兜底候选，按语义改写，不要关键词对号入座）"
+  },
+  "counts": {
+    "topLevel": 2,
+    "authorReplied": 1,
+    "authorOwn": 0,
+    "pending": 1
+  },
+  "items": [
+    {
+      "index": 0,
+      "name": "一念永",
+      "time": "2026/10/31 11:14",
+      "likes": null,
+      "content": "[抠鼻]",
+      "kw": "[抠鼻]",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": false,
+      "category": "纯表情",
+      "reason": "纯表情，无文字内容"
+    }
+  ]
+}

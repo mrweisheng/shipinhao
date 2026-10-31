@@ -1,0 +1,180 @@
+{
+  "name": "calvin",
+  "kw": "幾錢",
+  "text": "價錢 PM 我傾 📩",
+  "dry": false,
+  "steps": [],
+  "before": {
+    "video": {
+      "title": "即刻买，即刻就可可以揸回内地的，莲塘口岸，中港车！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "time": "2026年10月30日 10:58"
+    },
+    "declared": 23,
+    "rendered": 23,
+    "textareas": 0
+  },
+  "locate": {
+    "found": 1,
+    "x": 1269,
+    "y": 492,
+    "item": {
+      "name": "calvin",
+      "time": "2026/10/30 20:58",
+      "text": "幾錢？"
+    },
+    "replies": [],
+    "loadMore": null,
+    "authorReplied": false
+  },
+  "locateAfterExpand": {
+    "found": 1,
+    "x": 1269,
+    "y": 492,
+    "item": {
+      "name": "calvin",
+      "time": "2026/10/30 20:58",
+      "text": "幾錢？"
+    },
+    "replies": [],
+    "loadMore": null,
+    "authorReplied": false
+  },
+  "panel0": {
+    "textareas": 1,
+    "placeholder": "回复 calvin：",
+    "value": "",
+    "ta": {
+      "x": 1018,
+      "y": 580
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap disabled primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap disabled primary",
+      "enabled": false,
+      "x": 783,
+      "y": 629,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "panel1": {
+    "textareas": 1,
+    "placeholder": "回复 calvin：",
+    "value": "價錢 PM 我傾 📩",
+    "ta": {
+      "x": 1018,
+      "y": 580
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 783,
+      "y": 629,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "sendClick": {
+    "textareas": 1,
+    "placeholder": "回复 calvin：",
+    "value": "價錢 PM 我傾 📩",
+    "ta": {
+      "x": 1018,
+      "y": 473
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 783,
+      "y": 523,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "verify": {
+    "declared": 24,
+    "textareas": 0,
+    "found": true,
+    "replies": [
+      {
+        "name": "明哥揾粤港车",
+        "text": "價錢 PM 我傾 📩"
+      }
+    ],
+    "hit": true
+  },
+  "trace": {
+    "requests": [
+      {
+        "requestId": "17768.15070",
+        "url": "https://channels.weixin.qq.com/micro/interaction/cgi-bin/mmfinderassistant-bin/comment/create_comment?_aid=68322090-7d6b-44c0-a7f6-df85e8af959a&_rid=6ae55cd5-ee67d601&_pageUrl=https:%2F%2Fchannels.weixin.qq.com%2Fmicro%2Finteraction%2Fcomment",
+        "method": "POST",
+        "postData": "{\"replyCommentId\":\"15043837091278033061\",\"content\":\"價錢 PM 我傾 📩\",\"clientId\":\"1249c33f-7f66-4efd-b89b-7f6dfe25fa90\",\"rootCommentId\":\"15043837091278033061\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15043837091278033061\",\"commentNickname\":\"calvin\",\"commentContent\":\"幾錢？[Worship]\",\"commentHeadurl\":\"https://wx.qlogo.cn/mmhead/ver_1/cF1M9LReP2v10NZ7hxJdZdicL6oXZAR4ibo3km7sDqAyJeaysHEqey3aaic68TvMm5qQsnuKH7u5ySR82TNMpmsBUfI7JdTBEMS50g9rFes2O5al5Wun0cRZIXvFB8IcSLj/132\",\"commentCreatetime\":\"1793365131\",\"commentLikeCount\":0,\"lastBuff\":\"\",\"downContinueFlag\":0,\"visibleFlag\":0,\"readFlag\":false,\"displayFlag\":0,\"username\":\"\",\"blacklistFlag\":0,\"likeFlag\":0},\"exportId\":\"export/UzFfBgAAxMquZA5lCw2Hk8zT4DCapYQnQ6BBiiGXJ-nfFhHPgA\",\"timestamp\":\"1793416405789\",\"_log_finder_uin\":\"\",\"_log_finder_id\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\",\"rawKeyBuff\":\"\",\"pluginSessionId\":null,\"scene\":7,\"reqScene\":7}",
+        "ts": "2026-10-31T03:13:25.800Z",
+        "status": 201,
+        "mimeType": "application/json",
+        "body": "{\"errCode\":0,\"errMsg\":\"request successful\",\"data\":{\"commentId\":\"15044267212636166255\",\"clientId\":\"1249c33f-7f66-4efd-b89b-7f6dfe25fa90\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15044267212636166255\",\"commentContent\":\"價錢 PM 我傾 📩\",\"commentCreatetime\":\"1793416406\",\"commentLikeCount\":0,\"replyCommentId\":\"15043837091278033061\",\"replyContent\":\"幾錢？[Worship]\",\"visibleFlag\":1,\"displayFlag\":2,\"username\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\"},\"baseResp\":{\"errcode\":0,\"errmsg\":\"\"}}}",
+        "error": null,
+        "errCode": 0,
+        "errMsg": "request successful",
+        "topErrCode": 0,
+        "topErrMsg": "request successful",
+        "baseResp": {
+          "errcode": 0,
+          "errmsg": ""
+        }
+      }
+    ],
+    "toasts": []
+  },
+  "result": {
+    "countUp": true,
+    "threadHit": true,
+    "taZero": true,
+    "declared": 24
+  },
+  "like": {
+    "ok": true
+  }
+}

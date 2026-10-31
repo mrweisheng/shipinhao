@@ -1,0 +1,59 @@
+{
+  "createdAt": "2026-10-31T03:20:12.126Z",
+  "nth": null,
+  "video": {
+    "title": "以前这是香港的骄傲，新的时刻，香港会更好！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月27日 09:50"
+  },
+  "titleContext": {
+    "business": "unknown",
+    "ports": [],
+    "models": [],
+    "price": null
+  },
+  "declared": 42,
+  "source": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\maint-20261031\\yg-nth4.json",
+  "rules": {
+    "facts": "业务事实.md（唯一事实来源：价格/付款/车况/地址/移民/求职）",
+    "judgment": ".opencode/skills/channels-comment-ops/SKILL.md（回不回、红线、动作分类）",
+    "cases": "data/cases/（主参考：先判意图 → 检索 2 好 1 坏 → 仿写）",
+    "style": "模板池.md（仅 GUIDE-* 引导尾巴与兜底候选，按语义改写，不要关键词对号入座）"
+  },
+  "counts": {
+    "topLevel": 29,
+    "authorReplied": 12,
+    "authorOwn": 0,
+    "pending": 17
+  },
+  "items": [
+    {
+      "index": 2,
+      "name": "蔡MeiLan",
+      "time": "2026/10/31 11:03",
+      "likes": null,
+      "content": "[强] [强] [强] [强] [强] [玫瑰]",
+      "kw": "[强][强]",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": false,
+      "category": "纯表情",
+      "reason": "纯表情，无文字内容"
+    },
+    {
+      "index": 3,
+      "name": "雅宣",
+      "time": "2026/10/31 05:52",
+      "likes": null,
+      "content": "明哥，你系边度人？ [愉快] [愉快] [捂脸] [捂脸] [微笑] [微笑]",
+      "kw": "你系边度人",
+      "asked": "问明哥是哪里人",
+      "action": "reply",
+      "text": "汕尾人 😄",
+      "answerOk": true,
+      "category": "chitchat",
+      "reason": "直接问博主是哪里人：一句直答，不带引导（观点类视频的直接提问）"
+    }
+  ],
+  "videoType": "观点类（香港人的骄傲）"
+}

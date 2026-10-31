@@ -1,0 +1,39 @@
+{
+  "finishedAt": "2026-10-31T03:30:24.113Z",
+  "mode": "send",
+  "planFile": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\reply\\yg-plan-nth2-fix.json",
+  "video": {
+    "title": "即刻买，即刻就可可以揸回内地的，莲塘口岸，中港车！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月30日 10:58"
+  },
+  "before": {
+    "declared": 29,
+    "plannedReplies": 1,
+    "executed": 1
+  },
+  "summary": {
+    "ok": 1,
+    "failed": 0,
+    "rejected": 0,
+    "policy": 0
+  },
+  "after": null,
+  "results": [
+    {
+      "index": 20,
+      "name": "kueng强",
+      "time": "2026/10/30 16:19",
+      "likes": 1,
+      "content": "哪年的",
+      "kw": "哪年的",
+      "asked": "这台车是哪一年的",
+      "action": "reply",
+      "text": "車輛明細，點頭像👤搵明哥，發俾你 📩",
+      "answerOk": true,
+      "category": "car_cond",
+      "reason": "问「哪年的」：参数问题统一车辆明细+单动作（原「以驗車報告為準」已删，按新口径重发）",
+      "caseId": "c167",
+      "result": "sent"
+    }
+  ]
+}

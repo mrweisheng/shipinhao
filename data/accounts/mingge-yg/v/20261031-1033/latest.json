@@ -1,0 +1,69 @@
+{
+ "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+ "video": {
+  "title": "蚀到底啦！！在香港这批40系，有没有老板想拿的，给钱就出！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+  "time": "2026年10月31日 10:33"
+ },
+ "declared": 3,
+ "isEmpty": false,
+ "total": 3,
+ "topLevel": 2,
+ "replies": 1,
+ "comments": [
+  {
+   "index": 0,
+   "level": 1,
+   "parentIndex": null,
+   "author": "一念永",
+   "isAuthor": false,
+   "time": "2026/10/31 11:14",
+   "content": "[抠鼻]",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 1,
+   "level": 1,
+   "parentIndex": null,
+   "author": "無忌2528",
+   "isAuthor": false,
+   "time": "2026/10/31 11:01",
+   "content": "係咪八千一架",
+   "likes": 1,
+   "replyCount": 1,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/10/31 11:29"
+  },
+  {
+   "index": 2,
+   "level": 2,
+   "parentIndex": 1,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/10/31 11:29",
+   "content": "40系明細，點頭像👤搵明哥 📩",
+   "likes": null
+  }
+ ],
+ "summary": {
+  "declared": 3,
+  "total": 3,
+  "level1": 2,
+  "level2": 1,
+  "ownComments": 0,
+  "authorRepliedThreads": 1,
+  "awaitingThreads": 1,
+  "authorReplies": 1,
+  "complete": true,
+  "gap": 0,
+  "leftExpand": 0,
+  "unreachable": false,
+  "awaitingIndices": [
+   0
+  ]
+ }
+}

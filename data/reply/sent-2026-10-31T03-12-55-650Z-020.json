@@ -1,0 +1,180 @@
+{
+  "name": "本杰明.尤勒贝特涂料！汤正",
+  "kw": "我有个朋友要",
+  "text": "好呀，帶埋嚟睇車 😄",
+  "dry": false,
+  "steps": [],
+  "before": {
+    "video": {
+      "title": "即刻买，即刻就可可以揸回内地的，莲塘口岸，中港车！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "time": "2026年10月30日 10:58"
+    },
+    "declared": 29,
+    "rendered": 29,
+    "textareas": 0
+  },
+  "locate": {
+    "found": 1,
+    "x": 1269,
+    "y": 504,
+    "item": {
+      "name": "本杰明.尤勒贝特涂料！汤正",
+      "time": "2026/10/30 20:08",
+      "text": "我有个朋友要买车，下次带过来"
+    },
+    "replies": [],
+    "loadMore": null,
+    "authorReplied": false
+  },
+  "locateAfterExpand": {
+    "found": 1,
+    "x": 1269,
+    "y": 504,
+    "item": {
+      "name": "本杰明.尤勒贝特涂料！汤正",
+      "time": "2026/10/30 20:08",
+      "text": "我有个朋友要买车，下次带过来"
+    },
+    "replies": [],
+    "loadMore": null,
+    "authorReplied": false
+  },
+  "panel0": {
+    "textareas": 1,
+    "placeholder": "回复 本杰明.尤勒贝特涂料！汤正：",
+    "value": "",
+    "ta": {
+      "x": 1018,
+      "y": 591
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap disabled primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap disabled primary",
+      "enabled": false,
+      "x": 783,
+      "y": 641,
+      "covered": true,
+      "hit": {
+        "tag": "SECTION",
+        "cls": ""
+      }
+    }
+  },
+  "panel1": {
+    "textareas": 1,
+    "placeholder": "回复 本杰明.尤勒贝特涂料！汤正：",
+    "value": "好呀，帶埋嚟睇車 😄",
+    "ta": {
+      "x": 1018,
+      "y": 591
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 783,
+      "y": 641,
+      "covered": true,
+      "hit": {
+        "tag": "SECTION",
+        "cls": ""
+      }
+    }
+  },
+  "sendClick": {
+    "textareas": 1,
+    "placeholder": "回复 本杰明.尤勒贝特涂料！汤正：",
+    "value": "好呀，帶埋嚟睇車 😄",
+    "ta": {
+      "x": 1018,
+      "y": 474
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 783,
+      "y": 523,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "verify": {
+    "declared": 30,
+    "textareas": 0,
+    "found": true,
+    "replies": [
+      {
+        "name": "明哥揾粤港车",
+        "text": "好呀，帶埋嚟睇車"
+      }
+    ],
+    "hit": true
+  },
+  "trace": {
+    "requests": [
+      {
+        "requestId": "17768.16440",
+        "url": "https://channels.weixin.qq.com/micro/interaction/cgi-bin/mmfinderassistant-bin/comment/create_comment?_aid=68322090-7d6b-44c0-a7f6-df85e8af959a&_rid=6ae55d23-24620d4d&_pageUrl=https:%2F%2Fchannels.weixin.qq.com%2Fmicro%2Finteraction%2Fcomment",
+        "method": "POST",
+        "postData": "{\"replyCommentId\":\"15043811745797838901\",\"content\":\"好呀，帶埋嚟睇車 😄\",\"clientId\":\"7fb03638-e547-4e88-a63d-84a5d432755d\",\"rootCommentId\":\"15043811745797838901\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15043811745797838901\",\"commentNickname\":\"本杰明.尤勒贝特涂料！汤正\",\"commentContent\":\"我有个朋友要买车，下次带过来\",\"commentHeadurl\":\"https://wx.qlogo.cn/mmhead/ver_1/LEVz3QEdG9gDKiaY3v3HgDTzLiab9eIC1LUQ0uvxn7C4bKG43bdlZSFLWFJHSlFGRHvtPDVRYV1fzOrgiaMRkt0xwlwFAicsibPsGVPfjZtDhRmmNWtTyeCRInNbM3GRKVfpk/132\",\"commentCreatetime\":\"1793362110\",\"commentLikeCount\":0,\"lastBuff\":\"\",\"downContinueFlag\":0,\"visibleFlag\":0,\"readFlag\":true,\"displayFlag\":0,\"username\":\"\",\"blacklistFlag\":0,\"likeFlag\":0},\"exportId\":\"export/UzFfBgAAxMquZA5lCw2Hk8zT4DCapYQnQ6BBiiGXJ-nfFhHPgA\",\"timestamp\":\"1793416483714\",\"_log_finder_uin\":\"\",\"_log_finder_id\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\",\"rawKeyBuff\":\"\",\"pluginSessionId\":null,\"scene\":7,\"reqScene\":7}",
+        "ts": "2026-10-31T03:14:43.724Z",
+        "status": 201,
+        "mimeType": "application/json",
+        "body": "{\"errCode\":0,\"errMsg\":\"request successful\",\"data\":{\"commentId\":\"15044267865418700945\",\"clientId\":\"7fb03638-e547-4e88-a63d-84a5d432755d\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15044267865418700945\",\"commentContent\":\"好呀，帶埋嚟睇車 😄\",\"commentCreatetime\":\"1793416484\",\"commentLikeCount\":0,\"replyCommentId\":\"15043811745797838901\",\"replyContent\":\"我有个朋友要买车，下次带过来\",\"visibleFlag\":1,\"displayFlag\":2,\"username\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\"},\"baseResp\":{\"errcode\":0,\"errmsg\":\"\"}}}",
+        "error": null,
+        "errCode": 0,
+        "errMsg": "request successful",
+        "topErrCode": 0,
+        "topErrMsg": "request successful",
+        "baseResp": {
+          "errcode": 0,
+          "errmsg": ""
+        }
+      }
+    ],
+    "toasts": []
+  },
+  "result": {
+    "countUp": true,
+    "threadHit": true,
+    "taZero": true,
+    "declared": 30
+  },
+  "like": {
+    "ok": true
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "name": "黄明7163",
+  "kw": "深圳灣連17",
+  "text": "深圳灣明細，點頭像👤搵明哥 📩",
+  "dry": false,
+  "steps": [],
+  "before": {
+    "video": {
+      "title": "即刻买，即刻就可可以揸回内地的，莲塘口岸，中港车！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "time": "2026年10月30日 10:58"
+    },
+    "declared": 25,
+    "rendered": 25,
+    "textareas": 0
+  },
+  "locate": {
+    "found": 1,
+    "x": 1269,
+    "y": 492,
+    "item": {
+      "name": "黄明7163",
+      "time": "2026/10/30 18:41",
+      "text": "深圳灣連17年車賣几多？"
+    },
+    "replies": [],
+    "loadMore": null,
+    "authorReplied": false
+  },
+  "locateAfterExpand": {
+    "found": 1,
+    "x": 1269,
+    "y": 492,
+    "item": {
+      "name": "黄明7163",
+      "time": "2026/10/30 18:41",
+      "text": "深圳灣連17年車賣几多？"
+    },
+    "replies": [],
+    "loadMore": null,
+    "authorReplied": false
+  },
+  "panel0": {
+    "textareas": 1,
+    "placeholder": "回复 黄明7163：",
+    "value": "",
+    "ta": {
+      "x": 1018,
+      "y": 580
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap disabled primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap disabled primary",
+      "enabled": false,
+      "x": 783,
+      "y": 629,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "panel1": {
+    "textareas": 1,
+    "placeholder": "回复 黄明7163：",
+    "value": "深圳灣明細，點頭像👤搵明哥 📩",
+    "ta": {
+      "x": 1018,
+      "y": 580
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 783,
+      "y": 629,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "sendClick": {
+    "textareas": 1,
+    "placeholder": "回复 黄明7163：",
+    "value": "深圳灣明細，點頭像👤搵明哥 📩",
+    "ta": {
+      "x": 1018,
+      "y": 473
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 783,
+      "y": 523,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "verify": {
+    "declared": 26,
+    "textareas": 0,
+    "found": true,
+    "replies": [
+      {
+        "name": "明哥揾粤港车",
+        "text": "深圳灣明細，點頭像👤搵明哥 📩"
+      }
+    ],
+    "hit": true
+  },
+  "trace": {
+    "requests": [
+      {
+        "requestId": "17768.15524",
+        "url": "https://channels.weixin.qq.com/micro/interaction/cgi-bin/mmfinderassistant-bin/comment/create_comment?_aid=68322090-7d6b-44c0-a7f6-df85e8af959a&_rid=6ae55cee-89a20fde&_pageUrl=https:%2F%2Fchannels.weixin.qq.com%2Fmicro%2Finteraction%2Fcomment",
+        "method": "POST",
+        "postData": "{\"replyCommentId\":\"15043768052190157993\",\"content\":\"深圳灣明細，點頭像👤搵明哥 📩\",\"clientId\":\"c964a579-cd57-4ecc-bb8c-2d65f295af91\",\"rootCommentId\":\"15043768052190157993\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15043768052190157993\",\"commentNickname\":\"黄明7163\",\"commentContent\":\"深圳灣連17年車賣几多？\",\"commentHeadurl\":\"https://wx.qlogo.cn/finderhead/DcS5VBNQiaL48OtN6ibG0L248W1oxpRFyh4FKQF54oyib4WsBRNpjOqksW77HHxvIicS4MfiaK6sCwzs/0\",\"commentCreatetime\":\"1793356901\",\"commentLikeCount\":0,\"lastBuff\":\"\",\"downContinueFlag\":0,\"visibleFlag\":0,\"readFlag\":false,\"displayFlag\":8,\"username\":\"v2_060000231003b20faec8c5e08011cadccd00e535b077693bb264f0506a75222f7615fa5c8d71@finder\",\"blacklistFlag\":0,\"likeFlag\":0},\"exportId\":\"export/UzFfBgAAxMquZA5lCw2Hk8zT4DCapYQnQ6BBiiGXJ-nfFhHPgA\",\"timestamp\":\"1793416430185\",\"_log_finder_uin\":\"\",\"_log_finder_id\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\",\"rawKeyBuff\":\"\",\"pluginSessionId\":null,\"scene\":7,\"reqScene\":7}",
+        "ts": "2026-10-31T03:13:50.195Z",
+        "status": 201,
+        "mimeType": "application/json",
+        "body": "{\"errCode\":0,\"errMsg\":\"request successful\",\"data\":{\"commentId\":\"15044267417160849524\",\"clientId\":\"c964a579-cd57-4ecc-bb8c-2d65f295af91\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15044267417160849524\",\"commentContent\":\"深圳灣明細，點頭像👤搵明哥 📩\",\"commentCreatetime\":\"1793416430\",\"commentLikeCount\":0,\"replyCommentId\":\"15043768052190157993\",\"replyContent\":\"深圳灣連17年車賣几多？\",\"visibleFlag\":1,\"displayFlag\":2,\"username\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\"},\"baseResp\":{\"errcode\":0,\"errmsg\":\"\"}}}",
+        "error": null,
+        "errCode": 0,
+        "errMsg": "request successful",
+        "topErrCode": 0,
+        "topErrMsg": "request successful",
+        "baseResp": {
+          "errcode": 0,
+          "errmsg": ""
+        }
+      }
+    ],
+    "toasts": []
+  },
+  "result": {
+    "countUp": true,
+    "threadHit": true,
+    "taZero": true,
+    "declared": 26
+  },
+  "like": {
+    "ok": true
+  }
+}

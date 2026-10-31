@@ -1,0 +1,180 @@
+{
+  "name": "kueng强",
+  "kw": "哪年的",
+  "text": "年份以驗車報告為準，可以驗車 😄",
+  "dry": false,
+  "steps": [],
+  "before": {
+    "video": {
+      "title": "即刻买，即刻就可可以揸回内地的，莲塘口岸，中港车！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "time": "2026年10月30日 10:58"
+    },
+    "declared": 28,
+    "rendered": 28,
+    "textareas": 0
+  },
+  "locate": {
+    "found": 1,
+    "x": 1269,
+    "y": 492,
+    "item": {
+      "name": "kueng强",
+      "time": "2026/10/30 16:19",
+      "text": "哪年的"
+    },
+    "replies": [],
+    "loadMore": null,
+    "authorReplied": false
+  },
+  "locateAfterExpand": {
+    "found": 1,
+    "x": 1269,
+    "y": 492,
+    "item": {
+      "name": "kueng强",
+      "time": "2026/10/30 16:19",
+      "text": "哪年的"
+    },
+    "replies": [],
+    "loadMore": null,
+    "authorReplied": false
+  },
+  "panel0": {
+    "textareas": 1,
+    "placeholder": "回复 kueng强：",
+    "value": "",
+    "ta": {
+      "x": 1018,
+      "y": 579
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap disabled primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap disabled primary",
+      "enabled": false,
+      "x": 783,
+      "y": 629,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "panel1": {
+    "textareas": 1,
+    "placeholder": "回复 kueng强：",
+    "value": "年份以驗車報告為準，可以驗車 😄",
+    "ta": {
+      "x": 1018,
+      "y": 579
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 783,
+      "y": 629,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "sendClick": {
+    "textareas": 1,
+    "placeholder": "回复 kueng强：",
+    "value": "年份以驗車報告為準，可以驗車 😄",
+    "ta": {
+      "x": 1018,
+      "y": 474
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 783,
+      "y": 523,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "verify": {
+    "declared": 29,
+    "textareas": 0,
+    "found": true,
+    "replies": [
+      {
+        "name": "明哥揾粤港车",
+        "text": "年份以驗車報告為準，可以驗車"
+      }
+    ],
+    "hit": true
+  },
+  "trace": {
+    "requests": [
+      {
+        "requestId": "17768.16208",
+        "url": "https://channels.weixin.qq.com/micro/interaction/cgi-bin/mmfinderassistant-bin/comment/create_comment?_aid=68322090-7d6b-44c0-a7f6-df85e8af959a&_rid=6ae55d16-60852c95&_pageUrl=https:%2F%2Fchannels.weixin.qq.com%2Fmicro%2Finteraction%2Fcomment",
+        "method": "POST",
+        "postData": "{\"replyCommentId\":\"15043696692229050532\",\"content\":\"年份以驗車報告為準，可以驗車 😄\",\"clientId\":\"a484785a-a61d-4e5b-b671-88166e6940c4\",\"rootCommentId\":\"15043696692229050532\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15043696692229050532\",\"commentNickname\":\"kueng强\",\"commentContent\":\"哪年的\",\"commentHeadurl\":\"https://wx.qlogo.cn/finderhead/UqC3ujhYibWlOXniavTXSBglibejRwiaogmu4shTqpB87sKs8tMmiayPgJCGDsfzuzdIRjz5jsPCqnVY/0\",\"commentCreatetime\":\"1793348394\",\"commentLikeCount\":0,\"lastBuff\":\"\",\"downContinueFlag\":0,\"visibleFlag\":0,\"readFlag\":true,\"displayFlag\":8,\"username\":\"v2_060000231003b20faec8c5ea8d11c0d3c700e534b077084cc938bcb291c438d82f97be886b10@finder\",\"blacklistFlag\":0,\"likeFlag\":0},\"exportId\":\"export/UzFfBgAAxMquZA5lCw2Hk8zT4DCapYQnQ6BBiiGXJ-nfFhHPgA\",\"timestamp\":\"1793416470288\",\"_log_finder_uin\":\"\",\"_log_finder_id\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\",\"rawKeyBuff\":\"\",\"pluginSessionId\":null,\"scene\":7,\"reqScene\":7}",
+        "ts": "2026-10-31T03:14:30.299Z",
+        "status": 201,
+        "mimeType": "application/json",
+        "body": "{\"errCode\":0,\"errMsg\":\"request successful\",\"data\":{\"commentId\":\"15044267752887556206\",\"clientId\":\"a484785a-a61d-4e5b-b671-88166e6940c4\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15044267752887556206\",\"commentContent\":\"年份以驗車報告為準，可以驗車 😄\",\"commentCreatetime\":\"1793416470\",\"commentLikeCount\":0,\"replyCommentId\":\"15043696692229050532\",\"replyContent\":\"哪年的\",\"visibleFlag\":1,\"displayFlag\":2,\"username\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\"},\"baseResp\":{\"errcode\":0,\"errmsg\":\"\"}}}",
+        "error": null,
+        "errCode": 0,
+        "errMsg": "request successful",
+        "topErrCode": 0,
+        "topErrMsg": "request successful",
+        "baseResp": {
+          "errcode": 0,
+          "errmsg": ""
+        }
+      }
+    ],
+    "toasts": []
+  },
+  "result": {
+    "countUp": true,
+    "threadHit": true,
+    "taZero": true,
+    "declared": 29
+  },
+  "like": {
+    "ok": true
+  }
+}

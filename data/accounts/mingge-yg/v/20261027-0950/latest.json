@@ -4,11 +4,11 @@
   "title": "以前这是香港的骄傲，新的时刻，香港会更好！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
   "time": "2026年10月27日 09:50"
  },
- "declared": 39,
+ "declared": 43,
  "isEmpty": false,
- "total": 39,
- "topLevel": 27,
- "replies": 12,
+ "total": 43,
+ "topLevel": 29,
+ "replies": 14,
  "comments": [
   {
    "index": 0,
@@ -38,6 +38,54 @@
    "index": 2,
    "level": 1,
    "parentIndex": null,
+   "author": "蔡MeiLan",
+   "isAuthor": false,
+   "time": "2026/10/31 11:03",
+   "content": "[强] [强] [强] [强] [强] [玫瑰]",
+   "likes": null,
+   "replyCount": 0,
+   "authorReplied": false,
+   "authorReplyCount": 0,
+   "lastAuthorReplyAt": null
+  },
+  {
+   "index": 3,
+   "level": 1,
+   "parentIndex": null,
+   "author": "雅宣",
+   "isAuthor": false,
+   "time": "2026/10/31 05:52",
+   "content": "明哥，你系边度人？ [愉快] [愉快] [捂脸] [捂脸] [微笑] [微笑]",
+   "likes": 1,
+   "replyCount": 2,
+   "authorReplied": true,
+   "authorReplyCount": 1,
+   "lastAuthorReplyAt": "2026/10/31 11:20"
+  },
+  {
+   "index": 4,
+   "level": 2,
+   "parentIndex": 3,
+   "author": "明哥揾粤港车",
+   "isAuthor": true,
+   "time": "2026/10/31 11:20",
+   "content": "汕尾人 😄",
+   "likes": null
+  },
+  {
+   "index": 5,
+   "level": 2,
+   "parentIndex": 3,
+   "author": "鄭木炫",
+   "isAuthor": false,
+   "time": "2026/10/31 09:35",
+   "content": "汕尾",
+   "likes": null
+  },
+  {
+   "index": 6,
+   "level": 1,
+   "parentIndex": null,
    "author": "开心快乐",
    "isAuthor": false,
    "time": "2026/10/29 18:56",
@@ -49,7 +97,7 @@
    "lastAuthorReplyAt": null
   },
   {
-   "index": 3,
+   "index": 7,
    "level": 1,
    "parentIndex": null,
    "author": "xue🍒🍋",
@@ -63,7 +111,7 @@
    "lastAuthorReplyAt": null
   },
   {
-   "index": 4,
+   "index": 8,
    "level": 1,
    "parentIndex": null,
    "author": "Jett-杰特",
@@ -77,9 +125,9 @@
    "lastAuthorReplyAt": "2026/10/30 16:18"
   },
   {
-   "index": 5,
+   "index": 9,
    "level": 2,
-   "parentIndex": 4,
+   "parentIndex": 8,
    "author": "明哥揾粤港车",
    "isAuthor": true,
    "time": "2026/10/30 16:18",
@@ -87,7 +135,7 @@
    "likes": null
   },
   {
-   "index": 6,
+   "index": 10,
    "level": 1,
    "parentIndex": null,
    "author": "ChanChao",
@@ -101,7 +149,7 @@
    "lastAuthorReplyAt": null
   },
   {
-   "index": 7,
+   "index": 11,
    "level": 1,
    "parentIndex": null,
    "author": "劉付東海",
@@ -115,7 +163,7 @@
    "lastAuthorReplyAt": null
   },
   {
-   "index": 8,
+   "index": 12,
    "level": 1,
    "parentIndex": null,
    "author": "KC",
@@ -129,7 +177,7 @@
    "lastAuthorReplyAt": null
   },
   {
-   "index": 9,
+   "index": 13,
    "level": 1,
    "parentIndex": null,
    "author": "zhen",
@@ -143,7 +191,7 @@
    "lastAuthorReplyAt": null
   },
   {
-   "index": 10,
+   "index": 14,
    "level": 1,
    "parentIndex": null,
    "author": "曹小玲",
@@ -157,9 +205,9 @@
    "lastAuthorReplyAt": "2026/10/28 09:58"
   },
   {
-   "index": 11,
+   "index": 15,
    "level": 2,
-   "parentIndex": 10,
+   "parentIndex": 14,
    "author": "明哥揾粤港车",
    "isAuthor": true,
    "time": "2026/10/28 09:58",
@@ -167,7 +215,7 @@
    "likes": null
   },
   {
-   "index": 12,
+   "index": 16,
    "level": 1,
    "parentIndex": null,
    "author": "惜芳陳",
@@ -181,7 +229,7 @@
    "lastAuthorReplyAt": null
   },
   {
-   "index": 13,
+   "index": 17,
    "level": 1,
    "parentIndex": null,
    "author": "惜芳陳",
@@ -195,7 +243,7 @@
    "lastAuthorReplyAt": null
   },
   {
-   "index": 14,
+   "index": 18,
    "level": 1,
    "parentIndex": null,
    "author": "黑黑",
@@ -209,7 +257,7 @@
    "lastAuthorReplyAt": null
   },
   {
-   "index": 15,
+   "index": 19,
    "level": 1,
    "parentIndex": null,
    "author": "豪探长",
@@ -223,9 +271,9 @@
    "lastAuthorReplyAt": "2026/10/28 09:07"
   },
   {
-   "index": 16,
+   "index": 20,
    "level": 2,
-   "parentIndex": 15,
+   "parentIndex": 19,
    "author": "明哥揾粤港车",
    "isAuthor": true,
    "time": "2026/10/28 09:07",
@@ -233,7 +281,7 @@
    "likes": null
   },
   {
-   "index": 17,
+   "index": 21,
    "level": 1,
    "parentIndex": null,
    "author": "越南进口沙金铜广州越丰总代理",
@@ -247,7 +295,7 @@
    "lastAuthorReplyAt": null
   },
   {
-   "index": 18,
+   "index": 22,
    "level": 1,
    "parentIndex": null,
    "author": "洪剑华8653",
@@ -261,7 +309,7 @@
    "lastAuthorReplyAt": null
   },
   {
-   "index": 19,
+   "index": 23,
    "level": 1,
    "parentIndex": null,
    "author": "洪剑华8653",
@@ -275,7 +323,7 @@
    "lastAuthorReplyAt": null
   },
   {
-   "index": 20,
+   "index": 24,
    "level": 1,
    "parentIndex": null,
    "author": "委小小",
@@ -289,7 +337,7 @@
    "lastAuthorReplyAt": null
   },
   {
-   "index": 21,
+   "index": 25,
    "level": 1,
    "parentIndex": null,
    "author": "常平碧云天103",
@@ -303,9 +351,9 @@
    "lastAuthorReplyAt": "2026/10/28 09:07"
   },
   {
-   "index": 22,
+   "index": 26,
    "level": 2,
-   "parentIndex": 21,
+   "parentIndex": 25,
    "author": "明哥揾粤港车",
    "isAuthor": true,
    "time": "2026/10/28 09:07",
@@ -313,7 +361,7 @@
    "likes": null
   },
   {
-   "index": 23,
+   "index": 27,
    "level": 1,
    "parentIndex": null,
    "author": "琼欢玉语",
@@ -327,9 +375,9 @@
    "lastAuthorReplyAt": "2026/10/28 09:07"
   },
   {
-   "index": 24,
+   "index": 28,
    "level": 2,
-   "parentIndex": 23,
+   "parentIndex": 27,
    "author": "明哥揾粤港车",
    "isAuthor": true,
    "time": "2026/10/28 09:07",
@@ -337,7 +385,7 @@
    "likes": null
   },
   {
-   "index": 25,
+   "index": 29,
    "level": 1,
    "parentIndex": null,
    "author": "LAW1330",
@@ -351,9 +399,9 @@
    "lastAuthorReplyAt": "2026/10/28 09:57"
   },
   {
-   "index": 26,
+   "index": 30,
    "level": 2,
-   "parentIndex": 25,
+   "parentIndex": 29,
    "author": "明哥揾粤港车",
    "isAuthor": true,
    "time": "2026/10/28 09:57",
@@ -361,7 +409,7 @@
    "likes": null
   },
   {
-   "index": 27,
+   "index": 31,
    "level": 1,
    "parentIndex": null,
    "author": "勇",
@@ -375,9 +423,9 @@
    "lastAuthorReplyAt": "2026/10/28 09:57"
   },
   {
-   "index": 28,
+   "index": 32,
    "level": 2,
-   "parentIndex": 27,
+   "parentIndex": 31,
    "author": "明哥揾粤港车",
    "isAuthor": true,
    "time": "2026/10/28 09:57",
@@ -385,7 +433,7 @@
    "likes": null
   },
   {
-   "index": 29,
+   "index": 33,
    "level": 1,
    "parentIndex": null,
    "author": "红海湾红土地",
@@ -399,7 +447,7 @@
    "lastAuthorReplyAt": null
   },
   {
-   "index": 30,
+   "index": 34,
    "level": 1,
    "parentIndex": null,
    "author": "劉欣欣劉止欣",
@@ -413,9 +461,9 @@
    "lastAuthorReplyAt": "2026/10/28 09:57"
   },
   {
-   "index": 31,
+   "index": 35,
    "level": 2,
-   "parentIndex": 30,
+   "parentIndex": 34,
    "author": "明哥揾粤港车",
    "isAuthor": true,
    "time": "2026/10/28 09:57",
@@ -423,7 +471,7 @@
    "likes": null
   },
   {
-   "index": 32,
+   "index": 36,
    "level": 1,
    "parentIndex": null,
    "author": "歲歲平安",
@@ -437,9 +485,9 @@
    "lastAuthorReplyAt": "2026/10/28 09:07"
   },
   {
-   "index": 33,
+   "index": 37,
    "level": 2,
-   "parentIndex": 32,
+   "parentIndex": 36,
    "author": "明哥揾粤港车",
    "isAuthor": true,
    "time": "2026/10/28 09:07",
@@ -447,7 +495,7 @@
    "likes": null
   },
   {
-   "index": 34,
+   "index": 38,
    "level": 1,
    "parentIndex": null,
    "author": "卢公子1...",
@@ -461,9 +509,9 @@
    "lastAuthorReplyAt": "2026/10/27 11:26"
   },
   {
-   "index": 35,
+   "index": 39,
    "level": 2,
-   "parentIndex": 34,
+   "parentIndex": 38,
    "author": "明哥揾粤港车",
    "isAuthor": true,
    "time": "2026/10/27 11:26",
@@ -471,7 +519,7 @@
    "likes": 1
   },
   {
-   "index": 36,
+   "index": 40,
    "level": 1,
    "parentIndex": null,
    "author": "林公子。😎",
@@ -485,9 +533,9 @@
    "lastAuthorReplyAt": "2026/10/27 11:27"
   },
   {
-   "index": 37,
+   "index": 41,
    "level": 2,
-   "parentIndex": 36,
+   "parentIndex": 40,
    "author": "明哥揾粤港车",
    "isAuthor": true,
    "time": "2026/10/27 11:27",
@@ -495,7 +543,7 @@
    "likes": 1
   },
   {
-   "index": 38,
+   "index": 42,
    "level": 1,
    "parentIndex": null,
    "author": "A开心海产品",
@@ -510,34 +558,35 @@
   }
  ],
  "summary": {
-  "declared": 39,
-  "total": 39,
-  "level1": 27,
-  "level2": 12,
+  "declared": 43,
+  "total": 43,
+  "level1": 29,
+  "level2": 14,
   "ownComments": 0,
-  "authorRepliedThreads": 12,
-  "awaitingThreads": 15,
-  "authorReplies": 12,
+  "authorRepliedThreads": 13,
+  "awaitingThreads": 16,
+  "authorReplies": 13,
   "complete": true,
   "gap": 0,
   "leftExpand": 0,
   "unreachable": false,
   "awaitingIndices": [
    2,
-   3,
    6,
    7,
-   8,
-   9,
+   10,
+   11,
    12,
    13,
-   14,
+   16,
    17,
    18,
-   19,
-   20,
-   29,
-   38
+   21,
+   22,
+   23,
+   24,
+   33,
+   42
   ]
  }
 }

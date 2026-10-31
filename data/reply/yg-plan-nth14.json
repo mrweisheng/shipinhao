@@ -1,0 +1,45 @@
+{
+  "createdAt": "2026-10-31T03:30:30.316Z",
+  "nth": null,
+  "video": {
+    "title": "明哥真系全香港Z蠢的老细咯！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月03日 07:05"
+  },
+  "titleContext": {
+    "business": "unknown",
+    "ports": [],
+    "models": [],
+    "price": null
+  },
+  "declared": 35,
+  "source": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\maint-20261031\\yg-nth14.json",
+  "rules": {
+    "facts": "业务事实.md（唯一事实来源：价格/付款/车况/地址/移民/求职）",
+    "judgment": ".opencode/skills/channels-comment-ops/SKILL.md（回不回、红线、动作分类）",
+    "cases": "data/cases/（主参考：先判意图 → 检索 2 好 1 坏 → 仿写）",
+    "style": "模板池.md（仅 GUIDE-* 引导尾巴与兜底候选，按语义改写，不要关键词对号入座）"
+  },
+  "counts": {
+    "topLevel": 19,
+    "authorReplied": 14,
+    "authorOwn": 1,
+    "pending": 4
+  },
+  "items": [
+    {
+      "index": 1,
+      "name": "忆彤水果冰",
+      "time": "2026/10/30 19:04",
+      "likes": null,
+      "content": "[强] [强] [强]",
+      "kw": "[强][强]",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": false,
+      "category": "纯表情",
+      "reason": "纯表情，无文字内容"
+    }
+  ],
+  "videoType": "业务/生活混合（蠢老细）"
+}

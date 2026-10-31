@@ -46,3 +46,5 @@
 {"fp":"红海湾红土地|2026/10/27 13:53","author":"红海湾红土地","time":"2026/10/27 13:53","action":"skip","text":"","reason":"纯表情/符号，无文字 → 观点类策略跳过","source":"plan-nth3.json","at":"2026-10-30T08:18:49.607Z"}
 {"fp":"A开心海产品|2026/10/27 23:36","author":"A开心海产品","time":"2026/10/27 23:36","action":"skip","text":"","reason":"调侃闲聊，无业务意向 → 策略跳过","source":"plan-nth3.json","at":"2026-10-30T08:18:49.607Z"}
 {"fp":"Jett-杰特|2026/10/29 08:59","author":"Jett-杰特","time":"2026/10/29 08:59","action":"reply","text":"多謝你嘅認同 😄","reason":"带文字捧场（有道理）→ 回；纯捧场不加引导","source":"plan-nth3.json","at":"2026-10-30T08:18:57.132Z"}
+{"fp":"蔡MeiLan|2026/10/31 11:03","author":"蔡MeiLan","time":"2026/10/31 11:03","action":"skip","text":"","reason":"纯表情，无文字内容","source":"yg-plan-nth4.json","at":"2026-10-31T03:31:09.242Z"}
+{"fp":"雅宣|2026/10/31 05:52","author":"雅宣","time":"2026/10/31 05:52","action":"reply","text":"汕尾人 😄","reason":"直接问博主是哪里人：一句直答，不带引导（观点类视频的直接提问）","source":"yg-plan-nth4.json","at":"2026-10-31T03:31:09.243Z"}

@@ -1,0 +1,39 @@
+{
+  "finishedAt": "2026-10-31T03:29:31.623Z",
+  "mode": "send",
+  "planFile": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\reply\\yg-plan-nth1.json",
+  "video": {
+    "title": "蚀到底啦！！在香港这批40系，有没有老板想拿的，给钱就出！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月31日 10:33"
+  },
+  "before": {
+    "declared": 2,
+    "plannedReplies": 1,
+    "executed": 1
+  },
+  "summary": {
+    "ok": 1,
+    "failed": 0,
+    "rejected": 0,
+    "policy": 0
+  },
+  "after": null,
+  "results": [
+    {
+      "index": 0,
+      "name": "無忌2528",
+      "time": "2026/10/31 11:01",
+      "likes": null,
+      "content": "係咪八千一架",
+      "kw": "係咪八千一架",
+      "asked": "这批40系是不是八千一台",
+      "action": "reply",
+      "text": "40系明細，點頭像👤搵明哥 📩",
+      "answerOk": true,
+      "category": "car_price",
+      "reason": "问「係咪八千一架」：不确认不否认价格，40系是商品对象，用对象明細+单动作指路",
+      "caseId": "c169",
+      "result": "sent"
+    }
+  ]
+}
