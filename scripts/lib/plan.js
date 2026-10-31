@@ -60,6 +60,11 @@ function checkText(t) {
     errs.push("自评价格 / 喊口号（公道／實惠／最抵／明碼實價／一車一價）：改用「{對象}明細，點頭像👤搵明哥」");
   }
 
+  // 不提费用（2026-10-31）：费用一出现就像报价，且拖进没口径的领域
+  if (/費用|费用|收費|收费/.test(String(t))) {
+    errs.push("出现「費用／收費」：问费用只承接+指路（明細／詳情／細節 + 點頭像），不报价、不解释构成");
+  }
+
   const len = [...String(t).replace(/\s/g, "")].length;
   if (len > 22) errs.push(`长度 ${len} 字（上限 22）`);
   if (!EMOJI_RE.test(String(t))) errs.push("缺少表情");
