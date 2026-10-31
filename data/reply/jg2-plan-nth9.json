@@ -1,0 +1,46 @@
+{
+  "createdAt": "2026-10-31T02:49:08.275Z",
+  "nth": null,
+  "video": {
+    "title": "今天在汕尾和儿子探讨下，何为善良！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月13日 07:00"
+  },
+  "titleContext": {
+    "business": "unknown",
+    "ports": [],
+    "models": [],
+    "price": null
+  },
+  "declared": 50,
+  "source": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\maint-20261031\\jg2-nth9.json",
+  "rules": {
+    "facts": "业务事实.md（唯一事实来源：价格/付款/车况/地址/移民/求职）",
+    "judgment": ".opencode/skills/channels-comment-ops/SKILL.md（回不回、红线、动作分类）",
+    "cases": "data/cases/（主参考：先判意图 → 检索 2 好 1 坏 → 仿写）",
+    "style": "模板池.md（仅 GUIDE-* 引导尾巴与兜底候选，按语义改写，不要关键词对号入座）"
+  },
+  "counts": {
+    "topLevel": 28,
+    "authorReplied": 18,
+    "authorOwn": 1,
+    "pending": 9
+  },
+  "items": [
+    {
+      "index": 1,
+      "name": "水蜜桃9809",
+      "time": "2026/10/29 16:07",
+      "likes": 1,
+      "content": "福虽未至，祸已远离 [强] [强] [强]",
+      "kw": "福虽未至",
+      "asked": "对方表达认同/祝福（带文字捧场）",
+      "action": "reply",
+      "text": "多謝你，心善最緊要 🙏",
+      "answerOk": true,
+      "category": "praise",
+      "reason": "带文字捧场，生活类有效互动，纯回应不加引导（重发，换开头）"
+    }
+  ],
+  "videoType": "生活/价值观（善良）",
+  "rerunReason": "2026-10-31 首次回复因出口 IP 定位异常被人工删除，网络恢复后重发"
+}

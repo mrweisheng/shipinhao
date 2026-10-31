@@ -1,0 +1,60 @@
+{
+  "createdAt": "2026-10-31T02:49:08.386Z",
+  "nth": null,
+  "video": {
+    "title": "兄弟，香港的机会，不会一直在等你！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月21日 07:00"
+  },
+  "titleContext": {
+    "business": "unknown",
+    "ports": [],
+    "models": [],
+    "price": null
+  },
+  "declared": 96,
+  "source": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\maint-20261031\\jg2-nth4.json",
+  "rules": {
+    "facts": "业务事实.md（唯一事实来源：价格/付款/车况/地址/移民/求职）",
+    "judgment": ".opencode/skills/channels-comment-ops/SKILL.md（回不回、红线、动作分类）",
+    "cases": "data/cases/（主参考：先判意图 → 检索 2 好 1 坏 → 仿写）",
+    "style": "模板池.md（仅 GUIDE-* 引导尾巴与兜底候选，按语义改写，不要关键词对号入座）"
+  },
+  "counts": {
+    "topLevel": 54,
+    "authorReplied": 40,
+    "authorOwn": 1,
+    "pending": 13
+  },
+  "items": [
+    {
+      "index": 3,
+      "name": "锦丰-燕子",
+      "time": "2026/10/31 10:29",
+      "likes": null,
+      "content": "专才怎么办 /::D",
+      "kw": "专才怎么办",
+      "asked": "专才怎么办（问路径）",
+      "action": "reply",
+      "text": "專才嘅嘢要睇清楚，點頭像👤搵明哥 📩",
+      "answerOk": true,
+      "category": "imm_channel",
+      "reason": "问专才怎么办：具体路径未列明，不指定路线，承接+单动作指路"
+    },
+    {
+      "index": 4,
+      "name": "忆彤水果冰",
+      "time": "2026/10/30 19:03",
+      "likes": null,
+      "content": "[强] [强] [强]",
+      "kw": "[强][强]",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": false,
+      "category": "纯表情",
+      "reason": "纯表情，无文字内容"
+    }
+  ],
+  "videoType": "观点/门路类（香港的机会）",
+  "rerunReason": "2026-10-31 首次回复因出口 IP 定位异常被人工删除，网络恢复后重发"
+}

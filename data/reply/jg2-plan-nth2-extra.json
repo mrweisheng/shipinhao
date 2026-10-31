@@ -1,0 +1,44 @@
+{
+  "createdAt": "2026-10-31T02:52:29.398Z",
+  "nth": null,
+  "video": {
+    "title": "汕尾的兄弟，来香港你可以可以搵得到钱💰。 #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月30日 10:50"
+  },
+  "titleContext": {
+    "business": "unknown",
+    "ports": [],
+    "models": [],
+    "price": null
+  },
+  "declared": 38,
+  "source": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\maint-20261031\\jg2-nth2-final3.json",
+  "rules": {
+    "facts": "业务事实.md（唯一事实来源：价格/付款/车况/地址/移民/求职）",
+    "judgment": ".opencode/skills/channels-comment-ops/SKILL.md（回不回、红线、动作分类）",
+    "cases": "data/cases/（主参考：先判意图 → 检索 2 好 1 坏 → 仿写）",
+    "style": "模板池.md（仅 GUIDE-* 引导尾巴与兜底候选，按语义改写，不要关键词对号入座）"
+  },
+  "counts": {
+    "topLevel": 24,
+    "authorReplied": 11,
+    "authorOwn": 0,
+    "pending": 13
+  },
+  "items": [
+    {
+      "index": 0,
+      "name": "李秀贞陈贤怡",
+      "time": "2026/10/31 10:25",
+      "likes": null,
+      "content": "[呲牙] [呲牙] [呲牙]",
+      "kw": "[呲牙][呲",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": false,
+      "category": "纯表情",
+      "reason": "纯表情，无文字内容"
+    }
+  ]
+}

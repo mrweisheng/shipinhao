@@ -1,0 +1,180 @@
+{
+  "name": "锦丰-燕子",
+  "kw": "专才怎么办",
+  "text": "專才嘅嘢要睇清楚，點頭像👤搵明哥 📩",
+  "dry": false,
+  "steps": [],
+  "before": {
+    "video": {
+      "title": "兄弟，香港的机会，不会一直在等你！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "time": "2026年10月21日 07:00"
+    },
+    "declared": 96,
+    "rendered": 96,
+    "textareas": 0
+  },
+  "locate": {
+    "found": 1,
+    "x": 1269,
+    "y": 492,
+    "item": {
+      "name": "锦丰-燕子",
+      "time": "2026/10/31 10:29",
+      "text": "专才怎么办"
+    },
+    "replies": [],
+    "loadMore": null,
+    "authorReplied": false
+  },
+  "locateAfterExpand": {
+    "found": 1,
+    "x": 1269,
+    "y": 492,
+    "item": {
+      "name": "锦丰-燕子",
+      "time": "2026/10/31 10:29",
+      "text": "专才怎么办"
+    },
+    "replies": [],
+    "loadMore": null,
+    "authorReplied": false
+  },
+  "panel0": {
+    "textareas": 1,
+    "placeholder": "回复 锦丰-燕子：",
+    "value": "",
+    "ta": {
+      "x": 1018,
+      "y": 579
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap disabled primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap disabled primary",
+      "enabled": false,
+      "x": 783,
+      "y": 629,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "panel1": {
+    "textareas": 1,
+    "placeholder": "回复 锦丰-燕子：",
+    "value": "專才嘅嘢要睇清楚，點頭像👤搵明哥 📩",
+    "ta": {
+      "x": 1018,
+      "y": 579
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 783,
+      "y": 629,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "sendClick": {
+    "textareas": 1,
+    "placeholder": "回复 锦丰-燕子：",
+    "value": "專才嘅嘢要睇清楚，點頭像👤搵明哥 📩",
+    "ta": {
+      "x": 1018,
+      "y": 474
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 783,
+      "y": 523,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "verify": {
+    "declared": 97,
+    "textareas": 0,
+    "found": true,
+    "replies": [
+      {
+        "name": "明哥揀粤港车",
+        "text": "專才嘅嘢要睇清楚，點頭像👤搵明哥 📩"
+      }
+    ],
+    "hit": true
+  },
+  "trace": {
+    "requests": [
+      {
+        "requestId": "17768.10994",
+        "url": "https://channels.weixin.qq.com/micro/interaction/cgi-bin/mmfinderassistant-bin/comment/create_comment?_aid=68322090-7d6b-44c0-a7f6-df85e8af959a&_rid=6ae5573c-8b861bc6&_pageUrl=https:%2F%2Fchannels.weixin.qq.com%2Fmicro%2Finteraction%2Fcomment",
+        "method": "POST",
+        "postData": "{\"replyCommentId\":\"15044245249481055815\",\"content\":\"專才嘅嘢要睇清楚，點頭像👤搵明哥 📩\",\"clientId\":\"d5053af9-cbe3-474f-b6be-9e6ad2579253\",\"rootCommentId\":\"15044245249481055815\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15044245249481055815\",\"commentNickname\":\"锦丰-燕子\",\"commentContent\":\"专才怎么办/::D\",\"commentHeadurl\":\"https://wx.qlogo.cn/finderhead/b2ONlmmVZRrmELfECEzabppjnhibibtRstcopNTL5IGYENibcP81EQNhg/0\",\"commentCreatetime\":\"1793413788\",\"commentLikeCount\":0,\"lastBuff\":\"\",\"downContinueFlag\":0,\"visibleFlag\":0,\"readFlag\":false,\"displayFlag\":8,\"username\":\"v2_060000231003b20faec8c4e68e1bcbd5c704ee3db0779ebd95ffddbe2ac9b6588e3bf11a5330@finder\",\"blacklistFlag\":0,\"likeFlag\":0},\"exportId\":\"export/UzFfBgAAxIGhQHlQXCuzk8zT4DCamVlfTFeltky5iinGEmWTrA\",\"timestamp\":\"1793414972851\",\"_log_finder_uin\":\"\",\"_log_finder_id\":\"v2_060000231003b20faec8c6e68e1ac6d2cc0ce43db077c80c7ad975ea80702c9b7231ef3e0fd2@finder\",\"rawKeyBuff\":\"\",\"pluginSessionId\":null,\"scene\":7,\"reqScene\":7}",
+        "ts": "2026-10-31T02:49:32.864Z",
+        "status": 201,
+        "mimeType": "application/json",
+        "body": "{\"errCode\":0,\"errMsg\":\"request successful\",\"data\":{\"commentId\":\"15044255192405579917\",\"clientId\":\"d5053af9-cbe3-474f-b6be-9e6ad2579253\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15044255192405579917\",\"commentContent\":\"專才嘅嘢要睇清楚，點頭像👤搵明哥 📩\",\"commentCreatetime\":\"1793414973\",\"commentLikeCount\":0,\"replyCommentId\":\"15044245249481055815\",\"replyContent\":\"专才怎么办/::D\",\"visibleFlag\":1,\"displayFlag\":2,\"username\":\"v2_060000231003b20faec8c6e68e1ac6d2cc0ce43db077c80c7ad975ea80702c9b7231ef3e0fd2@finder\"},\"baseResp\":{\"errcode\":0,\"errmsg\":\"\"}}}",
+        "error": null,
+        "errCode": 0,
+        "errMsg": "request successful",
+        "topErrCode": 0,
+        "topErrMsg": "request successful",
+        "baseResp": {
+          "errcode": 0,
+          "errmsg": ""
+        }
+      }
+    ],
+    "toasts": []
+  },
+  "result": {
+    "countUp": true,
+    "threadHit": true,
+    "taZero": true,
+    "declared": 97
+  },
+  "like": {
+    "ok": true
+  }
+}
