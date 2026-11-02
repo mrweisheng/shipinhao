@@ -8,7 +8,7 @@
 {"id":"c008","comment":"有沒有現車？","reply":"有，過嚟睇，朝九晚九 👍","intent":"car_stock","business":"car","label":"good","note":"有 + 营业时间"}
 {"id":"c009","comment":"有沒有事故？里數多少？","reply":"可以驗車、可以試車；私訊約時間 📩","intent":"car_condition","business":"car","label":"dropped","note":"不承诺无事故/实表，只可验车｜2026-11-01 drop：私訊出口过时；内容本身没错","updatedAt":"2026-11-01T01:25:36.841Z"}
 {"id":"c010","comment":"車況怎麼樣？","reply":"可以驗車，約個時間 😄","intent":"car_condition","business":"car","label":"good","note":"车况只可验"}
-{"id":"c011","comment":"幾年車？幾手？","reply":"可以驗車，報告最準 📩","intent":"car_condition","business":"car","label":"good","note":"年份/手数不口头断言"}
+{"id":"c011","comment":"幾年車？幾手？","reply":"可以驗車 😄 約個時間","intent":"car_condition","business":"car","label":"good","note":"验车：直接答+邀约，不把结论推给报告","updatedAt":"2026-11-02T01:50:15.526Z"}
 {"id":"c012","comment":"地址在哪裡？","reply":"皇后山，導航搜「明哥中港牌」😄","intent":"car_view","business":"car","label":"good","note":"地址正常回，不私讯"}
 {"id":"c013","comment":"幾點開門？今天可以看車嗎？","reply":"朝九晚九，過嚟睇 😄","intent":"car_view","business":"car","label":"good","note":"营业时间正常回"}
 {"id":"c014","comment":"可以試車嗎？","reply":"可以試車，約個時間 😄","intent":"car_view","business":"car","label":"good","note":"可试车"}
@@ -29,7 +29,7 @@
 {"id":"c029","comment":"我幫你掃地可以嗎？","reply":"哈哈，有心啦，私訊傾下 📩","intent":"job","business":"job","label":"dropped","note":"不答应不拒绝｜2026-11-01 drop：私訊出口过时；内容本身没错","updatedAt":"2026-11-01T01:25:36.841Z"}
 {"id":"c030","comment":"支持明哥，加油！","reply":"多謝支持 🙏","intent":"praise","business":"any","label":"good","note":"纯捧场"}
 {"id":"c031","comment":"講得好，受教了","reply":"多謝認同，共勉 🙏","intent":"praise","business":"any","label":"good","note":"认同/受教"}
-{"id":"c032","comment":"怎麼聯繫你？","reply":"可以，主頁有資料 😄","intent":"contact","business":"any","label":"good","note":"求联系，弱引导"}
+{"id":"c032","comment":"怎麼聯繫你？","reply":"可以 😄 主頁有資料","intent":"contact","business":"any","label":"good","note":"主頁路径；表情放句中","updatedAt":"2026-11-02T01:50:15.590Z"}
 {"id":"c033","comment":"找你是真假的？","reply":"真嘅；點頭像👤私訊我 📩","intent":"contact","business":"any","label":"bad","note":"给确定性 + 引导｜2026-11-01 reject：引导路径叠加（頭像 + 私訊）：一条回复只走一条路径，别又点头像又 PM／私訊","updatedAt":"2026-11-01T01:25:36.841Z"}
 {"id":"c034","comment":"之前私訊你都沒回","reply":"唔好意思，訊息太多漏咗 🙏","intent":"contact_complaint","business":"any","label":"good","note":"先致歉，不辩解"}
 {"id":"c035","comment":"香港人等死","reply":"（不回）","intent":"neg","business":"any","label":"good","note":"唱衰/攻击，跳过不回复"}
