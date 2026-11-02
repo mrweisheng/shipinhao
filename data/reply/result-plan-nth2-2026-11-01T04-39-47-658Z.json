@@ -1,0 +1,130 @@
+{
+  "finishedAt": "2026-11-01T04:45:28.803Z",
+  "mode": "send",
+  "planFile": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\reply\\plan-nth2.json",
+  "video": {
+    "title": "蚀到底啦！！在香港这批40系，有没有老板想拿的，给钱就出！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月31日 10:33"
+  },
+  "before": {
+    "declared": 24,
+    "plannedReplies": 6,
+    "executed": 6
+  },
+  "summary": {
+    "ok": 6,
+    "failed": 0,
+    "rejected": 0,
+    "policy": 0
+  },
+  "after": {
+    "declared": 29,
+    "awaitingThreads": 8,
+    "complete": true,
+    "file": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\reply\\verify-2026-11-01T04-39-47-658Z.json"
+  },
+  "results": [
+    {
+      "index": 0,
+      "name": "呀文6294",
+      "time": "2026/11/01 10:40",
+      "likes": null,
+      "content": "明哥真定假",
+      "kw": "明哥真定假",
+      "asked": "客户在问：这个车/这个价是不是真的？",
+      "action": "reply",
+      "tier": "B",
+      "text": "現車喺度 😄 可以睇車",
+      "answerOk": true,
+      "category": "car_stock",
+      "reason": "质疑真假 → 只确认现车在、可看车，不确认价格",
+      "caseId": "c174",
+      "result": "sent"
+    },
+    {
+      "index": 1,
+      "name": "金金",
+      "time": "2026/11/01 04:17",
+      "likes": null,
+      "content": "听说明哥口碑不错 /::D /::D /::D",
+      "kw": "听说明哥口碑",
+      "asked": "客户在夸：听说明哥口碑不错",
+      "action": "reply",
+      "tier": "B",
+      "text": "多謝你咁講 😄 有心",
+      "answerOk": true,
+      "category": "praise",
+      "reason": "纯文字捧场 → 多谢，不带引导",
+      "caseId": "c175",
+      "result": "sent"
+    },
+    {
+      "index": 2,
+      "name": "M",
+      "time": "2026/10/31 22:48",
+      "likes": null,
+      "content": "最平可以幾多錢？",
+      "kw": "最平可以幾多",
+      "asked": "客户在问：最便宜多少钱？",
+      "action": "reply",
+      "tier": "C",
+      "text": "40系價錢 😄 點頭像👤搵明哥",
+      "answerOk": true,
+      "category": "car_price",
+      "reason": "问价 → 不报数字（可能问的是别台车），对象取40系 + 一条动作",
+      "caseId": "c176",
+      "result": "sent"
+    },
+    {
+      "index": 3,
+      "name": "奀仔718",
+      "time": "2026/10/31 20:11",
+      "likes": null,
+      "content": "明哥，明天有開嗎？ [合十] [合十]",
+      "kw": "明天有開嗎",
+      "asked": "客户在问：明天营业吗？",
+      "action": "reply",
+      "tier": "A",
+      "text": "有開 😄 朝九晚九",
+      "answerOk": true,
+      "category": "car_view",
+      "reason": "问营业时间 → 直接答，不带引导",
+      "caseId": "c177",
+      "result": "sent"
+    },
+    {
+      "index": 4,
+      "name": "B細",
+      "time": "2026/10/31 19:58",
+      "likes": null,
+      "content": "只有40系？無30系？",
+      "kw": "只有40系",
+      "asked": "客户在问：是不是只有40系、有没有30系？",
+      "action": "reply",
+      "tier": "B",
+      "text": "呢批係40系 😄 30系要搵下",
+      "answerOk": true,
+      "category": "car_stock",
+      "reason": "问车型/库存 → 答这批是40系，30系要再找，不编库存",
+      "caseId": "c178",
+      "result": "sent"
+    },
+    {
+      "index": 5,
+      "name": "Joe Joe",
+      "time": "2026/10/31 19:18",
+      "likes": null,
+      "content": "有冇 4O系 黑車黑籠 混能 四驱",
+      "kw": "有冇4O系黑",
+      "asked": "客户在问：有没有40系黑车黑笼、混能、四驱？",
+      "action": "reply",
+      "tier": "C",
+      "text": "車輛明細 😄 點頭像👤搵明哥",
+      "answerOk": true,
+      "category": "car_cond",
+      "reason": "具体配置/参数未列明 → 车辆明细 + 一条动作，不猜配置",
+      "caseId": "c179",
+      "result": "sent"
+    }
+  ]
+}

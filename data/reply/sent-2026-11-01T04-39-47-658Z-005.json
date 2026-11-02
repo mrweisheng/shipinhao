@@ -1,0 +1,180 @@
+{
+  "name": "Joe Joe",
+  "kw": "有冇4O系黑",
+  "text": "車輛明細 😄 點頭像👤搵明哥",
+  "dry": false,
+  "steps": [],
+  "before": {
+    "video": {
+      "title": "蚀到底啦！！在香港这批40系，有没有老板想拿的，给钱就出！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "time": "2026年10月31日 10:33"
+    },
+    "declared": 28,
+    "rendered": 28,
+    "textareas": 0
+  },
+  "locate": {
+    "found": 1,
+    "x": 1269,
+    "y": 492,
+    "item": {
+      "name": "Joe Joe",
+      "time": "2026/10/31 19:18",
+      "text": "有冇 4O系 黑車黑籠 混能 四驱"
+    },
+    "replies": [],
+    "loadMore": null,
+    "authorReplied": false
+  },
+  "locateAfterExpand": {
+    "found": 1,
+    "x": 1269,
+    "y": 492,
+    "item": {
+      "name": "Joe Joe",
+      "time": "2026/10/31 19:18",
+      "text": "有冇 4O系 黑車黑籠 混能 四驱"
+    },
+    "replies": [],
+    "loadMore": null,
+    "authorReplied": false
+  },
+  "panel0": {
+    "textareas": 1,
+    "placeholder": "回复 Joe Joe：",
+    "value": "",
+    "ta": {
+      "x": 1018,
+      "y": 580
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap disabled primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap disabled primary",
+      "enabled": false,
+      "x": 783,
+      "y": 629,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "panel1": {
+    "textareas": 1,
+    "placeholder": "回复 Joe Joe：",
+    "value": "車輛明細 😄 點頭像👤搵明哥",
+    "ta": {
+      "x": 1018,
+      "y": 580
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 783,
+      "y": 629,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "sendClick": {
+    "textareas": 1,
+    "placeholder": "回复 Joe Joe：",
+    "value": "車輛明細 😄 點頭像👤搵明哥",
+    "ta": {
+      "x": 1018,
+      "y": 473
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 783,
+      "y": 523,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "verify": {
+    "declared": 29,
+    "textareas": 0,
+    "found": true,
+    "replies": [
+      {
+        "name": "明哥揾粤港车",
+        "text": "車輛明細 點頭像👤搵明哥"
+      }
+    ],
+    "hit": true
+  },
+  "trace": {
+    "requests": [
+      {
+        "requestId": "3720.3298",
+        "url": "https://channels.weixin.qq.com/micro/interaction/cgi-bin/mmfinderassistant-bin/comment/create_comment?_aid=68322090-7d6b-44c0-a7f6-df85e8af959a&_rid=6ae6c3d3-c2c8f663&_pageUrl=https:%2F%2Fchannels.weixin.qq.com%2Fmicro%2Finteraction%2Fcomment",
+        "method": "POST",
+        "postData": "{\"replyCommentId\":\"15044511358174499249\",\"content\":\"車輛明細 😄 點頭像👤搵明哥\",\"clientId\":\"c9e7b06f-46eb-4d34-b5ce-a45310e86365\",\"rootCommentId\":\"15044511358174499249\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15044511358174499249\",\"commentNickname\":\"Joe Joe\",\"commentContent\":\"有冇\\n4O系\\n黑車黑籠\\n混能\\n四驱\",\"commentHeadurl\":\"https://mmhead.hk.wechat.com/mmhead/ver_1/o84FE8fDtRrxLqdM3dmXIphLw8vvibR60Ev8apKJjF6iaGiah943hibatvVabOpYhWJb43AAeShRHrMuG4PqzdtUbGzGt7EpkiayyTDm938LjbJo/132\",\"commentCreatetime\":\"1793445510\",\"commentLikeCount\":0,\"lastBuff\":\"\",\"downContinueFlag\":0,\"visibleFlag\":0,\"readFlag\":true,\"displayFlag\":0,\"username\":\"\",\"blacklistFlag\":0,\"likeFlag\":0},\"exportId\":\"export/UzFfBgAAxM2uZBAiMiOGk8zT4DCasEFA3_O102KymEJOMdylpg\",\"timestamp\":\"1793508307092\",\"_log_finder_uin\":\"\",\"_log_finder_id\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\",\"rawKeyBuff\":\"\",\"pluginSessionId\":null,\"scene\":7,\"reqScene\":7}",
+        "ts": "2026-11-01T04:45:07.095Z",
+        "status": 201,
+        "mimeType": "application/json",
+        "body": "{\"errCode\":0,\"errMsg\":\"request successful\",\"data\":{\"commentId\":\"15045038130339125349\",\"clientId\":\"c9e7b06f-46eb-4d34-b5ce-a45310e86365\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15045038130339125349\",\"commentContent\":\"車輛明細 😄 點頭像👤搵明哥\",\"commentCreatetime\":\"1793508306\",\"commentLikeCount\":0,\"replyCommentId\":\"15044511358174499249\",\"replyContent\":\"有冇\\n4O系\\n黑車黑籠\\n混能\\n四驱\",\"visibleFlag\":1,\"displayFlag\":2,\"username\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\"},\"baseResp\":{\"errcode\":0,\"errmsg\":\"\"}}}",
+        "error": null,
+        "errCode": 0,
+        "errMsg": "request successful",
+        "topErrCode": 0,
+        "topErrMsg": "request successful",
+        "baseResp": {
+          "errcode": 0,
+          "errmsg": ""
+        }
+      }
+    ],
+    "toasts": []
+  },
+  "result": {
+    "countUp": true,
+    "threadHit": true,
+    "taZero": true,
+    "declared": 29
+  },
+  "like": {
+    "ok": true
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "finishedAt": "2026-11-01T06:06:43.870Z",
+  "mode": "send",
+  "planFile": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\reply\\plan-jg-nth2.json",
+  "video": {
+    "title": "香港的居民身份好拿下，但那7年，你想好怎么走了吗？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月31日 10:30"
+  },
+  "before": {
+    "declared": 25,
+    "plannedReplies": 7,
+    "executed": 7
+  },
+  "summary": {
+    "ok": 0,
+    "failed": 0,
+    "rejected": 1,
+    "policy": 0
+  },
+  "after": {
+    "declared": 25,
+    "awaitingThreads": 16,
+    "complete": true,
+    "file": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\reply\\verify-2026-11-01T06-05-42-433Z.json"
+  },
+  "results": [
+    {
+      "index": 2,
+      "name": "健康快乐。",
+      "time": "2026/10/31 15:30",
+      "content": "有机会去香港联系你。我是海丰人。",
+      "kw": "海丰人",
+      "asked": "同乡，说有机会去香港联系",
+      "action": "reply",
+      "tier": "B",
+      "text": "好呀 😄 到時搵我",
+      "answerOk": true,
+      "category": "intent",
+      "reason": "同乡+未来联系意向 → 简短承接，不带引导",
+      "result": "rejected",
+      "detail": "④ 已点击「评论」，等结果…\n⑤ 三信号： {\"declared\":25,\"textareas\":0,\"found\":true,\"replies\":[],\"hit\":false}\n⑦ 发送链路：HTTP 201 errCode=-4005 errMsg=暂时不可以浏览此动态｜https://channels.weixin.qq.com/micro/interaction/cgi-bin/mmfinderassistant-bin/comment/create_comment\n记录：C:\\Users\\Administrator\\Desktop\\视频号\\data\\reply\\sent-2026-11-01T06-05-42-433Z-002.json\n✗ 服务端拒绝：计数未 +1、面板已关（errCode=-4005，暂时不可以浏览此动态）"
+    }
+  ]
+}

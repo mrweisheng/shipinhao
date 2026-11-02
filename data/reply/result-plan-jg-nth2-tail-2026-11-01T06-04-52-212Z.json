@@ -1,0 +1,53 @@
+{
+  "finishedAt": "2026-11-01T06:05:37.773Z",
+  "mode": "rehearse",
+  "planFile": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\opencode\\plan-jg-nth2-tail.json",
+  "video": {
+    "title": "香港的居民身份好拿下，但那7年，你想好怎么走了吗？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月31日 10:30"
+  },
+  "before": {
+    "declared": 25,
+    "plannedReplies": 2,
+    "executed": 2
+  },
+  "summary": {
+    "ok": 2,
+    "failed": 0,
+    "rejected": 0,
+    "policy": 0
+  },
+  "after": null,
+  "results": [
+    {
+      "index": 18,
+      "name": "䒭㶡15976751756",
+      "time": "2026/10/31 11:39",
+      "content": "明哥我想踉你",
+      "kw": "我想踉你",
+      "asked": "想跟着明哥做",
+      "action": "reply",
+      "tier": "C",
+      "text": "多謝支持 😄 細節點頭像👤搵明哥",
+      "answerOk": true,
+      "category": "job",
+      "reason": "求职类 → 模糊承接，换句式避免与同视频另一条重复",
+      "result": "rehearsed"
+    },
+    {
+      "index": 19,
+      "name": "SK.Values.HaveChoice",
+      "time": "2026/10/31 11:14",
+      "content": "講得對",
+      "kw": "講得對",
+      "asked": "客户认同",
+      "action": "reply",
+      "tier": "B",
+      "text": "有心 😄 多謝支持",
+      "answerOk": true,
+      "category": "praise",
+      "reason": "文字认同 → 多谢，换句式避免重复",
+      "result": "rehearsed"
+    }
+  ]
+}

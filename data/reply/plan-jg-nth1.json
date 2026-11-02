@@ -1,0 +1,52 @@
+{
+  "nth": 1,
+  "video": {
+    "title": "香港这台埃尔法30系+莲塘口岸，现买现揸过关！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年11月01日 07:00"
+  },
+  "declared": 3,
+  "items": [
+    {
+      "index": 0,
+      "name": "彭希棉",
+      "time": "2026/11/01 13:31",
+      "content": "價錢？",
+      "kw": "價錢",
+      "asked": "客户问这台车价钱",
+      "action": "reply",
+      "tier": "C",
+      "text": "價錢嘅嘢 📩 點頭像👤搵明哥",
+      "answerOk": true,
+      "category": "price",
+      "reason": "问价 → 不报数字，按指路口径"
+    },
+    {
+      "index": 1,
+      "name": "伦",
+      "time": "2026/11/01 08:48",
+      "content": "早晨，大卖明少",
+      "kw": "大卖明少",
+      "asked": "打招呼 + 祝生意好",
+      "action": "reply",
+      "tier": "B",
+      "text": "早晨 😄 多謝支持",
+      "answerOk": true,
+      "category": "praise",
+      "reason": "纯捧场 → 多谢，不带引导"
+    },
+    {
+      "index": 2,
+      "name": "永卓香港物流",
+      "time": "2026/11/01 08:22",
+      "content": "多少钱",
+      "kw": "多少钱",
+      "asked": "客户问多少钱",
+      "action": "reply",
+      "tier": "C",
+      "text": "想知價錢 😄 點頭像👤搵明哥",
+      "answerOk": true,
+      "category": "price",
+      "reason": "问价 → 不报数字，换句式避免与本条视频另一条问价重复"
+    }
+  ]
+}

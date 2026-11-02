@@ -1,0 +1,79 @@
+{
+  "finishedAt": "2026-11-01T04:54:31.031Z",
+  "mode": "send",
+  "planFile": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\reply\\plan-nth1.json",
+  "video": {
+    "title": "兄弟，不管是香港还是汕尾，普通人最好的家风就是父母的托举！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年11月01日 07:05"
+  },
+  "before": {
+    "declared": 24,
+    "plannedReplies": 3,
+    "executed": 3
+  },
+  "summary": {
+    "ok": 3,
+    "failed": 0,
+    "rejected": 0,
+    "policy": 0
+  },
+  "after": {
+    "declared": 27,
+    "awaitingThreads": 10,
+    "complete": true,
+    "file": "C:\\Users\\Administrator\\Desktop\\视频号\\data\\reply\\verify-2026-11-01T04-52-45-393Z.json"
+  },
+  "results": [
+    {
+      "index": 0,
+      "name": "人間清醒",
+      "time": "2026/11/01 12:47",
+      "likes": null,
+      "content": "HK确实是福地 [強]",
+      "kw": "HK确实是福",
+      "asked": "客户在认同：香港是福地",
+      "action": "reply",
+      "tier": "B",
+      "text": "多謝認同 😄 有心",
+      "answerOk": true,
+      "category": "praise",
+      "reason": "文字认同 → 多谢，不带引导",
+      "caseId": "c181",
+      "result": "sent"
+    },
+    {
+      "index": 11,
+      "name": "LINXIAO",
+      "time": "2026/11/01 11:10",
+      "likes": 1,
+      "content": "和你做朋友法世情真正A够人来，你這種口才值得科你做老闆身份 /:strong 头脑四肢发达 /:strong",
+      "kw": "和你做朋友法",
+      "asked": "客户在夸明哥口才/老板身份",
+      "action": "reply",
+      "tier": "B",
+      "text": "多謝讚賞 😄 有心",
+      "answerOk": true,
+      "category": "praise",
+      "reason": "纯文字捧场 → 多谢，不带引导",
+      "caseId": "c182",
+      "result": "sent"
+    },
+    {
+      "index": 12,
+      "name": "武夷",
+      "time": "2026/11/01 11:02",
+      "likes": 1,
+      "content": "兄弟努力刻苦香港睇你啦",
+      "kw": "兄弟努力刻苦",
+      "asked": "客户在鼓励明哥",
+      "action": "reply",
+      "tier": "B",
+      "text": "多謝支持 😄 一齊努力",
+      "answerOk": true,
+      "category": "praise",
+      "reason": "文字鼓励 → 多谢，不带引导",
+      "caseId": "c183",
+      "result": "sent"
+    }
+  ]
+}
