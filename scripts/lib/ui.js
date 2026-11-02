@@ -106,6 +106,7 @@ function accountProbeExpr() {
   const sels = ${JSON.stringify(cands)};
   const names = ${JSON.stringify(names)};
   const url = location.href;
+  if (!document.body) return { name: null, selector: null, method: null, url };
   const vis = (el) => { const r = el.getBoundingClientRect(); return r.width > 0 && r.height > 0; };
   const txt = (el) => ((el.innerText || el.textContent || "") + "").replace(/\\s+/g, " ").trim();
   const selOf = (el) => {
@@ -199,6 +200,58 @@ function rememberRoute(via) {
   return true;
 }
 
+/** 页面空白/内容区没挂载时自动刷新重试（网络差时常见） */
+async function ensurePageReady(send, { tries = 3, settleMs = 1500 } = {}) {
+  let last = null;
+  for (let i = 0; i < tries; i++) {
+    const st = await cdp
+      .evaluate(
+        send,
+        `(() => ({
+          url: location.href,
+          text: (document.body?.innerText || "").length,
+          wujie: !!document.querySelector("wujie-app"),
+          nick: !!document.querySelector(".finder-nickname"),
+          ready: document.readyState,
+        }))()`
+      )
+      .catch(() => null);
+    last = st;
+    if (st && st.ready === "complete" && (st.text > 20 || st.wujie || st.nick)) {
+      return { ok: true, ...st };
+    }
+    if (i < tries - 1) {
+      await cdp.evaluate(send, "location.reload()").catch(() => {});
+      await cdp.sleep(3000);
+    }
+  }
+  return { ok: false, ...(last || {}) };
+}
+
+/**
+ * 评论区「作者」badge 的昵称（只认 .comment-author-bandage，不按昵称白名单猜）。
+ * 返回按时间倒序；同名观众没有 badge，不会被算进来。
+ */
+async function readAuthorNames(send) {
+  return await cdp.evaluate(
+    send,
+    `(() => {
+      const root = document.querySelector("wujie-app")?.shadowRoot;
+      if (!root) return [];
+      const rows = [...root.querySelectorAll(".comment-item")].filter((it) =>
+        it.querySelector(".comment-author-bandage")
+      );
+      return rows
+        .map((it) => ({
+          name: (it.querySelector(".comment-user-name")?.innerText || "").trim(),
+          time: (it.querySelector(".comment-time")?.innerText || "").trim(),
+        }))
+        .filter((x) => x.name)
+        .sort((a, b) => String(b.time).localeCompare(String(a.time)));
+    })()`
+  );
+}
+
 /**
  * 读当前账号名。刚跳转到评论页时页头可能还没挂载，所以带一次短轮询，
  * 不要因为一瞬读不到就判定「读不到账号」。
@@ -207,7 +260,11 @@ async function resolveAccountOnPage(send, { waitMs = 6000 } = {}) {
   const deadline = Date.now() + waitMs;
   let r = null;
   while (Date.now() < deadline) {
-    r = await cdp.evaluate(send, accountProbeExpr());
+    try {
+      r = await cdp.evaluate(send, accountProbeExpr());
+    } catch {
+      r = null; // 刚跳转时 body 还没挂载，下一轮再试
+    }
     if (r && r.name) break;
     await cdp.sleep(300);
   }
@@ -280,5 +337,7 @@ module.exports = {
   rememberCommentUrl,
   rememberRoute,
   resolveAccountOnPage,
+  ensurePageReady,
+  readAuthorNames,
   ensureCommentPageOnPage,
 };

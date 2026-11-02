@@ -31,15 +31,15 @@ const NO_SCROLL = argv.includes("--no-scroll");
 const UNREPLIED = argv.includes("--unreplied");
 
 /**
- * 作者身份白名单（不写死在页面逻辑里，可用 --author 或环境变量覆盖）。
- * 页面只在「主号」回复上打「作者」badge；小号「明哥粤港车」回复不带 badge，
- * 只靠 badge 判定会把小号回复当成「观众回复」，导致误判待回、甚至重复回复。
+ * 作者身份：badge「作者」或我们三个账号名。
+ * 2026-11-01：保留账号名白名单——可能拿错账号回复（很正常），
+ * 另一个我们的账号回复了也要算“已回”，避免换号误回。
+ * 同名观众没有 badge，但若昵称与账号名完全相同，按我们账号处理。
  */
 const AUTHOR_NAMES = (getArg("author", null) || process.env.AUTHOR_NAMES ||
   "明哥揀粤港车,明哥揾粤港车,明哥粤港车")
   .split(",").map((s) => s.trim()).filter(Boolean);
 
-/** 用白名单补齐 isAuthor，并重算每条一级评论的回复状态 */
 function normalizeAuthors(data) {
   if (!data || !Array.isArray(data.comments)) return data;
   for (const c of data.comments) {
@@ -200,7 +200,7 @@ const EXTRACT = String.raw`(() => {
       level: isNested ? 2 : 1,
       parentIndex: isNested ? indexOfEl.get(topAncestor(el)) ?? null : null,
       author,
-      isAuthor: rowText.includes("作者") && !(author || "").includes("作者"),
+      isAuthor: !!el.querySelector(".comment-row")?.querySelector(".comment-author-bandage"),
       time: textOf(el.querySelector(".comment-time")) || null,
       content: textOf(el.querySelector(".comment-content")) || null,
       likes,

@@ -8,7 +8,7 @@
  *   - 定位用「昵称片段 + 内容关键词」，不用时间戳（跨轮次会漂）
  *
  * 用法：
- *   node scripts/08-reply-comment.js --name 健文 --kw 订购一台白色 --text "白色有得傾，多謝支持 🙏"
+ *   node scripts/08-reply-comment.js --name 健文 --kw 订购一台白色 --text "白色有 😄 多謝支持"
  *   node scripts/08-reply-comment.js ... --dry          # 只开到面板、输入、校验按钮，不点发送
  *   node scripts/08-reply-comment.js ... --expect 23    # 发送前计数（不匹配就中止）
  *
@@ -18,6 +18,7 @@
 const fs = require("fs");
 const path = require("path");
 const cdp = require("./lib/cdp");
+const { checkText } = require("./lib/plan");
 
 const argv = process.argv.slice(2);
 const getArg = (n, d = null) => {
@@ -44,28 +45,11 @@ if (!NAME || !KW || !TEXT) {
 const AUTHOR_NAMES = ["明哥揀粤港车", "明哥揾粤港车", "明哥粤港车"];
 
 /**
- * 引导红线（2026-10-24 恢复旧策略）
- *   - 允许：點頭像 / 睇簡介 / 私訊 / 置頂 / 主頁 等引导，且可以组合成完整路径
- *   - 仍然禁止：微信、VX、電話、手機、加我、二維碼、號碼、聯繫/聯絡、明示私下聊
- *   - 不支持也不阻拦“变形写法”（点号、放大镜等）；变体越丰富越好
+ * 文案红线统一走 lib/plan.js 的 checkText（2026-11-01）
+ *   - 之前这里有一份 10-24 的旧副本，只查禁词/长度/表情，
+ *     走 08 应急入口会绕过 費用 / 免责 / 路径叠加 / 表情位置 / 报价 等新规。
+ *   - 不要在这里再抄一份词表，规则只维护 lib/plan.js。
  */
-const HARD = [
-  "微信", "vx", "wechat", "電話", "电话", "手機", "手机", "加我",
-  "二維碼", "二维码", "號碼", "号码",
-  "聯繫方式", "联系方式", "聯絡方式", "联络方式",
-  "私信",  // 简体「私信」历史上有被吞记录，统一用繁体「私訊」
-  "唔方便喺度講", "唔方便喺度讲", "私下講", "私下讲",
-];
-
-function checkText(t) {
-  const low = t.toLowerCase();
-  const hits = HARD.filter((w) => low.includes(w.toLowerCase()));
-  if (hits.length) return hits;
-
-  if ([...t.replace(/\s/g, "")].length > 22) return ["超过 22 字上限（含标点）"];
-  if (!/[\u{1F300}-\u{1FAFF}\u2600-\u27BF]/u.test(t)) return ["缺少表情"];
-  return [];
-}
 
 const STATE = `(() => {
   const host = document.querySelector("wujie-app");

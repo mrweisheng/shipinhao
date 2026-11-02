@@ -112,7 +112,7 @@ function main() {
   console.log(`时间：${(data.video && data.video.time) || "?"}`);
   console.log(`声明：${data.declared ?? "?"} 条｜一级 ${l1.length}｜作者已回 ${replied.length}｜作者自评 ${own.length}｜待判断 ${pending.length}`);
   const ctx = plan.titleContext;
-  console.log(`标题背景：业务=${ctx.business}｜口岸=${ctx.ports.join("/") || "-"}｜车型=${ctx.models.join("/") || "-"}｜标价=${ctx.price || "未标价"}`);
+  console.log(`标题背景：业务=${ctx.business}｜口岸=${ctx.ports.join("/") || "-"}｜车型=${ctx.models.join("/") || "-"}｜标价=不报（口径）`);
   console.log("（标题只作背景参考；评论本身是正向业务咨询就必须回，方言标题看不懂不影响判断）");
 
   if (!pending.length) {

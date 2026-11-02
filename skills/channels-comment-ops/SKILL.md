@@ -7,6 +7,9 @@ metadata:
 
 # 视频号评论区维护（通用技能包）
 
+> ⚠ **2026-11-01 口径更新**：评论区**一律不报价格数字（视频已标价也不报）**，价格统一指路。
+> 项目内生效版本在 `.opencode/skills/channels-comment-ops/`；本目录为通用规范版，价格相关段落尚未整体改写，引用前先按新口径覆盖。
+
 > 本目录是符合 **Agent Skills 通用规范** 的技能包：`SKILL.md` 为入口，规则文件全部在
 > `references/`、`docs/` 内，引用均为**相对本目录的路径**。整体复制到任意支持该规范的
 > AI 助手（Claude Code / OpenCode / Cursor / Codex / 豆包等）的 skills 目录即可直接使用，

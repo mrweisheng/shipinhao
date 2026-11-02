@@ -19,6 +19,7 @@ const path = require("path");
 const { spawnSync } = require("child_process");
 const cdp = require("./lib/cdp");
 const store = require("./lib/store");
+const ui = require("./lib/ui");
 const planLib = require("./lib/plan");
 const caseLib = require("./lib/case-library");
 const { appendHistory } = require("./lib/template-pool");
@@ -33,6 +34,10 @@ const has = (n) => argv.includes(`--${n}`);
 
 const PLAN_FILE = getArg("plan", null);
 const ACCOUNT = getArg("account", null); // 可选：发送前校验当前登录账号
+const AUTHOR_ALIASES = (process.env.AUTHOR_NAMES || "明哥揀粤港车,明哥揾粤港车,明哥粤港车")
+  .split(",")
+  .map((s) => s.trim())
+  .filter(Boolean);
 const SEND = has("send");
 const REHEARSE = has("rehearse");
 const LIKE = !has("no-like");
@@ -63,12 +68,17 @@ const runNode = (script, args) =>
     maxBuffer: 32 * 1024 * 1024,
   });
 
-/** 当前登录账号 → data/accounts 的目录 id（state 落库用） */
-function currentAccountId(explicit) {
-  if (explicit) return explicit;
-  const r = runNode("26-whoami.js", []);
-  const name = String(r.stdout || "").trim();
-  return name ? store.findAccountByName(name) : null;
+/** 开工前 26-whoami 写下的账号 session；发送时只认它，不在评论页再读账号 */
+function readSessionName() {
+  try {
+    const j = JSON.parse(fs.readFileSync(path.join(here, "..", "data", "account-session.json"), "utf8"));
+    if (!j || !j.name) return null;
+    const age = Date.now() - Date.parse(j.at || 0);
+    if (!Number.isFinite(age) || age > 4 * 3600 * 1000) return null;
+    return String(j.name);
+  } catch {
+    return null;
+  }
 }
 
 /** 把已决条目写回 state.jsonl：skip 与 reply 都算「已处理」，25-open-items 不再报待回 */
@@ -103,6 +113,8 @@ async function preflight(plan) {
 
   const { send, close } = await cdp.attach(page.webSocketDebuggerUrl);
   try {
+    const ready = await ui.ensurePageReady(send, { tries: 2 });
+    if (!ready.ok) throw new Error("页面空白/内容区没挂载，已自动刷新仍失败；重开视频再试");
     const st = await cdp.evaluate(send, `(() => {
       const root = document.querySelector("wujie-app")?.shadowRoot;
       if (!root) return null;
@@ -126,7 +138,8 @@ async function preflight(plan) {
     if (want && got && !got.includes(want.slice(0, 20)) && !want.includes(got.slice(0, 20))) {
       throw new Error(`当前页面不是计划里的视频：\n  计划：${want.slice(0, 50)}\n  当前：${got.slice(0, 50)}\n先重新打开目标视频`);
     }
-    return st;
+    const authors = await ui.readAuthorNames(send).catch(() => []);
+    return { ...st, authors };
   } finally {
     close();
   }
@@ -185,7 +198,7 @@ async function main() {
   const plan = planLib.load(PLAN_FILE);
   const history = readHistorySafe();
   // 批次密度按「滚动 7 天」算（含 history）；单批 <5 条且历史不足时只查连续路径
-  const v = planLib.validatePlan(plan, { history });
+  const v = planLib.validatePlan(plan, { history, video: plan.video && plan.video.title });
   const dup = planLib.checkDuplicates(plan, history);
   // 与最近 3 条完全相同 → 默认阻断；7 天内用过同一句 → 默认提醒，--strict-dup 时升级为阻断
   const dupErrors = STRICT_DUP ? [...dup.errors, ...dup.warnings] : dup.errors;
@@ -207,7 +220,7 @@ async function main() {
     process.exitCode = 4;
     return;
   }
-  console.log("\n✓ 计划校验通过（禁词 / 长度 / 表情 / 引导数 / 重复）");
+  console.log("\n✓ 计划校验通过（禁词 / 长度 / 表情位置 / 价格 / tier / 引导数 / 重复）");
 
   const replies = plan.items.filter((x) => x.action === "reply");
   if (!SEND && !REHEARSE) {
@@ -225,16 +238,26 @@ async function main() {
       process.exitCode = 3;
       return;
     }
-    const r = runNode("26-whoami.js", ["--expect", acc.displayName || ""]);
-    if (r.status !== 0) {
-      console.error(`[失败] 当前登录账号不是「${acc.displayName}」，已中止发送。`);
+    const sessionName = readSessionName();
+    if (!sessionName) {
+      console.error("[失败] 没有账号 session。开工前先到首页跑 node scripts\\26-whoami.js，确认账号后再发送。");
       process.exitCode = 3;
       return;
     }
-    console.log(`✓ 账号校验通过：${acc.displayName}`);
+    const same =
+      sessionName === acc.displayName ||
+      sessionName.includes(acc.displayName) ||
+      acc.displayName.includes(sessionName);
+    if (!same) {
+      console.error(`[失败] 开工前读到「${sessionName}」，与「${acc.displayName}」不一致，已中止发送。`);
+      process.exitCode = 3;
+      return;
+    }
+    console.log(`✓ 账号校验通过（开工前首页读取）：${acc.displayName}`);
   } else {
-    accId = currentAccountId(null);
-    if (!accId) console.warn("[提示] 未识别当前账号，本次不写 state（不影响发送）；建议加 --account");
+    const sessionName = readSessionName();
+    accId = sessionName ? store.findAccountByName(sessionName) : null;
+    if (!accId) console.warn("[提示] 没有账号 session（开工前先跑 26-whoami）；本次不写 state");
   }
 
   // 跳过项也落库：否则 25-open-items 下次还会把它们当待处理
@@ -251,6 +274,24 @@ async function main() {
   const st0 = await preflight(plan);
   console.log(`\n当前页面：${st0.title}`);
   console.log(`评论计数：${st0.declared}`);
+
+  // 作者 badge 名称校验（2026-11-01）：与开工前首页 session 对一下。
+  // 同名观众没有 badge，不会算进来；旧昵称/小号按别名放行但提示。
+  const latestAuthor = st0.authors && st0.authors[0];
+  const sessionName = readSessionName();
+  if (latestAuthor) {
+    if (sessionName && latestAuthor.name === sessionName) {
+      console.log(`✓ 评论区作者名与首页一致：${latestAuthor.name}`);
+    } else if (AUTHOR_ALIASES.includes(latestAuthor.name)) {
+      console.warn(
+        `⚠ 评论区最近作者名「${latestAuthor.name}」与首页「${sessionName || "?"}」不同：按同账号历史昵称/小号处理`
+      );
+    } else {
+      console.error(`[失败] 评论区最近作者名「${latestAuthor.name}」不在作者名单，可能不是当前账号，已中止。`);
+      process.exitCode = 3;
+      return;
+    }
+  }
 
   let expected = Number(st0.declared) || Number(plan.declared) || null;
   if (plan.declared && st0.declared && Number(plan.declared) !== Number(st0.declared)) {

@@ -19,7 +19,7 @@
 | 事实 | `业务事实.md` | 唯一事实来源：价格 / 付款 / 车况 / 地址 / 移民 / 求职口径 |
 | 判断 | `.opencode/skills/channels-comment-ops/SKILL.md` | 回不回、动作分类、硬规则、红线 |
 | 参考 | `data/cases/`（`seed.jsonl` + `cases.jsonl`） | **主参考**：检索 2 条好案例 + 1 条坏案例 → 仿写 |
-| 变体 | `模板池.md` | 仅 `GUIDE-*` 引导尾巴（155 条）与兜底候选 |
+| 变体 | `模板池.md` | 仅 `GUIDE-*` 引导尾巴（85 条）与兜底候选 |
 
 冲突时：**业务事实 → SKILL → 案例库 → 模板池**。
 
@@ -70,6 +70,7 @@ node scripts\13-execute-plan.js --plan .\data\reply\plan-nth5.json --send
 # 案例库
 node scripts\15-case-library.js --stats
 node scripts\15-case-library.js --search "司分期付款嗎" --intent car_payment --top 5
+node scripts\30-audit-cases.js            # 旧口径复审（加 --apply 落库）
 ```
 
 ## 数据
