@@ -87,21 +87,34 @@ function checkText(t) {
 
   // 参数不要拼「年份明細」（2026-10-31 定版）：参数不是商品，只有商品/方案才用「对象明細」
   if (/(年份|年款|里數|里数|里程|公里|排量|配置|過戶|过户|幾手|几手)明細/.test(String(t))) {
-    errs.push("参数问题不要拼「年份明細／里數明細／排量明細」：统一「車輛明細，點頭像👤搵明哥，發俾你 📩」");
+    errs.push("参数问题不要拼「年份明細／里數明細／排量明細」：统一「車輛明細，點頭像👤搵明哥」");
   }
 
   const len = [...String(t).replace(/\s/g, "")].length;
   if (len > 22) errs.push(`长度 ${len} 字（上限 22）`);
   if (!EMOJI_RE.test(String(t))) errs.push("缺少表情");
 
-  // 表情必须在句中（2026-10-31）：放开头/结尾等于把词和表情绑在一起，更容易被关键词命中
-  // 例外（2026-11-01）：纯表情回复没有关键词可绑，允许保留（EMOJI 类模板）
+  // 表情位置（2026-10-31，2026-11-02 放宽）：指路句必须句中（👤 已在句中）；
+  // 纯回应/直接答（无指路词）允许句尾表情，否则「有，喺度 😄」「多謝支持 🙏」会被逼成不自然的句子。
   const noSpace = String(t).replace(/\s/g, "");
   const onlyEmoji = noSpace.length > 0 && [...noSpace].every((ch) => EMOJI_RE.test(ch));
   const chars = [...String(t).trim()];
+  const hasPointer = /頭像|头像|明細|價錢|價钱|PM|私訊|置頂|置顶|主頁|主页/i.test(String(t));
   if (!onlyEmoji) {
     if (chars.length && EMOJI_RE.test(chars[0])) errs.push("表情不要放开头：放在文字中间（打断关键词）");
-    if (chars.length && EMOJI_RE.test(chars[chars.length - 1])) errs.push("表情不要放结尾：放在文字中间（打断关键词）");
+    if (hasPointer && chars.length && EMOJI_RE.test(chars[chars.length - 1])) {
+      errs.push("指路句的表情不要放结尾：放句中或直接用 👤（👤 已算表情）");
+    }
+  }
+
+  // 一条回复只一个动作：不要「搵明哥，發俾你」叠两个目的（2026-11-02）
+  if (/(搵明哥|搵我|搵佢)[，,]\s*(發俾你|發你|傳你)/.test(String(t))) {
+    errs.push("动作叠加（搵明哥 + 發俾你）：只留一个，「車輛明細，點頭像👤搵明哥」");
+  }
+
+  // 不要把参数问题推给验车报告（2026-10-31 用户否决）
+  if (/睇驗車報告|睇报告|睇報告|報告最準|報告最准/.test(String(t))) {
+    errs.push("免责/推给报告：参数问题统一「車輛明細，點頭像👤搵明哥」");
   }
 
   if (/保证|包搞掂|包搞定|一定得|最低價|最低价|全港最平|實時行情|实时行情/.test(String(t))) {
@@ -241,6 +254,8 @@ function checkBatch(items, opt = {}) {
         errors.push(
           `本视频近 7 天 ${g}/${same.length} 条带指路（${pct(g, same.length)}%），超过 50% —— 至少一半要直接答事实或纯回应；按视频聚合，拆 plan 也算在一起`
         );
+      } else if (g / same.length > 0.4) {
+        warnings.push(`本视频近 7 天指路 ${pct(g, same.length)}%（${g}/${same.length}），目标 ≤40%`);
       }
     }
   } else if (replies.length >= 4) {
@@ -249,6 +264,8 @@ function checkBatch(items, opt = {}) {
       errors.push(
         `本批 ${g}/${replies.length} 条带指路（${pct(g, replies.length)}%），超过 50% —— 至少一半要直接答事实或纯回应；提到「找明哥」但不带点头像/PM/私訊的不算指路`
       );
+    } else if (g / replies.length > 0.4) {
+      warnings.push(`本批指路 ${pct(g, replies.length)}%（${g}/${replies.length}），目标 ≤40%`);
     }
   }
 
