@@ -11,6 +11,7 @@
 
 const fs = require("fs");
 const path = require("path");
+const { checkText } = require("./plan");
 
 const DIR = path.join(__dirname, "..", "..", "data", "cases");
 const SEED = path.join(DIR, "seed.jsonl");
@@ -111,6 +112,16 @@ function cosine(a, b) {
   return dot / (a.norm * b.norm);
 }
 
+/**
+ * 2026-11-01：只返回「内容合规」的案例。
+ * 为什么不是完整 checkText：73 条 good 里 70 条是旧格式（表情在句尾），
+ * 完整过滤会把库直接清空。表情位置/长度属于格式项，由 13 发送前兜底；
+ * 这里只拦内容项（禁词 / 费用 / 价格 / 多路径 / 承诺 / 免责 / 参数拼接）。
+ */
+function contentErrors(reply) {
+  return checkText(reply).filter((e) => !/^(表情|缺少表情|长度)/.test(e));
+}
+
 function search(query, { top = 5, business = null, label = null, intent = null } = {}) {
   const cases = load();
   const model = buildModel(cases);
@@ -118,8 +129,10 @@ function search(query, { top = 5, business = null, label = null, intent = null }
   const scored = [];
   for (const d of model.docs) {
     if (d.c.label === "dropped") continue; // 淘汰：不进检索、不当例子，但留档可审计
+    if (contentErrors(d.c.reply).length) continue; // 旧口径案例不再当范本
+    // 默认只返回 good；要看候选/反面教材时显式传 label=unreviewed / bad
+    if (label ? d.c.label !== label : d.c.label !== "good") continue;
     if (business && d.c.business && d.c.business !== business && d.c.business !== "any") continue;
-    if (label && d.c.label !== label) continue;
     if (intent && d.c.intent !== intent) continue;
     scored.push({ ...d.c, score: cosine(q, d) });
   }
@@ -213,4 +226,4 @@ function stats() {
   };
 }
 
-module.exports = { load, search, add, updateLabel, stats, tokenize, QUEUE, CASES, SEED };
+module.exports = { load, search, add, updateLabel, stats, tokenize, contentErrors, QUEUE, CASES, SEED };

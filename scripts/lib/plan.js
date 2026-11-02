@@ -65,6 +65,21 @@ function checkText(t) {
     errs.push("出现「費用／收費」：问费用只承接+指路（明細／詳情／細節 + 點頭像），不报价、不解释构成");
   }
 
+  // 评论区一律不报价（2026-11-01）：视频已标价也不报——评论可能问的是另一条视频的车
+  // 先剔除非价格数字：年份、里程、排量/马力，避免把「2017年」「4萬5公里」当报价拦掉
+  const noNum = String(t)
+    .replace(/(?:19|20)\d{2}\s*年?/g, "")
+    .replace(/\d+(?:\.\d+)?\s*[萬万]?\s*\d*\s*(?:公里|里數|里数|里程|km)/gi, "")
+    .replace(/\d+(?:\.\d+)?\s*(?:cc|ml|l|升|匹|馬力|马力)/gi, "");
+  const priceHit =
+    /\d+(?:\.\d+)?\s*[萬万]/.test(noNum) ||
+    /\d{3,}\s*(?:元|蚊|港幣|港币|hkd)/i.test(noNum) ||
+    /\d{5,}/.test(noNum) ||
+    /[一二三四五六七八九十]+\s*[萬万]\s*[一二三四五六七八九]?/.test(noNum);
+  if (priceHit) {
+    errs.push("出现价格数字：评论区一律不报价（含已标价，客户可能问的是另一条视频的车）；改「{對象}明細，點頭像👤搵明哥」");
+  }
+
   // 免责话术（2026-10-31 用户否决）：像隐瞒、像不熟自己的车
   if (/以驗車報告為準|以验车报告为准|以實物為準|以实物为准|僅供參考|仅供参考|不作準|不作准/.test(String(t))) {
     errs.push("免责话术（以驗車報告為準／以實物為準／僅供參考）：参数问题统一「車輛明細，點頭像👤搵明哥，發俾你」");
@@ -80,9 +95,14 @@ function checkText(t) {
   if (!EMOJI_RE.test(String(t))) errs.push("缺少表情");
 
   // 表情必须在句中（2026-10-31）：放开头/结尾等于把词和表情绑在一起，更容易被关键词命中
+  // 例外（2026-11-01）：纯表情回复没有关键词可绑，允许保留（EMOJI 类模板）
+  const noSpace = String(t).replace(/\s/g, "");
+  const onlyEmoji = noSpace.length > 0 && [...noSpace].every((ch) => EMOJI_RE.test(ch));
   const chars = [...String(t).trim()];
-  if (chars.length && EMOJI_RE.test(chars[0])) errs.push("表情不要放开头：放在文字中间（打断关键词）");
-  if (chars.length && EMOJI_RE.test(chars[chars.length - 1])) errs.push("表情不要放结尾：放在文字中间（打断关键词）");
+  if (!onlyEmoji) {
+    if (chars.length && EMOJI_RE.test(chars[0])) errs.push("表情不要放开头：放在文字中间（打断关键词）");
+    if (chars.length && EMOJI_RE.test(chars[chars.length - 1])) errs.push("表情不要放结尾：放在文字中间（打断关键词）");
+  }
 
   if (/保证|包搞掂|包搞定|一定得|最低價|最低价|全港最平|實時行情|实时行情/.test(String(t))) {
     errs.push("含承诺/绝对化表述");
@@ -104,22 +124,13 @@ function keywordOf(text) {
   return pick.slice(0, 6) || s.slice(0, 6);
 }
 
-/** 从标题提取固定标价（只用于给模型参考，不参与判断） */
-function detectPrice(title) {
-  const t = String(title || "").replace(/[,，\s]/g, "");
-  let m = t.match(/(\d+(?:\.\d+)?)([万萬])(\d)?/);
-  if (m) return m[1] + "萬" + (m[3] || "");
-  m = t.match(/(\d{2,6})(?:元|蚊|港幣|港币|hkd)/i);
-  if (m) return m[1] + "元";
-  return null;
-}
-
 const PORTS = ["蓮塘", "莲塘", "深圳灣", "深圳湾", "港珠澳", "皇崗", "皇岗", "文錦渡", "文锦渡", "沙頭角", "沙头角", "落馬洲", "落马洲"];
 const MODELS = ["埃爾法", "埃尔法", "阿爾法", "阿尔法", "賓利", "宾利", "奔馳", "奔驰", "寶馬", "宝马", "奧迪", "奥迪", "GLE", "特斯拉", "Tesla", "豐田", "丰田", "本田", "日產", "日产"];
 
 /**
- * 标题上下文：车型 / 口岸 / 业务线 / 标价。
+ * 标题上下文：车型 / 口岸 / 业务线。
  * 只作为起草参考，绝不用于判断某条评论「该不该回」。
+ * 不输出标价：2026-11-01 起评论区一律不报价，避免模型顺手把标题价写进回复。
  * 方言标题看不懂很正常，评论本身是正向咨询就必须回。
  */
 function detectContext(title) {
@@ -132,7 +143,7 @@ function detectContext(title) {
   if (/兩地牌|两地牌|中港牌|港車北上|港车北上|口岸|指標|指标/.test(main)) business = "plate";
   else if (/移民|高才|優才|优才|身份|簽證|签证|移居/.test(main)) business = "immigration";
   else if (/車|车|埃爾法|埃尔法|阿爾法|阿尔法|賓利|宾利|奔馳|奔驰|GLE|寶馬|宝马/.test(main)) business = "car";
-  return { business, ports, models, price: detectPrice(t) };
+  return { business, ports, models };
 }
 
 /**
@@ -171,20 +182,31 @@ function guidePath(text) {
  *  - 连续同路径：2 条为上限（第 3 条即拒）。
  *  - DM 不用（中文语境指 IG/小红书私信，有引导站外联想），出现即提醒。
  */
+/** 意图档位：A/1=到店，B/2=基础确认，C/3=高意向（问价/明细/条件/流程） */
+function normalizeTier(v) {
+  const s = String(v == null ? "" : v).trim().toUpperCase();
+  if (["1", "A", "到店", "到店睇車", "到店看车"].includes(s)) return 1;
+  if (["2", "B", "基础确认", "基礎確認"].includes(s)) return 2;
+  if (["3", "C", "高意向"].includes(s)) return 3;
+  return null;
+}
+
 const WINDOW = 7 * 24 * 3600 * 1000;
 
 function windowReplies(replies, history, now) {
   const from = now - WINDOW;
   const hist = (history || [])
     .filter((h) => h && h.text && (!h.at || !Number.isFinite(Date.parse(h.at)) || Date.parse(h.at) > from))
-    .map((h) => ({ text: String(h.text) }));
+    .map((h) => ({ text: String(h.text), video: h.video || null }));
   return hist.concat(replies);
 }
 
 function checkBatch(items, opt = {}) {
   const errors = [];
   const warnings = [];
-  const replies = items.filter((x) => x.action === "reply" && x.text);
+  const replies = items
+    .filter((x) => x.action === "reply" && x.text)
+    .map((x) => ({ ...x, video: x.video || opt.video || null }));
   const now = opt.now || Date.now();
   const all = windowReplies(replies, opt.history, now);
   if (!all.length) return { errors, warnings };
@@ -206,9 +228,22 @@ function checkBatch(items, opt = {}) {
     }
   }
 
-  // 1.1 单批（同一视频）指路上限 50%（2026-10-31）：每条都点头像，全局一扫就一模一样
+  // 1.1 同一视频指路 ≤50%（2026-11-01：按视频聚合，不按单份计划）
+  //     2026-11-01 实测：莲塘那条视频 14 条回复里 12 条带指路，拆成 4 份 plan 就绕过了单批闸门。
   //     「找明哥安排」这类提及但没有动作的不算指路
-  if (replies.length >= 4) {
+  const videoKey = (s) => String(s || "").replace(/\s+/g, "").slice(0, 20);
+  const vid = opt.video ? videoKey(opt.video) : null;
+  if (vid) {
+    const same = all.filter((x) => x.video && videoKey(x.video) === vid);
+    if (same.length >= 4) {
+      const g = same.filter((x) => guidePath(x.text)).length;
+      if (g / same.length > 0.5) {
+        errors.push(
+          `本视频近 7 天 ${g}/${same.length} 条带指路（${pct(g, same.length)}%），超过 50% —— 至少一半要直接答事实或纯回应；按视频聚合，拆 plan 也算在一起`
+        );
+      }
+    }
+  } else if (replies.length >= 4) {
     const g = replies.filter((x) => guidePath(x.text)).length;
     if (g / replies.length > 0.5) {
       errors.push(
@@ -315,13 +350,28 @@ function validatePlan(plan, opt = {}) {
         continue;
       }
       for (const e of checkText(x.text)) errors.push(`${at}（${x.name}）${e}`);
+
+      // 意图档位（2026-11-01）：A/1=到店，B/2=基础确认，C/3=高意向（问价/明细/条件/流程）
+      // A/B 出现任何引导词 → 拒；C 才允许指路
+      const tier = normalizeTier(x.tier);
+      const paths = guidePaths(x.text);
+      if (!tier) {
+        errors.push(`${at}（${x.name}）缺少 tier：A/1=到店，B/2=基础确认，C/3=高意向（问价/明细/条件/流程）`);
+      } else if (tier < 3 && paths.length) {
+        errors.push(
+          `${at}（${x.name}）tier ${tier <= 1 ? "A/1" : "B/2"} 不该带引导（${paths.join("/")}）：只有 C/3（问价/明细/条件/流程）才指路`
+        );
+      } else if (tier === 3 && !paths.length) {
+        warnings.push(`${at}（${x.name}）tier C 但没带指路：确认是否漏了「點頭像／PM／私訊」`);
+      }
+
       if (!x.kw && !x.content) warnings.push(`${at}（${x.name}）没有 kw/content，靠昵称定位可能不唯一`);
     } else if (!x.reason) {
       warnings.push(`${at}（${x.name}）跳过但没写 reason`);
     }
   }
 
-  const batch = checkBatch(plan.items, { history: opt.history, now: opt.now });
+  const batch = checkBatch(plan.items, { history: opt.history, now: opt.now, video: opt.video });
   errors.push(...batch.errors);
   warnings.push(...batch.warnings);
 
@@ -330,10 +380,12 @@ function validatePlan(plan, opt = {}) {
 
 /** 重复文案检查：最近 3 条内完全相同 → 阻断；7 天内用过 → 提醒 */
 function checkDuplicates(plan, history) {
-  const recent = (history || []).slice(-3).map((h) => h.text);
+  // 比较时去掉表情与空白：模板整改会把表情从句尾移到句中，但句子还是同一句
+  const key = (s) => String(s || "").replace(/[\u{1F300}-\u{1FAFF}\u2600-\u27BF\uFE0F\s]/gu, "");
+  const recent = (history || []).slice(-3).map((h) => key(h.text));
   const week = Date.now() - 7 * 24 * 3600 * 1000;
   const usedWeek = new Set(
-    (history || []).filter((h) => Date.parse(h.at || 0) > week).map((h) => h.text)
+    (history || []).filter((h) => Date.parse(h.at || 0) > week).map((h) => key(h.text))
   );
 
   const errors = [];
@@ -341,10 +393,10 @@ function checkDuplicates(plan, history) {
   let prev = null;
   for (const x of plan.items) {
     if (x.action !== "reply") continue;
-    if (recent.includes(x.text)) errors.push(`与最近发送的文案完全相同：${x.text}`);
-    else if (usedWeek.has(x.text)) warnings.push(`7 天内用过同一句：${x.text}`);
-    if (prev === x.text) errors.push(`计划内相邻两条文案相同：${x.text}`);
-    prev = x.text;
+    if (recent.includes(key(x.text))) errors.push(`与最近发送的文案完全相同：${x.text}`);
+    else if (usedWeek.has(key(x.text))) warnings.push(`7 天内用过同一句：${x.text}`);
+    if (prev === key(x.text)) errors.push(`计划内相邻两条文案相同：${x.text}`);
+    prev = key(x.text);
   }
   return { errors, warnings };
 }
@@ -354,4 +406,4 @@ function load(file) {
   return JSON.parse(text);
 }
 
-module.exports = { BANNED, checkText, guidePaths, keywordOf, detectPrice, detectContext, validatePlan, checkDuplicates, load };
+module.exports = { BANNED, checkText, guidePaths, keywordOf, detectContext, validatePlan, checkDuplicates, load };

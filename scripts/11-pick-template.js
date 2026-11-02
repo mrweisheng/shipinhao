@@ -8,7 +8,7 @@
  *   node scripts/11-pick-template.js --list
  *   node scripts/11-pick-template.js --validate
  *   node scripts/11-pick-template.js --category PRAISE --count 5
- *   node scripts/11-pick-template.js --category CAR-PRICE --price 12萬8 --avoid "多謝支持 🙏"
+ *   node scripts/11-pick-template.js --category CAR-PRICE --avoid "多謝支持 🙏"
  */
 
 const fs = require("fs");

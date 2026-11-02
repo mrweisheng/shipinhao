@@ -9,19 +9,16 @@
 
 const fs = require("fs");
 const path = require("path");
+const { BANNED, checkText } = require("./plan");
 
 const DEFAULT_FILE = path.join(__dirname, "..", "..", "模板池.md");
 const WEEK = 7 * 24 * 3600 * 1000;
 
-const BANNED = [
-  "微信", "vx", "wechat", "電話", "电话", "手機", "手机", "加我",
-  "二維碼", "二维码", "號碼", "号码",
-  "聯繫方式", "联系方式", "聯絡方式", "联络方式",
-  "私信",  // 简体；繁体「私訊」允许
-  "唔方便喺度講", "唔方便喺度讲", "私下講", "私下讲",
-];
 const GUIDE = /頭像|头像|簡介|简介|私訊|置頂|置顶|主頁|主页|🔍|📩|💬|🔝|頂部|顶部|\bPM\b/i;
 const EMOJI_RE = /[\u{1F300}-\u{1FAFF}\u2600-\u27BF\uFE0F]/u;
+const EMOJI_ALL = /[\u{1F300}-\u{1FAFF}\u2600-\u27BF\uFE0F]/gu;
+// 查重时去掉表情与空白：2026-11-01 模板表情从句尾移到句中，句子本身没变
+const dedupeKey = (s) => String(s || "").replace(EMOJI_ALL, "").replace(/\s/g, "");
 
 function parse(file = DEFAULT_FILE) {
   const text = fs.readFileSync(file, "utf8");
@@ -66,21 +63,15 @@ function fill(t, price) {
   return price ? t.replace(/\{price\}/g, price) : t;
 }
 
-/** 校验：禁词 / 长度 / 表情 */
+/** 校验：与发送前完全同一套（lib/plan.checkText） */
 function validate(poolFile) {
   const { pool } = parse(poolFile);
   const errors = [];
   for (const cat of Object.keys(pool)) {
     for (const t of pool[cat]) {
-      const text = fill(t.text, "12萬8");
-      const low = text.toLowerCase();
-      const hits = BANNED.filter((w) => low.includes(w.toLowerCase()));
-      if (hits.length) errors.push(`${t.id}: 禁词 ${hits.join("/")}`);
-      if ([...text.replace(/\s/g, "")].length > 22) errors.push(`${t.id}: 超过 22 字（${text}）`);
-      if (!EMOJI_RE.test(text)) errors.push(`${t.id}: 缺少表情（${text}）`);
-      if (/\{price\}/.test(text) && !/^CAR-(PRICE|FULL)-/.test(cat)) {
-        errors.push(`${t.id}: 非价格分类却用了 {price}`);
-      }
+      const text = fill(t.text, "");
+      if (/\{price\}/.test(text)) errors.push(`${t.id}: 仍含 {price}（2026-11-01 起停用）`);
+      for (const e of checkText(text)) errors.push(`${t.id}: ${e}`);
     }
   }
   return { ok: errors.length === 0, errors, categories: list(poolFile) };
@@ -109,7 +100,7 @@ function pick(category, opt = {}) {
   const recent = new Map();
   for (const h of history) {
     const at = Date.parse(h.at || 0) || 0;
-    if (now - at < WEEK) recent.set(h.text, at);
+    if (now - at < WEEK) recent.set(dedupeKey(h.text), at);
   }
 
   let withText = items.map((t) => ({ ...t, out: fill(t.text, price) }));
@@ -121,14 +112,14 @@ function pick(category, opt = {}) {
   }
 
   // 1) 7 天没用过、且不在 avoid 里
-  let cands = withText.filter((t) => !recent.has(t.out) && !avoid.has(t.out));
+  let cands = withText.filter((t) => !recent.has(dedupeKey(t.out)) && !avoid.has(t.out));
   // 2) 放宽：允许 7 天内用过，但仍在 avoid 里排除
   if (!cands.length) cands = withText.filter((t) => !avoid.has(t.out));
   // 3) 再放宽：只排除最近 3 条
   if (!cands.length) cands = withText;
 
   // 优先选最久没用的（同组内随机，避免每次都同一条）
-  const lastUsed = (t) => recent.get(t.out) || 0;
+  const lastUsed = (t) => recent.get(dedupeKey(t.out)) || 0;
   const oldest = Math.min(...cands.map(lastUsed));
   const finalists = cands.filter((t) => lastUsed(t) === oldest);
 
