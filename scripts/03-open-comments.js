@@ -88,7 +88,7 @@ const SNAPSHOT = `(() => {
     if (!entered.ok) {
       throw new Error(
         `进不去评论管理页（当前 ${entered.url || "?"}）。` +
-          "可跑 scripts/probe-nav.js 看菜单是否改版，再把新路径写回 data/ui-map.json"
+          "可跑 scripts/_probe/probe-nav.js 看菜单是否改版，再把新路径写回 data/ui-map.json"
       );
     }
     log(

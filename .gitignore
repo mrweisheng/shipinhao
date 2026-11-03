@@ -15,5 +15,8 @@ data/probe/
 data/selftest/
 data/_sweep/
 
+# 一次性数据快照（归档目录只留本地，不提交）
+data/_archive/
+
 # 开工前读取的账号 session（本机临时状态，账号名+时间）
 data/account-session.json
