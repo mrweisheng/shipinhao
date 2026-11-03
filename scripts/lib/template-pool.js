@@ -14,7 +14,7 @@ const { BANNED, checkText } = require("./plan");
 const DEFAULT_FILE = path.join(__dirname, "..", "..", "模板池.md");
 const WEEK = 7 * 24 * 3600 * 1000;
 
-const GUIDE = /頭像|头像|簡介|简介|私訊|置頂|置顶|主頁|主页|🔍|📩|💬|🔝|頂部|顶部|\bPM\b/i;
+const GUIDE = /頭像|头像|簡介|简介|主頁|主页|🔍/i;
 const EMOJI_RE = /[\u{1F300}-\u{1FAFF}\u2600-\u27BF\uFE0F]/u;
 const EMOJI_ALL = /[\u{1F300}-\u{1FAFF}\u2600-\u27BF\uFE0F]/gu;
 // 查重时去掉表情与空白：2026-11-01 模板表情从句尾移到句中，句子本身没变
@@ -86,9 +86,9 @@ function pick(category, opt = {}) {
   const poolMap = opt.pool || parse(opt.file).pool;
   const items = poolMap[category];
   if (!items || !items.length) throw new Error(`模板池没有分类 ${category}`);
-  // legacy 分类是多路径（点头像+私訊），2026-10-30 起不再作为候选
-  if (/^GUIDE-(FULL|SYMBOL|TALK)$/.test(category)) {
-    throw new Error(`分类 ${category} 已停用（多路径 CTA）；请改用 GUIDE-SHORT / GUIDE-PM / GUIDE-BIO / GUIDE-PIN / GUIDE-HOME / GUIDE-DM`);
+  // legacy 分类是多路径 CTA，2026-10-30 起不再作为候选；私信类分类 2026-11-02 起全部停用
+  if (/^GUIDE-(FULL|SYMBOL|TALK|PM|DM|PIN)$/.test(category)) {
+    throw new Error(`分类 ${category} 已停用（私信/多路径 CTA）；请改用 GUIDE-SHORT / GUIDE-BIO / GUIDE-HOME`);
   }
 
   const now = opt.now || Date.now();

@@ -24,8 +24,9 @@ const caseLib = require("./lib/case-library");
 
 const APPLY = process.argv.includes("--apply");
 const FILES = [caseLib.SEED, caseLib.CASES];
-const PROMISE = /冇問題|没问题|放心|有得搞|搞得掂|搞得定|包批|包過|包过|一定得|一定批|保證|保证|包搞掂/;
+const PROMISE = /冇問題|没问题|包批|包過|包过|一定得|一定批|保證|保证|包搞掂/;
 const HEDGE = /幫你確認|帮你确认|要確認|要确认|唔確定|不确定/;
+const PRIVATE = /私訊|私信|\bPM\b|\bDM\b|置頂|置顶|📩|💬/;
 
 function readRows(file) {
   if (!fs.existsSync(file)) return [];
@@ -42,14 +43,16 @@ function writeRows(file, rows) {
 }
 
 function classify(row) {
-  const errs = caseLib.contentErrors(row.reply || "");
-  if (PROMISE.test(row.reply || "")) errs.push("承诺词（冇問題／放心／有得搞／搞得掂）");
-  if (HEDGE.test(row.reply || "")) errs.push("推托词（幫你確認／要確認／唔確定）");
+  const reply = row.reply || "";
+  // 私信类出口单独处理：只是出口过时、内容没错 → dropped（不当反面教材）
+  const errs = caseLib.contentErrors(reply).filter((e) => !/私信类禁用/.test(e));
+  if (PROMISE.test(reply)) errs.push("承诺词（冇問題／包批／保證／一定批）");
+  if (HEDGE.test(reply)) errs.push("推托词（幫你確認／要確認／唔確定）");
   if (errs.length) {
     return { to: "bad", why: errs.join("；") };
   }
-  if (/私訊/.test(row.reply || "")) {
-    return { to: "dropped", why: "私訊出口过时；内容本身没错" };
+  if (PRIVATE.test(reply)) {
+    return { to: "dropped", why: "私信/置顶出口过时；内容本身没错" };
   }
   return null;
 }
@@ -67,7 +70,7 @@ for (const file of FILES) {
     if (!hit) continue;
     const before = row.label;
     row.label = hit.to;
-    row.note = `${row.note ? row.note + "｜" : ""}2026-11-01 ${hit.to}：${hit.why}`;
+    row.note = `${row.note ? row.note + "｜" : ""}2026-11-02 ${hit.to}：${hit.why}`;
     row.updatedAt = new Date().toISOString();
     changed++;
     changes.push({ file: path.basename(file), id: row.id, from: before, to: hit.to, why: hit.why, reply: row.reply });

@@ -10,23 +10,32 @@
 
 const fs = require("fs");
 
-/** 公开区绝对不出现的词（与 08 的关卡一致；头像/简介/私讯/置顶允许） */
+/** 公开区绝对不出现的词（与 08 的关卡一致；头像/简介/主页允许，私信类一律禁止） */
 const BANNED = [
   "微信", "vx", "wechat", "電話", "电话", "手機", "手机", "加我",
   "二維碼", "二维码", "號碼", "号码",
   "聯繫方式", "联系方式", "聯絡方式", "联络方式",
-  "私信",  // 简体；繁体「私訊」允许
   "唔方便喺度講", "唔方便喺度讲", "私下講", "私下讲",
+];
+
+/**
+ * 🔴 私信/私聊类硬禁（2026-11-02 定版）
+ * 评论区的价值是口碑与线索识别，不把人往私信赶：
+ * 账号 2026-09-17 有「减少推荐和禁止私信 7 天」记录；2026-10-27 实测私訊密度 56% 被折叠。
+ */
+const PRIVATE_BAN = [
+  [/私訊|私信|私聊|私我|私低|私下傾|私下倾/, "私信/私聊类引导"],
+  [/\bPM\b/i, "PM（私信引导）"],
+  [/\bDM\b/i, "DM（私信引导）"],
+  [/置頂|置顶|🔝|頂部第一條|顶部第一条/, "置顶引导"],
+  [/📩|💬/, "信封/对话框表情（暗示发私信）"],
 ];
 
 const EMOJI_RE = /[\u{1F300}-\u{1FAFF}\u2600-\u27BF\uFE0F]/u;
 
 /** 引导路径：一条回复只能走一条（「睇簡介」属于头像路径，不单算） */
 const PATH_DEFS = [
-  ["頭像", /頭像|头像/],
-  ["PM", /\bPM\b/i],
-  ["私訊", /私訊/],
-  ["置頂", /置頂|置顶|🔝|頂部|顶部/],
+  ["頭像", /頭像|头像|簡介|简介/],
   ["主頁", /主頁|主页/],
 ];
 function guidePaths(text) {
@@ -46,10 +55,15 @@ function checkText(t) {
   const hits = BANNED.filter((w) => low.includes(w.toLowerCase()));
   if (hits.length) errs.push(`禁词：${hits.join(" / ")}`);
 
-  // 单路径铁律：点头像 + PM/私訊 = 两个动作，用户会觉得在硬拉客
+  // 🔴 私信/私聊类一律禁止（2026-11-02）：私訊/私信/PM/DM/置頂/📩💬
+  for (const [re, label] of PRIVATE_BAN) {
+    if (re.test(low)) errs.push(`私信类禁用：${label}（改用 點頭像／主頁 等公開指路）`);
+  }
+
+  // 单路径铁律：一条回复只给一个动作
   const paths = guidePaths(t);
   if (paths.length > 1) {
-    errs.push(`引导路径叠加（${paths.join(" + ")}）：一条回复只走一条路径，别又点头像又 PM／私訊`);
+    errs.push(`引导路径叠加（${paths.join(" + ")}）：一条回复只走一条路径，别又點頭像又主頁`);
   }
   if (paths.length && SOFT_INVITE.test(String(t))) {
     errs.push("软邀请 + 引导 = 双 CTA（如「過嚟傾下先，頭像搵明哥」）：只保留一个动作");
@@ -94,12 +108,12 @@ function checkText(t) {
   if (len > 22) errs.push(`长度 ${len} 字（上限 22）`);
   if (!EMOJI_RE.test(String(t))) errs.push("缺少表情");
 
-  // 表情位置（2026-10-31，2026-11-02 放宽）：指路句必须句中（👤 已在句中）；
-  // 纯回应/直接答（无指路词）允许句尾表情，否则「有，喺度 😄」「多謝支持 🙏」会被逼成不自然的句子。
+  // 表情位置（2026-10-31，2026-11-02 放宽）：只有「明細/詳情/價錢」这类指路句要求表情在句中；
+  // 「主頁見 😄」「點頭像搵明哥 😄」是自然句式，允许句尾。
   const noSpace = String(t).replace(/\s/g, "");
   const onlyEmoji = noSpace.length > 0 && [...noSpace].every((ch) => EMOJI_RE.test(ch));
   const chars = [...String(t).trim()];
-  const hasPointer = /頭像|头像|明細|價錢|價钱|PM|私訊|置頂|置顶|主頁|主页/i.test(String(t));
+  const hasPointer = /明細|詳情|細節|內容|價錢|價钱/i.test(String(t));
   if (!onlyEmoji) {
     if (chars.length && EMOJI_RE.test(chars[0])) errs.push("表情不要放开头：放在文字中间（打断关键词）");
     if (hasPointer && chars.length && EMOJI_RE.test(chars[chars.length - 1])) {
@@ -165,12 +179,8 @@ function detectContext(title) {
  * action=reply 时必填 text；kw 可省略（由 content 自动生成）
  */
 const GUIDE = {
-  私訊: /私訊/,
-  PM: /\bPM\b/i,
-  頭像: /頭像/,
-  簡介: /簡介/,
-  置頂: /置頂/,
-  主頁: /主頁/,
+  頭像: /頭像|头像|簡介|简介/,
+  主頁: /主頁|主页/,
 };
 
 /** 这条回复走的是哪条引导路径（没引导返回 null） */
@@ -178,8 +188,7 @@ function guidePath(text) {
   const t = String(text || "");
   const hits = Object.keys(GUIDE).filter((k) => GUIDE[k].test(t));
   if (!hits.length) return null;
-  // 组合路径（如「點頭像👤，PM 我」）按“最具体出口”归一，否则连续检测会被组合写法打断
-  const ORDER = ["私訊", "PM", "置頂", "主頁", "頭像", "簡介"];
+  const ORDER = ["主頁", "頭像"];
   return ORDER.find((k) => hits.includes(k)) || hits[0];
 }
 
@@ -188,12 +197,10 @@ function guidePath(text) {
  * 单条合规 ≠ 整批安全：连续多条都用同一个私域词收尾、句句一个模子，
  * 平台侧看到的是「批量营销话术」，会被折叠/限流（2026-10-27 实测 私訊 密度 56%）。
  *
- * 2026-10-30 改：
- *  - 分母改「滚动 7 天」（含 history）；单批 <5 条不算占比，避免 1 条求联系 = 100% 的误伤。
- *  - 新增「带引导占比」闸门（整批清一色导流，比单个词更危险）。
- *  - 私訊 从「≤40%」降为受限词（目标 ≤15%）；PM 成为默认英文出口（≤20%）。
+ * 2026-11-02 改：
+ *  - 私信类（私訊/私信/PM/DM/置頂/📩💬）改为 checkText 硬禁，不再设配额。
+ *  - 分母仍为「滚动 7 天」；带引导占比 >50% 拒绝、>40% 警告。
  *  - 连续同路径：2 条为上限（第 3 条即拒）。
- *  - DM 不用（中文语境指 IG/小红书私信，有引导站外联想），出现即提醒。
  */
 /** 意图档位：A/1=到店，B/2=基础确认，C/3=高意向（问价/明细/条件/流程） */
 function normalizeTier(v) {
@@ -262,32 +269,14 @@ function checkBatch(items, opt = {}) {
     const g = replies.filter((x) => guidePath(x.text)).length;
     if (g / replies.length > 0.5) {
       errors.push(
-        `本批 ${g}/${replies.length} 条带指路（${pct(g, replies.length)}%），超过 50% —— 至少一半要直接答事实或纯回应；提到「找明哥」但不带点头像/PM/私訊的不算指路`
+        `本批 ${g}/${replies.length} 条带指路（${pct(g, replies.length)}%），超过 50% —— 至少一半要直接答事实或纯回应；提到「找明哥」但不带點頭像/主頁的不算指路`
       );
     } else if (g / replies.length > 0.4) {
       warnings.push(`本批指路 ${pct(g, replies.length)}%（${g}/${replies.length}），目标 ≤40%`);
     }
   }
 
-  // 2. 单一私域词（私訊 为受限词；PM 为默认英文出口，各有上限）
-  const LIMITS = [
-    { word: "私訊", warn: 0.15, deny: 0.3, hint: "改用點頭像／PM，私訊只留给确实要私信的场景" },
-    { word: "PM", warn: 0.2, deny: 0.35, hint: "换一部分为頭像／置頂／直接答" },
-  ];
-  for (const { word, warn, deny, hint } of LIMITS) {
-    if (!ratioOk) break;
-    const n = all.filter((x) => GUIDE[word].test(String(x.text))).length;
-    const r = n / all.length;
-    if (r > deny) {
-      errors.push(
-        `近 7 天「${word}」出现在 ${n}/${all.length} 条回复里（${pct(n, all.length)}%），超过 ${Math.round(
-          deny * 100
-        )}% —— ${hint}`
-      );
-    } else if (r > warn) {
-      warnings.push(`近 7 天「${word}」占比 ${pct(n, all.length)}%（${n}/${all.length}），目标 ≤${Math.round(warn * 100)}%`);
-    }
-  }
+  // 2. 私信类已由 checkText 硬禁（私訊/私信/PM/DM/置頂/📩💬），这里不再设配额
 
   // 3. 连续同路径（跨批次边界也算；只报触及本批的连续段）
   const start = all.length - replies.length;
@@ -315,14 +304,7 @@ function checkBatch(items, opt = {}) {
     warnings.push(`连续 2 条都用「${worstPath}」引导，下一条必须换路径`);
   }
 
-  // 4. DM 不用（2026-10-30）
-  for (const x of replies) {
-    if (/\bDM\b/i.test(String(x.text))) {
-      warnings.push(`「${x.text}」用了 DM：中文语境常指 IG / 小红书私信，有引导站外联想，改用 PM 我`);
-    }
-  }
-
-  // 5. 指路句式别形成新的清一色（2026-10-30）
+  // 4. 指路句式别形成新的清一色（2026-10-30）
   const POINTER = /明細|詳情|細節|內容/;
   const ptr = replies.filter((x) => POINTER.test(String(x.text))).length;
   if (replies.length >= 5 && ptr / replies.length > 0.6) {
@@ -379,7 +361,7 @@ function validatePlan(plan, opt = {}) {
           `${at}（${x.name}）tier ${tier <= 1 ? "A/1" : "B/2"} 不该带引导（${paths.join("/")}）：只有 C/3（问价/明细/条件/流程）才指路`
         );
       } else if (tier === 3 && !paths.length) {
-        warnings.push(`${at}（${x.name}）tier C 但没带指路：确认是否漏了「點頭像／PM／私訊」`);
+        warnings.push(`${at}（${x.name}）tier C 但没带指路：确认是否漏了「點頭像／主頁」`);
       }
 
       if (!x.kw && !x.content) warnings.push(`${at}（${x.name}）没有 kw/content，靠昵称定位可能不唯一`);
