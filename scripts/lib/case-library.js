@@ -129,6 +129,7 @@ function search(query, { top = 5, business = null, label = null, intent = null }
   const scored = [];
   for (const d of model.docs) {
     if (d.c.label === "dropped") continue; // 淘汰：不进检索、不当例子，但留档可审计
+    if (/^（不回）$/.test(String(d.c.reply || "").trim())) continue; // 跳过决策不是可仿写回复
     if (contentErrors(d.c.reply).length) continue; // 旧口径案例不再当范本
     // 默认只返回 good；要看候选/反面教材时显式传 label=unreviewed / bad
     if (label ? d.c.label !== label : d.c.label !== "good") continue;

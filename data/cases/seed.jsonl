@@ -8,18 +8,18 @@
 {"id":"c008","comment":"有沒有現車？","reply":"有，過嚟睇，朝九晚九 👍","intent":"car_stock","business":"car","label":"good","note":"有 + 营业时间"}
 {"id":"c009","comment":"有沒有事故？里數多少？","reply":"可以驗車，現場睇 😄","intent":"car_condition","business":"car","label":"good","note":"不承诺无事故/实表，只可验车"}
 {"id":"c010","comment":"車況怎麼樣？","reply":"可以驗車，現場睇 😄","intent":"car_condition","business":"car","label":"good","note":"车况只可验"}
-{"id":"c011","comment":"幾年車？幾手？","reply":"可以驗車，報告最準 📝","intent":"car_condition","business":"car","label":"good","note":"年份/手数不口头断言"}
+{"id":"c011","comment":"幾年車？幾手？","reply":"可以驗車，報告最準 📝","intent":"car_condition","business":"car","label":"bad","note":"年份/手数不口头断言｜2026-11-02 bad：免责/推给报告：参数问题统一「車輛明細，點頭像👤搵明哥」","updatedAt":"2026-11-03T06:28:22.044Z"}
 {"id":"c012","comment":"地址在哪裡？","reply":"皇后山，導航搜「明哥中港牌」😄","intent":"car_view","business":"car","label":"good","note":"地址正常回，不引导"}
 {"id":"c013","comment":"幾點開門？今天可以看車嗎？","reply":"朝九晚九，過嚟睇 😄","intent":"car_view","business":"car","label":"good","note":"营业时间正常回"}
 {"id":"c014","comment":"可以試車嗎？","reply":"可以試車，約個時間 😄","intent":"car_view","business":"car","label":"good","note":"可试车"}
-{"id":"c015","comment":"包牌嗎？包稅嗎？包保險嗎？","reply":"明哥搞得掂 🙏","intent":"car_package","business":"car","label":"good","note":"不说明细，实力背书"}
-{"id":"c016","comment":"這個價錢包唔包牌稅？","reply":"明哥搞得掂 🙏","intent":"car_package","business":"car","label":"good","note":"不说明细，不提价字"}
-{"id":"c017","comment":"現在什麼價？","reply":"多謝支持，得嘅 😄","intent":"car_price","business":"car","label":"good","note":"不报数字，不问价不报价"}
+{"id":"c015","comment":"包牌嗎？包稅嗎？包保險嗎？","reply":"包牌稅險嘅嘢，現場睇車時講清楚 😄","intent":"car_package","business":"car","label":"good","note":"答非所问（只给背书没答包牌/包税）→ 2026-11-02 改为承认问题 + 到店讲清楚","updatedAt":"2026-11-03T06:30:00.702Z"}
+{"id":"c016","comment":"這個價錢包唔包牌稅？","reply":"包牌稅險嘅嘢，現場睇車時講清楚 😄","intent":"car_package","business":"car","label":"good","note":"答非所问（只给背书没答包唔包）→ 2026-11-02 改为承认问题 + 到店讲清楚","updatedAt":"2026-11-03T06:30:00.702Z"}
+{"id":"c017","comment":"現在什麼價？","reply":"皇后山，導航搜明哥中港牌；現車多，任你揀 😄","intent":"car_price","business":"car","label":"good","note":"问价没答，只回「多謝支持」→ 2026-11-02 改为到店 + 现车多（不报数字）","updatedAt":"2026-11-03T06:30:00.702Z"}
 {"id":"c018","comment":"太貴了，可以便宜點嗎？","reply":"唔減，多謝 🙏","intent":"car_bargain","business":"car","label":"good","note":"明确不还价，不提价字"}
-{"id":"c019","comment":"有優惠嗎？","reply":"都係公道 😄","intent":"car_bargain","business":"car","label":"good","note":"明确回答，不提价字"}
+{"id":"c019","comment":"有優惠嗎？","reply":"都係公道 😄","intent":"car_bargain","business":"car","label":"bad","note":"明确回答，不提价字｜2026-11-02 bad：自评价格 / 喊口号（公道／實惠／最抵／明碼實價／一車一價）：改用「{對象}明細，點頭像👤搵明哥」","updatedAt":"2026-11-03T06:28:22.045Z"}
 {"id":"c020","comment":"可以上中港牌嗎？","reply":"中港牌都得 😄","intent":"plate","business":"plate","label":"good","note":"可以，不承诺一定办到"}
-{"id":"c021","comment":"蓮塘口岸兩地牌多少錢？","reply":"呢個唔講數 🙏","intent":"plate_price","business":"plate","label":"good","note":"不编价，不谈数字"}
-{"id":"c022","comment":"兩地牌要辦多久？","reply":"明哥搞得掂 🙏","intent":"plate","business":"plate","label":"good","note":"不承诺时长"}
+{"id":"c021","comment":"蓮塘口岸兩地牌多少錢？","reply":"兩地牌都得 😄","intent":"plate_price","business":"plate","label":"good","note":"「唔講數」生硬且像拒绝 → 2026-11-02 改为能力肯定，不报数字","updatedAt":"2026-11-03T06:30:00.702Z"}
+{"id":"c022","comment":"兩地牌要辦多久？","reply":"兩地牌都得 😄","intent":"plate","business":"plate","label":"good","note":"问时长只给背书 → 2026-11-02 改为能力肯定，不承诺时间","updatedAt":"2026-11-03T06:30:00.702Z"}
 {"id":"c023","comment":"初中文化可以申請嗎？","reply":"學歷唔設限 👍","intent":"imm_condition","business":"immigration","label":"good","note":"不设门槛，公司口径"}
 {"id":"c024","comment":"本科學歷怎麼申請？","reply":"學歷唔設限 👍","intent":"imm_condition","business":"immigration","label":"good","note":"不教流程，公司口径"}
 {"id":"c025","comment":"75年能辦嗎？","reply":"都得，放心 😄","intent":"imm_age","business":"immigration","label":"good","note":"不设年龄门槛"}
@@ -32,9 +32,9 @@
 {"id":"c032","comment":"怎麼聯繫你？","reply":"多謝信任！主頁見 😄","intent":"contact","business":"any","label":"good","note":"求联系，指路主页"}
 {"id":"c033","comment":"找你是真假的？","reply":"真嘅，點頭像搵明哥 😄","intent":"contact","business":"any","label":"good","note":"给确定性 + 指路点头像"}
 {"id":"c034","comment":"之前私訊你都沒回","reply":"唔好意思，訊息太多漏咗 🙏","intent":"contact_complaint","business":"any","label":"good","note":"先致歉，不辩解"}
-{"id":"c035","comment":"香港人等死","reply":"（不回）","intent":"neg","business":"any","label":"good","note":"唱衰/攻击，跳过不回复"}
-{"id":"c036","comment":"買得起，養唔起","reply":"（不回）","intent":"neg","business":"any","label":"good","note":"嘲讽，跳过不回复"}
-{"id":"c037","comment":"[强][强][强]","reply":"（不回）","intent":"emoji","business":"any","label":"good","note":"大视频纯表情跳过"}
+{"id":"c035","comment":"香港人等死","reply":"（不回）","intent":"neg","business":"any","label":"dropped","note":"唱衰/攻击，跳过不回复｜2026-11-02 dropped：跳过决策记录，不是可仿写回复","updatedAt":"2026-11-03T06:28:44.233Z"}
+{"id":"c036","comment":"買得起，養唔起","reply":"（不回）","intent":"neg","business":"any","label":"dropped","note":"嘲讽，跳过不回复｜2026-11-02 dropped：跳过决策记录，不是可仿写回复","updatedAt":"2026-11-03T06:28:44.233Z"}
+{"id":"c037","comment":"[强][强][强]","reply":"（不回）","intent":"emoji","business":"any","label":"dropped","note":"大视频纯表情跳过｜2026-11-02 dropped：跳过决策记录，不是可仿写回复","updatedAt":"2026-11-03T06:28:44.233Z"}
 {"id":"c038","comment":"香港人加油","reply":"多謝支持，一齊努力 💪","intent":"praise","business":"any","label":"good","note":"安全捧场"}
 {"id":"c039","comment":"幾時可以睇車？","reply":"朝九晚九，過嚟睇 😄","intent":"car_view","business":"car","label":"good","note":"营业时间"}
 {"id":"c040","comment":"這台車有沒有保養記錄？","reply":"可以驗車，現場睇 😄","intent":"car_condition","business":"car","label":"good","note":"不口头保证，验车为准"}
