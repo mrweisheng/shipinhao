@@ -35,8 +35,7 @@ description: 维护微信视频号助手（channels.weixin.qq.com）某条视频
 
 ## 1. 前置检查（每次任务开头）
 
-> 本节的命令按当前分支的操作手册执行（`main`：`操作手册.md`；`doubao-port`：《豆包内置浏览器操作手册.md》）。
-> **判断规则、话术、配额、核验判据与本文件其余部分，两分支完全一致。**
+> 命令一律按项目根 `操作手册.md` 执行；本文件只写判断规则与核验判据。
 
 **同一时刻只可能有一个账号在线。** 每次开始前先确认「现在是谁」，再动手：
 
@@ -366,7 +365,6 @@ node scripts\10-like-comment.js --name 健文 --kw 订购一台白色
 # 语料候选 / 校验语料池
 node scripts\11-pick-template.js --category CAR-STOCK --count 5
 node scripts\11-pick-template.js --validate
-node scripts\31-fix-pool-format.js            # 模板池格式整改（预览；--apply 落库）
 
 # 案例库复审（旧口径重新定性；--apply 才落库）
 node scripts\30-audit-cases.js

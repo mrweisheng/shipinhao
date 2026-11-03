@@ -29,7 +29,7 @@ if (!ACCOUNT) {
   process.exit(1);
 }
 const DAYS = Number(getArg("days", "0"));
-const MAX_VIDEO_AGE = Number(getArg("max-video-age", "45")); // 视频发布超过 N 天不做维护
+const MAX_VIDEO_AGE = Number(getArg("max-video-age", "30")); // 视频发布超过 N 天不做维护（2026-11-03 统一 30 天）
 const OUT = getArg("out");
 const GROWTH = has("growth");
 const ALL = has("all");

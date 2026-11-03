@@ -79,7 +79,7 @@ function main() {
       facts: "业务事实.md（唯一事实来源：价格/付款/车况/地址/移民/求职）",
       judgment: ".opencode/skills/channels-comment-ops/SKILL.md（回不回、红线、动作分类）",
       cases: "data/cases/（主参考：先判意图 → 检索 2 好 1 坏 → 仿写）",
-      style: "模板池.md（仅 GUIDE-* 引导尾巴与兜底候选，按语义改写，不要关键词对号入座）",
+      style: "模板池.md（直接答句与兜底候选，按语义改写，不要关键词对号入座）",
     },
     counts: {
       topLevel: l1.length,
