@@ -29,8 +29,8 @@
 {"id":"c029","comment":"我幫你掃地可以嗎？","reply":"哈哈，有心啦 😄","intent":"job","business":"job","label":"good","note":"不答应不拒绝"}
 {"id":"c030","comment":"支持明哥，加油！","reply":"多謝支持 🙏","intent":"praise","business":"any","label":"good","note":"纯捧场"}
 {"id":"c031","comment":"講得好，受教了","reply":"多謝認同，共勉 🙏","intent":"praise","business":"any","label":"good","note":"认同/受教"}
-{"id":"c032","comment":"怎麼聯繫你？","reply":"多謝信任！主頁見 😄","intent":"contact","business":"any","label":"good","note":"求联系，指路主页"}
-{"id":"c033","comment":"找你是真假的？","reply":"真嘅，點頭像搵明哥 😄","intent":"contact","business":"any","label":"good","note":"给确定性 + 指路点头像"}
+{"id":"c032","comment":"怎麼聯繫你？","reply":"導航搜「明哥中港牌」，朝九晚九 😄","intent":"contact","business":"any","label":"good","note":"客户问怎么联系 → 只给地址/时间；零联系动作（2026-11-03）","updatedAt":"2026-11-03T07:46:23.211Z"}
+{"id":"c033","comment":"找你是真假的？","reply":"真嘅，現車喺度 😄","intent":"contact","business":"any","label":"good","note":"客户问真假 → 直接答事实；零联系动作（2026-11-03）","updatedAt":"2026-11-03T07:46:23.212Z"}
 {"id":"c034","comment":"之前私訊你都沒回","reply":"唔好意思，訊息太多漏咗 🙏","intent":"contact_complaint","business":"any","label":"good","note":"先致歉，不辩解"}
 {"id":"c035","comment":"香港人等死","reply":"（不回）","intent":"neg","business":"any","label":"dropped","note":"唱衰/攻击，跳过不回复｜2026-11-02 dropped：跳过决策记录，不是可仿写回复","updatedAt":"2026-11-03T06:28:44.233Z"}
 {"id":"c036","comment":"買得起，養唔起","reply":"（不回）","intent":"neg","business":"any","label":"dropped","note":"嘲讽，跳过不回复｜2026-11-02 dropped：跳过决策记录，不是可仿写回复","updatedAt":"2026-11-03T06:28:44.233Z"}

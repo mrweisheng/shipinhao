@@ -33,6 +33,10 @@ const PRIVATE_BAN = [
 
 const EMOJI_RE = /[\u{1F300}-\u{1FAFF}\u2600-\u27BF\uFE0F]/u;
 
+// 🔴 零联系动作（2026-11-03 定版）：评论区不出现任何「来找我」的动作。
+// 点头像 / 主页 / 简介 / 搵明哥 全部禁止；地址、时间、导航属于公开信息，不受影响。
+const POINTER_BAN = /點頭像|点头像|點開頭像|点开头像|主頁|主页|睇簡介|睇简介|搵明哥|搵我/;
+
 /** 引导路径：一条回复只能走一条（「睇簡介」属于头像路径，不单算） */
 const PATH_DEFS = [
   ["頭像", /頭像|头像|簡介|简介/],
@@ -57,7 +61,12 @@ function checkText(t) {
 
   // 🔴 私信/私聊类一律禁止（2026-11-02）：私訊/私信/PM/DM/置頂/📩💬
   for (const [re, label] of PRIVATE_BAN) {
-    if (re.test(low)) errs.push(`私信类禁用：${label}（改用 點頭像／主頁 等公開指路）`);
+    if (re.test(low)) errs.push(`私信类禁用：${label}（改用直接答事实／地址时间）`);
+  }
+
+  // 🔴 零联系动作（2026-11-03）：点头像／主页／简介／搵明哥 全部不写
+  if (POINTER_BAN.test(String(t))) {
+    errs.push("零联系动作：不出现「點頭像／主頁／睇簡介／搵明哥」（直接答事实或到店睇）");
   }
 
   // 单路径铁律：一条回复只给一个动作
@@ -108,12 +117,12 @@ function checkText(t) {
   if (len > 22) errs.push(`长度 ${len} 字（上限 22）`);
   if (!EMOJI_RE.test(String(t))) errs.push("缺少表情");
 
-  // 表情位置（2026-10-31，2026-11-02 放宽）：只有「明細/詳情/價錢」这类指路句要求表情在句中；
-  // 「主頁見 😄」「點頭像搵明哥 😄」是自然句式，允许句尾。
+  // 表情位置（2026-11-03）：零联系动作后，只有残留「明細/詳情」这类指路词才要求表情在句中；
+  // 普通答句（價錢嘅嘢，現場睇 😄）允许句尾。
   const noSpace = String(t).replace(/\s/g, "");
   const onlyEmoji = noSpace.length > 0 && [...noSpace].every((ch) => EMOJI_RE.test(ch));
   const chars = [...String(t).trim()];
-  const hasPointer = /明細|詳情|細節|內容|價錢|價钱/i.test(String(t));
+  const hasPointer = /明細|明细/i.test(String(t));
   if (!onlyEmoji) {
     if (chars.length && EMOJI_RE.test(chars[0])) errs.push("表情不要放开头：放在文字中间（打断关键词）");
     if (hasPointer && chars.length && EMOJI_RE.test(chars[chars.length - 1])) {
@@ -128,7 +137,7 @@ function checkText(t) {
 
   // 不要把参数问题推给验车报告（2026-10-31 用户否决）
   if (/睇驗車報告|睇报告|睇報告|報告最準|報告最准/.test(String(t))) {
-    errs.push("免责/推给报告：参数问题统一「車輛明細，點頭像👤搵明哥」");
+    errs.push("免责/推给报告：参数问题统一「車輛嘅嘢，現場睇 😄」");
   }
 
   if (/保证|包搞掂|包搞定|一定得|最低價|最低价|全港最平|實時行情|实时行情/.test(String(t))) {
