@@ -1,0 +1,45 @@
+{
+  "finishedAt": "2026-11-03T07:05:25.514Z",
+  "mode": "send",
+  "planFile": "D:\\视频号\\data\\reply\\plan-nth6.json",
+  "video": {
+    "title": "以前这是香港的骄傲，新的时刻，香港会更好！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月27日 09:50"
+  },
+  "before": {
+    "declared": 47,
+    "plannedReplies": 1,
+    "executed": 1
+  },
+  "summary": {
+    "ok": 1,
+    "failed": 0,
+    "rejected": 0,
+    "policy": 0
+  },
+  "after": {
+    "declared": 48,
+    "awaitingThreads": 15,
+    "complete": true,
+    "file": "D:\\视频号\\data\\reply\\verify-2026-11-03T07-05-14-622Z.json"
+  },
+  "results": [
+    {
+      "index": 2,
+      "name": "张施珠",
+      "time": "2026/11/03 13:21",
+      "likes": null,
+      "content": "此时此刻你是最靓的仔 [强] 是汕尾家乡人的骄傲 [强]",
+      "kw": "此时此刻你是",
+      "asked": "客户夸「最靓的仔」「汕尾家乡人的骄傲」，属文字捧场",
+      "action": "reply",
+      "text": "多謝鄉里 😄",
+      "answerOk": true,
+      "category": "praise",
+      "reason": "带文字正向捧场 → 纯回应多谢，不加引导",
+      "tier": "B",
+      "caseId": "c060",
+      "result": "sent"
+    }
+  ]
+}
