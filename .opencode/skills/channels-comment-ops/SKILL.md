@@ -7,7 +7,7 @@ description: 维护微信视频号助手（channels.weixin.qq.com）某条视频
 
 > 事实口径以 `业务事实.md` 为准；红线与判断规则以本文件第 2、5 节为准；
 > 生成时**优先检索案例库** `data/cases/`（见第 8 节），`模板池.md` 只提供直接答句与兜底候选；
-> 页面结构与选择器看 `页面结构与操作点.md`；实测数据看项目根 `docs/试验记录.md`。
+> 页面结构与选择器看 `操作手册.md` 附录 A；实测数据看项目根 `docs/试验记录.md`。
 >
 > 旧的 `视频号评论区维护\references\`（话术库 / 规则总纲 / 执行记录）已废弃并在磁盘上不存在，
 > 不要再引用；执行记录写在根目录 `执行记录.md`。
@@ -70,7 +70,7 @@ node scripts\07-read-video.js --nth 1 --json .\data\login-check.json
 - 进评论页**URL 直达优先**（`ui-map.json` 的 `commentPageUrl`），失败才走「互动管理 → 评论」；
   哪条路走通、真实 URL 是多少，自动写回注册表。
 - 不确定当前在哪一页：`node scripts\26-whoami.js --nav`（自动跳到评论页再确认）。
-- **发现新路径 / 新选择器后，人工复核并同步 `页面结构与操作点.md`**（路径、选择器、实测日期），
+- **发现新路径 / 新选择器后，人工复核并同步 `操作手册.md` 附录 A**（路径、选择器、实测日期），
   否则下次改版时文档会反过来误导。
 
 ## 2. 硬规则（违反就不发）
@@ -338,7 +338,7 @@ node scripts\13-execute-plan.js --plan .\data\reply\plan-nth5.json --send
 | 中途断了 | 重跑 `12 --nth N` 重新生成清单（已回线程会被排除），再填新 plan |
 | 账号名读不到 / `13` 提示未识别账号 | 已修（2026-11-01）：`26` 先切首页读 `.finder-nickname` 并写 `data/account-session.json`，读完回原页面；`13 --send` 只认 session，没有 session 会拒绝发送。不要用 `--nav` 到评论页读账号 |
 | 停在首页/设置页进不去评论页 | `03` 先 URL 直达、再菜单兜底；`26 --nav` 也可自动跳转 |
-| 页面路径或选择器改版 | 脚本自动写回 `data/ui-map.json`；人工复核后同步 `页面结构与操作点.md` 和 `lib/layout-map.js` 的 `SPEC` |
+| 页面路径或选择器改版 | 脚本自动写回 `data/ui-map.json`；人工复核后同步 `操作手册.md` 附录 A 和 `lib/layout-map.js` 的 `SPEC` |
 | `25-open-items` 把刚回过的当待回 | 已修：`state` 里 `reply` 与 `skip` 都算已决；若仍出现，重扫该视频刷新快照 |
 
 ## 7. 命令速查
