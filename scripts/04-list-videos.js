@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * 04-list-videos.js — 提取「评论管理」页的视频列表（自动滚动加载全部）
+ * 04-list-videos.js — 提取「评论管理」页的视频列表（默认只加载近 30 天）
  *
  * 不写死任何账号/视频信息。字段全部运行时从 DOM 读取：
  *   序号(第N条) / 标题 / 时间 / 评论数 / 未读数 / 封面
@@ -9,7 +9,9 @@
  * 不要用标题做匹配键。
  *
  * 用法：
- *   node scripts/04-list-videos.js
+ *   node scripts/04-list-videos.js                       # 默认近 30 天，滚到窗口边界就停
+ *   node scripts/04-list-videos.js --days 14             # 只看近 14 天
+ *   node scripts/04-list-videos.js --all                 # 翻完整列表（建全量索引时才用）
  *   node scripts/04-list-videos.js --json .\data\videos.json
  */
 
@@ -26,6 +28,9 @@ const getArg = (n, d = null) => {
 };
 const PORT = Number(getArg("port", 9222));
 const OUT = getArg("json", null);
+// 默认只加载近 30 天（维护窗口）；--all 才翻完整列表
+const ALL = argv.includes("--all");
+const DAYS = ALL ? null : Number(getArg("days", 30));
 
 const COUNT = `(() => {
   const host = document.querySelector("wujie-app");
@@ -105,18 +110,33 @@ const EXTRACT = `(() => {
       throw new Error(`左侧列表当前在「${tab.current || "未知"}」tab，切换到「视频」失败`);
     }
 
-    // 滚动加载全部视频（与 05 共用；卡住会自动重载重试）
-    await channels.ensureListedWithRecovery(send, null);
+    // 滚动加载视频：默认只到「近 30 天」边界，--all 才翻完整列表
+    await channels.ensureListedWithRecovery(send, null, {
+      label: DAYS ? `[近 ${DAYS} 天] ` : "[全部] ",
+      maxAgeDays: DAYS,
+    });
     await cdp.sleep(1200);              // 收尾：等最后一轮请求落地
 
     const data = await cdp.evaluate(send, EXTRACT);
     if (data.error) throw new Error(data.error);
 
+    // 输出只保留窗口内视频；nth 仍是页面真实序号，不受过滤影响
+    const cut = DAYS
+      ? (() => {
+          const d = new Date(Date.now() - DAYS * 86400000);
+          return `${d.getFullYear()}/${String(d.getMonth() + 1).padStart(2, "0")}/${String(d.getDate()).padStart(2, "0")}`;
+        })()
+      : null;
+    const feeds = cut ? data.feeds.filter((f) => String(f.time || "").slice(0, 10) >= cut) : data.feeds;
+
     console.log(`页面：${data.url}`);
-    console.log(`${data.totalLabel || "?"}，已加载 ${data.count} 条`);
+    console.log(
+      `${data.totalLabel || "?"}，已加载 ${data.count} 条｜窗口内 ${feeds.length} 条` +
+        (DAYS ? `（近 ${DAYS} 天，截止 ${cut}）` : "（全部）")
+    );
     console.log(`${data.orderNote}\n`);
 
-    for (const f of data.feeds) {
+    for (const f of feeds) {
       const title = f.title ? f.title : "（无标题）";
       const unread = f.unread ? `  未读 ${f.unread}` : "";
       console.log(`第${f.nth}条  ${f.time}  评论 ${f.commentCount}${unread}`);
@@ -125,7 +145,11 @@ const EXTRACT = `(() => {
 
     if (OUT) {
       fs.mkdirSync(path.dirname(OUT), { recursive: true });
-      fs.writeFileSync(OUT, JSON.stringify(data, null, 2), "utf8");
+      fs.writeFileSync(
+        OUT,
+        JSON.stringify({ ...data, feeds, windowDays: DAYS, windowCut: cut }, null, 2),
+        "utf8"
+      );
       console.log(`\n已保存：${OUT}`);
     }
   } finally {

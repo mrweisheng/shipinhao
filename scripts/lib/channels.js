@@ -64,10 +64,18 @@ const LIST_STATE = `(() => {
   const nums = root.querySelector(".feeds-nums");
   const t = nums ? (nums.innerText || "").trim() : "";
   const m = t.match(/(\\d+)/);
+  const items = root.querySelectorAll(".comment-feed-wrap");
+  const last = items[items.length - 1];
+  let lastTime = null;
+  if (last) {
+    const n = last.querySelector(".feed-time");
+    lastTime = n ? (n.innerText || "").trim() : null;
+  }
   return {
-    count: root.querySelectorAll(".comment-feed-wrap").length,
+    count: items.length,
     declared: m ? Number(m[1]) : null,
     label: t || null,
+    lastTime,
   };
 })()`;
 
@@ -154,9 +162,10 @@ async function wakeLazyLoad(send) {
 
 /**
  * 把视频列表滚到至少 want 条；want = null 表示滚到页面声明的全部。
- * 返回最终 { count, declared, label }。want 超过总数时抛错，不静默。
+ * maxAgeDays：只加载到「最后一条的发布日期」刚越过 N 天窗口为止（列表按发布时间倒序）。
+ * 返回最终 { count, declared, label, lastTime }。want 超过总数时抛错，不静默。
  */
-async function ensureListed(send, want, { maxRounds = 120, label = "" } = {}) {
+async function ensureListed(send, want, { maxRounds = 120, label = "", maxAgeDays = null } = {}) {
   // 先等列表渲染出来：03 刚跳转到评论页时，wujie 还在挂载，此刻是 0 条
   let st = null;
   const readyDeadline = Date.now() + 25000;
@@ -168,6 +177,24 @@ async function ensureListed(send, want, { maxRounds = 120, label = "" } = {}) {
   if (!st) throw new Error("找不到视频列表（页面可能还没渲染完），请稍后重试");
   if (st.count === 0 && st.declared === null) {
     throw new Error("等待 25s 视频列表仍未渲染。可能页面结构变了，或当前不在评论管理页");
+  }
+
+  // 按发布时间倒序：最后一条已经早于 N 天窗口，就没必要再往下翻
+  const cut = maxAgeDays
+    ? (() => {
+        const d = new Date(Date.now() - maxAgeDays * 86400000);
+        return `${d.getFullYear()}/${String(d.getMonth() + 1).padStart(2, "0")}/${String(d.getDate()).padStart(2, "0")}`;
+      })()
+    : null;
+  const pastCut = (s) => !!(cut && s && s.lastTime && String(s.lastTime).slice(0, 10) < cut);
+
+  if (want === null && pastCut(st)) {
+    console.log(
+      st.count <= 10
+        ? `${label}列表首屏已到 ${maxAgeDays} 天窗口（最后一条 ${st.lastTime}），不再往下翻`
+        : `${label}列表已有 ${st.count} 条（末条 ${st.lastTime} 已超出窗口），不再继续加载`
+    );
+    return st;
   }
 
   if (want !== null) {
@@ -183,7 +210,9 @@ async function ensureListed(send, want, { maxRounds = 120, label = "" } = {}) {
   // 所以「停止」不能按空转轮数判断，而是按「距上次有新增长过了多久」判断。
   const target = want === null ? (st.declared ?? Infinity) : want;
   const pct = st.declared ? `/${st.declared}` : "";
-  console.log(`${label}列表已渲染 ${st.count}${pct} 条，滚动加载到${target === Infinity ? "全部" : `第 ${target} 条`}…`);
+  const targetText =
+    want !== null ? `第 ${target} 条` : maxAgeDays ? `近 ${maxAgeDays} 天窗口` : "全部";
+  console.log(`${label}列表已渲染 ${st.count}${pct} 条，滚动加载到${targetText}…`);
 
   // 实测：真卡死时「唤醒」（滚轮 + 前台模拟）几乎无效，重载才有效。
   // 所以只给一次唤醒机会，12s + 6s 观察后就交给上层重载，别让用户干等 1 分钟。
@@ -236,6 +265,10 @@ async function ensureListed(send, want, { maxRounds = 120, label = "" } = {}) {
 
     if (st.count >= target) break;
     if (st.declared !== null && st.count >= st.declared) break;
+    if (want === null && pastCut(st)) {
+      console.log(`  …已到 ${maxAgeDays} 天窗口边界（最后一条 ${st.lastTime}），停止加载`);
+      break;
+    }
   }
 
   if (want !== null && st.count < want) {
@@ -273,11 +306,11 @@ async function reloadList(send, { log = () => {}, timeout = 30000 } = {}) {
  * 列表滚到一半被静默卡住时（实测偶发），重载页面再从头滚一次。
  * 重载会回到列表顶部，但序号顺序不变，所以目标 N 依然有效。
  */
-async function ensureListedWithRecovery(send, want, { attempts = 3, log = console.log, label = "" } = {}) {
+async function ensureListedWithRecovery(send, want, { attempts = 3, log = console.log, label = "", maxAgeDays = null } = {}) {
   let lastErr = null;
   for (let i = 1; i <= attempts; i++) {
     try {
-      return await ensureListed(send, want, { label: i === 1 ? label : `${label}[重试${i - 1}] ` });
+      return await ensureListed(send, want, { label: i === 1 ? label : `${label}[重试${i - 1}] `, maxAgeDays });
     } catch (e) {
       lastErr = e;
       // 越界这类错误重试也没用，直接抛
