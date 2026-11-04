@@ -39,6 +39,9 @@ const EMOJI_RE = /[\u{1F300}-\u{1FAFF}\u2600-\u27BF\uFE0F]/u;
 // 线下动作（嚟公司 / 到店 / 現場睇 / 地址 / 时间 / 导航）不在此列——那是正常生意邀约。
 const POINTER_BAN = /點頭像|点头像|點開頭像|点开头像|主頁|主页|睇簡介|睇简介/;
 
+// 🔴 空句式（2026-11-04）：问价必须给理由，不许「價錢嘅嘢，現場睇」这类把话题挪走的说法。
+const EMPTY_PHRASE = /(價錢|車價|牌價|價格|明細)嘅嘢/;
+
 // 「搵明哥 / 搵我」单独出现 = 只喊名字、没有下一步；配线下动作才自然。
 const ASK_NAME = /搵明哥|搵我/;
 const OFFLINE_ACTION = /嚟公司|來公司|到店|現場|過嚟|上嚟|導航|朝九晚九|皇后山|地址/;
@@ -74,6 +77,11 @@ function checkText(t) {
   if (POINTER_BAN.test(String(t))) {
     errs.push("平台联系动作：不出现「點頭像／主頁／睇簡介」（改给线下动作：現場睇／嚟公司／地址）");
   }
+  // 🔴 空句式（2026-11-04）：问价先给理由（睇部車／車況唔同／睇口岸），再给动作
+  if (EMPTY_PHRASE.test(String(t))) {
+    errs.push("空句式：先给理由再给动作（例：價錢要睇部車 😄 過嚟睇實車），不要「價錢嘅嘢」");
+  }
+
   // 「搵明哥／搵我」单独出现只算喊名字，配线下动作才自然（提醒，不阻断）
   if (ASK_NAME.test(String(t)) && !OFFLINE_ACTION.test(String(t))) {
     errs.push("只喊名字没有下一步：「搵明哥」要配 嚟公司／到店／現場 才算一个可执行动作");
@@ -133,7 +141,7 @@ function checkText(t) {
   if (!EMOJI_RE.test(String(t))) errs.push("缺少表情");
 
   // 表情位置（2026-11-03）：零联系动作后，只有残留「明細/詳情」这类指路词才要求表情在句中；
-  // 普通答句（價錢嘅嘢，現場睇 😄）允许句尾。
+  // 普通答句（睇啱邊部？過嚟睇實車 😄）允许句尾。
   const noSpace = String(t).replace(/\s/g, "");
   const onlyEmoji = noSpace.length > 0 && [...noSpace].every((ch) => EMOJI_RE.test(ch));
   const chars = [...String(t).trim()];
@@ -147,7 +155,7 @@ function checkText(t) {
 
   // 一条回复只一个动作：不要「搵明哥，發俾你」叠两个目的（2026-11-02）
   if (/(搵明哥|搵我|搵佢)[，,]\s*(發俾你|發你|傳你)/.test(String(t))) {
-    errs.push("动作叠加（搵明哥 + 發俾你）：只留一个，改「車輛嘅嘢，現場睇 😄」");
+    errs.push("动作叠加（搵明哥 + 發俾你）：只留一个，改「價錢要睇部車 😄 過嚟睇實車」");
   }
 
   // 不要把参数问题推给验车报告（2026-10-31 用户否决）
