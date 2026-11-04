@@ -1,0 +1,92 @@
+{
+  "createdAt": "2026-11-04T07:29:19.007Z",
+  "nth": 12,
+  "video": {
+    "title": "如果你的客人要退车！你会怎么做？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月14日 07:05"
+  },
+  "titleContext": {
+    "business": "car",
+    "ports": [],
+    "models": []
+  },
+  "declared": 75,
+  "source": "D:\\视频号\\data\\comments-nth12.json",
+  "rules": {
+    "facts": "业务事实.md（唯一事实来源：价格/付款/车况/地址/移民/求职）",
+    "judgment": ".opencode/skills/channels-comment-ops/SKILL.md（回不回、红线、动作分类）",
+    "cases": "data/cases/（主参考：先判意图 → 检索 2 好 1 坏 → 仿写）",
+    "style": "模板池.md（直接答句与兜底候选，按语义改写，不要关键词对号入座）"
+  },
+  "counts": {
+    "topLevel": 38,
+    "authorReplied": 32,
+    "authorOwn": 1,
+    "pending": 5
+  },
+  "items": [
+    {
+      "index": 1,
+      "name": "[emoji] Jerry",
+      "time": "2026/11/04 03:05",
+      "likes": null,
+      "content": "甲己啷 有料到 [強] [強]",
+      "kw": "甲己啷有料到",
+      "asked": "捧场",
+      "action": "reply",
+      "text": "多謝老闆捧場 🤝",
+      "answerOk": true,
+      "category": "praise",
+      "reason": "带文字捧场",
+      "tier": "A"
+    },
+    {
+      "index": 2,
+      "name": "小老6",
+      "time": "2026/11/02 14:03",
+      "likes": null,
+      "content": "講到咁！真心要幫你點個讚 [強] 相信你一定會成功",
+      "kw": "真心要幫你點",
+      "asked": "捧场",
+      "action": "reply",
+      "text": "感謝支持 🙏 繼續努力",
+      "answerOk": true,
+      "category": "praise",
+      "reason": "带文字捧场",
+      "tier": "A"
+    },
+    {
+      "index": 9,
+      "name": "佛光普照",
+      "time": "2026/10/19 20:14",
+      "likes": 1,
+      "content": "界定義者必然後又要是不能讀完整性別有不同@老王夫妇农村生活 死了解決",
+      "kw": "界定義者必然",
+      "action": "skip",
+      "category": "",
+      "reason": "语义混乱/无上下文，不接"
+    },
+    {
+      "index": 10,
+      "name": "佛光普照",
+      "time": "2026/10/19 20:14",
+      "likes": 1,
+      "content": "原則可惜別為主[图片]",
+      "kw": "原則可惜別為",
+      "action": "skip",
+      "category": "",
+      "reason": "语义混乱/无上下文，不接"
+    },
+    {
+      "index": 11,
+      "name": "佛光普照",
+      "time": "2026/10/19 20:13",
+      "likes": null,
+      "content": "及，電腦操作方式樣衰竭盡情人事實係唔係好合約翰林峯[图片]",
+      "kw": "電腦操作方式",
+      "action": "skip",
+      "category": "",
+      "reason": "语义混乱/无上下文，不接"
+    }
+  ]
+}

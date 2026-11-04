@@ -1,0 +1,85 @@
+{
+  "createdAt": "2026-11-04T07:31:13.180Z",
+  "nth": 15,
+  "video": {
+    "title": "胶己人，这一次你想清楚了吗？香港到底有什么好？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月10日 07:05"
+  },
+  "titleContext": {
+    "business": "unknown",
+    "ports": [],
+    "models": []
+  },
+  "declared": 22,
+  "source": "D:\\视频号\\data\\comments-nth15.json",
+  "rules": {
+    "facts": "业务事实.md（唯一事实来源：价格/付款/车况/地址/移民/求职）",
+    "judgment": ".opencode/skills/channels-comment-ops/SKILL.md（回不回、红线、动作分类）",
+    "cases": "data/cases/（主参考：先判意图 → 检索 2 好 1 坏 → 仿写）",
+    "style": "模板池.md（直接答句与兜底候选，按语义改写，不要关键词对号入座）"
+  },
+  "counts": {
+    "topLevel": 13,
+    "authorReplied": 9,
+    "authorOwn": 0,
+    "pending": 4
+  },
+  "items": [
+    {
+      "index": 0,
+      "name": "蔡maohua",
+      "time": "2026/11/04 01:42",
+      "likes": null,
+      "content": "香港生活真的🈶那么好吗？",
+      "kw": "香港生活真的",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": false,
+      "category": "",
+      "reason": "观点提问（香港生活好不好），非业务意图"
+    },
+    {
+      "index": 1,
+      "name": "海豚姐姐",
+      "time": "2026/10/29 00:07",
+      "likes": null,
+      "content": "拜拜，大家发财平安",
+      "kw": "大家发财平安",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": false,
+      "category": "",
+      "reason": "祝福/告别语，无业务意图"
+    },
+    {
+      "index": 14,
+      "name": "欢喜就好",
+      "time": "2026/10/10 08:53",
+      "likes": null,
+      "content": "现在的香港不比以前的香港了",
+      "kw": "现在的香港不",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": false,
+      "category": "",
+      "reason": "观点评论，不争论"
+    },
+    {
+      "index": 19,
+      "name": "陈冠仁",
+      "time": "2026/10/10 18:50",
+      "likes": null,
+      "content": "吹水明 [Facepalm]",
+      "kw": "吹水明",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": false,
+      "category": "",
+      "reason": "调侃/贬损（吹水明），不接"
+    }
+  ]
+}

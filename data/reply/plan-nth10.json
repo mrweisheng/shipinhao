@@ -1,0 +1,59 @@
+{
+  "createdAt": "2026-11-04T07:28:43.296Z",
+  "nth": 10,
+  "video": {
+    "title": "香港真的是一个豪车超有信价比的地方，12万8就能拿下一台宾利！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月17日 07:05"
+  },
+  "titleContext": {
+    "business": "car",
+    "ports": [],
+    "models": [
+      "宾利"
+    ]
+  },
+  "declared": 12,
+  "source": "D:\\视频号\\data\\comments-nth10.json",
+  "rules": {
+    "facts": "业务事实.md（唯一事实来源：价格/付款/车况/地址/移民/求职）",
+    "judgment": ".opencode/skills/channels-comment-ops/SKILL.md（回不回、红线、动作分类）",
+    "cases": "data/cases/（主参考：先判意图 → 检索 2 好 1 坏 → 仿写）",
+    "style": "模板池.md（直接答句与兜底候选，按语义改写，不要关键词对号入座）"
+  },
+  "counts": {
+    "topLevel": 7,
+    "authorReplied": 5,
+    "authorOwn": 0,
+    "pending": 2
+  },
+  "items": [
+    {
+      "index": 8,
+      "name": "馬夋",
+      "time": "2026/10/17 10:43",
+      "likes": 1,
+      "content": "而家你买得起，有冇钱加油？？坏左整得起冇？？？",
+      "kw": "而家你买得起",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": false,
+      "category": "",
+      "reason": "调侃/质疑养车成本，无业务意图"
+    },
+    {
+      "index": 11,
+      "name": "ISCM-Studio",
+      "time": "2026/10/17 08:57",
+      "likes": 2,
+      "content": "买得起，养唔起 [Doge]",
+      "kw": "买得起",
+      "asked": "",
+      "action": "skip",
+      "text": "",
+      "answerOk": false,
+      "category": "",
+      "reason": "调侃/质疑养车成本，无业务意图"
+    }
+  ]
+}

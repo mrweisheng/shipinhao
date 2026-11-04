@@ -1,0 +1,56 @@
+{
+  "createdAt": "2026-11-04T07:25:01.649Z",
+  "nth": 5,
+  "video": {
+    "title": "即刻买，即刻就可可以揸回内地的，莲塘口岸，中港车！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月30日 10:58"
+  },
+  "titleContext": {
+    "business": "plate",
+    "ports": [
+      "莲塘"
+    ],
+    "models": []
+  },
+  "declared": 56,
+  "source": "data/comments-nth5-after.json",
+  "rules": {
+    "facts": "业务事实.md（唯一事实来源：价格/付款/车况/地址/移民/求职）",
+    "judgment": ".opencode/skills/channels-comment-ops/SKILL.md（回不回、红线、动作分类）",
+    "cases": "data/cases/（主参考：先判意图 → 检索 2 好 1 坏 → 仿写）",
+    "style": "模板池.md（直接答句与兜底候选，按语义改写，不要关键词对号入座）"
+  },
+  "counts": {
+    "pending": 2
+  },
+  "items": [
+    {
+      "index": 12,
+      "name": "MC",
+      "time": "2026/11/02 21:10",
+      "content": "幾多錢？",
+      "action": "reply",
+      "tier": "C",
+      "text": "蓮塘牌 👍 嚟公司傾",
+      "asked": "客户问几多钱",
+      "answerOk": true,
+      "category": "plate_price",
+      "lead": true,
+      "reason": "问价 → 对象 + 线下动作"
+    },
+    {
+      "index": 13,
+      "name": "Ꮩ࿆ᎥP让子彈飛一会จุ๊บ",
+      "time": "2026/11/02 15:01",
+      "content": "個車牌可以換我香港牌嗎？",
+      "action": "reply",
+      "tier": "B",
+      "text": "可以傾 😊 嚟公司傾",
+      "asked": "客户问车牌能不能换香港牌",
+      "answerOk": true,
+      "category": "plate",
+      "lead": false,
+      "reason": "是/否先答可以倾，细节到公司"
+    }
+  ]
+}

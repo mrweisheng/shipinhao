@@ -1,0 +1,180 @@
+{
+  "name": "[emoji] Jerry",
+  "kw": "甲己啷有料到",
+  "text": "多謝老闆捧場 🤝",
+  "dry": false,
+  "steps": [],
+  "before": {
+    "video": {
+      "title": "如果你的客人要退车！你会怎么做？ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "time": "2026年10月14日 07:05"
+    },
+    "declared": 75,
+    "rendered": 75,
+    "textareas": 0
+  },
+  "locate": {
+    "found": 1,
+    "x": 1446,
+    "y": 553,
+    "item": {
+      "name": "[emoji] Jerry",
+      "time": "2026/11/04 03:05",
+      "text": "甲己啷 有料到"
+    },
+    "replies": [],
+    "loadMore": null,
+    "authorReplied": false
+  },
+  "locateAfterExpand": {
+    "found": 1,
+    "x": 1446,
+    "y": 553,
+    "item": {
+      "name": "[emoji] Jerry",
+      "time": "2026/11/04 03:05",
+      "text": "甲己啷 有料到"
+    },
+    "replies": [],
+    "loadMore": null,
+    "authorReplied": false
+  },
+  "panel0": {
+    "textareas": 1,
+    "placeholder": "回复 [emoji]  Jerry：",
+    "value": "",
+    "ta": {
+      "x": 1195,
+      "y": 640
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap disabled primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap disabled primary",
+      "enabled": false,
+      "x": 960,
+      "y": 690,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "panel1": {
+    "textareas": 1,
+    "placeholder": "回复 [emoji]  Jerry：",
+    "value": "多謝老闆捧場 🤝",
+    "ta": {
+      "x": 1195,
+      "y": 640
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 690,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "sendClick": {
+    "textareas": 1,
+    "placeholder": "回复 [emoji]  Jerry：",
+    "value": "多謝老闆捧場 🤝",
+    "ta": {
+      "x": 1195,
+      "y": 571
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 620,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "verify": {
+    "declared": 76,
+    "textareas": 0,
+    "found": true,
+    "replies": [
+      {
+        "name": "明哥揾粤港车",
+        "text": "多謝老闆捧場 🤝"
+      }
+    ],
+    "hit": true
+  },
+  "trace": {
+    "requests": [
+      {
+        "requestId": "38120.3812",
+        "url": "https://channels.weixin.qq.com/micro/interaction/cgi-bin/mmfinderassistant-bin/comment/create_comment?_aid=a92662d8-2b79-413e-87ed-244b48318e0a&_rid=6aeadedf-a5bdfad8&_pageUrl=https:%2F%2Fchannels.weixin.qq.com%2Fmicro%2Finteraction%2Fcomment",
+        "method": "POST",
+        "postData": "{\"replyCommentId\":\"15046920803750318160\",\"content\":\"多謝老闆捧場 🤝\",\"clientId\":\"cf41c58a-f8bc-4838-b1df-50164a21e2e2\",\"rootCommentId\":\"15046920803750318160\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15046920803750318160\",\"commentNickname\":\"[emoji]  Jerry\",\"commentContent\":\"甲己啷 有料到[強][強]\",\"commentHeadurl\":\"https://mmhead.hk.wechat.com/mmhead/ver_1/quqKE7RKS4KksGcAYic0ytqhk4R9evkYXA7JkA4E8G4jMtMjYvWZ9PZ6N2veV6CB8udE6ZZUX1cMoKEbPYyOyo2X5iaWJXtpx0bGEhIO4IJFVl7HcrNbHrytoBf9FgoMQc/132\",\"commentCreatetime\":\"1793732738\",\"commentLikeCount\":0,\"lastBuff\":\"\",\"downContinueFlag\":0,\"visibleFlag\":0,\"readFlag\":true,\"displayFlag\":0,\"username\":\"\",\"blacklistFlag\":0,\"likeFlag\":0},\"exportId\":\"export/UzFfBgAAxIGmdClSXSqok8zT4DCa5g2-uFLkwiMXER-E9nIhXQ\",\"timestamp\":\"1793777375277\",\"_log_finder_uin\":\"\",\"_log_finder_id\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\",\"rawKeyBuff\":\"\",\"pluginSessionId\":null,\"scene\":7,\"reqScene\":7}",
+        "ts": "2026-11-04T07:29:35.282Z",
+        "status": 201,
+        "mimeType": "application/json",
+        "body": "{\"errCode\":0,\"errMsg\":\"request successful\",\"data\":{\"commentId\":\"15047295250510256244\",\"clientId\":\"cf41c58a-f8bc-4838-b1df-50164a21e2e2\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15047295250510256244\",\"commentContent\":\"多謝老闆捧場 🤝\",\"commentCreatetime\":\"1793777376\",\"commentLikeCount\":0,\"replyCommentId\":\"15046920803750318160\",\"replyContent\":\"甲己啷 有料到[強][強]\",\"visibleFlag\":1,\"displayFlag\":2,\"username\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\"},\"baseResp\":{\"errcode\":0,\"errmsg\":\"\"}}}",
+        "error": null,
+        "errCode": 0,
+        "errMsg": "request successful",
+        "topErrCode": 0,
+        "topErrMsg": "request successful",
+        "baseResp": {
+          "errcode": 0,
+          "errmsg": ""
+        }
+      }
+    ],
+    "toasts": []
+  },
+  "result": {
+    "countUp": true,
+    "threadHit": true,
+    "taZero": true,
+    "declared": 76
+  },
+  "like": {
+    "ok": true
+  }
+}

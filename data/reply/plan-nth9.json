@@ -1,0 +1,30 @@
+{
+  "createdAt": "2026-11-04T07:28:29.550Z",
+  "nth": 9,
+  "video": {
+    "title": "全香港Z平的埃尔法！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月18日 07:05"
+  },
+  "titleContext": {
+    "business": "car",
+    "ports": [],
+    "models": [
+      "埃尔法"
+    ]
+  },
+  "declared": 6,
+  "source": "D:\\视频号\\data\\comments-nth9.json",
+  "rules": {
+    "facts": "业务事实.md（唯一事实来源：价格/付款/车况/地址/移民/求职）",
+    "judgment": ".opencode/skills/channels-comment-ops/SKILL.md（回不回、红线、动作分类）",
+    "cases": "data/cases/（主参考：先判意图 → 检索 2 好 1 坏 → 仿写）",
+    "style": "模板池.md（直接答句与兜底候选，按语义改写，不要关键词对号入座）"
+  },
+  "counts": {
+    "topLevel": 3,
+    "authorReplied": 3,
+    "authorOwn": 0,
+    "pending": 0
+  },
+  "items": []
+}
