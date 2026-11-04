@@ -35,3 +35,21 @@
 {"fp":"KC|2026/10/31 11:48","author":"KC","time":"2026/10/31 11:48","action":"skip","text":"","reason":"纯表情","source":"plan-nth3.json","at":"2026-11-03T06:56:24.268Z"}
 {"fp":"一念永|2026/10/31 11:14","author":"一念永","time":"2026/10/31 11:14","action":"skip","text":"","reason":"纯表情","source":"plan-nth3.json","at":"2026-11-03T06:56:24.268Z"}
 {"fp":"一谦一谦|2026/11/03 11:52","author":"一谦一谦","time":"2026/11/03 11:52","action":"reply","text":"詳情 😄 主頁見","reason":"客户主动求联系 → 不给私信出口，只给公开软指路（一条动作）","source":"plan-nth3.json","at":"2026-11-03T06:56:31.686Z"}
+{"fp":"森发水产|2026/11/04 08:10","author":"森发水产","time":"2026/11/04 08:10","action":"skip","text":"","reason":"纯表情","source":"plan-nth4.json","at":"2026-11-04T06:22:38.816Z"}
+{"fp":"C|2026/11/04 06:30","author":"C","time":"2026/11/04 06:30","action":"skip","text":"","reason":"方言指向不明，拿不准","source":"plan-nth4.json","at":"2026-11-04T06:22:38.816Z"}
+{"fp":"東京雪貓|2026/11/02 23:24","author":"東京雪貓","time":"2026/11/02 23:24","action":"skip","text":"","reason":"讽刺/负面（越做越卷）","source":"plan-nth4.json","at":"2026-11-04T06:22:38.816Z"}
+{"fp":"深水灣|2026/11/02 19:50","author":"深水灣","time":"2026/11/02 19:50","action":"skip","text":"","reason":"纯表情","source":"plan-nth4.json","at":"2026-11-04T06:22:38.816Z"}
+{"fp":"Bee8782|2026/11/02 17:49","author":"Bee8782","time":"2026/11/02 17:49","action":"skip","text":"","reason":"替别人解释价格，非向我方提问","source":"plan-nth4.json","at":"2026-11-04T06:22:38.816Z"}
+{"fp":"腊笔小新|2026/11/02 11:24","author":"腊笔小新","time":"2026/11/02 11:24","action":"skip","text":"","reason":"生意感慨，无提问","source":"plan-nth4.json","at":"2026-11-04T06:22:38.816Z"}
+{"fp":"中山捷成汽车租赁|2026/11/01 21:36","author":"中山捷成汽车租赁","time":"2026/11/01 21:36","action":"skip","text":"","reason":"观点（新能源性价比）","source":"plan-nth4.json","at":"2026-11-04T06:22:38.816Z"}
+{"fp":"中山捷成汽车租赁|2026/11/01 21:35","author":"中山捷成汽车租赁","time":"2026/11/01 21:35","action":"skip","text":"","reason":"观点（等明年）","source":"plan-nth4.json","at":"2026-11-04T06:22:38.816Z"}
+{"fp":"张邦健|2026/10/31 18:48","author":"张邦健","time":"2026/10/31 18:48","action":"skip","text":"","reason":"客户自说价格（45W），非提问","source":"plan-nth4.json","at":"2026-11-04T06:22:38.816Z"}
+{"fp":"同台食飯，各自修行|2026/10/31 17:23","author":"同台食飯，各自修行🇮🇱","time":"2026/10/31 17:23","action":"skip","text":"","reason":"玩笑（硬币付款）","source":"plan-nth4.json","at":"2026-11-04T06:22:38.816Z"}
+{"fp":"同台食飯，各自修行|2026/10/31 17:18","author":"同台食飯，各自修行🇮🇱","time":"2026/10/31 17:18","action":"skip","text":"","reason":"负面/讽刺","source":"plan-nth4.json","at":"2026-11-04T06:22:38.816Z"}
+{"fp":"薯仔|2026/10/31 16:09","author":"薯仔","time":"2026/10/31 16:09","action":"skip","text":"","reason":"价格/费用陈述，非提问","source":"plan-nth4.json","at":"2026-11-04T06:22:38.816Z"}
+{"fp":"Jerry|2026/10/31 12:35","author":"[emoji] Jerry","time":"2026/10/31 12:35","action":"skip","text":"","reason":"客户自说价格（二万八千），非提问","source":"plan-nth4.json","at":"2026-11-04T06:22:38.816Z"}
+{"fp":"KC|2026/10/31 11:48","author":"KC","time":"2026/10/31 11:48","action":"skip","text":"","reason":"纯表情","source":"plan-nth4.json","at":"2026-11-04T06:22:38.816Z"}
+{"fp":"一念永|2026/10/31 11:14","author":"一念永","time":"2026/10/31 11:14","action":"skip","text":"","reason":"纯表情","source":"plan-nth4.json","at":"2026-11-04T06:22:38.816Z"}
+{"fp":"金点原子康军蓉|2026/11/03 22:08","author":"金点原子康军蓉","time":"2026/11/03 22:08","action":"reply","text":"有 👍 過嚟睇車","reason":"问库存 → 先答有，不编配置","source":"plan-nth4.json","at":"2026-11-04T06:22:46.810Z"}
+{"fp":"阿L忍隐|2026/11/03 10:54","author":"阿L忍隐","time":"2026/11/03 10:54","action":"reply","text":"車輛嘅嘢 😄 過嚟睇實車","reason":"年份没写 → 现场看；宾利与玩笑不接","source":"plan-nth4-retry.json","at":"2026-11-04T06:28:00.493Z"}
+{"fp":"Angus1259|2026/11/01 21:42","author":"Angus1259","time":"2026/11/01 21:42","action":"reply","text":"40系每部唔同 🙏 過嚟睇實車","reason":"带数字问价 → 不接数字，只说每部不同 + 现场看","source":"plan-nth4-retry.json","at":"2026-11-04T06:29:08.416Z"}

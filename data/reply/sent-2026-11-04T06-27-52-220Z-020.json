@@ -1,0 +1,181 @@
+{
+  "name": "Angus1259",
+  "kw": "有呢個可能",
+  "text": "40系每部唔同 🙏 過嚟睇實車",
+  "dry": false,
+  "steps": [],
+  "before": {
+    "video": {
+      "title": "蚀到底啦！！在香港这批40系，有没有老板想拿的，给钱就出！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "time": "2026年10月31日 10:33"
+    },
+    "declared": 64,
+    "rendered": 64,
+    "textareas": 0
+  },
+  "locate": {
+    "found": 1,
+    "x": 1457,
+    "y": 577,
+    "item": {
+      "name": "Angus1259",
+      "time": "2026/11/01 21:42",
+      "text": "8000，有呢個可能？"
+    },
+    "replies": [],
+    "loadMore": null,
+    "authorReplied": false
+  },
+  "locateAfterExpand": {
+    "found": 1,
+    "x": 1457,
+    "y": 577,
+    "item": {
+      "name": "Angus1259",
+      "time": "2026/11/01 21:42",
+      "text": "8000，有呢個可能？"
+    },
+    "replies": [],
+    "loadMore": null,
+    "authorReplied": false
+  },
+  "panel0": {
+    "textareas": 1,
+    "placeholder": "回复 Angus1259：",
+    "value": "",
+    "ta": {
+      "x": 1195,
+      "y": 689
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap disabled primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap disabled primary",
+      "enabled": false,
+      "x": 960,
+      "y": 738,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "panel1": {
+    "textareas": 1,
+    "placeholder": "回复 Angus1259：",
+    "value": "40系每部唔同 🙏 過嚟睇實車",
+    "ta": {
+      "x": 1195,
+      "y": 689
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 738,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "sendClick": {
+    "textareas": 1,
+    "placeholder": "回复 Angus1259：",
+    "value": "40系每部唔同 🙏 過嚟睇實車",
+    "ta": {
+      "x": 1195,
+      "y": 571
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 620,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "verify": {
+    "declared": 65,
+    "textareas": 0,
+    "found": true,
+    "replies": [
+      {
+        "name": "明哥揾粤港车",
+        "text": "40系每部唔同 過嚟睇實車"
+      }
+    ],
+    "hit": true
+  },
+  "trace": {
+    "requests": [
+      {
+        "requestId": "201708.1330",
+        "url": "https://channels.weixin.qq.com/micro/interaction/cgi-bin/mmfinderassistant-bin/comment/create_comment?_aid=a92662d8-2b79-413e-87ed-244b48318e0a&_rid=6aead0af-23552b84&_pageUrl=https:%2F%2Fchannels.weixin.qq.com%2Fmicro%2Finteraction%2Fcomment",
+        "method": "POST",
+        "postData": "{\"replyCommentId\":\"15045308641682201887\",\"content\":\"40系每部唔同 🙏 過嚟睇實車\",\"clientId\":\"271a0a83-43d4-48da-88ba-6c0236a6e583\",\"rootCommentId\":\"15045308641682201887\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15045308641682201887\",\"commentNickname\":\"Angus1259\",\"commentContent\":\"8000，有呢個可能？\",\"commentHeadurl\":\"https://wx.qlogo.cn/finderhead/PiajxSqBRaEKu9h2lanpoh1enAkVNlANJZur9jLiaBdeQJXkag2EEydg/0\",\"commentCreatetime\":\"1793540554\",\"commentLikeCount\":1,\"lastBuff\":\"\",\"downContinueFlag\":0,\"visibleFlag\":0,\"readFlag\":true,\"displayFlag\":9,\"username\":\"v2_060000231003b20faec8c6ea811cc6d0cf0de832b077fd77e317928c69dd48608fffd6171e35@finder\",\"blacklistFlag\":0,\"likeFlag\":1},\"exportId\":\"export/UzFfBgAAxM2uZBAiMiOGk8zT4DCasEFA3_O102KymEJOMdylpg\",\"timestamp\":\"1793773743183\",\"_log_finder_uin\":\"\",\"_log_finder_id\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\",\"rawKeyBuff\":\"\",\"pluginSessionId\":null,\"scene\":7,\"reqScene\":7}",
+        "ts": "2026-11-04T06:29:03.188Z",
+        "status": 201,
+        "mimeType": "application/json",
+        "body": "{\"errCode\":0,\"errMsg\":\"request successful\",\"data\":{\"commentId\":\"15047264779935553673\",\"clientId\":\"271a0a83-43d4-48da-88ba-6c0236a6e583\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15047264779935553673\",\"commentContent\":\"40系每部唔同 🙏 過嚟睇實車\",\"commentCreatetime\":\"1793773744\",\"commentLikeCount\":0,\"replyCommentId\":\"15045308641682201887\",\"replyContent\":\"8000，有呢個可能？\",\"visibleFlag\":1,\"displayFlag\":2,\"username\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\"},\"baseResp\":{\"errcode\":0,\"errmsg\":\"\"}}}",
+        "error": null,
+        "errCode": 0,
+        "errMsg": "request successful",
+        "topErrCode": 0,
+        "topErrMsg": "request successful",
+        "baseResp": {
+          "errcode": 0,
+          "errmsg": ""
+        }
+      }
+    ],
+    "toasts": []
+  },
+  "result": {
+    "countUp": true,
+    "threadHit": true,
+    "taZero": true,
+    "declared": 65
+  },
+  "like": {
+    "ok": true,
+    "already": true
+  }
+}

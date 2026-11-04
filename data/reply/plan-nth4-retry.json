@@ -1,0 +1,58 @@
+{
+  "createdAt": "2026-11-04T06:27:52.058Z",
+  "nth": 4,
+  "video": {
+    "title": "蚀到底啦！！在香港这批40系，有没有老板想拿的，给钱就出！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年10月31日 10:33"
+  },
+  "titleContext": {
+    "business": "unknown",
+    "ports": [],
+    "models": []
+  },
+  "declared": 62,
+  "source": "data/comments-nth4-after.json",
+  "rules": {
+    "facts": "业务事实.md（唯一事实来源：价格/付款/车况/地址/移民/求职）",
+    "judgment": ".opencode/skills/channels-comment-ops/SKILL.md（回不回、红线、动作分类）",
+    "cases": "data/cases/（主参考：先判意图 → 检索 2 好 1 坏 → 仿写）",
+    "style": "模板池.md（直接答句与兜底候选，按语义改写，不要关键词对号入座）"
+  },
+  "counts": {
+    "pending": 2
+  },
+  "items": [
+    {
+      "index": 6,
+      "name": "阿L忍隐",
+      "time": "2026/11/03 10:54",
+      "likes": null,
+      "content": "40系幾年車？老板您身後嗰部賓利賣唔賣 [Facepalm] ？8000至10000有冇交貿 /::D （講笑）",
+      "kw": "8000至1",
+      "asked": "客户问 40 系几年车（顺带问宾利卖不卖）",
+      "action": "reply",
+      "text": "車輛嘅嘢 😄 過嚟睇實車",
+      "answerOk": true,
+      "category": "car_cond",
+      "reason": "年份没写 → 现场看；宾利与玩笑不接",
+      "tier": "B",
+      "lead": null
+    },
+    {
+      "index": 20,
+      "name": "Angus1259",
+      "time": "2026/11/01 21:42",
+      "likes": 1,
+      "content": "8000，有呢個可能？",
+      "kw": "有呢個可能",
+      "asked": "客户问 8000 有没有可能",
+      "action": "reply",
+      "text": "40系每部唔同 🙏 過嚟睇實車",
+      "answerOk": true,
+      "category": "car_price",
+      "reason": "带数字问价 → 不接数字，只说每部不同 + 现场看",
+      "tier": "C",
+      "lead": "price"
+    }
+  ]
+}

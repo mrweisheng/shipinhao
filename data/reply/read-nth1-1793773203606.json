@@ -1,0 +1,108 @@
+{
+  "url": "https://channels.weixin.qq.com/platform/interaction/comment",
+  "video": {
+    "title": "香港/汕尾的70/80后的兄弟，辛苦啦，给大家介绍我的埃尔法，还有中港车！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+    "time": "2026年11月04日 07:05"
+  },
+  "declared": 6,
+  "isEmpty": false,
+  "total": 6,
+  "topLevel": 4,
+  "replies": 2,
+  "comments": [
+    {
+      "index": 0,
+      "level": 1,
+      "parentIndex": null,
+      "author": "，",
+      "isAuthor": false,
+      "time": "2026/11/04 13:22",
+      "content": "73年",
+      "likes": 1,
+      "replyCount": 0,
+      "authorReplied": false,
+      "authorReplyCount": 0,
+      "lastAuthorReplyAt": null
+    },
+    {
+      "index": 1,
+      "level": 1,
+      "parentIndex": null,
+      "author": "红海湾红土地",
+      "isAuthor": false,
+      "time": "2026/11/04 13:09",
+      "content": "/:strong /:strong",
+      "likes": null,
+      "replyCount": 0,
+      "authorReplied": false,
+      "authorReplyCount": 0,
+      "lastAuthorReplyAt": null
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "parentIndex": null,
+      "author": "三條三",
+      "isAuthor": false,
+      "time": "2026/11/04 11:38",
+      "content": "你話㗎 /:strong",
+      "likes": 1,
+      "replyCount": 1,
+      "authorReplied": true,
+      "authorReplyCount": 1,
+      "lastAuthorReplyAt": "2026/11/04 14:15"
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "parentIndex": 2,
+      "author": "明哥揾粤港车",
+      "isAuthor": true,
+      "time": "2026/11/04 14:15",
+      "content": "[合十] [合十] [合十]",
+      "likes": null
+    },
+    {
+      "index": 4,
+      "level": 1,
+      "parentIndex": null,
+      "author": "L**",
+      "isAuthor": false,
+      "time": "2026/11/04 10:13",
+      "content": "明哥走上人生巅峰",
+      "likes": 1,
+      "replyCount": 1,
+      "authorReplied": true,
+      "authorReplyCount": 1,
+      "lastAuthorReplyAt": "2026/11/04 14:16"
+    },
+    {
+      "index": 5,
+      "level": 2,
+      "parentIndex": 4,
+      "author": "明哥揾粤港车",
+      "isAuthor": true,
+      "time": "2026/11/04 14:16",
+      "content": "[捂脸] [捂脸] [捂脸]",
+      "likes": null
+    }
+  ],
+  "summary": {
+    "declared": 6,
+    "total": 6,
+    "level1": 4,
+    "level2": 2,
+    "ownComments": 0,
+    "authorRepliedThreads": 2,
+    "awaitingThreads": 2,
+    "authorReplies": 2,
+    "complete": true,
+    "gap": 0,
+    "leftExpand": 0,
+    "unreachable": false,
+    "awaitingIndices": [
+      0,
+      1
+    ]
+  }
+}
