@@ -208,4 +208,19 @@ function findByTextExpr(text, { exact = true, container = null } = {}) {
   })()`;
 }
 
-module.exports = { sleep, listPages, closeTarget, attach, evaluate, clickAt, hoverAt, waitFor, ensureVisible, findByTextExpr };
+/** 只读健康检查：/json/version 能返回就算浏览器还活着 */
+function health(port = 9222, timeout = 1500) {
+  return new Promise((resolve) => {
+    const req = http.get({ host: "127.0.0.1", port, path: "/json/version", timeout }, (res) => {
+      res.resume();
+      res.on("end", () => resolve(true));
+    });
+    req.on("timeout", () => {
+      req.destroy();
+      resolve(false);
+    });
+    req.on("error", () => resolve(false));
+  });
+}
+
+module.exports = { sleep, listPages, closeTarget, attach, evaluate, clickAt, hoverAt, waitFor, ensureVisible, findByTextExpr, health };

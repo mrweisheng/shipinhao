@@ -80,7 +80,7 @@ const stamp = () => new Date().toTimeString().slice(0, 8);
       missCount++;
       if (missCount === 1) {
         console.log(`[${stamp()}] ! 连不上调试端口：${e.message}`);
-        console.log(`[${stamp()}]   请先运行 scripts\\01-launch-clean-chrome.ps1`);
+        console.log(`[${stamp()}]   请先运行 scripts\\01-launch-chrome.js`);
       }
       if (missCount > 15) process.exit(3);
       await new Promise((r) => setTimeout(r, INTERVAL * 1000));

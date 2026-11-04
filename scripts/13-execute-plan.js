@@ -140,7 +140,23 @@ async function preflight(plan) {
       throw new Error(`当前页面不是计划里的视频：\n  计划：${want.slice(0, 50)}\n  当前：${got.slice(0, 50)}\n先重新打开目标视频`);
     }
     const authors = await ui.readAuthorNames(send).catch(() => []);
-    return { ...st, authors };
+    // 暂停页面里的视频预览：长时间解码会拖 GPU/渲染进程
+    const paused = await cdp
+      .evaluate(
+        send,
+        `(() => {
+          const roots = [document];
+          const h = document.querySelector("wujie-app");
+          if (h && h.shadowRoot) roots.push(h.shadowRoot);
+          let n = 0;
+          for (const r of roots) for (const v of r.querySelectorAll("video")) {
+            try { v.pause(); v.muted = true; n++; } catch {}
+          }
+          return n;
+        })()`
+      )
+      .catch(() => 0);
+    return { ...st, authors, paused };
   } finally {
     close();
   }
@@ -275,6 +291,7 @@ async function main() {
   const st0 = await preflight(plan);
   console.log(`\n当前页面：${st0.title}`);
   console.log(`评论计数：${st0.declared}`);
+  if (st0.paused) console.log(`⏸ 已暂停页面里 ${st0.paused} 个视频，降低解码压力`);
 
   // 作者 badge 名称校验（2026-11-01）：与开工前首页 session 对一下。
   // 同名观众没有 badge，不会算进来；旧昵称/小号按别名放行但提示。
@@ -315,6 +332,12 @@ async function main() {
 
   for (const x of list) {
     if (stopBatch) break;
+    if (!(await cdp.health(9222))) {
+      console.log("\n✗ 浏览器无响应（9222 不返回），停止本批。");
+      console.log("  → 先跑 node scripts\\01-launch-chrome.js --restart（只关自动化实例），重新登录后再续跑。");
+      stopBatch = true;
+      break;
+    }
     if (consecutiveFail >= MAX_FAIL) {
       console.log(`\n✗ 连续失败 ${consecutiveFail} 条，停止本轮（已完成的保留，可续跑）。`);
       break;
@@ -402,6 +425,11 @@ async function main() {
       failed++;
       consecutiveFail++;
       results.push({ ...x, result: "failed", detail: tail(out, 3) });
+      if (/调试端口超时|CDP 超时|WebSocket 连接失败|浏览器未就绪/.test(out)) {
+        stopBatch = true;
+        console.log("\n✗ 浏览器无响应，停止本批（不要继续硬发）。");
+        console.log("  → 用 node scripts\\01-launch-chrome.js --restart 重启自动化实例，重新登录后再续跑。");
+      }
     }
 
     if (x !== list[list.length - 1]) await sleep(rand(MIN_GAP, MAX_GAP));

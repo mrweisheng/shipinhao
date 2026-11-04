@@ -103,7 +103,7 @@ async function requireLogin({ port = 9222, wait = 300, log = console.log } = {})
       log("     请打开一个 Chrome 标签页访问 channels.weixin.qq.com 并扫码登录");
     } else if (state === "no-browser") {
       log("  ⚠ 连不上 Chrome 调试端口");
-      log("     请先运行：scripts\\01-launch-clean-chrome.ps1");
+      log("     请先运行：scripts\\01-launch-chrome.js");
     } else if (state === "mobile") {
       log("  ⚠ 当前是移动端页面，请在电脑版后台登录");
     } else {

@@ -123,7 +123,7 @@ async function onCommentPage() {
   if (!auth.ok) {
     console.error(
       auth.code === 3
-        ? "✗ 浏览器未就绪：请先运行 scripts\\01-launch-clean-chrome.ps1 并扫码登录"
+        ? "✗ 浏览器未就绪：请先运行 scripts\\01-launch-chrome.js 并扫码登录"
         : "✗ 等待登录超时：请扫码登录后重新运行"
     );
     process.exit(auth.code);

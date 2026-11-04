@@ -13,10 +13,15 @@
  *
  * 用法：
  *   node scripts/01-launch-chrome.js
+ *   node scripts/01-launch-chrome.js --restart         # 只重启自动化实例（按 9222/profile 定位，不动其它 Chrome）
+ *   node scripts/01-launch-chrome.js --gpu             # 默认 --disable-gpu；需要 GPU 再显式打开
  *   node scripts/01-launch-chrome.js --url https://channels.weixin.qq.com/login.html
  *   node scripts/01-launch-chrome.js --port 9333 --profile .\profile-b
  *   node scripts/01-launch-chrome.js --use-proxy        # 需要走梯子时显式加（不推荐）
  *   node scripts/01-launch-chrome.js --dry-run          # 只报告，不启动
+ *
+ * ⚠ 绝不要用 taskkill /IM chrome.exe：会关掉用户所有 Chrome 窗口。
+ *   自动化实例只能按 9222 端口或 --user-data-dir 定位，见 lib/browser-control.js。
  */
 
 const fs = require("fs");
@@ -24,6 +29,7 @@ const os = require("os");
 const path = require("path");
 const http = require("http");
 const { spawn } = require("child_process");
+const { stopAutomation } = require("./lib/browser-control");
 
 const argv = process.argv.slice(2);
 const getArg = (n, d = null) => {
@@ -38,6 +44,8 @@ const URL_TO_OPEN = getArg("url", "https://channels.weixin.qq.com/login.html");
 const PROFILE = path.resolve(getArg("profile", path.join(__dirname, "..", "profile")));
 const USE_PROXY = has("use-proxy");
 const DRY = has("dry-run");
+const RESTART = has("restart");
+const USE_GPU = has("gpu");
 
 function chromeCandidates() {
   const p = os.platform();
@@ -122,6 +130,17 @@ async function main() {
     process.exit(1);
   }
 
+  if (RESTART) {
+    console.log("重启自动化浏览器（只按 9222 / profile 定位，不碰其它 Chrome）…");
+    if (DRY) {
+      console.log("  （--dry-run：不实际关闭）");
+    } else {
+      const actions = await stopAutomation({ port: PORT, profile: PROFILE, log: console.log });
+      if (!actions.length) console.log("  · 没有发现运行中的自动化实例");
+      await sleep(800);
+    }
+  }
+
   const running = await httpGetJson("127.0.0.1", PORT, "/json/version");
   if (running) {
     console.log("已有 Chrome 实例在调试端口上，复用（只新开标签页）");
@@ -144,6 +163,7 @@ async function main() {
     "--disable-backgrounding-occluded-windows",
     "--disable-renderer-backgrounding",
   ];
+  if (!USE_GPU) args.push("--disable-gpu");
   if (!USE_PROXY) args.push("--no-proxy-server");
   args.push(URL_TO_OPEN);
 
@@ -152,6 +172,7 @@ async function main() {
   console.log(`  profile    : ${PROFILE}`);
   console.log(`  调试端口   : ${PORT}`);
   console.log(`  网络       : ${USE_PROXY ? "跟随系统代理" : "强制直连"}`);
+  console.log(`  渲染       : ${USE_GPU ? "GPU" : "软件（--disable-gpu）"}`);
   console.log(`  目标       : ${URL_TO_OPEN}`);
 
   if (DRY) {
@@ -170,7 +191,7 @@ async function main() {
   }
   if (!info) {
     console.error("\n[失败] 30 秒内调试端口没起来。可能原因：");
-    console.error("  - profile 被另一个 Chrome 占用（先完全退出那个实例）");
+    console.error("  - profile 被残留的自动化实例占用：先跑 node scripts\\01-launch-chrome.js --restart");
     console.error("  - 端口被别的程序占用（用 --port 换一个）");
     process.exit(1);
   }
