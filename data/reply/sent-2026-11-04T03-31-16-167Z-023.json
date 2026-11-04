@@ -1,0 +1,180 @@
+{
+  "name": "elvis3796",
+  "kw": "纳税莲塘几钱",
+  "text": "蓮塘牌 🙏 上嚟公司講",
+  "dry": false,
+  "steps": [],
+  "before": {
+    "video": {
+      "title": "挑战全港Z低的纳sui中港车！想实现快速通关的，来搵明哥咯！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "time": "2026年11月03日 07:05"
+    },
+    "declared": 53,
+    "rendered": 53,
+    "textareas": 0
+  },
+  "locate": {
+    "found": 1,
+    "x": 1446,
+    "y": 589,
+    "item": {
+      "name": "elvis3796",
+      "time": "2026/11/03 16:04",
+      "text": "纳税莲塘几钱"
+    },
+    "replies": [],
+    "loadMore": null,
+    "authorReplied": false
+  },
+  "locateAfterExpand": {
+    "found": 1,
+    "x": 1446,
+    "y": 589,
+    "item": {
+      "name": "elvis3796",
+      "time": "2026/11/03 16:04",
+      "text": "纳税莲塘几钱"
+    },
+    "replies": [],
+    "loadMore": null,
+    "authorReplied": false
+  },
+  "panel0": {
+    "textareas": 1,
+    "placeholder": "回复 elvis3796：",
+    "value": "",
+    "ta": {
+      "x": 1195,
+      "y": 677
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap disabled primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap disabled primary",
+      "enabled": false,
+      "x": 960,
+      "y": 726,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "panel1": {
+    "textareas": 1,
+    "placeholder": "回复 elvis3796：",
+    "value": "蓮塘牌 🙏 上嚟公司講",
+    "ta": {
+      "x": 1195,
+      "y": 677
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 726,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "sendClick": {
+    "textareas": 1,
+    "placeholder": "回复 elvis3796：",
+    "value": "蓮塘牌 🙏 上嚟公司講",
+    "ta": {
+      "x": 1195,
+      "y": 571
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 620,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "verify": {
+    "declared": 54,
+    "textareas": 0,
+    "found": true,
+    "replies": [
+      {
+        "name": "明哥揾粤港车",
+        "text": "蓮塘牌 上嚟公司講"
+      }
+    ],
+    "hit": true
+  },
+  "trace": {
+    "requests": [
+      {
+        "requestId": "112560.12265",
+        "url": "https://channels.weixin.qq.com/micro/interaction/cgi-bin/mmfinderassistant-bin/comment/create_comment?_aid=a92662d8-2b79-413e-87ed-244b48318e0a&_rid=6aeaabf8-d1b7ecd8&_pageUrl=https:%2F%2Fchannels.weixin.qq.com%2Fmicro%2Finteraction%2Fcomment",
+        "method": "POST",
+        "postData": "{\"replyCommentId\":\"15046588084466555098\",\"content\":\"蓮塘牌 🙏 上嚟公司講\",\"clientId\":\"5b25c9cc-1c65-413a-82d0-8fe293e48b92\",\"rootCommentId\":\"15046588084466555098\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15046588084466555098\",\"commentNickname\":\"elvis3796\",\"commentContent\":\"纳税莲塘几钱\",\"commentHeadurl\":\"https://wx.qlogo.cn/finderhead/UGrobmT8GcIM9ibLRadiajxQtgSqMxlVAsKqjjkdGAnVicWB2icmQA7M0A/0\",\"commentCreatetime\":\"1793693075\",\"commentLikeCount\":0,\"lastBuff\":\"\",\"downContinueFlag\":0,\"visibleFlag\":0,\"readFlag\":true,\"displayFlag\":8,\"username\":\"v2_060000231003b20faec8cae38d18c6d0cf03e53db07764f0acb118896c2edcbe2a0b962c4794@finder\",\"blacklistFlag\":0,\"likeFlag\":0},\"exportId\":\"export/UzFfBgAAxNmuQA1MSAqCk8zT4DCanhoB9uKkPOEQ5lBZzJ915g\",\"timestamp\":\"1793764344491\",\"_log_finder_uin\":\"\",\"_log_finder_id\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\",\"rawKeyBuff\":\"\",\"pluginSessionId\":null,\"scene\":7,\"reqScene\":7}",
+        "ts": "2026-11-04T03:52:24.496Z",
+        "status": 201,
+        "mimeType": "application/json",
+        "body": "{\"errCode\":0,\"errMsg\":\"request successful\",\"data\":{\"commentId\":\"15047185938436724883\",\"clientId\":\"5b25c9cc-1c65-413a-82d0-8fe293e48b92\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15047185938436724883\",\"commentContent\":\"蓮塘牌 🙏 上嚟公司講\",\"commentCreatetime\":\"1793764345\",\"commentLikeCount\":0,\"replyCommentId\":\"15046588084466555098\",\"replyContent\":\"纳税莲塘几钱\",\"visibleFlag\":1,\"displayFlag\":2,\"username\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\"},\"baseResp\":{\"errcode\":0,\"errmsg\":\"\"}}}",
+        "error": null,
+        "errCode": 0,
+        "errMsg": "request successful",
+        "topErrCode": 0,
+        "topErrMsg": "request successful",
+        "baseResp": {
+          "errcode": 0,
+          "errmsg": ""
+        }
+      }
+    ],
+    "toasts": []
+  },
+  "result": {
+    "countUp": true,
+    "threadHit": true,
+    "taZero": true,
+    "declared": 54
+  },
+  "like": {
+    "ok": true
+  }
+}

@@ -39,6 +39,9 @@ const EMOJI_RE = /[\u{1F300}-\u{1FAFF}\u2600-\u27BF\uFE0F]/u;
 // 线下动作（嚟公司 / 到店 / 現場睇 / 地址 / 时间 / 导航）不在此列——那是正常生意邀约。
 const POINTER_BAN = /點頭像|点头像|點開頭像|点开头像|主頁|主页|睇簡介|睇简介/;
 
+// 客户已点名的口岸（用于「原因错开」提醒，不做业务分类）
+const PORT_NAME = /蓮塘|莲塘|深圳灣|深圳湾|港珠澳|皇崗|皇岗|文錦渡|文锦渡|沙頭角|沙头角/;
+
 // 🔴 空句式（2026-11-04）：问价必须给理由，不许「價錢嘅嘢，現場睇」这类把话题挪走的说法。
 const EMPTY_PHRASE = /(價錢|車價|牌價|價格|明細)嘅嘢/;
 
@@ -345,6 +348,30 @@ function checkBatch(items, opt = {}) {
     );
   }
 
+  // 5. 表情别整批一个样（2026-11-04）
+  const EMOJI_G = new RegExp(EMOJI_RE.source, "gu");
+  const emo = replies.map((x) => (String(x.text).match(EMOJI_G) || [])[0]).filter(Boolean);
+  if (emo.length >= 6) {
+    const c = {};
+    for (const e of emo) c[e] = (c[e] || 0) + 1;
+    const [topE, topN] = Object.entries(c).sort((a, b) => b[1] - a[1])[0];
+    if (topN / emo.length >= 0.7) {
+      warnings.push(
+        `表情单一：${topN}/${emo.length} 条都用「${topE}」；改成交错（🙏 🤝 👍 😄 😊 💪 👌）`
+      );
+    }
+  }
+  let emoRun = 1;
+  let emoWorst = 0;
+  for (let i = 1; i < emo.length; i++) {
+    if (emo[i] === emo[i - 1]) emoRun++;
+    else emoRun = 1;
+    if (emoRun > emoWorst) emoWorst = emoRun;
+  }
+  if (emoWorst >= 3) {
+    warnings.push(`有连续 ${emoWorst} 条用同一表情：中间换一个，别形成固定指纹`);
+  }
+
   return { errors, warnings };
 }
 
@@ -392,8 +419,13 @@ function validatePlan(plan, opt = {}) {
         errors.push(
           `${at}（${x.name}）tier ${tier <= 1 ? "A/1" : "B/2"} 不该带引导（${paths.join("/")}）：只有 C/3（问价/明细/条件/流程）才指路`
         );
-      } else if (tier === 3 && !paths.length) {
-        warnings.push(`${at}（${x.name}）tier C 但没有线下动作：确认是否漏了「現場睇／嚟公司」`);
+      } else if (tier === 3 && !OFFLINE_ACTION.test(String(x.text))) {
+        warnings.push(`${at}（${x.name}）tier C 但没有线下动作：确认是否漏了「現場睇／嚟公司／過嚟」`);
+      }
+
+      // 客户已经点名口岸，回复就不要再把「口岸」当变量
+      if (PORT_NAME.test(String(x.content || "")) && /口岸唔同|睇口岸|揀啱口岸/.test(String(x.text || ""))) {
+        warnings.push(`${at}（${x.name}）客户已点名口岸，回复不要再讲「口岸唔同」：改讲「方案唔同」，不展开明细`);
       }
 
       if (!x.kw && !x.content) warnings.push(`${at}（${x.name}）没有 kw/content，靠昵称定位可能不唯一`);

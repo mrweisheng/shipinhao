@@ -80,7 +80,7 @@ function recordResults({ resultFile, plan }) {
   const rows = [];
 
   for (const r of results) {
-    if (r.result !== "ok") continue;
+    if (r.result !== "sent" && r.result !== "ok") continue;
     const type = leadType(r);
     if (!type) continue;
     const key = [

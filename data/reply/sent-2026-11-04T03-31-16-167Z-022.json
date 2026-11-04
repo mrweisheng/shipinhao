@@ -1,0 +1,180 @@
+{
+  "name": "淼淼lileelilee",
+  "kw": "蓮塘多少米",
+  "text": "蓮塘牌 😄 嚟公司了解",
+  "dry": false,
+  "steps": [],
+  "before": {
+    "video": {
+      "title": "挑战全港Z低的纳sui中港车！想实现快速通关的，来搵明哥咯！ #香港#港车北上#明哥中港牌#粤港车#港车#香港买车#明哥粤港车#明哥中港车#香港二手车#粤港两地通行#汕尾",
+      "time": "2026年11月03日 07:05"
+    },
+    "declared": 52,
+    "rendered": 52,
+    "textareas": 0
+  },
+  "locate": {
+    "found": 1,
+    "x": 1446,
+    "y": 589,
+    "item": {
+      "name": "淼淼lileelilee",
+      "time": "2026/11/03 17:36",
+      "text": "蓮塘多少米"
+    },
+    "replies": [],
+    "loadMore": null,
+    "authorReplied": false
+  },
+  "locateAfterExpand": {
+    "found": 1,
+    "x": 1446,
+    "y": 589,
+    "item": {
+      "name": "淼淼lileelilee",
+      "time": "2026/11/03 17:36",
+      "text": "蓮塘多少米"
+    },
+    "replies": [],
+    "loadMore": null,
+    "authorReplied": false
+  },
+  "panel0": {
+    "textareas": 1,
+    "placeholder": "回复 淼淼lileelilee：",
+    "value": "",
+    "ta": {
+      "x": 1195,
+      "y": 677
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap disabled primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap disabled primary",
+      "enabled": false,
+      "x": 960,
+      "y": 726,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "panel1": {
+    "textareas": 1,
+    "placeholder": "回复 淼淼lileelilee：",
+    "value": "蓮塘牌 😄 嚟公司了解",
+    "ta": {
+      "x": 1195,
+      "y": 677
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 726,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "sendClick": {
+    "textareas": 1,
+    "placeholder": "回复 淼淼lileelilee：",
+    "value": "蓮塘牌 😄 嚟公司了解",
+    "ta": {
+      "x": 1195,
+      "y": 570
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "cls": "tag-wrap cancel default"
+      },
+      {
+        "text": "评论",
+        "cls": "tag-wrap primary"
+      }
+    ],
+    "send": {
+      "text": "评论",
+      "cls": "tag-wrap primary",
+      "enabled": true,
+      "x": 960,
+      "y": 620,
+      "covered": false,
+      "hit": {
+        "tag": "DIV",
+        "cls": "tag-inner"
+      }
+    }
+  },
+  "verify": {
+    "declared": 53,
+    "textareas": 0,
+    "found": true,
+    "replies": [
+      {
+        "name": "明哥揾粤港车",
+        "text": "蓮塘牌 嚟公司了解"
+      }
+    ],
+    "hit": true
+  },
+  "trace": {
+    "requests": [
+      {
+        "requestId": "112560.12026",
+        "url": "https://channels.weixin.qq.com/micro/interaction/cgi-bin/mmfinderassistant-bin/comment/create_comment?_aid=a92662d8-2b79-413e-87ed-244b48318e0a&_rid=6aeaabac-496e2402&_pageUrl=https:%2F%2Fchannels.weixin.qq.com%2Fmicro%2Finteraction%2Fcomment",
+        "method": "POST",
+        "postData": "{\"replyCommentId\":\"15046634228297765143\",\"content\":\"蓮塘牌 😄 嚟公司了解\",\"clientId\":\"c36e7cb7-26dd-4c02-a906-8579b544b868\",\"rootCommentId\":\"15046634228297765143\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15046634228297765143\",\"commentNickname\":\"淼淼lileelilee\",\"commentContent\":\"蓮塘多少米\",\"commentHeadurl\":\"https://wx.qlogo.cn/finderhead/pDba2NJEP6YXviaamN2ugendE8kMpW5sqd6SyL0m4vcRIWWIk7UUhvXgXnevuFZMG129nM3t5nfc/0\",\"commentCreatetime\":\"1793698576\",\"commentLikeCount\":0,\"lastBuff\":\"\",\"downContinueFlag\":0,\"visibleFlag\":0,\"readFlag\":true,\"displayFlag\":8,\"username\":\"v2_060000231003b20faec8c7eb8e18c0ddc705e833b07758dc7bfbc8cd89606d40faf30262fc3c@finder\",\"blacklistFlag\":0,\"likeFlag\":0},\"exportId\":\"export/UzFfBgAAxNmuQA1MSAqCk8zT4DCanhoB9uKkPOEQ5lBZzJ915g\",\"timestamp\":\"1793764268240\",\"_log_finder_uin\":\"\",\"_log_finder_id\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\",\"rawKeyBuff\":\"\",\"pluginSessionId\":null,\"scene\":7,\"reqScene\":7}",
+        "ts": "2026-11-04T03:51:08.245Z",
+        "status": 201,
+        "mimeType": "application/json",
+        "body": "{\"errCode\":0,\"errMsg\":\"request successful\",\"data\":{\"commentId\":\"15047185298857138323\",\"clientId\":\"c36e7cb7-26dd-4c02-a906-8579b544b868\",\"comment\":{\"levelTwoComment\":[],\"commentId\":\"15047185298857138323\",\"commentContent\":\"蓮塘牌 😄 嚟公司了解\",\"commentCreatetime\":\"1793764269\",\"commentLikeCount\":0,\"replyCommentId\":\"15046634228297765143\",\"replyContent\":\"蓮塘多少米\",\"visibleFlag\":1,\"displayFlag\":2,\"username\":\"v2_060000231003b20faec8c6e48e18c4d4c70cef33b077e4e3caea0c559c7344d7d3cf8e95239a@finder\"},\"baseResp\":{\"errcode\":0,\"errmsg\":\"\"}}}",
+        "error": null,
+        "errCode": 0,
+        "errMsg": "request successful",
+        "topErrCode": 0,
+        "topErrMsg": "request successful",
+        "baseResp": {
+          "errcode": 0,
+          "errmsg": ""
+        }
+      }
+    ],
+    "toasts": []
+  },
+  "result": {
+    "countUp": true,
+    "threadHit": true,
+    "taZero": true,
+    "declared": 53
+  },
+  "like": {
+    "ok": true
+  }
+}
