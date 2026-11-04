@@ -22,6 +22,7 @@ const store = require("./lib/store");
 const ui = require("./lib/ui");
 const planLib = require("./lib/plan");
 const caseLib = require("./lib/case-library");
+const leads = require("./lib/leads");
 const { appendHistory } = require("./lib/template-pool");
 
 const argv = process.argv.slice(2);
@@ -447,6 +448,19 @@ async function main() {
     results,
   }, null, 2), "utf8");
   console.log(`记录：${recordFile}`);
+
+  // 重点线索（问联系方式 / 问价格）：只有正式发送成功才记，试运行不记
+  if (!REHEARSE) {
+    try {
+      const added = leads.recordResults({ resultFile: recordFile, plan });
+      if (added) {
+        leads.render();
+        console.log(`重点线索：新增 ${added} 条 → data/leads/leads.html（人工私下跟进）`);
+      }
+    } catch (e) {
+      console.log("重点线索记录失败（不影响发送）：" + e.message);
+    }
+  }
 
   if (failed || rejected) process.exitCode = 1;
 }

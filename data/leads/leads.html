@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>重点线索 · 问联系方式 / 问价格</title>
+<style>
+  :root{--bg:#f5f6f8;--card:#fff;--line:#e5e7eb;--text:#111827;--muted:#6b7280;--contact:#0f766e;--price:#b45309}
+  *{box-sizing:border-box}
+  body{margin:0;padding:28px 20px 48px;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif;font-size:14px;line-height:1.55}
+  header,section{max-width:1240px;margin:0 auto}
+  h1{font-size:21px;margin:0 0 6px}
+  .meta{color:var(--muted);font-size:12.5px}
+  .cards{display:flex;gap:12px;flex-wrap:wrap;margin:18px 0 24px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 18px;min-width:140px}
+  .card span{color:var(--muted);font-size:12.5px}
+  .card b{display:block;font-size:26px;margin-top:2px}
+  .card.contact b{color:var(--contact)}
+  .card.price b{color:var(--price)}
+  section{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;margin-bottom:26px}
+  h2{font-size:15px;margin:0;padding:13px 18px;border-bottom:1px solid var(--line);background:#fafafa}
+  .count{color:var(--muted);font-weight:400;margin-left:4px}
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  th,td{padding:10px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+  th{background:#fbfbfc;color:#374151;font-weight:600;white-space:nowrap}
+  tbody tr:nth-child(even){background:#fcfcfd}
+  tbody tr:last-child td{border-bottom:none}
+  .idx{color:var(--muted);white-space:nowrap}
+  .nth{display:inline-block;background:#eef2ff;color:#3730a3;border-radius:6px;padding:1px 7px;font-size:12px;margin-bottom:4px}
+  .video .title{max-width:300px}
+  .commenter .name{font-weight:700;font-size:14px}
+  .content{max-width:300px;white-space:pre-wrap}
+  .reply{color:var(--contact);max-width:240px;white-space:pre-wrap}
+  .time{color:var(--muted);font-size:12px;white-space:nowrap}
+  .small{font-size:11.5px}
+  .empty{padding:22px 18px;color:var(--muted)}
+  @media print{body{background:#fff;padding:0}section{border:none;break-inside:avoid}h2{background:#fff}}
+</style>
+</head>
+<body>
+<header>
+  <h1>重点线索 · 问联系方式 / 问价格</h1>
+  <div class="meta">生成时间：2026-11-04 10:12　｜　累计 0 条　｜　数据文件：data/leads/leads.jsonl</div>
+  <div class="cards">
+    <div class="card"><span>累计</span><b>0</b></div>
+    <div class="card contact"><span>问联系方式</span><b>0</b></div>
+    <div class="card price"><span>问价格</span><b>0</b></div>
+  </div>
+</header>
+<section>
+  <h2>问联系方式 <span class="count">0</span></h2>
+  <div class="empty">暂无记录</div>
+</section>
+<section>
+  <h2>问价格 <span class="count">0</span></h2>
+  <div class="empty">暂无记录</div>
+</section>
+</body>
+</html>

@@ -162,6 +162,7 @@ node scripts\12-prepare-plan.js --nth 5
   "text": "白色有 😄 皇后山睇車",
   "answerOk": true,
   "category": "car_stock",
+  "lead": "contact",
   "reason": "问白色现车 + 怎么联系 → 先答「有」，再给到店信息；不报价、不点头像"
 }
 ```
@@ -172,6 +173,11 @@ node scripts\12-prepare-plan.js --nth 5
 - `tier`: **reply 必填**。`A`=到店（地址/时间/导航）、`B`=基础确认（一句话能答完：分期/库存/验车/收车/上牌）、`C`=高意向（问价/明细/条件/流程）。脚本也接受 `1/2/3`（等同 A/B/C）。**任何 tier 都不许出现平台动作**（点头像/主页/简介）。
 - `text`: 仅 reply 需要
 - `category`: 自由标签（用于复盘统计，不参与脚本判断）
+- `lead`: **重点线索标记**，只在 `action:"reply"` 时填：
+  - 客户问联系方式（怎么联系 / 加微信 / 电话 / 私聊）→ `"contact"`
+  - 客户问价格（多少钱 / 几钱 / 咩价 / 报个价）→ `"price"`
+  - 两个都问 → 填 `"contact"`（联系方式更急）
+  - 其余不填（或 `null`）。脚本按这个字段生成 `data/leads/leads.html`，老板私下人工跟进
 - `reason`: 判断依据；skip 必填
 - 批级自检：相邻 3 条不重复；没有禁词；每条都有表情；≤22 字；没有价格数字；没有点头像/主页/简介。
 
@@ -215,6 +221,15 @@ node scripts\13-execute-plan.js --plan .\data\reply\plan-nth5.json --send
 视频标题/时间、计数 N→M、每条回复原文、点赞、跳过理由、异常。
 机器产物已经写好的（`data/reply/result-*.json`、`history.json`）不用再抄一遍，只写人工判断部分。
 新发现/新踩坑才写项目根 `docs/试验记录.md`，日常批次不重复记。
+
+**重点线索（问联系方式 / 问价格）**：
+- plan 里标了 `"lead": "contact"` / `"price"` 的条目，`13 --send` 成功后会自动写入
+  `data/leads/leads.jsonl`，并重算 `data/leads/leads.html`。
+- 打开 `leads.html` 就能按「问联系方式 / 问价格」两栏人工跟进；不用翻评论区。
+- 收尾核对：`leads.html` 里本批的条数应等于 plan 里 `lead` 条目的发送成功数；少了就是漏标或发送失败。
+- 漏标或补历史批次：`node scripts\33-lead-report.js --plan .\data\reply\plan-nth5.json`
+  （按已发送补记；再用 `--render` 只重算页面）。
+- 注意：这里**只记录，不发送**，也不生成任何平台内联系动作。
 
 ## 3.5 执行期三条铁律（2026-10-30 定版，两分支共用）
 
@@ -357,6 +372,10 @@ node scripts\12-prepare-plan.js --nth 5
 node scripts\13-execute-plan.js --plan .\data\reply\plan-nth5.json
 node scripts\13-execute-plan.js --plan .\data\reply\plan-nth5.json --rehearse
 node scripts\13-execute-plan.js --plan .\data\reply\plan-nth5.json --send
+
+# 重点线索（问联系方式 / 问价格）——发送成功后 13 会自动记；也可手动补
+node scripts\33-lead-report.js --plan .\data\reply\plan-nth5.json
+node scripts\33-lead-report.js --render
 
 # 临时单条（不进 plan 的应急入口）
 node scripts\08-reply-comment.js --name 健文 --kw 订购一台白色 --text "白色有 😄 多謝支持" --expect 23 --like
